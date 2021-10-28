@@ -1,0 +1,74 @@
+@import "./variables.scss";
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: $app-transition-time-low;
+  opacity: 1;
+  border-radius: 1px;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+ {
+  transition: $app-transition-time-low;
+  opacity: 0;
+  border-radius: 50%;
+}
+
+.opacity-enter-active,
+.opacity-leave-active {
+  transition: $app-transition-time-low;
+  opacity: 1;
+}
+
+.opacity-enter,
+.opacity-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+ {
+  transition: $app-transition-time-low;
+  opacity: 0;
+}
+
+
+.opacityTranslateY-enter-active,
+.opacityTranslateY-leave-active {
+  transition: $app-transition-time-strong;
+  opacity: 1;
+  transform: translateY(0);
+  width: 100%;
+}
+
+.opacityTranslateY-enter,
+.opacityTranslateY-leave-to {
+  transition: $app-transition-time-strong;
+  opacity: 0;
+  transform: translateY(50%);
+  width: 0;
+  padding-left: 0;
+}
+
+.menuAnimation-enter,
+.menuAnimation-leave-to {
+  transition: all $app-transition-time-middle;
+  opacity: 0;
+  transform: translate(2000px, 0);
+}
+
+
+.opacityTranslateX-enter-active,
+.opacityTranslateX-leave-active {
+  transition: $app-transition-time-strong;
+  opacity: 1;
+  width: 100%;
+}
+
+.opacityTranslateX-enter,
+.opacityTranslateX-leave-to {
+  transition: $app-transition-time-strong;
+  opacity: 0;
+  width: 0;
+  padding-left: 0;
+}

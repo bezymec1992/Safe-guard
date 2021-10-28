@@ -1,0 +1,67 @@
+@import "../../variables.scss";
+
+
+.our-offer {
+    padding: 8%;
+
+    &__item {
+        position: relative;
+
+        .blue-bg {
+            background: linear-gradient(106.81deg, #5D90C6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
+            background-repeat: no-repeat;
+            background-size: 55% 100%;
+            padding-left: 15%;
+
+            .wrapper {
+                padding-left: 15%;
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 47px;
+                    font-family: $app-font-family-saira;
+                }
+
+                h2 {
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 50px;
+                    margin: 30px 0 50px;
+                    text-transform: uppercase;
+                    width: 30vw;
+                }
+            }
+
+            .img-container {
+                position: relative;
+
+                .cloud1 {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+
+                .cloud2 {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 200px;
+        }
+
+        &.reverse {
+            flex-direction: row-reverse;
+
+            .blue-bg {
+                flex-direction: row-reverse;
+                background-position: right;
+                padding-left: 0;
+                padding-right: 15%;
+            }
+        }
+    }
+}
