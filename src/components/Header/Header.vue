@@ -13,31 +13,33 @@
 					<li><router-link to="/">Contact Us</router-link></li>
 				</ul>
 			</nav>
-			<nav class="additional-nav">
-				<div class="top-nav">
-					<strong class="logo">
-						<router-link to="/">
-							<img src="@/assets/images/logo.svg" alt="safeguard" />
-						</router-link>
-					</strong>
-					<a class="open-menu d-block d-lg-none" href="#" :class="{ open: menuOpen }" @click.prevent="openMenu()">
-						<span></span>
-						<span></span>
-						<span class="visually-hidden">Open Mobile Nav</span>
-					</a>
-				</div>
-				<div class="body-nav">
-					<ul class="additional-menu">
-						<li><router-link to="/">Home</router-link></li>
-						<li><router-link to="/">About Us</router-link></li>
-						<li><router-link to="/">What We Do</router-link></li>
-						<li><router-link to="/">Contact Us</router-link></li>
-					</ul>
-					<ul class="additional-menu">
-						<li><router-link to="/">Terms and conditions</router-link></li>
-						<li><router-link to="/">Terms of use</router-link></li>
-						<li><router-link to="/">Privacy declaration</router-link></li>
-					</ul>
+			<nav class="additional-nav" :class="{ open: menuOpen }">
+				<div class="container">
+					<div class="nav-top">
+						<strong class="logo">
+							<router-link to="/">
+								<img src="@/assets/images/logo.svg" alt="safeguard" />
+							</router-link>
+						</strong>
+						<a class="open-menu d-block d-lg-none" href="#" @click.prevent="openMenu()">
+							<span></span>
+							<span></span>
+							<span class="visually-hidden">Open Mobile Nav</span>
+						</a>
+					</div>
+					<div class="nav-body">
+						<ul class="additional-menu">
+							<li><router-link to="/">Home</router-link></li>
+							<li><router-link to="/">About Us</router-link></li>
+							<li><router-link to="/">What We Do</router-link></li>
+							<li><router-link to="/">Contact Us</router-link></li>
+						</ul>
+						<ul class="additional-menu">
+							<li><router-link to="/">Terms and conditions</router-link></li>
+							<li><router-link to="/">Terms of use</router-link></li>
+							<li><router-link to="/">Privacy declaration</router-link></li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 			<a class="open-menu d-block d-lg-none" href="#" :class="{ open: menuOpen }" @click.prevent="openMenu()">
