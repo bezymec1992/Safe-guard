@@ -3,8 +3,42 @@
   margin-bottom: 10rem;
 }
 
-
 .row-item{
+.gradient-block{
+  background: linear-gradient(106.81deg, #5D90C6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
+}
+
+.item-number{
+  display: block;
+  margin-bottom: 3.2rem;
+  font-size: 3rem;
+}
+
+.h2{
+  margin-bottom: 5.4rem;
+}
+
+.btn{
+  min-width: 27.5rem;
+}
+
+.punching-bag{
+  max-width: 40rem;
+  max-height: 40rem;
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.col-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 }
 
