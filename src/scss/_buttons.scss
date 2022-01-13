@@ -1,0 +1,15 @@
+.btn{
+
+
+  &-dark{
+  padding: 1.6rem 2rem;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  color: $white;
+  background: $black;
+
+  @include media-breakpoint-down(md){
+    font-size: 1.6rem;
+  }
+  }
+}
