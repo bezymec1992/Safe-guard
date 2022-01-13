@@ -5,12 +5,20 @@
 	width: 100%;
 	padding-top: 5rem;
 
+	@include media-breakpoint-down(md){
+		padding-top: 4rem;
+	}
+
 	.logo {
 		display: flex;
 
 		a {
 			display: inline-flex;
 			max-width: 19.4rem;
+
+			@include media-breakpoint-down(md){
+				max-width: 16rem;
+			}
 		}
 
 		img {
