@@ -1,0 +1,35 @@
+.intro-section{
+  padding-top: 14.2rem;
+  padding-bottom: 6.4rem;
+  background: $celery;
+
+  .text-holder{
+    font-size: 1.8rem;
+    line-height: 1.6;
+
+    @include media-breakpoint-up(md){
+     max-width: 46.4rem;
+    }
+  }
+
+  .h1{
+    margin-bottom: 5rem;
+  }
+
+  .img-holder{
+    img{
+      width: 100%;
+    }
+  }
+
+  .scroll-down{
+      display: none;
+  }
+  
+  &.with-scroll{
+.scroll-down{
+  display: flex;
+  justify-content: center;
+}
+  }
+}
