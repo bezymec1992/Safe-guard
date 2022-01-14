@@ -1,6 +1,10 @@
 .services-section {
 	.h1 {
 		margin-bottom: 10rem;
+
+		@include media-breakpoint-down(md) {
+			margin-bottom: 4.2rem;
+		}
 	}
 
 	.row {
@@ -20,27 +24,31 @@
 			flex-direction: row-reverse;
 
 			.col-txt {
-				align-items: flex-end;
+				@include media-breakpoint-up(lg) {
+					align-items: flex-end;
+				}
 			}
 
 			.gradient-block {
-				background: linear-gradient(286.81deg, #5d90c6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
+				background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
 
 				@include media-breakpoint-up(lg) {
 					margin-right: 0;
 					margin-left: -8rem;
+					background: linear-gradient(286.81deg, #5d90c6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
 				}
 			}
 		}
 
 		.gradient-block {
-			background: linear-gradient(106.81deg, #5d90c6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
+			background: linear-gradient(389.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
 
 			@include media-breakpoint-up(lg) {
 				min-height: 40rem;
 				max-height: 40rem;
 				overflow: hidden;
 				margin-right: -8rem;
+				background: linear-gradient(106.81deg, #5d90c6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
 			}
 
 			@include media-breakpoint-down(lg) {
@@ -61,11 +69,21 @@
 		}
 
 		.btn {
-			min-width: 27.5rem;
+			min-width: 20rem;
+
+			@include media-breakpoint-up(md) {
+				min-width: 27.5rem;
+			}
 		}
 
 		.punching-bag {
 			max-width: 40rem;
+
+			@include media-breakpoint-down(lg) {
+				position: absolute;
+				max-width: 35rem;
+				right: -4rem;
+			}
 		}
 
 		img {
@@ -75,9 +93,18 @@
 
 		.phone-holder {
 			position: relative;
+			max-width: 25.1rem;
 
 			@include media-breakpoint-up(lg) {
-				bottom: -5rem;
+				bottom: -5.4rem;
+			}
+
+			@include media-breakpoint-down(lg) {
+				position: absolute;
+				top: 18.2rem;
+				left: 50%;
+				transform: translateX(-50%);
+				max-width: 24.7rem;
 			}
 
 			.msg-holder {
@@ -151,11 +178,11 @@
 			position: relative;
 			display: flex;
 			flex-direction: column;
+			z-index: 1;
 
 			@include media-breakpoint-up(lg) {
 				justify-content: center;
 				align-items: flex-start;
-				z-index: 1;
 			}
 
 			@include media-breakpoint-down(lg) {

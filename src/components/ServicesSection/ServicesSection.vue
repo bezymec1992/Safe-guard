@@ -28,6 +28,7 @@
 							<div class="phone-wrapper">
 								<div class="phone-holder">
 									<img src="@/assets/images/img-04.png" alt="#" />
+									<img src="@/assets/images/img-013.png" alt="#" />
 									<div class="msg-holder msg-1">
 										<img src="@/assets/images/img-05.svg" alt="#" />
 									</div>

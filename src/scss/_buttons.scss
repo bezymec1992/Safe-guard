@@ -6,12 +6,13 @@
 		color: $white;
 		background: $black;
 
-		&:hover {
-			background: lighten($black, 20);
+		@include media-breakpoint-down(md) {
+			padding: 1.3rem 1.8rem;
+			font-size: 1.6rem;
 		}
 
-		@include media-breakpoint-down(md) {
-			font-size: 1.6rem;
+		&:hover {
+			background: lighten($black, 20);
 		}
 	}
 
