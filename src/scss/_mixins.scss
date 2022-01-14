@@ -1,0 +1,9 @@
+@mixin grid-gutter($gutter-width) {
+	margin-left: -$gutter-width/2;
+	margin-right: -$gutter-width/2;
+
+	> [class^="col"] {
+		padding-left: $gutter-width/2;
+		padding-right: $gutter-width/2;
+	}
+}

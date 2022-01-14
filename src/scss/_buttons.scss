@@ -1,15 +1,55 @@
-.btn{
+.btn {
+	&-dark {
+		padding: 1.6rem 2rem;
+		font-size: 2rem;
+		border-radius: 0.4rem;
+		color: $white;
+		background: $black;
 
+		&:hover {
+			background: lighten($black, 20);
+		}
 
-  &-dark{
-  padding: 1.6rem 2rem;
-  font-size: 2rem;
-  border-radius: 0.4rem;
-  color: $white;
-  background: $black;
+		@include media-breakpoint-down(md) {
+			font-size: 1.6rem;
+		}
+	}
 
-  @include media-breakpoint-down(md){
-    font-size: 1.6rem;
-  }
-  }
+	&-arrow {
+		display: inline-flex;
+		align-items: center;
+		font-size: 2.5rem;
+		color: $black;
+
+		&:focus {
+			box-shadow: none;
+		}
+
+		&:hover {
+			.arrow-wrapper {
+				background: lighten($black, 20);
+			}
+		}
+
+		.arrow-wrapper {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 5rem;
+			height: 5rem;
+			margin-left: 2.4rem;
+			background: $black;
+			border-radius: 50%;
+
+			.icon-holder {
+				display: flex;
+				max-width: 1.6rem;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
 }
