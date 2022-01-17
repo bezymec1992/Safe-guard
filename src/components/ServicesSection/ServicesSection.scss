@@ -41,12 +41,13 @@
 		}
 
 		.gradient-block {
+			overflow: hidden;
 			background: linear-gradient(389.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
 
 			@include media-breakpoint-up(lg) {
 				min-height: 40rem;
 				max-height: 40rem;
-				overflow: hidden;
+
 				margin-right: -8rem;
 				background: linear-gradient(106.81deg, #5d90c6 -8.28%, rgba(68, 98, 129, 0) 103.99%);
 			}
@@ -62,6 +63,11 @@
 			display: block;
 			margin-bottom: 3.2rem;
 			font-size: 3rem;
+
+			@include media-breakpoint-down(md) {
+				margin-bottom: 1.8rem;
+				font-size: 2rem;
+			}
 		}
 
 		.h2 {
@@ -101,10 +107,26 @@
 
 			@include media-breakpoint-down(lg) {
 				position: absolute;
-				top: 18.2rem;
+				top: 50%;
 				left: 50%;
-				transform: translateX(-50%);
+				transform: translateX(-50%) translateY(-50%);
 				max-width: 24.7rem;
+			}
+
+			img {
+				&.desktop {
+					@include media-breakpoint-down(lg) {
+						display: none;
+					}
+				}
+
+				&.mobile {
+					display: none;
+
+					@include media-breakpoint-down(lg) {
+						display: block;
+					}
+				}
 			}
 
 			.msg-holder {
@@ -114,12 +136,21 @@
 					max-width: 17.1rem;
 					top: 3.5rem;
 					left: -25%;
+
+					@include media-breakpoint-down(md) {
+						max-width: 70%;
+					}
 				}
 
 				&.msg-2 {
 					max-width: 20.1rem;
-					top: 40%;
+					top: 17.9rem;
 					right: -25%;
+
+					@include media-breakpoint-down(md) {
+						max-width: 90%;
+						top: 49%;
+					}
 				}
 			}
 		}
@@ -135,6 +166,13 @@
 			max-width: 24.9rem;
 			z-index: 1;
 
+			@include media-breakpoint-down(lg) {
+				position: absolute;
+				top: 12rem;
+				right: 2.1rem;
+				max-width: 23rem;
+			}
+
 			.cloud-holder {
 				position: absolute;
 				z-index: -1;
@@ -143,19 +181,40 @@
 					top: 4rem;
 					left: -30%;
 					max-width: 21.6rem;
+
+					@include media-breakpoint-down(lg) {
+						max-width: 19.9rem;
+					}
 				}
 
 				&.hld-2 {
 					max-width: 36.6rem;
 					top: 10rem;
 					right: -70%;
+
+					@include media-breakpoint-down(lg) {
+						max-width: 32.2rem;
+					}
 				}
+			}
+		}
+
+		.imac-wrapper {
+			@include media-breakpoint-down(lg) {
+				position: absolute;
+				top: 50%;
+				right: -12rem;
+				transform: translateY(-50%);
 			}
 		}
 
 		.imac-holder {
 			position: relative;
 			max-width: 50rem;
+
+			@include media-breakpoint-down(lg) {
+				max-width: 48.8rem;
+			}
 
 			.iphone-holder {
 				position: absolute;
@@ -164,12 +223,20 @@
 					left: 4rem;
 					bottom: 6rem;
 					max-width: 9.3rem;
+
+					@include media-breakpoint-down(lg) {
+						max-width: 18.5%;
+					}
 				}
 
 				&.hld-2 {
 					left: 10rem;
 					bottom: 3rem;
 					max-width: 10.4rem;
+
+					@include media-breakpoint-down(lg) {
+						max-width: 20.9%;
+					}
 				}
 			}
 		}

@@ -27,8 +27,8 @@
 						<div class="gradient-block d-md-flex justify-content-md-center">
 							<div class="phone-wrapper">
 								<div class="phone-holder">
-									<img src="@/assets/images/img-04.png" alt="#" />
-									<img src="@/assets/images/img-013.png" alt="#" />
+									<img src="@/assets/images/img-04.png" class="desktop" alt="#" />
+									<img src="@/assets/images/img-013.png" class="mobile" alt="#" />
 									<div class="msg-holder msg-1">
 										<img src="@/assets/images/img-05.svg" alt="#" />
 									</div>
