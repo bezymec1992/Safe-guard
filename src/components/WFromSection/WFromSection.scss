@@ -1,0 +1,30 @@
+.wfrom-section {
+	padding-top: 17rem;
+	padding-bottom: 17rem;
+	background: $alabaster;
+
+	@include media-breakpoint-down(md) {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
+	.h2 {
+		@include media-breakpoint-down(md) {
+			margin-bottom: 4rem;
+		}
+	}
+
+	.container {
+		max-width: 84rem;
+	}
+
+	.text-holder {
+		font-size: 1.6rem;
+
+		@include media-breakpoint-down(md) {
+			max-width: 41.6rem;
+			margin-bottom: 3rem;
+			font-size: 1.4rem;
+		}
+	}
+}

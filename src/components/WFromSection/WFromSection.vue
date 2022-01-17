@@ -1,0 +1,43 @@
+<template>
+	<div class="wfrom-section">
+		<div class="container">
+			<h2 class="h2">
+				Discover where we <br />
+				came from
+			</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="text-holder">
+						<p>We're here to help and answer any question you might have. We look forward to hearing from you.</p>
+					</div>
+				</div>
+				<div class="col-md-6 d-md-flex align-items-md-start justify-content-md-center">
+					<a href="#" class="btn btn-arrow">
+						Our Timeline
+						<span class="arrow-wrapper"
+							><span class="icon-holder"><img src="/img/icon-02.2a6a9437.svg" alt="#" /></span></span
+					></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+export default {
+	name: "WFromSection",
+	props: {
+		//
+	},
+	data: () => ({
+		//
+	}),
+	methods: {
+		//
+	}
+};
+</script>
+
+<style lang="scss">
+@import "@/components/WFromSection/WFromSection.scss";
+</style>

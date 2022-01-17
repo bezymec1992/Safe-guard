@@ -1,10 +1,12 @@
 .ww-section {
 	padding-top: 7.7rem;
+	padding-bottom: 7.7rem;
 	color: $tutu;
 	background: $mine-shaft;
 
 	@include media-breakpoint-down(md) {
 		padding-top: 13rem;
+		padding-bottom: 5.4rem;
 	}
 
 	.h2 {
@@ -33,7 +35,7 @@
 
 			&:not(:last-child) {
 				&::after {
-					@include media-breakpoint-up(md) {
+					@include media-breakpoint-up(sm) {
 						content: "";
 						position: absolute;
 						top: 50%;
@@ -60,7 +62,19 @@
 		margin-bottom: 4.6rem;
 		font-size: 1.6rem;
 		line-height: 1.8;
-		text-align: center;
+
+		@include media-breakpoint-down(md) {
+			font-size: 1.4rem;
+		}
+
+		@include media-breakpoint-down(sm) {
+			display: flex;
+			align-items: center;
+		}
+
+		@include media-breakpoint-up(sm) {
+			text-align: center;
+		}
 
 		.item-digit {
 			display: block;
@@ -68,6 +82,15 @@
 			font-size: 9rem;
 			line-height: 1.56;
 			color: $celery;
+
+			@include media-breakpoint-down(md) {
+				font-size: 4.5rem;
+			}
+
+			@include media-breakpoint-down(sm) {
+				min-width: 12rem;
+				margin-right: 1.3rem;
+			}
 		}
 
 		.item-title {
@@ -77,6 +100,26 @@
 			line-height: 1;
 			color: $celery;
 			text-transform: uppercase;
+
+			@include media-breakpoint-down(md) {
+				font-size: 1.6rem;
+			}
+
+			@include media-breakpoint-down(sm) {
+				margin-bottom: 0.3rem;
+			}
+		}
+
+		.item-text {
+			@include media-breakpoint-down(sm) {
+				line-height: 1.2;
+			}
+
+			p {
+				@include media-breakpoint-down(sm) {
+					margin-bottom: 0;
+				}
+			}
 		}
 	}
 }

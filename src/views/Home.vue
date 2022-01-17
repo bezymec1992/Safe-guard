@@ -6,6 +6,7 @@
 		<ListSection />
 		<ServicesSection />
 		<WWSection />
+		<WFromSection />
 	</div>
 </template>
 
@@ -16,6 +17,7 @@ import TxtBlock from "../components/TxtBlock/TxtBlock.vue";
 import ListSection from "../components/ListSection/ListSection.vue";
 import ServicesSection from "../components/ServicesSection/ServicesSection.vue";
 import WWSection from "../components/WWSection/WWSection.vue";
+import WFromSection from "../components/WFromSection/WFromSection.vue";
 
 export default {
 	name: "Home",
@@ -25,7 +27,8 @@ export default {
 		TxtBlock,
 		ListSection,
 		ServicesSection,
-		WWSection
+		WWSection,
+		WFromSection
 	}
 };
 </script>
