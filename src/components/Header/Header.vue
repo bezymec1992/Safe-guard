@@ -1,5 +1,5 @@
 <template>
-	<div class="header">
+	<header class="header">
 		<div class="container">
 			<strong class="logo">
 				<router-link to="/">
@@ -48,7 +48,7 @@
 				<span class="visually-hidden">Open Mobile Nav</span>
 			</a>
 		</div>
-	</div>
+	</header>
 </template>
 
 <script>
