@@ -144,6 +144,40 @@
 			}
 		}
 
+		.phone-holder {
+			position: relative;
+			max-width: 30.9rem;
+
+			@include media-breakpoint-down(md) {
+				max-width: 23.3rem;
+			}
+
+			.msg-holder {
+				position: absolute;
+
+				&.msg-1 {
+					top: 8%;
+					left: -27%;
+					max-width: 70%;
+
+					@include media-breakpoint-down(md) {
+						left: -20%;
+						max-width: 60%;
+					}
+				}
+
+				&.msg-2 {
+					bottom: 30%;
+					right: -7%;
+					max-width: 70%;
+
+					@include media-breakpoint-down(md) {
+						max-width: 60%;
+					}
+				}
+			}
+		}
+
 		&.style1 {
 			padding-top: 16.2rem;
 			padding-bottom: 18rem;

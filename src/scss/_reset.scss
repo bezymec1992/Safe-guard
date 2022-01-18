@@ -103,3 +103,18 @@ h3 {
 		font-size: 2.5rem;
 	}
 }
+
+.plyr-holder {
+	padding-bottom: 13rem;
+
+	@include media-breakpoint-down(md) {
+		padding-bottom: 7rem;
+	}
+
+	.container {
+		@include media-breakpoint-down(md) {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

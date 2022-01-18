@@ -88,7 +88,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<div class="phone-wrapper">
+					<div class="phone-wrapper d-flex justify-content-center">
 						<div class="phone-holder">
 							<img src="@/assets/images/img-013.png" alt="#" />
 							<div class="msg-holder msg-1">
@@ -113,6 +113,16 @@
 				</div>
 			</div>
 		</txt-block>
+		<div class="plyr-holder">
+			<div class="container">
+				<vue-plyr :options="options">
+					<video crossorigin playsinline data-poster="poster.jpg">
+						<source src="@/assets/videos/vid-01.mp4" type="video/mp4" />
+						<track default kind="captions" label="English captions" src="/path/to/english.vtt" srclang="en" />
+					</video>
+				</vue-plyr>
+			</div>
+		</div>
 		<quote-section>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -147,6 +157,8 @@ import IntroSection from "@/components/IntroSection/IntroSection.vue";
 import TxtBlock from "@/components/TxtBlock/TxtBlock.vue";
 import VisualSection from "@/components/VisualSection/VisualSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
+import VuePlyr from "vue-plyr";
+import "vue-plyr/dist/vue-plyr.css";
 
 export default {
 	name: "Training",
@@ -154,7 +166,8 @@ export default {
 		IntroSection,
 		TxtBlock,
 		VisualSection,
-		QuoteSection
+		QuoteSection,
+		VuePlyr
 	}
 };
 </script>
