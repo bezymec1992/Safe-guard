@@ -3,12 +3,15 @@
 		background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
 		@include media-breakpoint-down(md) {
+			position: relative;
+			overflow: hidden;
 			background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
 		}
 
 		.back-link {
 			display: inline-flex;
 			align-items: center;
+			margin-bottom: 5.5rem;
 			font-size: 1.8rem;
 			line-height: 1;
 
@@ -27,6 +30,168 @@
 				img {
 					width: 100%;
 					height: auto;
+				}
+			}
+		}
+
+		.text-col {
+			position: relative;
+			z-index: 2;
+
+			.h1 {
+				@include media-breakpoint-down(md) {
+					margin-bottom: 41.2rem;
+				}
+			}
+		}
+
+		.punching-bag {
+			max-width: 44.9rem;
+			z-index: 1;
+
+			@include media-breakpoint-up(md) {
+				position: relative;
+				top: -23rem;
+				left: -4rem;
+			}
+
+			@include media-breakpoint-down(md) {
+				position: absolute;
+				max-width: 46.1rem;
+				top: 0;
+				right: -10rem;
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.phone-wrapper {
+			.phone-holder {
+				position: relative;
+
+				@include media-breakpoint-up(md) {
+					bottom: -6.4rem;
+					right: 6rem;
+					margin-left: 6rem;
+				}
+
+				@include media-breakpoint-down(md) {
+					max-width: 24.7rem;
+					margin: auto auto 4rem;
+				}
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+
+				&.desktop {
+					@include media-breakpoint-down(md) {
+						display: none;
+					}
+				}
+
+				&.mobile {
+					@include media-breakpoint-up(md) {
+						display: none;
+					}
+				}
+			}
+
+			.msg-holder {
+				position: absolute;
+
+				&.msg-1 {
+					top: 10%;
+					left: -18%;
+					max-width: 71%;
+				}
+
+				&.msg-2 {
+					bottom: 15%;
+					right: -18%;
+					max-width: 80%;
+				}
+			}
+		}
+
+		&.cyber-consultants {
+			.h1 {
+				@include media-breakpoint-down(md) {
+					margin-bottom: 2.8rem;
+				}
+			}
+
+			.text-holder {
+				max-width: 47.4rem;
+			}
+		}
+	}
+
+	.txt-block {
+		.text-holder {
+			@include media-breakpoint-down(md) {
+				margin-bottom: 3rem;
+			}
+		}
+
+		.img-holder {
+			@include media-breakpoint-down(md) {
+				margin-bottom: 3rem;
+			}
+		}
+
+		&.style1 {
+			padding-top: 16.2rem;
+			padding-bottom: 18rem;
+
+			@include media-breakpoint-down(md) {
+				padding-top: 8rem;
+				padding-bottom: 4rem;
+			}
+		}
+
+		&.style2 {
+			padding-top: 20rem;
+			padding-bottom: 13rem;
+
+			@include media-breakpoint-down(md) {
+				padding-top: 10rem;
+				padding-bottom: 7rem;
+			}
+		}
+	}
+
+	.buttons-section {
+		padding-top: 12rem;
+		padding-bottom: 18rem;
+
+		@include media-breakpoint-down(md) {
+			padding-top: 7rem;
+			padding-bottom: 10rem;
+		}
+
+		.container {
+			max-width: 52.6rem;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.btn {
+			&:first-child {
+				flex-direction: row-reverse;
+
+				.arrow-wrapper {
+					margin-left: 0;
+					margin-right: 2.4rem;
+					transform: rotate(180deg);
+
+					@include media-breakpoint-down(md) {
+						margin-right: 1rem;
+					}
 				}
 			}
 		}

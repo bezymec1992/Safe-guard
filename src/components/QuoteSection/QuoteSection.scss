@@ -1,0 +1,14 @@
+.quote-section {
+	font-size: 4rem;
+	line-height: 1.25;
+	text-align: center;
+
+	@include media-breakpoint-down(md) {
+		font-size: 2rem;
+		line-height: 1.4;
+	}
+
+	.container {
+		max-width: 110.6rem;
+	}
+}

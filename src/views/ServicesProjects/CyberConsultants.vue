@@ -1,6 +1,6 @@
 <template>
 	<div class="services-project">
-		<intro-section>
+		<intro-section class="cyber-consultants">
 			<div class="container">
 				<router-link to="/services" class="back-link">
 					<span class="icon-holder">
@@ -11,19 +11,28 @@
 				<div class="row">
 					<div class="col-md-6 text-col d-md-flex flex-column justify-content-center">
 						<h1 class="h1">
-							Training and <br />
-							Implementation
+							Cyber <br />
+							Consultants
 						</h1>
 						<div class="text-holder">
-							<p>We make it so that nothing catches you by surprise.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id.</p>
 						</div>
 					</div>
 					<div class="col-md-6 d-flex flex-md-row flex-column justify-content-center justify-content-md-end">
-						<div class="punching-bag">
-							<img src="@/assets/images/img-018.png" alt="#" />
+						<div class="phone-wrapper">
+							<div class="phone-holder">
+								<img src="@/assets/images/img-022.png" class="desktop" alt="#" />
+								<img src="@/assets/images/img-013.png" class="mobile" alt="#" />
+								<div class="msg-holder msg-1">
+									<img src="@/assets/images/img-023.svg" alt="#" />
+								</div>
+								<div class="msg-holder msg-2">
+									<img src="@/assets/images/img-024.svg" alt="#" />
+								</div>
+							</div>
 						</div>
 						<div class="text-holder mobile">
-							<p>We make it so that nothing catches you by surprise.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, consectetur efficitur neque.</p>
 						</div>
 					</div>
 				</div>
@@ -37,8 +46,8 @@
 		<txt-block :class="'style1'">
 			<div class="col d-md-none">
 				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
+					Assessment and <br />
+					Awareness
 				</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
@@ -46,16 +55,16 @@
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-019.jpg" alt="#" />
+					<img src="@/assets/images/img-025.png" alt="#" />
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
 				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
+					Assessment and <br />
+					Awareness
 				</h3>
 				<div class="text-holder">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci</p>
 				</div>
 			</div>
 			<div class="col d-md-none">
@@ -65,24 +74,7 @@
 			</div>
 		</txt-block>
 		<visual-section>
-			<div class="row">
-				<div class="col-md-6 d-flex align-items-md-center">
-					<div class="content-holder">
-						<h2 class="h1">
-							Stress <br />
-							Protection
-						</h2>
-						<div class="text-holder">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, consectetur efficitur neque.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="img-holder">
-						<img src="@/assets/images/img-020.png" alt="#" />
-					</div>
-				</div>
-			</div>
+			<h2 class="h1 text-center">ADVICE AND PROTECT</h2>
 		</visual-section>
 		<txt-block :class="'style2 reverse'">
 			<div class="col d-md-none">

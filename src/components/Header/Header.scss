@@ -4,8 +4,9 @@
 	left: 0;
 	width: 100%;
 	padding-top: 5rem;
+	z-index: 99;
 
-	@include media-breakpoint-down(md){
+	@include media-breakpoint-down(md) {
 		padding-top: 4rem;
 	}
 
@@ -16,7 +17,7 @@
 			display: inline-flex;
 			max-width: 19.4rem;
 
-			@include media-breakpoint-down(md){
+			@include media-breakpoint-down(md) {
 				max-width: 16rem;
 			}
 		}

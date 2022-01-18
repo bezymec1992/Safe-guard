@@ -25,6 +25,11 @@ const routes = [
         path: ':training',
         component: () => import('../views/ServicesProjects/Training.vue')
       },
+      {
+        name: 'CyberConsultants',
+        path: ':cyber-consultants',
+        component: () => import('../views/ServicesProjects/CyberConsultants.vue')
+      },
     ]
   }
 ]

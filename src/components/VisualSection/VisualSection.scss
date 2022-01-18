@@ -1,0 +1,35 @@
+.visual-section {
+	padding-top: 7rem;
+	background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+
+	@include media-breakpoint-down(md) {
+		padding-top: 8rem;
+		background: linear-gradient(342.45deg, #5d90c6 5.67%, #c0cfee 65.87%);
+	}
+
+	.h1 {
+		margin-bottom: 3rem;
+
+		@include media-breakpoint-down(md) {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.text-holder {
+		max-width: 43rem;
+		font-size: 1.8rem;
+
+		@include media-breakpoint-down(md) {
+			font-size: 1.4rem;
+		}
+	}
+
+	.img-holder {
+		max-width: 56.1rem;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

@@ -60,8 +60,11 @@
 	.contact-links {
 		font-size: 1.6rem;
 
-		@include media-breakpoint-down(md) {
+		@include media-breakpoint-down(lg) {
 			margin-bottom: 10rem;
+		}
+
+		@include media-breakpoint-down(md) {
 			font-size: 1.4rem;
 		}
 
