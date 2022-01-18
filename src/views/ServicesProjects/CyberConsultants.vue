@@ -73,25 +73,38 @@
 				</div>
 			</div>
 		</txt-block>
-		<visual-section>
+		<visual-section :bg="'img-026.jpg'" :class="'bg-img'">
 			<h2 class="h1 text-center">ADVICE AND PROTECT</h2>
 		</visual-section>
-		<txt-block :class="'style2 reverse'">
+		<txt-block :class="'style2'">
 			<div class="col d-md-none">
-				<h3 class="h2 text-capitalize">Practical</h3>
+				<h3 class="h2 text-capitalize">
+					Advice and <br />
+					Protect
+				</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-021.jpg" alt="#" />
+					<div class="phone-wrapper">
+						<div class="phone-holder">
+							<img src="@/assets/images/img-013.png" alt="#" />
+							<div class="msg-holder msg-1">
+								<img src="@/assets/images/img-023.svg" alt="#" />
+							</div>
+							<div class="msg-holder msg-2">
+								<img src="@/assets/images/img-024.svg" alt="#" />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
 				<h3 class="h2 text-capitalize">Practical</h3>
 				<div class="text-holder">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col d-md-none">

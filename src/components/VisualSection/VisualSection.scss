@@ -32,4 +32,13 @@
 			height: auto;
 		}
 	}
+
+	&.bg-img {
+		background-position: center;
+		min-height: 70rem;
+
+		@include media-breakpoint-down(md) {
+			min-height: 52.2rem;
+		}
+	}
 }

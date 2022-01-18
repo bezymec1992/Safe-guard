@@ -1,5 +1,5 @@
 <template>
-	<div class="visual-section">
+	<div class="visual-section" :style="{ backgroundImage: bg ? `url(${require('@/assets/images/' + bg)})` : null }">
 		<div class="container">
 			<slot></slot>
 		</div>
@@ -9,7 +9,13 @@
 <script>
 export default {
 	name: "TxtBlock",
-	props: {},
+	props: {
+		bg: {
+			type: String,
+			default: null,
+			required: false
+		}
+	},
 	data: () => ({
 		//
 	}),
