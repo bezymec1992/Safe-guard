@@ -2,7 +2,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<strong class="logo">
 						<a href="#">
 							<img src="@/assets/images/logo-white.svg" alt="SafeGuard" />
@@ -11,7 +11,7 @@
 					<div class="text-holder">
 						<p>We are specialist protecting your assets and reputation to make sure you operate risk-free and focus on your core business.</p>
 					</div>
-					<ul>
+					<ul class="contact-links">
 						<li>
 							<h3>Address</h3>
 							<address>Hobbemakade 29, 1071 XK, Amsterdam, Netherlands</address>
@@ -22,7 +22,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6 d-flex justify-content-lg-center">
 					<div class="footer-group">
 						<h3>Main</h3>
 						<ul>
@@ -44,9 +44,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer-bottom">
-				<p>&copy; Safeguard - all rights reserved</p>
-			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; Safeguard - all rights reserved</p>
 		</div>
 	</footer>
 </template>

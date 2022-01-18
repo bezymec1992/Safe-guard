@@ -3,15 +3,18 @@
 	<router-link to="/about">About</router-link> -->
 	<Header />
 	<router-view />
+	<Footer />
 </template>
 
 <script>
 import WebFontLoader from "webfontloader";
 import Header from "@/components/Header/Header.vue";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
 	components: {
-		Header
+		Header,
+		Footer
 	},
 	created() {
 		WebFontLoader.load({

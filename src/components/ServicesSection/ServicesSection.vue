@@ -18,6 +18,9 @@
 								Training and <br />
 								Implementation
 							</h3>
+							<div class="text-holder">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
+							</div>
 							<a href="#" class="btn btn-dark">Read More</a>
 						</div>
 					</div>
@@ -46,6 +49,9 @@
 								Cyber <br />
 								Consultants
 							</h3>
+							<div class="text-holder">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
+							</div>
 							<a href="#" class="btn btn-dark">Read More</a>
 						</div>
 					</div>
@@ -73,6 +79,9 @@
 								Consultancy and <br />
 								Brand Protection
 							</h3>
+							<div class="text-holder">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
+							</div>
 							<a href="#" class="btn btn-dark">Read More</a>
 						</div>
 					</div>
@@ -97,20 +106,23 @@
 						<div class="content-holder">
 							<span class="item-number">/04</span>
 							<h3 class="h2">Software</h3>
+							<div class="text-holder">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
+							</div>
 							<a href="#" class="btn btn-dark">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="btn-holder">
-				<a href="#" class="btn btn-arrow">
+				<router-link to="/services" class="btn btn-arrow">
 					All Services
 					<span class="arrow-wrapper">
 						<span class="icon-holder">
 							<img src="@/assets/images/icon-02.svg" alt="#" />
 						</span>
 					</span>
-				</a>
+				</router-link>
 			</div>
 		</div>
 	</div>

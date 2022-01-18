@@ -7,6 +7,13 @@
 		}
 	}
 
+	.rows {
+		@include media-breakpoint-down(md) {
+			margin-left: -2.4rem;
+			margin-right: -2.4rem;
+		}
+	}
+
 	.row {
 		@include media-breakpoint-down(lg) {
 			position: relative;
@@ -258,6 +265,10 @@
 				}
 			}
 
+			.text-holder {
+				display: none;
+			}
+
 			.h2 {
 				@include media-breakpoint-down(lg) {
 					flex: 1;
@@ -267,9 +278,55 @@
 	}
 
 	.btn-holder {
-		display: flex;
+		display: none;
 		justify-content: center;
 		padding-top: 13rem;
 		padding-bottom: 9rem;
+	}
+
+	&.w-btn {
+		.btn-holder {
+			display: flex;
+		}
+	}
+
+	&.items-wtext {
+		.col-txt {
+			@include media-breakpoint-down(lg) {
+				min-height: 81.2rem;
+			}
+
+			@include media-breakpoint-up(lg) {
+				margin-top: -7rem;
+			}
+
+			.item-number {
+				margin-bottom: 1.7rem;
+			}
+
+			.h2 {
+				margin-bottom: 2rem;
+			}
+
+			.text-holder {
+				display: block;
+				max-width: 45rem;
+				margin-bottom: 4rem;
+				font-size: 1.8rem;
+				line-height: 1.6;
+
+				@include media-breakpoint-down(md) {
+					margin-bottom: 5rem;
+					font-size: 1.4rem;
+				}
+			}
+		}
+
+		.imac-wrapper {
+			@include media-breakpoint-down(lg) {
+				top: 20%;
+				transform: translateY(0);
+			}
+		}
 	}
 }
