@@ -209,18 +209,6 @@
 	}
 
 	.txt-block {
-		.text-holder {
-			@include media-breakpoint-down(md) {
-				margin-bottom: 3rem;
-			}
-		}
-
-		.img-holder {
-			@include media-breakpoint-down(md) {
-				margin-bottom: 3rem;
-			}
-		}
-
 		.phone-holder {
 			position: relative;
 			max-width: 30.9rem;

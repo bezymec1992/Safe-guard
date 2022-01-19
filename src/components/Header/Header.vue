@@ -8,7 +8,7 @@
 			</strong>
 			<nav class="main-nav">
 				<ul class="main-menu">
-					<li><router-link to="/">About Us</router-link></li>
+					<li><router-link to="/about">About Us</router-link></li>
 					<li><router-link to="/">What We Do</router-link></li>
 					<li><router-link to="/">Contact Us</router-link></li>
 				</ul>

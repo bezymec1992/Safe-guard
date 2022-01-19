@@ -1,0 +1,102 @@
+.results-section {
+	max-width: 144rem;
+	margin: auto;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background: $gallery;
+
+	@include media-breakpoint-up(md) {
+		padding-left: 7.6rem;
+		padding-right: 7.6rem;
+	}
+
+	@include media-breakpoint-down(md) {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.h2 {
+		margin-bottom: 2.7rem;
+
+		@include media-breakpoint-down(md) {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.text-holder {
+		margin-bottom: 4.1rem;
+		font-size: 1.8rem;
+		line-height: 1.6;
+
+		@include media-breakpoint-up(md) {
+			max-width: 40rem;
+		}
+
+		@include media-breakpoint-down(md) {
+			margin-bottom: 4rem;
+			font-size: 1.4rem;
+			line-height: 1.4;
+		}
+	}
+
+	.btns-holder {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		.btn-arrow {
+			margin-bottom: 4rem;
+
+			@include media-breakpoint-down(md) {
+				margin-bottom: 6.2rem;
+			}
+		}
+	}
+
+	.row-items {
+		> div[class^="col-"] {
+			&:nth-child(3),
+			&:nth-child(4) {
+				.result-item {
+					@include media-breakpoint-up(md) {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.result-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 5.6rem;
+
+		@include media-breakpoint-down(md) {
+			margin-bottom: 6rem;
+		}
+
+		.img-holder {
+			max-width: 15rem;
+			margin-bottom: 2.1rem;
+
+			@include media-breakpoint-down(sm) {
+				max-width: 7.8rem;
+				margin-bottom: 1.5rem;
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.text {
+			max-width: 21.9rem;
+			margin: auto;
+			font-size: 1.4rem;
+			line-height: 1.6;
+			text-align: center;
+		}
+	}
+}

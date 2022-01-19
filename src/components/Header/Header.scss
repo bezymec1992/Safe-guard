@@ -76,6 +76,13 @@
 				transform-origin: bottom right;
 				transition: transform 0.25s ease-out;
 			}
+
+			&.router-link-active {
+				&::after {
+					transform: scaleX(1);
+					transform-origin: bottom left;
+				}
+			}
 		}
 	}
 
