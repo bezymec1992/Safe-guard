@@ -1,7 +1,7 @@
 <template>
 	<div class="trusted-section">
 		<div class="container">
-			<h2 class="h2 text-center">Trusted by</h2>
+			<h2 class="h2 text-md-center">Trusted by</h2>
 			<div class="row justify-content-center">
 				<div class="col-4 col-lg-3 col-xl-2 d-flex align-items-center justify-center">
 					<div class="img-holder">

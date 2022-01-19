@@ -3,20 +3,36 @@
 		<intro-section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 text-col d-md-flex flex-column justify-content-center">
+					<div class="col-md-6 text-col d-md-flex flex-column justify-content-center align-items-md-start">
 						<h1 class="h1">Who we are</h1>
-						<div class="text-holder">
+						<div class="text-holder d-none d-md-block">
 							<p>We know all the strategic and operational moves to protect you.</p>
 						</div>
+						<router-link to="/services" class="btn btn-arrow d-none d-md-inline-flex justify-content-center">
+							See Timeline
+							<span class="arrow-wrapper">
+								<span class="icon-holder">
+									<img src="@/assets/images/icon-02.svg" alt="#" />
+								</span>
+							</span>
+						</router-link>
 					</div>
-					<div class="col-md-6 d-flex flex-md-row flex-column justify-content-center justify-content-md-end">
-						<div class="imac-holder">
+					<div class="col-md-6 d-md-flex justify-content-center">
+						<div class="diving-suit">
 							<img src="@/assets/images/img-040.png" alt="#" />
 							<img src="@/assets/images/img-039.png" alt="#" />
 						</div>
-						<div class="text-holder mobile">
+						<div class="text-holder d-md-none">
 							<p>We know all the strategic and operational moves to protect you.</p>
 						</div>
+						<router-link to="/services" class="btn btn-arrow d-md-none">
+							See Timeline
+							<span class="arrow-wrapper">
+								<span class="icon-holder">
+									<img src="@/assets/images/icon-02.svg" alt="#" />
+								</span>
+							</span>
+						</router-link>
 					</div>
 				</div>
 				<div class="scroll-down">

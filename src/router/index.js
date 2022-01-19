@@ -8,9 +8,15 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
+    path: '/about/',
     name: 'About',
-    component: () => import('../views/About/About.vue')
+    component: () => import('../views/About/About.vue'),
+
+  },
+  {
+    name: 'Timeline',
+    path: '/about/timeline',
+    component: () => import('../views/Timeline/Timeline.vue')
   },
   {
     path: '/services/',
