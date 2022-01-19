@@ -115,7 +115,7 @@
 		</txt-block>
 		<div class="plyr-holder">
 			<div class="container">
-				<vue-plyr :options="options">
+				<vue-plyr>
 					<video crossorigin playsinline data-poster="poster.jpg">
 						<source src="@/assets/videos/vid-01.mp4" type="video/mp4" />
 						<track default kind="captions" label="English captions" src="/path/to/english.vtt" srclang="en" />
@@ -131,22 +131,22 @@
 		</quote-section>
 		<div class="buttons-section">
 			<div class="container">
-				<a href="#" class="btn btn-arrow" @click.prevent="$router.push({ name: 'Services' })">
+				<router-link to="/services/" class="btn btn-arrow">
 					All Services
 					<span class="arrow-wrapper">
 						<span class="icon-holder">
 							<img src="@/assets/images/icon-02.svg" alt="#" />
 						</span>
 					</span>
-				</a>
-				<a href="#" class="btn btn-arrow" @click.prevent="$router.push({ name: 'CopyWriting' })">
+				</router-link>
+				<router-link to="/services/brand-protection" class="btn btn-arrow">
 					Next Service
 					<span class="arrow-wrapper">
 						<span class="icon-holder">
 							<img src="@/assets/images/icon-02.svg" alt="#" />
 						</span>
 					</span>
-				</a>
+				</router-link>
 			</div>
 		</div>
 	</div>

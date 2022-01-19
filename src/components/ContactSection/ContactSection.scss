@@ -109,6 +109,7 @@
 			.form-control {
 				padding-right: 4rem;
 				resize: none;
+				overflow: hidden;
 				min-height: 12.5rem;
 
 				@include media-breakpoint-down(md) {

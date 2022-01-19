@@ -82,7 +82,7 @@
 							<div class="text-holder">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
 							</div>
-							<a href="#" class="btn btn-dark">Read More</a>
+							<router-link to="/services/brand-protection" class="btn btn-dark">Read More</router-link>
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 							<div class="text-holder">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere</p>
 							</div>
-							<a href="#" class="btn btn-dark">Read More</a>
+							<router-link to="/services/software" class="btn btn-dark">Read More</router-link>
 						</div>
 					</div>
 				</div>

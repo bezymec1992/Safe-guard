@@ -286,7 +286,9 @@
 
 	&.w-btn {
 		.btn-holder {
-			display: flex;
+			@include media-breakpoint-up(md) {
+				display: flex;
+			}
 		}
 	}
 

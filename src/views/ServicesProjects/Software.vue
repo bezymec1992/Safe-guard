@@ -1,6 +1,6 @@
 <template>
 	<div class="services-project">
-		<intro-section>
+		<intro-section :class="'software'">
 			<div class="container">
 				<router-link to="/services" class="back-link">
 					<span class="icon-holder">
@@ -10,17 +10,20 @@
 				>
 				<div class="row">
 					<div class="col-md-6 text-col d-md-flex flex-column justify-content-center">
-						<h1 class="h1">
-							Training and <br />
-							Implementation
-						</h1>
+						<h1 class="h1">Software</h1>
 						<div class="text-holder">
 							<p>We make it so that nothing catches you by surprise.</p>
 						</div>
 					</div>
 					<div class="col-md-6 d-flex flex-md-row flex-column justify-content-center justify-content-md-end">
-						<div class="punching-bag">
-							<img src="@/assets/images/img-018.png" alt="#" />
+						<div class="imac-holder">
+							<img src="@/assets/images/img-033.png" alt="#" />
+							<div class="iphone-holder hld-1">
+								<img src="@/assets/images/img-034.png" alt="#" />
+							</div>
+							<div class="iphone-holder hld-2">
+								<img src="@/assets/images/img-035.png" alt="#" />
+							</div>
 						</div>
 						<div class="text-holder mobile">
 							<p>We make it so that nothing catches you by surprise.</p>
@@ -36,24 +39,18 @@
 		</intro-section>
 		<txt-block :class="'style1'">
 			<div class="col d-md-none">
-				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
-				</h3>
+				<h3 class="h2 text-capitalize">Tool #1</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-019.jpg" alt="#" />
+					<img src="@/assets/images/img-036.png" alt="#" />
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
-				</h3>
+				<h3 class="h2 text-capitalize">Tool #1</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
 				</div>
@@ -64,40 +61,37 @@
 				</div>
 			</div>
 		</txt-block>
-		<visual-section>
+		<visual-section :class="'img-pos1'">
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-md-center">
 					<div class="content-holder">
 						<h2 class="h1">
-							Stress <br />
-							Protection
+							with our software <br />
+							life becomes more comfortable
 						</h2>
-						<div class="text-holder">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, consectetur efficitur neque.</p>
-						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="img-holder">
-						<img src="@/assets/images/img-020.png" alt="#" />
+						<img src="@/assets/images/img-037.png" alt="#" />
 					</div>
 				</div>
 			</div>
 		</visual-section>
 		<txt-block :class="'style2 reverse'">
 			<div class="col d-md-none">
-				<h3 class="h2 text-capitalize">Practical</h3>
+				<h3 class="h2 text-capitalize">Tool #2</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-021.jpg" alt="#" />
+					<img src="@/assets/images/img-038.png" alt="#" />
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-				<h3 class="h2 text-capitalize">Practical</h3>
+				<h3 class="h2 text-capitalize">Tool #2</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
 				</div>
@@ -124,7 +118,7 @@
 						</span>
 					</span>
 				</router-link>
-				<router-link to="/services/cyber-consultants" class="btn btn-arrow">
+				<router-link to="/services/training" class="btn btn-arrow">
 					Next Service
 					<span class="arrow-wrapper">
 						<span class="icon-holder">
@@ -144,7 +138,7 @@ import VisualSection from "@/components/VisualSection/VisualSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
 
 export default {
-	name: "Training",
+	name: "Software",
 	components: {
 		IntroSection,
 		TxtBlock,

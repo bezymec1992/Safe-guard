@@ -11,19 +11,27 @@
 				<div class="row">
 					<div class="col-md-6 text-col d-md-flex flex-column justify-content-center">
 						<h1 class="h1">
-							Training and <br />
-							Implementation
+							Consultancy & <br />
+							brand protection
 						</h1>
 						<div class="text-holder">
-							<p>We make it so that nothing catches you by surprise.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id.</p>
 						</div>
 					</div>
-					<div class="col-md-6 d-flex flex-md-row flex-column justify-content-center justify-content-md-end">
-						<div class="punching-bag">
-							<img src="@/assets/images/img-018.png" alt="#" />
+					<div class="col-md-6 d-flex justify-content-md-center">
+						<div class="building-wrapper">
+							<div class="building-holder">
+								<img src="@/assets/images/img-07.png" alt="#" />
+								<div class="cloud-holder hld-1">
+									<img src="@/assets/images/img-027.png" alt="#" />
+								</div>
+								<div class="cloud-holder hld-2">
+									<img src="@/assets/images/img-028.png" alt="#" />
+								</div>
+							</div>
 						</div>
 						<div class="text-holder mobile">
-							<p>We make it so that nothing catches you by surprise.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, consectetur efficitur neque.</p>
 						</div>
 					</div>
 				</div>
@@ -34,25 +42,22 @@
 				</div>
 			</div>
 		</intro-section>
-		<txt-block :class="'style1'">
+		<txt-block :class="'style1 reverse'">
 			<div class="col d-md-none">
-				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
-				</h3>
+				<h3 class="h2 text-capitalize">Team Dynamics</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-019.jpg" alt="#" />
+					<img src="@/assets/images/img-029.jpg" alt="#" />
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
 				<h3 class="h2 text-capitalize">
-					High Performance <br />
-					Behavior
+					Team <br />
+					Dynamics
 				</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
@@ -64,40 +69,77 @@
 				</div>
 			</div>
 		</txt-block>
-		<visual-section>
-			<div class="row">
-				<div class="col-md-6 d-flex align-items-md-center">
-					<div class="content-holder">
-						<h2 class="h1">
-							Stress <br />
-							Protection
-						</h2>
-						<div class="text-holder">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, consectetur efficitur neque.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="img-holder">
-						<img src="@/assets/images/img-020.png" alt="#" />
-					</div>
-				</div>
-			</div>
+		<visual-section :bg="'img-030.jpg'" :class="'bg-img'">
+			<h2 class="h1 text-center white">brand protection</h2>
 		</visual-section>
-		<txt-block :class="'style2 reverse'">
+		<txt-block :class="'style2'">
 			<div class="col d-md-none">
-				<h3 class="h2 text-capitalize">Practical</h3>
+				<h3 class="h2 text-capitalize">
+					Specific Request. <br />
+					Due Diligence
+				</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-holder">
-					<img src="@/assets/images/img-021.jpg" alt="#" />
+					<img src="@/assets/images/img-031.png" alt="#" />
 				</div>
 			</div>
 			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-				<h3 class="h2 text-capitalize">Practical</h3>
+				<div class="text-rows">
+					<div class="text-row">
+						<h3 class="h2 text-capitalize">
+							Specific Request. <br />
+							Due Diligence
+						</h3>
+						<div class="text-holder">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
+						</div>
+					</div>
+					<div class="text-row">
+						<h3 class="h2 text-capitalize">Strategical Request</h3>
+						<div class="text-holder">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col d-md-none">
+				<h3 class="h2 text-capitalize">Strategical Request</h3>
+				<div class="text-holder">
+					<p>Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
+				</div>
+			</div>
+		</txt-block>
+		<div class="plyr-holder pb-0">
+			<div class="container">
+				<vue-plyr>
+					<video crossorigin playsinline data-poster="poster.jpg">
+						<source src="@/assets/videos/vid-01.mp4" type="video/mp4" />
+						<track default kind="captions" label="English captions" src="/path/to/english.vtt" srclang="en" />
+					</video>
+				</vue-plyr>
+			</div>
+		</div>
+		<txt-block :class="'style2 reverse'">
+			<div class="col d-md-none">
+				<h3 class="h2 text-capitalize">Custodian Assets</h3>
+				<div class="text-holder">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="img-holder">
+					<img src="@/assets/images/img-032.jpg" alt="#" />
+				</div>
+			</div>
+			<div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+				<h3 class="h2 text-capitalize">
+					Custodian <br />
+					Assets
+				</h3>
 				<div class="text-holder">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum</p>
 				</div>
@@ -124,7 +166,7 @@
 						</span>
 					</span>
 				</router-link>
-				<router-link to="/services/cyber-consultants" class="btn btn-arrow">
+				<router-link to="/services/software" class="btn btn-arrow">
 					Next Service
 					<span class="arrow-wrapper">
 						<span class="icon-holder">
@@ -142,14 +184,17 @@ import IntroSection from "@/components/IntroSection/IntroSection.vue";
 import TxtBlock from "@/components/TxtBlock/TxtBlock.vue";
 import VisualSection from "@/components/VisualSection/VisualSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
+import VuePlyr from "vue-plyr";
+import "vue-plyr/dist/vue-plyr.css";
 
 export default {
-	name: "Training",
+	name: "BrandProtection",
 	components: {
 		IntroSection,
 		TxtBlock,
 		VisualSection,
-		QuoteSection
+		QuoteSection,
+		VuePlyr
 	}
 };
 </script>

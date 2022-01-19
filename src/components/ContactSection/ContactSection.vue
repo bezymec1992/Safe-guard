@@ -49,7 +49,7 @@
 								<div class="col-12">
 									<div class="form-group textarea">
 										<label for="lbl-05">Company Name</label>
-										<textarea placeholder="Write a message" id="lbl-06" class="form-control" v-model="textArea" @input="assertMaxChars()"></textarea>
+										<textarea placeholder="Write a message" ref="textarea" id="lbl-06" class="form-control" v-model="textArea" @input="assertMaxChars()"></textarea>
 										<span class="textarea-counter">{{ charactersLeft }}</span>
 									</div>
 								</div>
@@ -76,8 +76,11 @@ export default {
 	}),
 	methods: {
 		assertMaxChars: function () {
-			if (this.textArea.length >= 500) {
+			const { textarea } = this.$refs;
+
+			if (this.textArea.length >= 500 || this.textArea.length <= 500) {
 				this.textArea = this.textArea.substring(0, 500);
+				textarea.style.height = textarea.scrollHeight - 4 + "px";
 			}
 		}
 	},
@@ -88,6 +91,9 @@ export default {
 
 			return lengthArea < 500 ? limit - lengthArea : "max";
 		}
+	},
+	mounted() {
+		this.assertMaxChars();
 	}
 };
 </script>

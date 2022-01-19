@@ -1,4 +1,6 @@
 .visual-section {
+	max-width: 150rem;
+	margin: auto;
 	padding-top: 7rem;
 	background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
@@ -12,6 +14,10 @@
 
 		@include media-breakpoint-down(md) {
 			margin-bottom: 2rem;
+		}
+
+		&.white {
+			color: $white;
 		}
 	}
 
@@ -47,6 +53,25 @@
 		.h1 {
 			@include media-breakpoint-down(md) {
 				font-size: 2.5rem;
+			}
+		}
+	}
+
+	&.img-pos1 {
+		position: relative;
+
+		.row {
+			min-height: 69.7rem;
+		}
+
+		.img-holder {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 50%;
+
+			@include media-breakpoint-down(md) {
+				width: 100%;
 			}
 		}
 	}
