@@ -14,7 +14,7 @@
 						</li>
 						<li>
 							<h3>E-mail</h3>
-							<a href="mailtp:safeguard_help@gmail.com">safeguard_help@gmail.com</a>
+							<a href="mailto:safeguard_help@gmail.com">safeguard_help@gmail.com</a>
 						</li>
 						<li>
 							<h3>Phone</h3>
