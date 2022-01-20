@@ -1,140 +1,188 @@
 .contact-section {
-	padding-bottom: 1.5rem;
-	background: linear-gradient(to bottom, $alabaster 50%, $mine-shaft 50%);
+  padding-bottom: 1.5rem;
+  background: linear-gradient(to bottom, $alabaster 50%, $mine-shaft 50%);
 
-	@include media-breakpoint-down(md) {
-		padding-left: 2.4rem;
-		padding-right: 2.4rem;
-	}
+  @include media-breakpoint-down(md) {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
 
-	.h2 {
-		margin-bottom: 3rem;
-		text-transform: unset;
+  .h2 {
+    margin-bottom: 3rem;
+    text-transform: unset;
 
-		@include media-breakpoint-down(md) {
-			margin-bottom: 2rem;
-			text-transform: uppercase;
-		}
-	}
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+  }
 
-	.container {
-		padding: 8.6rem 6rem 9.4rem 6rem;
-		background: $white;
+  .container {
+    padding: 8.6rem 6rem 9.4rem 6rem;
+    background: $white;
 
-		@include media-breakpoint-down(lg) {
-			padding-left: 2.4rem;
-			padding-right: 2.4rem;
-		}
-		@include media-breakpoint-down(md) {
-			padding-top: 4rem;
-			padding-bottom: 2.6rem;
-		}
-	}
+    @include media-breakpoint-down(lg) {
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+    }
+    @include media-breakpoint-down(md) {
+      padding-top: 4rem;
+      padding-bottom: 2.6rem;
+    }
+  }
 
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		font-size: 1.6rem;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.6rem;
 
-		@include media-breakpoint-down(md) {
-			margin-bottom: 4rem;
-			font-size: 1.4rem;
-		}
+    @include media-breakpoint-down(md) {
+      margin-bottom: 4rem;
+      font-size: 1.4rem;
+    }
 
-		li {
-			margin-bottom: 4rem;
+    li {
+      margin-bottom: 4rem;
 
-			@include media-breakpoint-down(md) {
-				margin-bottom: 2rem;
-			}
-		}
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2rem;
+      }
+    }
 
-		h3 {
-			color: rgba($black, 0.3);
-		}
+    h3 {
+      color: rgba($black, 0.3);
+    }
 
-		a {
-			&:hover {
-				opacity: 0.7;
-			}
-		}
-	}
+    a {
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
 
-	.form-group {
-		margin-bottom: 2rem;
+  .form-group {
+    margin-bottom: 2rem;
 
-		@include media-breakpoint-down(md) {
-			margin-bottom: 1.2rem;
-		}
+    @include media-breakpoint-down(md) {
+      margin-bottom: 1.2rem;
+    }
 
-		label {
-			display: block;
-			margin-bottom: 0.6rem;
-			font-size: 1.2rem;
-			line-height: 1.57;
-		}
+    label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-size: 1.2rem;
+      line-height: 1.57;
+    }
 
-		.form-control {
-			padding: 1.7rem;
-			font-size: 1.6rem;
-			color: $black;
-			background: $white;
-			border: solid 0.1rem rgba($black, 0.3);
-			border-radius: 0.4rem;
+    .form-control {
+      padding: 1.7rem;
+      font-size: 1.6rem;
+      color: $black;
+      background: $white;
+      border: solid 0.1rem rgba($black, 0.3);
+      border-radius: 0.4rem;
 
-			@include media-breakpoint-down(md) {
-				padding: 1.3rem 1.8rem;
-				font-size: 1.4rem;
-			}
+      @include media-breakpoint-down(md) {
+        padding: 1.3rem 1.8rem;
+        font-size: 1.4rem;
+      }
 
-			&::placeholder {
-				color: rgba($black, 0.3);
-			}
+      &::placeholder {
+        color: rgba($black, 0.3);
+      }
 
-			&:focus {
-				border-color: $celery;
-				box-shadow: none;
-			}
-		}
+      &:focus {
+        border-color: $celery;
+        box-shadow: none;
+      }
 
-		&.textarea {
-			position: relative;
-			margin-bottom: 5rem;
+      &.error {
+        border-color: $red;
+      }
+    }
 
-			@include media-breakpoint-down(md) {
-				margin-bottom: 3.5rem;
-			}
+    &.textarea {
+      position: relative;
+      margin-bottom: 5rem;
 
-			.form-control {
-				padding-right: 4rem;
-				resize: none;
-				overflow: hidden;
-				min-height: 12.5rem;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3.5rem;
+      }
 
-				@include media-breakpoint-down(md) {
-					padding-right: 3.5rem;
-				}
-			}
+      .form-control {
+        padding-right: 4rem;
+        resize: none;
+        overflow: hidden;
+        min-height: 12.5rem;
 
-			.textarea-counter {
-				position: absolute;
-				bottom: 1.2rem;
-				right: 1.6rem;
-				display: block;
-				color: rgba($black, 0.5);
-				pointer-events: none;
+        @include media-breakpoint-down(md) {
+          padding-right: 3.5rem;
+        }
+      }
 
-				@include media-breakpoint-down(md) {
-					font-size: 1rem;
-				}
-			}
-		}
-	}
+      .textarea-counter {
+        position: absolute;
+        bottom: 1.2rem;
+        right: 1.6rem;
+        display: block;
+        color: rgba($black, 0.5);
+        pointer-events: none;
 
-	.btn {
-		@include media-breakpoint-down(md) {
-			font-size: 1.4rem;
-		}
-	}
+        @include media-breakpoint-down(md) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .form-holder {
+    position: relative;
+
+    .error-icon {
+      position: absolute;
+      top: 2rem;
+      right: 1.8rem;
+      width: 2.4rem;
+      height: 2.4rem;
+      background: url("~@/assets/images/icon-04.svg") no-repeat;
+      z-index: 1;
+      cursor: pointer;
+
+      @include media-breakpoint-down(md) {
+        top: 1.3rem;
+      }
+    }
+
+    .error-title {
+      position: absolute;
+      right: 0;
+      bottom: -1.9rem;
+      font-size: 1.4rem;
+      line-height: 1;
+      color: $red;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: $transition;
+
+      @include media-breakpoint-down(md) {
+        bottom: -1.8rem;
+        font-size: 1.2rem;
+      }
+
+      &.show {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        transition: $transition;
+      }
+    }
+  }
+
+  .btn {
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+    }
+  }
 }

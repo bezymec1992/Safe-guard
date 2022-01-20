@@ -1,282 +1,283 @@
 .services-project {
-	.intro-section {
-		overflow: hidden;
-		background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+  .intro-section {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
-		@include media-breakpoint-down(md) {
-			position: relative;
-			background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-		}
+    @include media-breakpoint-down(md) {
+      position: relative;
+      background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+    }
 
-		.text-col {
-			position: relative;
-			z-index: 2;
+    .text-col {
+      position: relative;
+      z-index: 2;
 
-			.h1 {
-				@include media-breakpoint-down(md) {
-					margin-bottom: 41.2rem;
-				}
-			}
-		}
+      .h1 {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 41.2rem;
+        }
+      }
+    }
 
-		.punching-bag {
-			max-width: 44.9rem;
-			z-index: 1;
+    .punching-bag {
+      max-width: 44.9rem;
+      z-index: 1;
 
-			@include media-breakpoint-up(md) {
-				position: relative;
-				top: -23rem;
-				left: -4rem;
-			}
+      @include media-breakpoint-up(md) {
+        position: relative;
+        margin-top: -23rem;
+        left: -4rem;
+      }
 
-			@include media-breakpoint-down(md) {
-				position: absolute;
-				max-width: 46.1rem;
-				top: 0;
-				right: -10rem;
-			}
+      @include media-breakpoint-down(md) {
+        position: absolute;
+        max-width: 46.1rem;
+        top: 0;
+        right: -10rem;
+      }
 
-			img {
-				width: 100%;
-				height: auto;
-			}
-		}
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
 
-		.phone-wrapper {
-			.phone-holder {
-				position: relative;
+    .phone-wrapper {
+      .phone-holder {
+        position: relative;
 
-				@include media-breakpoint-up(md) {
-					bottom: -6.4rem;
-					right: 6rem;
-					margin-left: 6rem;
-				}
+        @include media-breakpoint-up(md) {
+          position: absolute;
+          bottom: 0;
+          right: 15%;
+        }
 
-				@include media-breakpoint-down(md) {
-					max-width: 24.7rem;
-					margin: auto auto 4rem;
-				}
-			}
+        @include media-breakpoint-down(md) {
+          max-width: 24.7rem;
+          margin: auto auto 4rem;
+        }
+      }
 
-			img {
-				width: 100%;
-				height: auto;
+      img {
+        width: 100%;
+        height: auto;
 
-				&.desktop {
-					@include media-breakpoint-down(md) {
-						display: none;
-					}
-				}
+        &.desktop {
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
 
-				&.mobile {
-					@include media-breakpoint-up(md) {
-						display: none;
-					}
-				}
-			}
+        &.mobile {
+          @include media-breakpoint-up(md) {
+            display: none;
+          }
+        }
+      }
 
-			.msg-holder {
-				position: absolute;
+      .msg-holder {
+        position: absolute;
 
-				&.msg-1 {
-					top: 10%;
-					left: -18%;
-					max-width: 71%;
-				}
+        &.msg-1 {
+          top: 10%;
+          left: -18%;
+          max-width: 71%;
+        }
 
-				&.msg-2 {
-					bottom: 15%;
-					right: -18%;
-					max-width: 80%;
-				}
-			}
-		}
+        &.msg-2 {
+          bottom: 15%;
+          right: -18%;
+          max-width: 80%;
+        }
+      }
+    }
 
-		.building-holder {
-			position: relative;
-			z-index: 2;
-			max-width: 32rem;
+    .building-holder {
+      position: relative;
+      z-index: 2;
+      max-width: 32rem;
 
-			@include media-breakpoint-down(md) {
-				position: absolute;
-				top: 20%;
-				right: 0;
-				z-index: 1;
-			}
+      @include media-breakpoint-down(md) {
+        position: absolute;
+        top: 20%;
+        right: 0;
+        z-index: 1;
+      }
 
-			img {
-				width: 100%;
-				height: auto;
-			}
+      img {
+        width: 100%;
+        height: auto;
+      }
 
-			.cloud-holder {
-				position: absolute;
+      .cloud-holder {
+        position: absolute;
 
-				&.hld-1 {
-					top: 10%;
-					left: -20%;
-					max-width: 50%;
-				}
+        &.hld-1 {
+          top: 10%;
+          left: -20%;
+          max-width: 50%;
+        }
 
-				&.hld-2 {
-					top: 30%;
-					right: -40%;
-					max-width: 100%;
-					z-index: -1;
-				}
-			}
-		}
+        &.hld-2 {
+          top: 30%;
+          right: -40%;
+          max-width: 100%;
+          z-index: -1;
+        }
+      }
+    }
 
-		.imac-holder {
-			position: relative;
-			max-width: 66.8rem;
+    .imac-holder {
+      position: relative;
+      max-width: 66.8rem;
 
-			@include media-breakpoint-down(md) {
-				margin-bottom: 3rem;
-				max-width: 48.7rem;
-				right: -40%;
-			}
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3rem;
+        max-width: 48.7rem;
+        right: -40%;
+      }
 
-			img {
-				width: 100%;
-				height: auto;
-			}
+      img {
+        width: 100%;
+        height: auto;
+      }
 
-			.iphone-holder {
-				position: absolute;
+      .iphone-holder {
+        position: absolute;
 
-				&.hld-1 {
-					left: 0%;
-					bottom: 9%;
-					width: 20%;
-				}
+        &.hld-1 {
+          left: 0%;
+          bottom: 9%;
+          width: 20%;
+        }
 
-				&.hld-2 {
-					left: 15%;
-					bottom: 5%;
-					width: 20%;
-				}
-			}
-		}
+        &.hld-2 {
+          left: 15%;
+          bottom: 5%;
+          width: 20%;
+        }
+      }
+    }
 
-		&.cyber-consultants {
-			.h1 {
-				@include media-breakpoint-down(md) {
-					margin-bottom: 2.8rem;
-				}
-			}
-		}
+    &.cyber-consultants {
+      .h1 {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 2.8rem;
+        }
+      }
+    }
 
-		&.software {
-			.h1 {
-				@include media-breakpoint-down(md) {
-					margin-bottom: 1rem;
-				}
-			}
+    &.software {
+      .h1 {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 1rem;
+        }
+      }
 
-			.text-holder {
-				@include media-breakpoint-up(md) {
-					max-width: 47.8rem;
-				}
-			}
-		}
-	}
+      .text-holder {
+        @include media-breakpoint-up(md) {
+          max-width: 47.8rem;
+        }
+      }
+    }
+  }
 
-	.txt-block {
-		.phone-holder {
-			position: relative;
-			max-width: 30.9rem;
+  .txt-block {
+    .phone-holder {
+      position: relative;
+      max-width: 30.9rem;
 
-			@include media-breakpoint-down(md) {
-				max-width: 23.3rem;
-			}
+      @include media-breakpoint-down(md) {
+        max-width: 23.3rem;
+      }
 
-			.msg-holder {
-				position: absolute;
+      .msg-holder {
+        position: absolute;
 
-				&.msg-1 {
-					top: 8%;
-					left: -27%;
-					max-width: 70%;
+        &.msg-1 {
+          top: 8%;
+          left: -27%;
+          max-width: 70%;
 
-					@include media-breakpoint-down(md) {
-						left: -20%;
-						max-width: 60%;
-					}
-				}
+          @include media-breakpoint-down(md) {
+            left: -20%;
+            max-width: 60%;
+          }
+        }
 
-				&.msg-2 {
-					bottom: 30%;
-					right: -7%;
-					max-width: 70%;
+        &.msg-2 {
+          bottom: 30%;
+          right: -7%;
+          max-width: 70%;
 
-					@include media-breakpoint-down(md) {
-						max-width: 60%;
-					}
-				}
-			}
-		}
+          @include media-breakpoint-down(md) {
+            max-width: 60%;
+          }
+        }
+      }
+    }
 
-		.text-rows {
-			.text-row {
-				&:not(:last-child) {
-					@include media-breakpoint-up(md) {
-						margin-bottom: 6rem;
-					}
-				}
-			}
-		}
+    .text-rows {
+      .text-row {
+        &:not(:last-child) {
+          @include media-breakpoint-up(md) {
+            margin-bottom: 6rem;
+          }
+        }
+      }
+    }
 
-		&.style1 {
-			padding-top: 16.2rem;
-			padding-bottom: 18rem;
+    &.style1 {
+      padding-top: 16.2rem;
+      padding-bottom: 18rem;
 
-			@include media-breakpoint-down(md) {
-				padding-top: 8rem;
-				padding-bottom: 4rem;
-			}
-		}
+      @include media-breakpoint-down(md) {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+      }
+    }
 
-		&.style2 {
-			padding-top: 20rem;
-			padding-bottom: 13rem;
+    &.style2 {
+      padding-top: 20rem;
+      padding-bottom: 13rem;
 
-			@include media-breakpoint-down(md) {
-				padding-top: 10rem;
-				padding-bottom: 7rem;
-			}
-		}
-	}
+      @include media-breakpoint-down(md) {
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+      }
+    }
+  }
 
-	.buttons-section {
-		padding-top: 12rem;
-		padding-bottom: 18rem;
+  .buttons-section {
+    padding-top: 12rem;
+    padding-bottom: 18rem;
 
-		@include media-breakpoint-down(md) {
-			padding-top: 7rem;
-			padding-bottom: 10rem;
-		}
+    @include media-breakpoint-down(md) {
+      padding-top: 7rem;
+      padding-bottom: 10rem;
+    }
 
-		.container {
-			max-width: 52.6rem;
-			display: flex;
-			justify-content: space-between;
-		}
+    .container {
+      max-width: 52.6rem;
+      display: flex;
+      justify-content: space-between;
+    }
 
-		.btn {
-			&:first-child {
-				flex-direction: row-reverse;
+    .btn {
+      &:first-child {
+        flex-direction: row-reverse;
 
-				.arrow-wrapper {
-					margin-left: 0;
-					margin-right: 2.4rem;
-					transform: rotate(180deg);
+        .arrow-wrapper {
+          margin-left: 0;
+          margin-right: 2.4rem;
+          transform: rotate(180deg);
 
-					@include media-breakpoint-down(md) {
-						margin-right: 1rem;
-					}
-				}
-			}
-		}
-	}
+          @include media-breakpoint-down(md) {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
 }

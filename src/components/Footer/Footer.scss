@@ -1,142 +1,148 @@
 .footer {
-	padding-top: 12.6rem;
-	color: $dusty-gray;
-	background: $mine-shaft;
+  padding-top: 12.6rem;
+  color: $dusty-gray;
+  background: $mine-shaft;
 
-	@include media-breakpoint-down(md) {
-		padding-top: 8.6rem;
-	}
+  @include media-breakpoint-down(md) {
+    padding-top: 8.6rem;
+  }
 
-	.container {
-		max-width: 111.7rem;
-	}
+  .container {
+    max-width: 111.7rem;
+  }
 
-	.logo {
-		display: block;
-		max-width: 19.4rem;
-		margin-bottom: 3rem;
+  .logo {
+    display: block;
+    max-width: 19.4rem;
+    margin-bottom: 3rem;
 
-		@include media-breakpoint-down(md) {
-			max-width: 16rem;
-			margin-bottom: 2.1rem;
-		}
+    @include media-breakpoint-down(md) {
+      max-width: 16rem;
+      margin-bottom: 2.1rem;
+    }
 
-		a {
-			&:hover {
-				filter: brightness(2);
-			}
-		}
+    a {
+      &:hover {
+        filter: brightness(2);
+      }
+    }
 
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 
-	a {
-		&:hover {
-			color: lighten($dusty-gray, 20);
-		}
-	}
+  a {
+    &:hover {
+      color: lighten($dusty-gray, 20);
+    }
+  }
 
-	.text-holder {
-		max-width: 47.1rem;
-		margin-bottom: 3.8rem;
-		font-size: 1.6rem;
-		line-height: 1.8;
+  .text-holder {
+    max-width: 47.1rem;
+    margin-bottom: 3.8rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
 
-		@include media-breakpoint-down(md) {
-			font-size: 1.4rem;
-			line-height: 1.6;
-		}
-	}
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+      line-height: 1.6;
+    }
+  }
 
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-	.contact-links {
-		font-size: 1.6rem;
+  .contact-links {
+    font-size: 1.6rem;
 
-		@include media-breakpoint-down(lg) {
-			margin-bottom: 10rem;
-		}
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 10rem;
+    }
 
-		@include media-breakpoint-down(md) {
-			font-size: 1.4rem;
-		}
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+    }
 
-		li {
-			&:not(:last-child) {
-				margin-bottom: 2.6rem;
-			}
-		}
+    li {
+      &:not(:last-child) {
+        margin-bottom: 2.6rem;
+      }
+    }
 
-		h3 {
-			margin-bottom: 0.5rem;
-			color: $white;
+    h3 {
+      margin-bottom: 0.5rem;
+      color: $white;
 
-			@include media-breakpoint-down(md) {
-				font-size: 1.4rem;
-			}
-		}
-	}
+      @include media-breakpoint-down(md) {
+        font-size: 1.4rem;
+      }
+    }
+  }
 
-	.footer-group {
-		@include media-breakpoint-down(md) {
-			font-size: 1.4rem;
-		}
+  .footer-group {
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+    }
 
-		&:first-child {
-			margin-right: 4.5rem;
+    &:first-child {
+      margin-right: 4.5rem;
 
-			@include media-breakpoint-up(sm) {
-				margin-right: 9rem;
-			}
-		}
+      @include media-breakpoint-up(sm) {
+        margin-right: 9rem;
+      }
+    }
 
-		&:last-child {
-			@include media-breakpoint-down(sm) {
-				max-width: 50%;
-			}
-		}
+    &:last-child {
+      @include media-breakpoint-down(sm) {
+        max-width: 50%;
+      }
+    }
 
-		h3 {
-			margin-bottom: 3rem;
-			font-size: 2.4rem;
-			color: $white;
+    h3 {
+      margin-bottom: 3rem;
+      font-size: 2.4rem;
+      color: $white;
 
-			@include media-breakpoint-down(md) {
-				margin-bottom: 2rem;
-				font-size: 2rem;
-			}
-		}
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+    }
 
-		li {
-			margin-bottom: 3rem;
+    li {
+      margin-bottom: 3rem;
 
-			@include media-breakpoint-down(md) {
-				margin-bottom: 2rem;
-			}
-		}
-	}
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 
-	.footer-bottom {
-		margin-top: 11.5rem;
-		padding: 1.5rem 0;
-		font-size: 1.2rem;
-		color: $emperor;
-		text-align: center;
-		border-top: solid 0.1rem $emperor;
+  .footer-bottom {
+    margin-top: 11.5rem;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    color: $emperor;
+    text-align: center;
+    border-top: solid 0.1rem $emperor;
 
-		@include media-breakpoint-down(md) {
-			margin-top: 6.4rem;
-		}
+    @include media-breakpoint-down(md) {
+      margin-top: 6.4rem;
+    }
 
-		p {
-			margin-bottom: 0;
-		}
-	}
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &.contact-us {
+    @include media-breakpoint-up(md) {
+      padding-top: 30%;
+    }
+  }
 }

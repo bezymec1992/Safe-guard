@@ -1,45 +1,45 @@
 html {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-	margin: 0;
-	min-width: 320px;
-	background: $body-bg;
-	color: $black;
-	font-family: $font-family-base;
-	font-weight: $font-weight-base;
-	font-size: $font-size-base;
-	line-height: $line-height-base;
-	letter-spacing: 0.04rem;
-	font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	display: flex;
-	flex-direction: column;
+  margin: 0;
+  min-width: 320px;
+  background: $body-bg;
+  color: $black;
+  font-family: $font-family-base;
+  font-weight: $font-weight-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  letter-spacing: 0.04rem;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
 
-	&.menu-opened {
-		position: fixed;
-		overflow-y: scroll;
-	}
+  &.menu-opened {
+    position: fixed;
+    overflow-y: scroll;
+  }
 }
 
 a {
-	text-decoration: none;
-	color: $links-color-base;
-	transition: $transition;
+  text-decoration: none;
+  color: $links-color-base;
+  transition: $transition;
 }
 
 a:hover {
-	color: $links-color-base;
+  color: $links-color-base;
 }
 
 *,
 *::before,
 *::after {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 button,
@@ -47,74 +47,74 @@ input[type="search"],
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: none;
-	cursor: pointer;
-	transition: $transition;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: $transition;
 }
 
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner {
-	border: none;
-	padding: 0;
+  border: none;
+  padding: 0;
 }
 
 .wrapper {
-	min-height: 100vh;
-	min-height: calc(var(--vh, 1vh) * 100);
-	display: flex;
-	flex-direction: column;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
 }
 
 #main {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .container {
-	max-width: 133.5rem;
-	padding-left: 2.4rem;
-	padding-right: 2.4rem;
+  max-width: 133.5rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
 }
 
 h1,
 h2,
 h3 {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .h1,
 .h2 {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .h1 {
-	font-size: 4.8rem;
+  font-size: 4.8rem;
 
-	@include media-breakpoint-down(md) {
-		font-size: 3.6rem;
-	}
+  @include media-breakpoint-down(md) {
+    font-size: 3.6rem;
+  }
 }
 
 .h2 {
-	font-size: 4rem;
+  font-size: 4rem;
 
-	@include media-breakpoint-down(md) {
-		font-size: 2.5rem;
-	}
+  @include media-breakpoint-down(md) {
+    font-size: 2.5rem;
+  }
 }
 
 .plyr-holder {
-	padding-bottom: 13rem;
+  padding-bottom: 13rem;
 
-	@include media-breakpoint-down(md) {
-		padding-bottom: 7rem;
-	}
+  @include media-breakpoint-down(md) {
+    padding-bottom: 7rem;
+  }
 
-	.container {
-		@include media-breakpoint-down(md) {
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
+  .container {
+    @include media-breakpoint-down(md) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }

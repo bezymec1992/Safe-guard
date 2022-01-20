@@ -8,7 +8,7 @@
 						<div class="text-holder d-none d-md-block">
 							<p>We know all the strategic and operational moves to protect you.</p>
 						</div>
-						<router-link to="/services" class="btn btn-arrow d-none d-md-inline-flex justify-content-center">
+						<router-link to="/about/timeline" class="btn btn-arrow d-none d-md-inline-flex justify-content-center">
 							See Timeline
 							<span class="arrow-wrapper">
 								<span class="icon-holder">

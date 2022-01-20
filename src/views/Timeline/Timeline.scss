@@ -1,10 +1,18 @@
 .timeline-page {
-	.intro-section {
-		background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+  .intro-section {
+    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
-		@include media-breakpoint-down(md) {
-			position: relative;
-			background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-		}
-	}
+    @include media-breakpoint-down(md) {
+      position: relative;
+      background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+    }
+  }
+
+  .quote-section {
+    padding-bottom: 12.5rem;
+
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
 }

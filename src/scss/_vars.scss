@@ -12,19 +12,19 @@ $grid-gutter-width: 30px;
 $grid-gutter-width-mobile: $grid-gutter-width;
 
 $grid-breakpoints: (
-	xs: 0,
-	sm: 576px,
-	md: 768px,
-	lg: 992px,
-	xl: 1200px,
-	xxl: 1400px
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
 );
 
 $container-max-widths: (
-	sm: 540px,
-	md: 720px,
-	lg: 960px,
-	xl: 1302px
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1302px,
 );
 
 // colors
@@ -38,6 +38,7 @@ $alabaster: #f9f9f9;
 $dusty-gray: #999999;
 $emperor: #4f4f4f;
 $gallery: #efefef;
+$red: #ff0000;
 
 // // base vars
 $text-color-base: $black;
