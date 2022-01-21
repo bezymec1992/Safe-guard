@@ -50,10 +50,10 @@
                       alt="#"
                     />
                     <div class="msg-holder msg-1">
-                      <img src="@/assets/images/img-05.svg" alt="#" />
+                      <img src="@/assets/images/img-060.png" alt="#" />
                     </div>
                     <div class="msg-holder msg-2">
-                      <img src="@/assets/images/img-06.svg" alt="#" />
+                      <img src="@/assets/images/img-061.png" alt="#" />
                     </div>
                   </div>
                 </div>

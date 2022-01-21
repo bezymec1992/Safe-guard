@@ -53,17 +53,49 @@
     <div class="footer-bottom">
       <p>&copy; Safeguard - all rights reserved</p>
     </div>
+    <a
+      href="#"
+      class="go-to-top"
+      :class="{ show: counterHeight }"
+      @click.prevent="scrollByTop()"
+    >
+      <span class="icon-holder">
+        <img src="@/assets/images/icon-09.svg" alt="arrow-top" />
+      </span>
+    </a>
   </footer>
 </template>
 
 <script>
+import smoothscroll from "smoothscroll-polyfill";
+
 export default {
   name: "Footer",
   props: {
     //
   },
-  data: () => ({}),
-  methods: {},
+  data: () => ({
+    counterHeight: false,
+  }),
+  methods: {
+    scrollByTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    },
+    handleScroll() {
+      if (pageYOffset >= 500) {
+        this.counterHeight = true;
+      } else {
+        this.counterHeight = false;
+      }
+    },
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+    smoothscroll.polyfill();
+  },
 };
 </script>
 

@@ -67,7 +67,7 @@
                           class="error-icon"
                           @click="errorFormsClick($event)"
                         ></span>
-                        <span class="error-title">Required field</span></span
+                        <span class="error-title">Invalid email</span></span
                       >
                     </div>
                   </div>
@@ -84,13 +84,14 @@
                         :class="{ error: v$.phone.$error }"
                         v-model="phone"
                         @blur="v$.phone.$touch"
+                        @input="acceptNumber"
                       />
                       <span v-if="v$.phone.$error" class="error-form"
                         ><span
                           class="error-icon"
                           @click="errorFormsClick($event)"
                         ></span>
-                        <span class="error-title">Required field</span></span
+                        <span class="error-title">Incorrect number</span></span
                       >
                     </div>
                   </div>
@@ -163,6 +164,17 @@
                 </div>
               </div>
             </div>
+            <div class="mini-popup error" :class="{ visible: popupError }">
+              <div class="inner-holder">
+                <div class="icon-holder">
+                  <img src="@/assets/images/icon-08.svg" alt="#" />
+                </div>
+                <div class="text">
+                  <h3>The form incorrectly filled in</h3>
+                  <p>Please check the fields</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -184,11 +196,12 @@ export default {
     phone: "",
     companyName: "",
     popupVisible: false,
+    popupError: false,
   }),
   validations() {
     return {
       email: { required, email },
-      phone: { required },
+      phone: { required, minLength: minLength(5) },
       name: { required, minLength: minLength(2) },
       textArea: { required },
       companyName: { required },
@@ -209,7 +222,7 @@ export default {
     async sendForm() {
       const result = await this.v$.$validate();
       if (!result) {
-        return;
+        return this.popupErrorShowing();
       }
       this.submitStatus = "PENDING";
       this.v$.$reset();
@@ -225,6 +238,20 @@ export default {
       setTimeout(() => {
         this.popupVisible = false;
       }, 3000);
+    },
+    popupErrorShowing: function () {
+      this.popupError = true;
+      setTimeout(() => {
+        this.popupError = false;
+      }, 3000);
+    },
+    acceptNumber() {
+      var x = this.phone
+        .replace(/\D/g, "")
+        .match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+      this.phone = !x[2]
+        ? x[1]
+        : "(" + x[1] + ") " + x[2] + (x[3] ? "-" + x[3] : "");
     },
   },
   computed: {

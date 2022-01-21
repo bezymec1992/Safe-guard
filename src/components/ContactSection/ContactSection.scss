@@ -192,15 +192,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 4rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
     pointer-events: none;
     z-index: 100;
 
     .mini-popup {
-      padding: 1.1rem 2.4rem;
+      position: absolute;
+      left: 4rem;
+      bottom: 4rem;
+      padding: 1.5rem 2.4rem;
+      width: calc(100% - 8rem);
+      max-width: 50rem;
       color: $white;
       background: $apple;
       pointer-events: none;
@@ -208,11 +209,23 @@
       opacity: 0;
       transition: $transition;
 
+      @include media-breakpoint-down(md) {
+        left: 2rem;
+        bottom: 2rem;
+        padding: 1.1rem 1.9rem;
+        width: calc(100% - 4rem);
+      }
+
       &.visible {
+        position: absolute;
         opacity: 1;
         pointer-events: all;
         visibility: visible;
         transition: $transition;
+      }
+
+      &.error {
+        background: $sunset-orange;
       }
 
       .inner-holder {
@@ -226,6 +239,12 @@
         height: 1.8rem;
         margin-right: 2.4rem;
 
+        @include media-breakpoint-down(md) {
+          width: 1.8rem;
+          height: 1.8rem;
+          margin-right: 1.9rem;
+        }
+
         img {
           width: 100%;
           height: auto;
@@ -233,14 +252,22 @@
       }
 
       h3 {
-        margin-bottom: 0;
+        margin-bottom: 0.3rem;
         font-weight: 500;
         font-size: 2rem;
-        line-height: 1;
+
+        @include media-breakpoint-down(md) {
+          font-size: 1.4rem;
+        }
       }
 
       .text {
         font-size: 1.8rem;
+        line-height: 1;
+
+        @include media-breakpoint-down(md) {
+          font-size: 1.2rem;
+        }
       }
 
       p {

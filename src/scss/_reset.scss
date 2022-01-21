@@ -118,3 +118,51 @@ h3 {
     }
   }
 }
+
+.go-to-top {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: $black;
+  border: solid 0.1rem $white;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: $transition;
+  z-index: 10;
+
+  @include media-breakpoint-down(md) {
+    right: 4rem;
+    bottom: 6rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: $transition;
+  }
+
+  &:hover {
+    background: lighten($black, 20);
+  }
+
+  .icon-holder {
+    display: flex;
+    width: 2.2rem;
+    height: 1.1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
