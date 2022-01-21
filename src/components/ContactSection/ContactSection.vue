@@ -151,6 +151,19 @@
               </div>
             </form>
           </div>
+          <div class="mini-popup-wrapper">
+            <div class="mini-popup" :class="{ visible: popupVisible }">
+              <div class="inner-holder">
+                <div class="icon-holder">
+                  <img src="@/assets/images/icon-07.svg" alt="#" />
+                </div>
+                <div class="text">
+                  <h3>Success</h3>
+                  <p>Your message has been sent successfully!</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -199,24 +212,19 @@ export default {
         return;
       }
       this.submitStatus = "PENDING";
-      this.popupVisible = true;
       this.v$.$reset();
       this.name = "";
       this.email = "";
       this.phone = "";
       this.companyName = "";
       this.textArea = "";
-
-      // if (this.v$.$invalid) {
-      // 	this.submitStatus = "ERROR";
-      // } else {
-      // 	this.submitStatus = "PENDING";
-      // 	this.popupVisible = true;
-      // 	this.name = "";
-      // }
+      this.popupShowing();
     },
-    closePopup() {
-      this.popupVisible = !this.popupVisible;
+    popupShowing: function () {
+      this.popupVisible = true;
+      setTimeout(() => {
+        this.popupVisible = false;
+      }, 3000);
     },
   },
   computed: {

@@ -10,10 +10,10 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">1997 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">1997 years</strong>
-                <h3>Our management groups under the atest configuration</h3>
+                <strong class="date-point date-label active">1997 years</strong>
+                <h3 class="date-point">
+                  Our management groups under the atest configuration
+                </h3>
                 <div class="text-holder">
                   <p>
                     We have set up our global footprint, working with partners
@@ -24,10 +24,10 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">2001 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">2001 years</strong>
-                <h3>The company grows to over 25 employees</h3>
+                <strong class="date-point date-label">2001 years</strong>
+                <h3 class="date-point">
+                  The company grows to over 25 employees
+                </h3>
                 <div class="text-holder">
                   <p>The company grows to over 25 employees</p>
                 </div>
@@ -35,10 +35,10 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">2004 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">2004 years</strong>
-                <h3>Expanding our service offering with 2 more services</h3>
+                <strong class="date-point date-label">2004 years</strong>
+                <h3 class="date-point">
+                  Expanding our service offering with 2 more services
+                </h3>
                 <div class="text-holder">
                   <p>
                     Training/ Consultancy (Special Asset Management in the
@@ -50,10 +50,8 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">2009 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">2009 years</strong>
-                <h3>
+                <strong class="date-point date-label">2009 years</strong>
+                <h3 class="date-point">
                   First year ever we have retrieved over a 200 millions EURO
                 </h3>
                 <div class="text-holder">
@@ -67,10 +65,8 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">2015 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">2015 years</strong>
-                <h3>
+                <strong class="date-point date-label">2015 years</strong>
+                <h3 class="date-point">
                   Signing up with bigger financial firms and investments
                   companies
                 </h3>
@@ -86,10 +82,8 @@
             </div>
             <div class="row relative">
               <div class="col">
-                <strong class="date-label d-none d-lg-block">2017 years</strong>
-                <span class="date-dot"></span>
-                <strong class="date-label d-lg-none">2017 years</strong>
-                <h3>
+                <strong class="date-point date-label">2017 years</strong>
+                <h3 class="date-point">
                   We have entered the digital world, our clients were more in
                   need of digital protection of their brand
                 </h3>
@@ -111,69 +105,54 @@
 <script>
 export default {
   name: "TimelineSection",
-  created() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  unmounted() {
-    window.removeEventListener("scroll", this.handleScroll);
+  mounted() {
+    this.initHistoryTimeline();
   },
   methods: {
-    handleScroll() {
-      // console.log(event);
-    },
     initHistoryTimeline() {
       var el = document.querySelectorAll(".history-timeline");
 
-      Array.from(el).forEach(function (item) {
+      Array.from(el).forEach((item) => {
         var $timeline = item;
         var $progress = item.getElementsByClassName("timeline-progress")[0];
 
-        setProgress($timeline, $progress);
-        setActiveDate();
+        this.setProgress($timeline, $progress);
+        this.setActiveDate();
 
-        // window.addEventListener(
-        //   "scroll",
-        //   setProgress($timeline, $progress),
-        //   setActiveDate(),
-        //   console.log("scroll")
-        // );
-
-        // window.addEventListener("scroll", function () {
-        //   setProgress($timeline, $progress);
-        //   setActiveDate();
-        // });
-      });
-
-      function setProgress($timeline, $progress) {
-        var winH = window.innerHeight,
-          winScroll = window.scrollY,
-          offset = $timeline.getBoundingClientRect().top + window.scrollY,
-          height = $timeline.offsetHeight,
-          pos = 0;
-
-        pos = winScroll - offset + winH / 2;
-        pos = pos < 0 ? 0 : pos > height ? height : pos;
-
-        $progress.style.height = pos + "px";
-      }
-
-      function setActiveDate() {
-        var el = document.querySelectorAll(".history-section .date-label");
-
-        Array.from(el).forEach(function (item) {
-          var $label = item;
-          var winH = window.innerHeight;
-          var winScroll = window.scrollY;
-          var offset = $label.getBoundingClientRect().top + window.scrollY;
-          var pos = winScroll + winH / 2;
-
-          if (offset <= pos) {
-            $label.classList.add("active");
-          } else {
-            $label.classList.remove("active");
-          }
+        window.addEventListener("scroll", () => {
+          this.setProgress($timeline, $progress);
+          this.setActiveDate();
         });
-      }
+      });
+    },
+    setProgress($timeline, $progress) {
+      var winH = window.innerHeight,
+        winScroll = window.scrollY,
+        offset = $timeline.getBoundingClientRect().top + window.scrollY,
+        height = $timeline.offsetHeight,
+        pos = 0;
+
+      pos = winScroll - offset + winH / 2;
+      pos = pos < 0 ? 0 : pos > height ? height : pos;
+
+      $progress.style.height = pos + "px";
+    },
+    setActiveDate() {
+      var el = document.querySelectorAll(".timeline-holder .date-point");
+
+      Array.from(el).forEach(function (item) {
+        var $label = item;
+        var winH = window.innerHeight;
+        var winScroll = window.scrollY;
+        var offset = $label.getBoundingClientRect().top + window.scrollY;
+        var pos = winScroll + winH / 2;
+
+        if (offset <= pos) {
+          $label.classList.add("active");
+        } else {
+          $label.classList.remove("active");
+        }
+      });
     },
   },
 };

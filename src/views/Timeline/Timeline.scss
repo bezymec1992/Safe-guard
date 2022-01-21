@@ -6,12 +6,19 @@
       position: relative;
       background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
     }
+
+    .img-holder {
+      @include media-breakpoint-down(md) {
+        margin-left: -10rem;
+        margin-right: -2.4rem;
+      }
+    }
   }
 
   .quote-section {
     padding-bottom: 12.5rem;
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
       display: none;
     }
   }
