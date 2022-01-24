@@ -6,7 +6,9 @@
         <div class="row g-0">
           <div class="col-lg-6">
             <router-link to="/services/training">
-              <div class="gradient-block d-md-flex justify-content-md-center">
+              <div
+                class="gradient-block gradient-left d-md-flex justify-content-md-center"
+              >
                 <div class="punching-bag">
                   <img src="@/assets/images/img-03.png" alt="#" />
                 </div>
@@ -36,7 +38,9 @@
         <div class="row g-0">
           <div class="col-lg-6">
             <router-link to="/services/cyber-consultants">
-              <div class="gradient-block d-md-flex justify-content-md-center">
+              <div
+                class="gradient-block gradient-right d-md-flex justify-content-md-center"
+              >
                 <div class="phone-wrapper">
                   <div class="phone-holder">
                     <img
@@ -83,7 +87,9 @@
         <div class="row g-0">
           <div class="col-lg-6">
             <router-link to="/services/brand-protection">
-              <div class="gradient-block d-md-flex justify-content-md-center">
+              <div
+                class="gradient-block gradient-left d-md-flex justify-content-md-center"
+              >
                 <div class="building-wrapper">
                   <div class="building-holder">
                     <img src="@/assets/images/img-07.png" alt="#" />
@@ -121,7 +127,9 @@
         <div class="row g-0">
           <div class="col-lg-6">
             <router-link to="/services/software">
-              <div class="gradient-block d-md-flex justify-content-md-end">
+              <div
+                class="gradient-block gradient-right d-md-flex justify-content-md-end"
+              >
                 <div class="imac-wrapper">
                   <div class="imac-holder">
                     <img src="@/assets/images/img-010.png" alt="#" />
@@ -168,6 +176,11 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   name: "ServicesSection",
   props: {
@@ -178,6 +191,66 @@ export default {
   }),
   methods: {
     //
+  },
+  mounted() {
+    gsap.set(".services-section .h1", { opacity: 0 });
+    ScrollTrigger.batch(".services-section .h1", {
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          opacity: 1,
+          stagger: 0.15,
+        }),
+      start: "top 85%",
+      end: "bottom 30%",
+    });
+
+    gsap.set(".services-section .btn-holder", { opacity: 0 });
+    ScrollTrigger.batch(".services-section .btn-holder", {
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          opacity: 1,
+          stagger: 0.15,
+        }),
+      start: "top 85%",
+      end: "bottom 30%",
+    });
+
+    gsap.set(".services-section .gradient-left", { opacity: 0, x: 24 });
+    ScrollTrigger.batch(".services-section .gradient-left", {
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          opacity: 1,
+          x: 0,
+          stagger: 0.15,
+        }),
+      start: "top 85%",
+      end: "bottom 30%",
+    });
+
+    gsap.set(".services-section .gradient-right", { opacity: 0, x: -24 });
+    ScrollTrigger.batch(".services-section .gradient-right", {
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          opacity: 1,
+          x: 0,
+          stagger: 0.15,
+        }),
+      start: "top 85%",
+      end: "bottom 30%",
+    });
+
+    gsap.set(".services-section .content-holder", { opacity: 0, y: 24 });
+    ScrollTrigger.batch(".services-section .content-holder", {
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          opacity: 1,
+          y: 0,
+          stagger: 0.15,
+          delay: 0.2,
+        }),
+      start: "top 85%",
+      end: "bottom 30%",
+    });
   },
 };
 </script>

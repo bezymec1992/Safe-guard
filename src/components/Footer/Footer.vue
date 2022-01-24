@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="anim-col col-lg-6">
           <strong class="logo">
             <router-link to="/">
               <img src="@/assets/images/logo-white.svg" alt="SafeGuard" />
@@ -28,7 +28,7 @@
           </ul>
         </div>
         <div class="col-lg-6 d-flex justify-content-lg-center">
-          <div class="footer-group">
+          <div class="anim-col footer-group">
             <h3>Main</h3>
             <ul>
               <li><a href="#">Home</a></li>
@@ -38,7 +38,7 @@
               <li><a href="#">Contact us</a></li>
             </ul>
           </div>
-          <div class="footer-group">
+          <div class="anim-col footer-group">
             <h3>Services</h3>
             <ul>
               <li><a href="#">Training and Implementation</a></li>
@@ -96,6 +96,7 @@ export default {
     window.addEventListener("scroll", this.handleScroll);
     smoothscroll.polyfill();
   },
+  mounted() {},
 };
 </script>
 

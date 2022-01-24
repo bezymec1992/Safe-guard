@@ -186,6 +186,11 @@
 import useVuelidate from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   name: "ContactSection",
   setup: () => ({ v$: useVuelidate() }),
@@ -264,6 +269,12 @@ export default {
   },
   mounted() {
     this.assertMaxChars();
+    gsap.set(".contact-section .container", { opacity: 0, y: 50 });
+    ScrollTrigger.batch(".contact-section .container", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
   },
 };
 </script>
