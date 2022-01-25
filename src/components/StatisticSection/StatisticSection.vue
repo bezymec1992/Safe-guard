@@ -55,10 +55,10 @@ export default {
     gsap.set(".statistic-item", { opacity: 0, y: 24 });
 
     ScrollTrigger.batch(".statistic-item", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.35 }),
       // onLeave: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
-      onEnterBack: (batch) =>
-        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      // onEnterBack: (batch) =>
+      //   gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
       // onLeaveBack: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
 
       start: "top 85%",

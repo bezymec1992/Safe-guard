@@ -269,9 +269,9 @@ export default {
   },
   mounted() {
     this.assertMaxChars();
-    gsap.set(".contact-section .container", { opacity: 0, y: 50 });
+    gsap.set(".contact-section .container", { opacity: 0 });
     ScrollTrigger.batch(".contact-section .container", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, stagger: 0.15 }),
       start: "top 75%",
       end: "bottom 10%",
     });

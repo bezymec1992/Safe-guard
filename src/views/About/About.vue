@@ -60,7 +60,7 @@
       </div>
     </intro-section>
     <StatisticSection />
-    <txt-block :class="'style1 reverse'">
+    <txt-block :class="'txt-block-1 style1 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">Let Is Inroduce</h3>
         <div class="text-holder">
@@ -100,7 +100,7 @@
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'style2'">
+    <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
           A Team Dedicated To <br />
@@ -145,7 +145,7 @@
         <h2 class="h1">Managing Directors</h2>
       </div>
     </div>
-    <txt-block :class="'style1'">
+    <txt-block :class="'txt-block-2 style1'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
           Frank Balte <br />
@@ -188,7 +188,7 @@
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'style2 reverse'">
+    <txt-block :class="'txt-block-1 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
           Roger van Alphen <br />
@@ -284,6 +284,60 @@ export default {
           delay: 1,
           duration: 0.9,
         }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-1 .img-holder", { opacity: 0, x: 24 });
+    ScrollTrigger.batch(".txt-block-1 .img-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-1 .h2", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-1 .h2", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-1 .text-holder", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-1 .text-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+    /// txt-block-1
+    gsap.set(".txt-block-2 .img-holder", { opacity: 0, x: -24 });
+    ScrollTrigger.batch(".txt-block-2 .img-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-2 .h2", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-2 .h2", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-2 .text-holder", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-2 .text-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
       start: "top 75%",
       end: "bottom 10%",
     });

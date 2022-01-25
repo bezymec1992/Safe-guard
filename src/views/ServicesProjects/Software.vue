@@ -21,7 +21,8 @@
             class="col-md-6 d-flex align-items-md-center flex-md-row flex-column justify-content-center justify-content-md-end"
           >
             <div class="imac-holder">
-              <img src="@/assets/images/img-033.png" alt="#" />
+              <img src="@/assets/images/img-067.png" class="mac-off" alt="#" />
+              <img src="@/assets/images/img-068.png" class="mac-on" alt="#" />
               <div class="iphone-holder hld-1">
                 <img src="@/assets/images/img-034.png" alt="#" />
               </div>
@@ -41,7 +42,7 @@
         </div>
       </div>
     </intro-section>
-    <txt-block :class="'style1'">
+    <txt-block :class="'txt-block-2 style1'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">Tool #1</h3>
         <div class="text-holder">
@@ -95,7 +96,7 @@
         </div>
       </div>
     </visual-section>
-    <txt-block :class="'style2 reverse'">
+    <txt-block :class="'txt-block-1 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">Tool #2</h3>
         <div class="text-holder">
@@ -167,6 +168,11 @@ import TxtBlock from "@/components/TxtBlock/TxtBlock.vue";
 import VisualSection from "@/components/VisualSection/VisualSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   name: "Software",
   components: {
@@ -174,6 +180,112 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
+  },
+  mounted() {
+    gsap.set(".software .mac-off", {
+      opacity: 0,
+      scale: 0,
+      y: 100,
+    });
+    ScrollTrigger.batch(".software .mac-off", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, scale: 1, y: 0 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".software .mac-on", {
+      opacity: 0,
+    });
+    ScrollTrigger.batch(".software .mac-on", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, delay: 0.7 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".software .hld-1", {
+      opacity: 0,
+      y: -100,
+    });
+    ScrollTrigger.batch(".software .hld-1", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, delay: 1 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".software .hld-2", {
+      opacity: 0,
+      y: 100,
+    });
+    ScrollTrigger.batch(".software .hld-2", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, delay: 1 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-2 .img-holder", { opacity: 0, x: -24 });
+    ScrollTrigger.batch(".txt-block-2 .img-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-2 .h2", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-2 .h2", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-2 .text-holder", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-2 .text-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+    //txt-block-2
+
+    gsap.set(".txt-block-1 .img-holder", { opacity: 0, x: 24 });
+    ScrollTrigger.batch(".txt-block-1 .img-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-1 .h2", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-1 .h2", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+
+    gsap.set(".txt-block-1 .text-holder", {
+      opacity: 0,
+      y: 24,
+    });
+    ScrollTrigger.batch(".txt-block-1 .text-holder", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
+    /// txt-block-1
+
+    gsap.set(".visual-section", {
+      opacity: 0,
+    });
+    ScrollTrigger.batch(".visual-section", {
+      onEnter: (batch) => gsap.to(batch, { opacity: 1 }),
+      start: "top 75%",
+      end: "bottom 10%",
+    });
   },
 };
 </script>

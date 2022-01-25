@@ -180,6 +180,19 @@
           max-width: 47.8rem;
         }
       }
+
+      .iphone-holder {
+        z-index: 3;
+      }
+
+      .mac-on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+      }
     }
   }
 

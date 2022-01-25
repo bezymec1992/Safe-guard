@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="scroll-down">
+      <div class="scroll-down d-none d-md-flex">
         <a href="#" @click.prevent="scrollToNextSection()">
           <img src="@/assets/images/icon-01.svg" alt="#" />
           <span class="arrow-down"
@@ -153,8 +153,8 @@ export default {
     ScrollTrigger.batch(".intro-section .helm", {
       onEnter: (batch) =>
         gsap.to(batch, { opacity: 1, x: 0, y: 0, stagger: 0.15, scale: 1 }),
-      start: "top 95%",
-      end: "bottom 30%",
+      start: "top 100%",
+      end: "bottom 100%",
       // markers: true,
     });
 
@@ -175,8 +175,8 @@ export default {
           scale: 1,
           delay: 0.5,
         }),
-      start: "top 75%",
-      end: "bottom 10%",
+      start: "top 80%",
+      end: "bottom 30%",
     });
 
     gsap.set(".intro-section .info", {
@@ -188,8 +188,8 @@ export default {
           opacity: 1,
           delay: 1,
         }),
-      start: "top 75%",
-      end: "bottom 10%",
+      start: "top 80%",
+      end: "bottom 30%",
     });
   },
 };
