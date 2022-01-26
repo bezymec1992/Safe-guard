@@ -124,7 +124,7 @@ export default {
         gsap.to(batch, {
           opacity: 1,
           stagger: 0.45,
-          delay: 1.5,
+          delay: 1.1,
           duration: 2,
         }),
       start: "top 75%",

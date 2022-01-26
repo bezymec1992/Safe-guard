@@ -87,7 +87,7 @@ export default {
           opacity: 1,
           y: 0,
           stagger: 0.15,
-          delay: 0.5,
+          delay: 0.3,
           duration: 0.5,
           rotation: 0,
         }),
@@ -118,7 +118,7 @@ export default {
         gsap.to(batch, {
           scale: 1,
           opacity: 1,
-          delay: 1.5,
+          delay: 1.2,
           duration: 0.5,
           stagger: 0.35,
         }),

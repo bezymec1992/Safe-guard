@@ -220,7 +220,7 @@
         }
 
         &.msg-2 {
-          bottom: 30%;
+          bottom: 20%;
           right: -7%;
           max-width: 70%;
 
@@ -291,6 +291,12 @@
           }
         }
       }
+    }
+  }
+
+  .ml-lg--10 {
+    @include media-breakpoint-up(lg) {
+      margin-left: -10rem;
     }
   }
 }

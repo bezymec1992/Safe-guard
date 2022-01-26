@@ -7,7 +7,14 @@
       background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
     }
 
+    .h1 {
+      position: relative;
+      z-index: 2;
+    }
+
     .img-holder {
+      margin-left: -10rem;
+
       @include media-breakpoint-down(md) {
         margin-left: -10rem;
         margin-right: -2.4rem;

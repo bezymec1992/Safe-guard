@@ -278,11 +278,13 @@ export default {
     ScrollTrigger.batch(".diving-suit .diving-suit-img-2", {
       onEnter: (batch) =>
         gsap.to(batch, {
-          opacity: 1,
-          scale: 1,
-          y: 0,
           delay: 1,
-          duration: 0.9,
+          duration: 1,
+
+          keyframes: [
+            { opacity: 1, scale: 1 },
+            { y: 0, delay: 0.2 },
+          ],
         }),
       start: "top 75%",
       end: "bottom 10%",

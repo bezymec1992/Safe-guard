@@ -286,11 +286,12 @@ export default {
     ScrollTrigger.batch(".intro-section .hld-1", {
       onEnter: (batch) =>
         gsap.to(batch, {
-          opacity: 1,
-          scale: 1,
-          translateX: "150%",
-          duration: 1,
+          duration: 1.5,
           delay: 1,
+          keyframes: [
+            { opacity: 1, scale: 1 },
+            { translateX: "150%", delay: 0.5 },
+          ],
         }),
       start: "top 75%",
       end: "bottom 10%",
@@ -304,11 +305,12 @@ export default {
     ScrollTrigger.batch(".intro-section .hld-2", {
       onEnter: (batch) =>
         gsap.to(batch, {
-          opacity: 1,
-          scale: 1,
-          translateX: "-100%",
-          duration: 1,
+          duration: 1.5,
           delay: 1,
+          keyframes: [
+            { opacity: 1, scale: 1 },
+            { translateX: "-100%", delay: 0.5 },
+          ],
         }),
       start: "top 75%",
       end: "bottom 10%",

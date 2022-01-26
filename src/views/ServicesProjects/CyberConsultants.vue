@@ -75,8 +75,8 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="img-holder">
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="img-holder ml-lg--10">
           <img src="@/assets/images/img-025.png" alt="#" />
         </div>
       </div>
@@ -124,7 +124,7 @@
         <div class="img-holder">
           <div class="phone-wrapper d-flex justify-content-center">
             <div class="phone-holder">
-              <img src="@/assets/images/img-013.png" alt="#" />
+              <img src="@/assets/images/img-074.png" alt="#" />
               <div class="msg-holder msg-1">
                 <img src="@/assets/images/img-072.png" alt="#" />
               </div>

@@ -80,7 +80,7 @@ export default {
           y: 0,
           stagger: 0.4,
           delay: 0.7,
-          duration: 1,
+          duration: 0.6,
         }),
       start: "top 75%",
       end: "bottom 10%",

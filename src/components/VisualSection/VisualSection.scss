@@ -1,78 +1,78 @@
 .visual-section {
-	max-width: 150rem;
-	margin: auto;
-	padding-top: 7rem;
-	background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+  max-width: 150rem;
+  margin: auto;
+  padding-top: 7rem;
+  background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
-	@include media-breakpoint-down(md) {
-		padding-top: 8rem;
-		background: linear-gradient(342.45deg, #5d90c6 5.67%, #c0cfee 65.87%);
-	}
+  @include media-breakpoint-down(md) {
+    padding-top: 8rem;
+    background: linear-gradient(342.45deg, #5d90c6 5.67%, #c0cfee 65.87%);
+  }
 
-	.h1 {
-		margin-bottom: 3rem;
+  .h1 {
+    margin-bottom: 3rem;
 
-		@include media-breakpoint-down(md) {
-			margin-bottom: 2rem;
-		}
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
+    }
 
-		&.white {
-			color: $white;
-		}
-	}
+    &.white {
+      color: $white;
+    }
+  }
 
-	.text-holder {
-		max-width: 43rem;
-		font-size: 1.8rem;
+  .text-holder {
+    max-width: 43rem;
+    font-size: 1.8rem;
 
-		@include media-breakpoint-down(md) {
-			font-size: 1.4rem;
-		}
-	}
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+    }
+  }
 
-	.img-holder {
-		max-width: 56.1rem;
+  .img-holder {
+    max-width: 56.1rem;
 
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 
-	&.bg-img {
-		padding-top: 3.5rem;
-		background-size: cover;
-		background-position: center;
-		min-height: 70rem;
+  &.bg-img {
+    padding-top: 3.5rem;
+    background-size: cover;
+    background-position: center;
+    min-height: 70rem;
 
-		@include media-breakpoint-down(md) {
-			padding-top: 3rem;
-			min-height: 52.2rem;
-		}
+    @include media-breakpoint-down(md) {
+      padding-top: 3rem;
+      min-height: 52.2rem;
+    }
 
-		.h1 {
-			@include media-breakpoint-down(md) {
-				font-size: 2.5rem;
-			}
-		}
-	}
+    .h1 {
+      @include media-breakpoint-down(md) {
+        font-size: 2.5rem;
+      }
+    }
+  }
 
-	&.img-pos1 {
-		position: relative;
+  &.img-pos1 {
+    position: relative;
 
-		.row {
-			min-height: 69.7rem;
-		}
+    .row {
+      min-height: 69.7rem;
+    }
 
-		.img-holder {
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			width: 50%;
+    .img-holder {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      min-width: 50%;
 
-			@include media-breakpoint-down(md) {
-				width: 100%;
-			}
-		}
-	}
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+  }
 }
