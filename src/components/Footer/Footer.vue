@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="anim-col col-lg-6">
+        <div class="col-lg-6">
           <strong class="logo">
             <router-link to="/">
               <img src="@/assets/images/logo-white.svg" alt="SafeGuard" />
@@ -28,23 +28,39 @@
           </ul>
         </div>
         <div class="col-lg-6 d-flex justify-content-lg-center">
-          <div class="anim-col footer-group">
+          <div class="footer-group">
             <h3>Main</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Our history</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/about">About us</router-link></li>
+              <li><router-link to="/services">What We Do</router-link></li>
+              <li>
+                <router-link to="/about/timeline">Our history</router-link>
+              </li>
+              <li><router-link to="/contact-us">Contact us</router-link></li>
             </ul>
           </div>
-          <div class="anim-col footer-group">
+          <div class="footer-group">
             <h3>Services</h3>
             <ul>
-              <li><a href="#">Training and Implementation</a></li>
-              <li><a href="#">Cyber Consultants</a></li>
-              <li><a href="#">Consultancy and brand protection</a></li>
-              <li><a href="#">Software</a></li>
+              <li>
+                <router-link to="/services/training"
+                  >Training and Implementation</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/services/cyber-consultants"
+                  >Cyber Consultants</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/services/brand-protection"
+                  >Consultancy and brand protection</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/services/software">Software</router-link>
+              </li>
             </ul>
           </div>
         </div>
