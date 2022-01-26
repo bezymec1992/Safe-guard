@@ -42,7 +42,7 @@
                 We know all the strategic and operational moves to protect you.
               </p>
             </div>
-            <router-link to="/services" class="btn btn-arrow d-md-none">
+            <router-link to="/about/timeline" class="btn btn-arrow d-md-none">
               See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
