@@ -1,6 +1,8 @@
 .services-project {
 	.intro-section {
 		position: relative;
+		display: flex;
+		flex-direction: column;
 		overflow: hidden;
 		background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
@@ -9,8 +11,14 @@
 			background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
 		}
 
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(md) {
 			min-height: 100vh;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
 		}
 
 		.text-col {
@@ -18,9 +26,9 @@
 			z-index: 2;
 
 			.h1 {
-				@include media-breakpoint-down(md) {
-					margin-bottom: 41.2rem;
-				}
+				// @include media-breakpoint-down(md) {
+				// 	margin-bottom: 41.2rem;
+				// }
 			}
 		}
 
@@ -42,7 +50,7 @@
 			}
 
 			@include media-breakpoint-down(sm) {
-				max-width: 40.1rem;
+				max-width: 35.1rem;
 				right: -5rem;
 			}
 
@@ -109,14 +117,11 @@
 
 			@include media-breakpoint-down(md) {
 				position: absolute;
-				top: 20%;
+				top: 50%;
+				transform: translateY(-50%);
 				right: 0;
 				z-index: 1;
-			}
-
-			@include media-breakpoint-down(sm) {
-				top: 29%;
-				max-width: 27rem;
+				max-width: 22rem;
 			}
 
 			img {

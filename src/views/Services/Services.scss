@@ -13,8 +13,6 @@
 		}
 
 		.text-holder {
-			max-width: 29.7rem;
-
 			@include media-breakpoint-down(md) {
 				display: none;
 				font-size: 1.6rem;
@@ -23,6 +21,7 @@
 			&.mobile {
 				@include media-breakpoint-up(md) {
 					display: none;
+					max-width: 29.7rem;
 				}
 
 				@include media-breakpoint-down(md) {
@@ -37,7 +36,7 @@
 
 			@include media-breakpoint-down(md) {
 				align-self: center;
-				margin-bottom: 9.7rem;
+				margin-bottom: 3.7rem;
 				right: -7%;
 			}
 
