@@ -1,32 +1,34 @@
 .timeline-page {
-  .intro-section {
-    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+	.intro-section {
+		background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
-    @include media-breakpoint-down(md) {
-      position: relative;
-      background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-    }
+		@include media-breakpoint-down(md) {
+			position: relative;
+			background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+			min-height: 100vh;
+		}
 
-    .h1 {
-      position: relative;
-      z-index: 2;
-    }
+		.h1 {
+			position: relative;
+			z-index: 2;
+		}
 
-    .img-holder {
-      margin-left: -10rem;
+		.img-holder {
+			margin-left: -10rem;
 
-      @include media-breakpoint-down(md) {
-        margin-left: -10rem;
-        margin-right: -2.4rem;
-      }
-    }
-  }
+			@include media-breakpoint-down(md) {
+				margin-top: 3rem;
+				margin-left: -10rem;
+				margin-right: -2.4rem;
+			}
+		}
+	}
 
-  .quote-section {
-    padding-bottom: 12.5rem;
+	.quote-section {
+		padding-bottom: 12.5rem;
 
-    @include media-breakpoint-down(lg) {
-      display: none;
-    }
-  }
+		@include media-breakpoint-down(lg) {
+			display: none;
+		}
+	}
 }
