@@ -1,16 +1,12 @@
 <template>
-  <div class="intro-section">
-    <slot></slot>
-  </div>
+	<div class="intro-section">
+		<slot></slot>
+	</div>
 </template>
 
 <script>
 export default {
-  name: "IntroSection",
-  props: {
-    // msg: String
-  },
-  data: () => ({}),
+	name: "IntroSection"
 };
 </script>
 

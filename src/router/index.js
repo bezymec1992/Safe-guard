@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home/Home.vue";
 
+
 const routes = [
   {
     path: "/",
@@ -59,6 +60,7 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0, behavior: "smooth" };
   },
+
 });
 
 export default router;
