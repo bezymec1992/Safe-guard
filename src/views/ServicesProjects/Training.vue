@@ -171,11 +171,6 @@ import TxtBlock from "@/components/TxtBlock/TxtBlock.vue";
 import VisualSection from "@/components/VisualSection/VisualSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
 
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default {
   name: "Training",
   components: {
@@ -183,52 +178,6 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
-  },
-  mounted() {
-    gsap.set(".visual-section", {
-      opacity: 0,
-    });
-    ScrollTrigger.batch(".visual-section", {
-      onEnter: (batch) =>
-        gsap.to(batch, {
-          opacity: 1,
-          delay: 0.5,
-          duration: 0.5,
-        }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
-
-    gsap.set(".visual-section .anim-item", {
-      opacity: 0,
-      y: 24,
-    });
-    ScrollTrigger.batch(".visual-section .anim-item", {
-      onEnter: (batch) =>
-        gsap.to(batch, {
-          opacity: 1,
-          y: 0,
-          stagger: 0.35,
-          delay: 0.7,
-          duration: 0.7,
-        }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
-
-    gsap.set(".visual-section .img-holder", {
-      opacity: 0,
-    });
-    ScrollTrigger.batch(".visual-section .img-holder", {
-      onEnter: (batch) =>
-        gsap.to(batch, {
-          opacity: 1,
-          delay: 1.5,
-          duration: 0.7,
-        }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
   },
 };
 </script>
