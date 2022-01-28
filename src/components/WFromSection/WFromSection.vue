@@ -30,52 +30,8 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default {
   name: "WFromSection",
-  props: {
-    //
-  },
-  data: () => ({
-    //
-  }),
-  methods: {
-    //
-  },
-  mounted() {
-    gsap.set(".wfrom-section .col-md-6", { opacity: 0, y: 24 });
-
-    ScrollTrigger.batch(".wfrom-section .col-md-6", {
-      onEnter: (batch) =>
-        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, delay: 0.3 }),
-      // onLeave: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
-      onEnterBack: (batch) =>
-        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      // onLeaveBack: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
-
-      start: "top 85%",
-      end: "bottom 10%",
-      // markers: true,
-    });
-
-    gsap.set(".wfrom-section .h2", { opacity: 0, y: 24 });
-
-    ScrollTrigger.batch(".wfrom-section .h2", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      // onLeave: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
-      onEnterBack: (batch) =>
-        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      // onLeaveBack: (batch) => gsap.to(batch, { opacity: 0, y: 24 }),
-
-      start: "top 85%",
-      end: "bottom 10%",
-      // markers: true,
-    });
-  },
 };
 </script>
 
