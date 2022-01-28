@@ -42,28 +42,12 @@ import IntroSection from "@/components/IntroSection/IntroSection.vue";
 import TimelineSection from "@/components/TimelineSection/TimelineSection.vue";
 import QuoteSection from "@/components/QuoteSection/QuoteSection.vue";
 
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default {
   name: "Timeline",
   components: {
     IntroSection,
     TimelineSection,
     QuoteSection,
-  },
-  mounted() {
-    gsap.set(".intro-section .img-holder", {
-      opacity: 0,
-      y: 24,
-    });
-    ScrollTrigger.batch(".intro-section .img-holder", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, scale: 1 }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
   },
 };
 </script>

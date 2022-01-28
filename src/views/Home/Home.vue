@@ -48,7 +48,7 @@
       </div>
     </intro-section>
     <StatisticSection />
-    <txt-block>
+    <txt-block :class="'txt-block-1'">
       <div class="col-md-6">
         <div class="img-holder">
           <img src="@/assets/images/img-02.jpg" alt="#" />
@@ -88,11 +88,6 @@ import WWSection from "@/components/WWSection/WWSection.vue";
 import WFromSection from "@/components/WFromSection/WFromSection.vue";
 import ContactSection from "@/components/ContactSection/ContactSection.vue";
 
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default {
   name: "Home",
   components: {
@@ -114,83 +109,6 @@ export default {
         behavior: "smooth",
       });
     },
-  },
-  mounted() {
-    gsap.set(".txt-block .img-holder", { opacity: 0, x: -24 });
-    ScrollTrigger.batch(".txt-block .img-holder", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
-
-    gsap.set(".txt-block .h2", {
-      opacity: 0,
-      y: 24,
-    });
-    ScrollTrigger.batch(".txt-block .h2", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
-
-    gsap.set(".txt-block .text-holder", {
-      opacity: 0,
-      y: 24,
-    });
-    ScrollTrigger.batch(".txt-block .text-holder", {
-      onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      start: "top 75%",
-      end: "bottom 10%",
-    });
-
-    gsap.set(".intro-section .helm", {
-      opacity: 0,
-      x: -224,
-      y: 200,
-      scale: 0,
-      scaleX: 20,
-    });
-    ScrollTrigger.batch(".intro-section .helm", {
-      onEnter: (batch) =>
-        gsap.to(batch, { opacity: 1, x: 0, y: 0, stagger: 0.15, scale: 1 }),
-      start: "top 100%",
-      end: "bottom 100%",
-      // markers: true,
-    });
-
-    gsap.set(".intro-section .earth", {
-      opacity: 0,
-      x: 24,
-      y: 20,
-      scale: 0,
-      scaleX: 20,
-    });
-    ScrollTrigger.batch(".intro-section .earth", {
-      onEnter: (batch) =>
-        gsap.to(batch, {
-          opacity: 1,
-          x: 0,
-          y: 0,
-          stagger: 0.15,
-          scale: 1,
-          delay: 0.5,
-        }),
-      start: "top 80%",
-      end: "bottom 30%",
-    });
-
-    gsap.set(".intro-section .info", {
-      opacity: 0,
-    });
-    ScrollTrigger.batch(".intro-section .info", {
-      onEnter: (batch) =>
-        gsap.to(batch, {
-          opacity: 1,
-          delay: 1,
-        }),
-      start: "top 80%",
-      end: "bottom 30%",
-    });
   },
 };
 </script>
