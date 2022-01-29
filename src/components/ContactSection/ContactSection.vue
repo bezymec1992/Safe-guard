@@ -30,14 +30,14 @@
 									<div class="form-group">
 										<label for="lbl-01">Full Name</label>
 										<div class="form-holder">
-											<input type="text" placeholder="Name" class="form-control" id="lbl-01" :class="{ error: v$.name.$error }" v-model="name" @blur="v$.name.$touch" />
+											<input type="text" placeholder="Name" class="form-control" id="lbl-01" :class="{ error: v$.name.$error }" v-model.trim="name" @blur="v$.name.$touch" />
 											<span v-if="v$.name.$error" class="error-form"><span class="error-icon" @click="errorFormsClick($event)"></span> <span class="error-title">Required field</span></span>
 										</div>
 									</div>
 									<div class="form-group">
 										<label for="lbl-02">Email</label>
 										<div class="form-holder">
-											<input type="email" placeholder="Email" class="form-control" id="lbl-02" :class="{ error: v$.email.$error }" v-model="email" @blur="v$.email.$touch" />
+											<input type="email" placeholder="Email" class="form-control" id="lbl-02" :class="{ error: v$.email.$error }" v-model.trim="email" @blur="v$.email.$touch" />
 											<span v-if="v$.email.$error" class="error-form"><span class="error-icon" @click="errorFormsClick($event)"></span> <span class="error-title">Invalid email</span></span>
 										</div>
 									</div>
@@ -53,7 +53,7 @@
 									<div class="form-group">
 										<label for="lbl-04">Company Name</label>
 										<div class="form-holder">
-											<input type="text" placeholder="Company Name" class="form-control" id="lbl-04" :class="{ error: v$.companyName.$error }" v-model="companyName" @blur="v$.companyName.$touch" />
+											<input type="text" placeholder="Company Name" class="form-control" id="lbl-04" :class="{ error: v$.companyName.$error }" v-model.trim="companyName" @blur="v$.companyName.$touch" />
 											<span v-if="v$.companyName.$error" class="error-form"><span class="error-icon" @click="errorFormsClick($event)"></span> <span class="error-title">Required field</span></span>
 										</div>
 									</div>
@@ -62,7 +62,7 @@
 									<div class="form-group textarea">
 										<label for="lbl-05">Write Us Messages</label>
 										<div class="form-holder">
-											<textarea placeholder="Write a message" ref="textarea" id="lbl-06" class="form-control" v-model="textArea" @input="assertMaxChars()" @blur="v$.textArea.$touch" :class="{ error: v$.textArea.$error }"></textarea>
+											<textarea placeholder="Write a message" ref="textarea" id="lbl-06" class="form-control" v-model.trim="textArea" @input="assertMaxChars()" @blur="v$.textArea.$touch" :class="{ error: v$.textArea.$error }"></textarea>
 											<span v-if="v$.textArea.$error" class="error-form"
 												><span class="error-icon" @click="errorFormsClick($event)"></span>
 												<span class="error-title">Required field</span>
@@ -134,7 +134,9 @@ export default {
 	},
 	methods: {
 		errorFormsClick: function (event) {
-			event.target.nextSibling.classList.add("show");
+			// console.log(event);
+			event.target.nextElementSibling.classList.add("show");
+			// event.target.nextSibling.classList.add("show");
 		},
 		assertMaxChars: function () {
 			const { textarea } = this.$refs;
