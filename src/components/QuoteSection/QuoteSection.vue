@@ -7,8 +7,13 @@
 </template>
 
 <script>
+import { gsapInit } from "@/helper/gsap-animations/QuoteSection.js";
+
 export default {
-	name: "QuoteSection"
+	name: "QuoteSection",
+	mounted() {
+		gsapInit();
+	}
 };
 </script>
 

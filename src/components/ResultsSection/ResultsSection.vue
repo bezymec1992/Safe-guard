@@ -26,43 +26,13 @@
 				</div>
 				<div class="col-md-6 d-flex align-items-center">
 					<div class="row row-items">
-						<div class="col-6">
+						<div class="col-6" v-for="item in resultsItems" :key="item.id">
 							<div class="result-item anim-item-2">
 								<div class="img-holder">
-									<img src="@/assets/images/img-043.svg" alt="#" />
+									<img :src="require(`@/assets/images/${item.image}`)" :alt="item.alt" />
 								</div>
 								<div class="text">
-									<p>Preventive measurements implemented.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="result-item anim-item-2">
-								<div class="img-holder">
-									<img src="@/assets/images/img-044.svg" alt="#" />
-								</div>
-								<div class="text">
-									<p>Preventive measurements implemented.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="result-item anim-item-2">
-								<div class="img-holder">
-									<img src="@/assets/images/img-045.svg" alt="#" />
-								</div>
-								<div class="text">
-									<p>Preventive measurements implemented.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="result-item anim-item-2">
-								<div class="img-holder">
-									<img src="@/assets/images/img-046.svg" alt="#" />
-								</div>
-								<div class="text">
-									<p>Preventive measurements implemented.</p>
+									<p>{{ item.description }}</p>
 								</div>
 							</div>
 						</div>
@@ -77,8 +47,43 @@
 </template>
 
 <script>
+import { gsapInit } from "@/helper/gsap-animations/ResultsSection.js";
+
 export default {
-	name: "ResultsSection"
+	name: "ResultsSection",
+	data() {
+		return {
+			resultsItems: [
+				{
+					id: 1,
+					alt: "#",
+					description: "Preventive measurements implemented.",
+					image: "img-043.svg"
+				},
+				{
+					id: 2,
+					alt: "#",
+					description: "Preventive measurements implemented.",
+					image: "img-044.svg"
+				},
+				{
+					id: 3,
+					alt: "#",
+					description: "Preventive measurements implemented.",
+					image: "img-045.svg"
+				},
+				{
+					id: 4,
+					alt: "#",
+					description: "Preventive measurements implemented.",
+					image: "img-046.svg"
+				}
+			]
+		};
+	},
+	mounted() {
+		gsapInit();
+	}
 };
 </script>
 

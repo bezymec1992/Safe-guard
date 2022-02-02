@@ -110,6 +110,7 @@
 <script>
 import useVuelidate from "@vuelidate/core";
 import { required, email, minLength } from "@vuelidate/validators";
+import { gsapInit } from "@/helper/gsap-animations/ContactSection.js";
 
 export default {
 	name: "ContactSection",
@@ -187,6 +188,7 @@ export default {
 	},
 	mounted() {
 		this.assertMaxChars();
+		gsapInit();
 	}
 };
 </script>

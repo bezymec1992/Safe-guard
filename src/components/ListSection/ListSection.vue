@@ -24,8 +24,13 @@
 </template>
 
 <script>
+import { gsapInit } from "@/helper/gsap-animations/ListSection.js";
+
 export default {
-	name: "ListSection"
+	name: "ListSection",
+	mounted() {
+		gsapInit();
+	}
 };
 </script>
 

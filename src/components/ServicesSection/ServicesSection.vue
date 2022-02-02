@@ -136,8 +136,13 @@
 </template>
 
 <script>
+import { gsapInit } from "@/helper/gsap-animations/ServicesSection.js";
+
 export default {
-	name: "ServicesSection"
+	name: "ServicesSection",
+	mounted() {
+		gsapInit();
+	}
 };
 </script>
 
