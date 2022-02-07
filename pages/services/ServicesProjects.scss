@@ -1,0 +1,331 @@
+.services-project {
+  .intro-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+
+    @include media-breakpoint-down(md) {
+      position: relative;
+      background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+    }
+
+    @include media-breakpoint-down(md) {
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .text-col {
+      position: relative;
+      z-index: 2;
+    }
+
+    .text-holder {
+      &.mobile {
+        @include media-breakpoint-up(md) {
+          display: none;
+          max-width: 29.7rem;
+        }
+      }
+    }
+
+    .punching-bag {
+      max-width: 44.9rem;
+      z-index: 1;
+
+      @include media-breakpoint-up(md) {
+        position: relative;
+        margin-top: -23rem;
+        left: -4rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        position: absolute;
+        max-width: 46.1rem;
+        top: 0;
+        right: -10rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        max-width: 35.1rem;
+        right: -5rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .phone-wrapper {
+      .phone-holder {
+        position: relative;
+
+        @include media-breakpoint-up(md) {
+          position: absolute;
+          bottom: 0;
+          right: 15%;
+        }
+
+        @include media-breakpoint-down(md) {
+          max-width: 24.7rem;
+          margin: auto auto 4rem;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+
+        &.desktop {
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
+
+        &.mobile {
+          @include media-breakpoint-up(md) {
+            display: none;
+          }
+        }
+      }
+
+      .msg-holder {
+        position: absolute;
+
+        &.msg-1 {
+          top: 10%;
+          left: -18%;
+          max-width: 71%;
+        }
+
+        &.msg-2 {
+          bottom: 15%;
+          right: -18%;
+          max-width: 80%;
+        }
+      }
+    }
+
+    .building-holder {
+      position: relative;
+      z-index: 2;
+      max-width: 32rem;
+
+      @include media-breakpoint-down(md) {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        z-index: 1;
+        max-width: 22rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .cloud-holder {
+        position: absolute;
+
+        &.hld-1 {
+          top: 10%;
+          left: -20%;
+          max-width: 50%;
+        }
+
+        &.hld-2 {
+          top: 30%;
+          right: -40%;
+          max-width: 100%;
+          z-index: -1;
+        }
+      }
+    }
+
+    .imac-holder {
+      position: relative;
+      max-width: 66.8rem;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3rem;
+        max-width: 48.7rem;
+        right: -40%;
+      }
+
+      @include media-breakpoint-down(sm) {
+        margin-top: -4rem;
+        margin-bottom: -0.5rem;
+        margin-left: -10rem;
+        margin-right: -3rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .iphone-holder {
+        position: absolute;
+
+        &.hld-1 {
+          left: 0%;
+          bottom: 9%;
+          width: 20%;
+        }
+
+        &.hld-2 {
+          left: 15%;
+          bottom: 5%;
+          width: 20%;
+        }
+      }
+    }
+
+    &.cyber-consultants {
+      .h1 {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 2.8rem;
+        }
+      }
+    }
+
+    &.software {
+      .h1 {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .text-holder {
+        @include media-breakpoint-up(md) {
+          max-width: 47.8rem;
+        }
+      }
+
+      .iphone-holder {
+        z-index: 3;
+      }
+
+      .mac-on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+      }
+    }
+  }
+
+  .txt-block {
+    .phone-holder {
+      position: relative;
+      max-width: 35.9rem;
+
+      @include media-breakpoint-down(md) {
+        max-width: 23.3rem;
+      }
+
+      .msg-holder {
+        position: absolute;
+
+        &.msg-1 {
+          top: 8%;
+          left: -27%;
+          width: 70%;
+
+          @include media-breakpoint-down(md) {
+            left: -20%;
+            width: 60%;
+          }
+        }
+
+        &.msg-2 {
+          bottom: 20%;
+          right: -7%;
+          width: 70%;
+
+          @include media-breakpoint-down(md) {
+            width: 60%;
+          }
+        }
+      }
+    }
+
+    .text-rows {
+      .text-row {
+        &:not(:last-child) {
+          @include media-breakpoint-up(md) {
+            margin-bottom: 6rem;
+          }
+        }
+      }
+    }
+
+    &.style1 {
+      padding-top: 16.2rem;
+      padding-bottom: 18rem;
+
+      @include media-breakpoint-down(md) {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+      }
+    }
+
+    &.style2 {
+      padding-top: 20rem;
+      padding-bottom: 13rem;
+
+      @include media-breakpoint-down(md) {
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+      }
+    }
+  }
+
+  .buttons-section {
+    padding-top: 12rem;
+    padding-bottom: 18rem;
+
+    @include media-breakpoint-down(md) {
+      padding-top: 7rem;
+      padding-bottom: 10rem;
+    }
+
+    .container {
+      max-width: 52.6rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn {
+      &:first-child {
+        flex-direction: row-reverse;
+
+        .arrow-wrapper {
+          margin-left: 0;
+          margin-right: 2.4rem;
+          transform: rotate(180deg);
+
+          @include media-breakpoint-down(md) {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .ml-lg--10 {
+    @include media-breakpoint-up(lg) {
+      margin-left: -10rem;
+    }
+  }
+}
