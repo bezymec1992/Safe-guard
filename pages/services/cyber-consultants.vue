@@ -154,7 +154,7 @@
         </div>
       </div>
     </txt-block>
-    <PlyrSection :fileName="'vid-01.mp4'" />
+    <PlyrSection :file-name="'vid-01.mp4'" />
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -189,67 +189,6 @@ export default {
     ButtonsSection,
   },
   mounted() {
-    // gsap.set('.cyber-consultants .phone-img', {
-    //   opacity: 0,
-    //   rotation: -10,
-    //   y: 100,
-    //   x: 50,
-    // })
-    // ScrollTrigger.batch('.intro-section .phone-img', {
-    //   onEnter: (batch) =>
-    //     gsap.to(batch, {
-    //       opacity: 1,
-    //       x: 0,
-    //       y: 0,
-    //       stagger: 0.15,
-    //       delay: 0.5,
-    //       duration: 0.5,
-    //       rotation: 0,
-    //     }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // gsap.set('.intro-section .msg-holder', {
-    //   opacity: 0,
-    //   scale: 0,
-    // })
-    // ScrollTrigger.batch('.intro-section .msg-holder', {
-    //   onEnter: (batch) =>
-    //     gsap.to(batch, {
-    //       scale: 1,
-    //       opacity: 1,
-    //       delay: 1,
-    //       duration: 0.5,
-    //       stagger: 0.35,
-    //     }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // gsap.set('.txt-block-2 .img-holder', { opacity: 0, x: -24 })
-    // ScrollTrigger.batch('.txt-block-2 .img-holder', {
-    //   onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // gsap.set('.txt-block-2 .h2', {
-    //   opacity: 0,
-    //   y: 24,
-    // })
-    // ScrollTrigger.batch('.txt-block-2 .h2', {
-    //   onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // gsap.set('.txt-block-2 .text-holder', {
-    //   opacity: 0,
-    //   y: 24,
-    // })
-    // ScrollTrigger.batch('.txt-block-2 .text-holder', {
-    //   onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // //txt-block-2
     // gsap.set('.visual-section', {
     //   opacity: 0,
     // })

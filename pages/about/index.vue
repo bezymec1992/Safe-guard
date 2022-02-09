@@ -237,7 +237,6 @@ import StatisticSection from '@/components/StatisticSection/StatisticSection.vue
 import ResultsSection from '@/components/ResultsSection/ResultsSection.vue'
 import TrustedSection from '@/components/TrustedSection/TrustedSection.vue'
 import ContactSection from '@/components/ContactSection/ContactSection.vue'
-import { gsapInit } from '@/helper/gsap-animations/DivingSuit.js'
 
 export default {
   name: 'About',
@@ -248,9 +247,6 @@ export default {
     ResultsSection,
     TrustedSection,
     ContactSection,
-  },
-  mounted() {
-    gsapInit()
   },
 }
 </script>
