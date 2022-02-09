@@ -12,19 +12,16 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/scss/styles.scss',
-  ],
+  css: ['@/assets/scss/styles.scss'],
 
   styleResources: {
-    scss: ['./assets/scss/_vars.scss', './bootstrap/scss/_mixins.scss']
+    scss: ['./assets/scss/_vars.scss', './bootstrap/scss/_mixins.scss'],
   },
-
 
   webfontloader: {
     google: {
       families: ['Saira:400,500,700', 'Ubuntu:700'],
-    }
+    },
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -46,7 +43,6 @@ export default {
     'nuxt-webfontloader',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
-
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -58,9 +54,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: [
-      "gsap",
-    ],
-
+    transpile: ['gsap'],
   },
 }

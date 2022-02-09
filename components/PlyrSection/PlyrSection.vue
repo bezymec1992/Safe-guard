@@ -1,9 +1,9 @@
 <template>
-  <client-only>
-    <div class="plyr-holder">
+  <div class="plyr-holder">
+    <client-only>
       <div class="container">
         <vue-plyr>
-          <video crossorigin playsinline data-poster="poster.jpg">
+          <video crossorigin playsinline>
             <source
               :src="require(`@/assets/videos/${fileName}`)"
               type="video/mp4"
@@ -11,19 +11,18 @@
           </video>
         </vue-plyr>
       </div>
-    </div>
-  </client-only>
+    </client-only>
+  </div>
 </template>
 
 <script>
-// import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js'
+// import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js' data-poster="poster.jpg"
 // import 'vue-plyr/dist/vue-plyr.css'
+
+import { gsapInit } from '@/helper/gsap-animations/PlyrSection.js'
 
 export default {
   name: 'PlyrSection',
-  components: {
-    // VuePlyr,
-  },
   props: {
     fileName: {
       type: String,
@@ -31,7 +30,8 @@ export default {
       default: '',
     },
   },
-
-  methods: {},
+  mounted() {
+    gsapInit()
+  },
 }
 </script>

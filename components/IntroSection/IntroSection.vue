@@ -11,6 +11,8 @@ import { gsapInitIntroSectionWatch } from '@/helper/gsap-animations/IntroSection
 import { gsapInitIntroSectionTape } from '@/helper/gsap-animations/IntroSectionTape.js'
 import { gsapInitIntroSectionPunchingBug } from '@/helper/gsap-animations/IntroSectionPunchingBug.js'
 import { gsapInitIntroSectionCyberConsultants } from '@/helper/gsap-animations/IntroSectionCyberConsultants.js'
+import { gsapInitIntroSectionBrandProtection } from '@/helper/gsap-animations/IntroSectionBrandProtection.js'
+import { gsapInitIntroSectionSoftware } from '@/helper/gsap-animations/IntroSectionSoftware.js'
 
 export default {
   name: 'IntroSection',
@@ -21,6 +23,8 @@ export default {
     gsapInitIntroSectionTape()
     gsapInitIntroSectionPunchingBug()
     gsapInitIntroSectionCyberConsultants()
+    gsapInitIntroSectionBrandProtection()
+    gsapInitIntroSectionSoftware()
   },
 }
 </script>
