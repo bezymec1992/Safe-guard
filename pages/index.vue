@@ -99,6 +99,16 @@ export default {
     WFromSection,
     ContactSection,
   },
+  head: {
+    title: 'Home page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description',
+      },
+    ],
+  },
   methods: {
     scrollToNextSection() {
       const container = document.querySelector('.intro-section')

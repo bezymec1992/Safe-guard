@@ -161,7 +161,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section>
-    <ButtonsSection />
+    <ButtonsSection :next-link="'brand-protection'" />
   </div>
 </template>
 
@@ -173,11 +173,6 @@ import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
 import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
-// import { gsap } from 'gsap'
-// import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-// gsap.registerPlugin(ScrollTrigger)
-
 export default {
   name: 'Training',
   components: {
@@ -187,25 +182,6 @@ export default {
     QuoteSection,
     PlyrSection,
     ButtonsSection,
-  },
-  mounted() {
-    // gsap.set('.visual-section', {
-    //   opacity: 0,
-    // })
-    // ScrollTrigger.batch('.visual-section', {
-    //   onEnter: (batch) => gsap.to(batch, { opacity: 1 }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
-    // gsap.set('.plyr-holder', {
-    //   opacity: 0,
-    //   scale: 0,
-    // })
-    // ScrollTrigger.batch('.plyr-holder', {
-    //   onEnter: (batch) => gsap.to(batch, { opacity: 1, scale: 1 }),
-    //   start: 'top 75%',
-    //   end: 'bottom 10%',
-    // })
   },
 }
 </script>

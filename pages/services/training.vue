@@ -145,26 +145,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section>
-    <div class="buttons-section">
-      <div class="container">
-        <nuxt-link to="/services/" class="btn btn-arrow">
-          All Services
-          <span class="arrow-wrapper">
-            <span class="icon-holder">
-              <img src="@/assets/images/icon-02.svg" alt="#" />
-            </span>
-          </span>
-        </nuxt-link>
-        <nuxt-link to="/services/cyber-consultants" class="btn btn-arrow">
-          Next Service
-          <span class="arrow-wrapper">
-            <span class="icon-holder">
-              <img src="@/assets/images/icon-02.svg" alt="#" />
-            </span>
-          </span>
-        </nuxt-link>
-      </div>
-    </div>
+    <ButtonsSection :next-link="'cyber-consultants'" />
   </div>
 </template>
 
@@ -173,6 +154,7 @@ import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import VisualSection from '@/components/VisualSection/VisualSection.vue'
 import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
+import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
   name: 'Training',
@@ -181,6 +163,7 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
+    ButtonsSection,
   },
 }
 </script>

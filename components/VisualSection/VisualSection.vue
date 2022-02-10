@@ -12,8 +12,10 @@
 </template>
 
 <script>
+import { gsapInit } from '@/helper/gsap-animations/VisualSection.js'
+
 export default {
-  name: "TxtBlock",
+  name: 'TxtBlock',
   props: {
     bg: {
       type: String,
@@ -21,9 +23,12 @@ export default {
       required: false,
     },
   },
-};
+  mounted() {
+    gsapInit()
+  },
+}
 </script>
 
 <style lang="scss">
-@import "@/components/VisualSection/VisualSection.scss";
+@import '@/components/VisualSection/VisualSection.scss';
 </style>

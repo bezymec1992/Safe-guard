@@ -21,12 +21,11 @@
     "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0",
     "smoothscroll-polyfill": "^0.4.4",
-    "swiper": "^5.4.5",
     "vue": "^2.6.14",
-    "vue-awesome-swiper": "^4.1.1",
     "vue-plyr": "^7.0.0",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
+    "vuelidate": "^0.7.6",
     "webpack": "^4.46.0"
   },
   "devDependencies": {

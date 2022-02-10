@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row">
         <div
-          class="col-lg-4"
           v-for="item in statisticItems"
           :key="item.id"
+          class="col-lg-4"
           :class="{ 'col-md-6': item.id < 3 }"
         >
           <div class="statistic-item">
