@@ -20,7 +20,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Saira:400,500,700', 'Ubuntu:700'],
+      families: ['Saira:400,500,700&display=swap', 'Ubuntu:700&display=swap'],
     },
   },
 
