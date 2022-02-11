@@ -59,6 +59,4 @@ export default {
   build: {
     transpile: ['gsap'],
   },
-
-
 }
