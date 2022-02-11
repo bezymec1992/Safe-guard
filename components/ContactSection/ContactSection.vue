@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-12">
                   <FormGroup
-                    :ref="'textarea'"
+                    ref="textarea"
                     v-model="form.textArea"
                     :input-type="'textarea'"
                     type="text"
@@ -90,7 +90,7 @@
             </form>
           </div>
           <div class="mini-popup-wrapper">
-            <div class="mini-popup" :class="{ visible: popupVisible }">
+            <div class="mini-popup" :class="{ visible: popupSuccess }">
               <div class="inner-holder">
                 <div class="icon-holder">
                   <img src="@/assets/images/icon-07.svg" alt="#" />
@@ -138,7 +138,7 @@ export default {
         companyName: '',
         textArea: '',
       },
-      popupVisible: false,
+      popupSuccess: false,
       popupError: false,
     }
   },
@@ -168,7 +168,7 @@ export default {
     async sendForm() {
       await this.$v.form.$touch()
       if (this.$v.form.$invalid) {
-        return this.popupErrorShowing()
+        return this.popupShowing('error')
       } else {
         this.$v.$reset()
         this.form.fullName = ''
@@ -176,20 +176,22 @@ export default {
         this.form.phone = ''
         this.form.companyName = ''
         this.form.textArea = ''
-        this.popupShowing()
+        this.popupShowing('success')
       }
     },
-    popupShowing() {
-      this.popupVisible = true
-      setTimeout(() => {
-        this.popupVisible = false
-      }, 3000)
-    },
-    popupErrorShowing() {
-      this.popupError = true
-      setTimeout(() => {
-        this.popupError = false
-      }, 3000)
+    popupShowing(status) {
+      if (status === 'success') {
+        this.popupSuccess = true
+        setTimeout(() => {
+          this.popupSuccess = false
+        }, 3000)
+      }
+      if (status === 'error') {
+        this.popupError = true
+        setTimeout(() => {
+          this.popupError = false
+        }, 3000)
+      }
     },
     acceptNumber() {
       const x = this.form.phone
@@ -200,15 +202,13 @@ export default {
         : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '')
     },
     assertMaxChars() {
-      const { textarea } = this.$refs
-
+      const textarea = this.$refs.textarea.$refs.textarea
       if (
         this.form.textArea.length >= 500 ||
         this.form.textArea.length <= 500
       ) {
         this.form.textArea = this.form.textArea.substring(0, 500)
-        console.log(textarea.$el.scrollHeight)
-        textarea.$el.style.height = textarea.$el.scrollHeight - 4 + 'px'
+        textarea.style.height = textarea.scrollHeight - 4 + 'px'
       }
     },
   },

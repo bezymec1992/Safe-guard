@@ -17,7 +17,7 @@
       <textarea
         v-if="inputType == 'textarea'"
         v-bind="options"
-        ref="input"
+        ref="textarea"
         class="form-control"
         :class="{ error: error }"
         v-on="listeners"
