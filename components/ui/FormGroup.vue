@@ -29,7 +29,7 @@
       </textarea>
       <span v-if="error" class="error-form"
         ><span class="error-icon" @click="errorFormsClick($event)"></span>
-        <span class="error-title">error</span></span
+        <span class="error-title">{{ errorMessage }}</span></span
       >
       <span v-if="inputType == 'textarea'" class="textarea-counter">{{
         charactersLeft
@@ -42,6 +42,11 @@
 export default {
   name: 'FormGroup',
   props: {
+    name: {
+      type: String,
+      default: '',
+      require: false,
+    },
     charactersLeft: {
       type: Number,
       default: 500,
@@ -50,10 +55,9 @@ export default {
       type: String,
       default: 'input',
     },
-    name: {
+    errorMessage: {
       type: String,
-      default: '',
-      require: false,
+      default: 'Required field',
     },
     value: {
       type: String,

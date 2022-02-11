@@ -44,6 +44,7 @@
                     :label="'Email'"
                     :name="'email'"
                     :error="$v.form.email.$error"
+                    :error-message="'Invalid email'"
                   />
                 </div>
                 <div class="col-md-6">
@@ -54,6 +55,7 @@
                     :label="'Phone Number'"
                     :name="'phone'"
                     :error="$v.form.phone.$error"
+                    :error-message="'Incorrect number'"
                     @input="acceptNumber"
                   />
                   <FormGroup
@@ -208,7 +210,9 @@ export default {
         this.form.textArea.length <= 500
       ) {
         this.form.textArea = this.form.textArea.substring(0, 500)
-        textarea.style.height = textarea.scrollHeight - 4 + 'px'
+        if (textarea.scrollHeight < 300) {
+          textarea.style.height = textarea.scrollHeight - 4 + 'px'
+        }
       }
     },
   },
