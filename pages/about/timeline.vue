@@ -4,7 +4,11 @@
       <div class="container">
         <nuxt-link to="/about/" class="back-link">
           <span class="icon-holder">
-            <img v-lazy-load data-src="@/assets/images/img-017.svg" alt="#" />
+            <img
+              data-src="@/assets/images/img-017.svg"
+              class="lazyload"
+              alt="#"
+            />
           </span>
           Back</nuxt-link
         >
@@ -21,7 +25,11 @@
             class="col-md-6 d-flex flex-md-row flex-column justify-content-center justify-content-md-end"
           >
             <div class="img-holder tape align-self-center">
-              <img v-lazy-load data-src="@/assets/images/img-055.png" alt="#" />
+              <img
+                data-src="@/assets/images/img-055.png"
+                class="lazyload"
+                alt="#"
+              />
             </div>
           </div>
         </div>

@@ -11,8 +11,8 @@
               >
                 <div class="punching-bag">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/img-03.png"
+                    class="lazyload"
                     alt="#"
                   />
                 </div>
@@ -48,15 +48,13 @@
                 <div class="phone-wrapper">
                   <div class="phone-holder">
                     <img
-                      v-lazy-load
                       data-src="@/assets/images/img-075.png"
-                      class="desktop"
+                      class="desktop lazyload"
                       alt="#"
                     />
                     <img
-                      v-lazy-load
                       data-src="@/assets/images/img-076.png"
-                      class="mobile"
+                      class="mobile lazyload"
                       alt="#"
                     />
                     <!-- <div class="msg-holder msg-1">
@@ -99,15 +97,13 @@
                 <div class="building-wrapper">
                   <div class="building-holder">
                     <img
-                      v-lazy-load
                       data-src="@/assets/images/img-077.png"
-                      class="d-none d-lg-block"
+                      class="lazyload d-none d-lg-block"
                       alt="#"
                     />
                     <img
-                      v-lazy-load
                       data-src="@/assets/images/img-078.png"
-                      class="d-lg-none"
+                      class="lazyload d-lg-none"
                       alt="#"
                     />
                     <!-- <div class="cloud-holder hld-1">
@@ -150,8 +146,8 @@
                 <div class="imac-wrapper">
                   <div class="imac-holder">
                     <img
-                      v-lazy-load
                       data-src="@/assets/images/img-079.png"
+                      class="lazyload"
                       alt="#"
                     />
 
@@ -189,7 +185,11 @@
           All Services
           <span class="arrow-wrapper">
             <span class="icon-holder">
-              <img v-lazy-load data-src="@/assets/images/icon-02.svg" alt="#" />
+              <img
+                data-src="@/assets/images/icon-02.svg"
+                class="lazyload"
+                alt="#"
+              />
             </span>
           </span>
         </nuxt-link>

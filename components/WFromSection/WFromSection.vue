@@ -22,8 +22,8 @@
             <span class="arrow-wrapper"
               ><span class="icon-holder"
                 ><img
-                  v-lazy-load
                   data-src="@/assets/images/icon-02.svg"
+                  class="lazyload"
                   alt="#" /></span></span
           ></router-link>
         </div>

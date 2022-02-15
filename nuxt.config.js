@@ -44,12 +44,32 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
+    'nuxt-lazysizes',
     'bootstrap-vue/nuxt',
     'nuxt-webfontloader',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
-    'nuxt-lazy-load'
   ],
+
+
+  // bootstrapVue: {
+  //   icons: false
+  // },
+
+  lazySizes: {
+    extendAssetUrls: {
+      img: ['src', 'srcset', 'data-src', 'data-srcset'],
+      source: ['src', 'srcset', 'data-src', 'data-srcset'],
+
+      // Example for a custom component
+      AppImage: ['source-md-url', 'image-url'],
+    },
+    throttleDelay: 100,
+    ricTimeout: 400,
+    preloadAfterLoad: false,
+    loadMode: 1,
+  },
+
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

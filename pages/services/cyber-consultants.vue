@@ -4,7 +4,11 @@
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
-            <img v-lazy-load data-src="@/assets/images/img-017.svg" alt="#" />
+            <img
+              data-src="@/assets/images/img-017.svg"
+              class="lazyload"
+              alt="#"
+            />
           </span>
           Back</router-link
         >
@@ -29,28 +33,26 @@
             <div class="phone-wrapper">
               <div class="phone-holder">
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-022.png"
-                  class="phone-img desktop"
+                  class="lazyload phone-img desktop"
                   alt="#"
                 />
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-013.png"
-                  class="phone-img mobile"
+                  class="lazyload phone-img mobile"
                   alt="#"
                 />
                 <div class="msg-holder msg-1">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/img-072.png"
+                    class="lazyload"
                     alt="#"
                   />
                 </div>
                 <div class="msg-holder msg-2">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/img-073.png"
+                    class="lazyload"
                     alt="#"
                   />
                 </div>
@@ -66,7 +68,11 @@
         </div>
         <div class="scroll-down">
           <a href="#">
-            <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
+            <img
+              data-src="@/assets/images/icon-01.svg"
+              class="lazyload"
+              alt="#"
+            />
           </a>
         </div>
       </div>
@@ -87,7 +93,11 @@
       </div>
       <div class="col-md-6 d-flex align-items-center">
         <div class="img-holder ml-lg--10">
-          <img v-lazy-load data-src="@/assets/images/img-025.png" alt="#" />
+          <img
+            data-src="@/assets/images/img-025.png"
+            class="lazyload"
+            alt="#"
+          />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -134,18 +144,22 @@
         <div class="img-holder">
           <div class="phone-wrapper d-flex justify-content-center">
             <div class="phone-holder">
-              <img v-lazy-load data-src="@/assets/images/img-074.png" alt="#" />
+              <img
+                data-src="@/assets/images/img-074.png"
+                class="lazyload"
+                alt="#"
+              />
               <div class="msg-holder msg-1">
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-072.png"
+                  class="lazyload"
                   alt="#"
                 />
               </div>
               <div class="msg-holder msg-2">
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-073.png"
+                  class="lazyload"
                   alt="#"
                 />
               </div>

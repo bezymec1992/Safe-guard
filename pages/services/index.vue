@@ -15,28 +15,26 @@
             >
               <div class="watch-holder">
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-065.png"
-                  class="watch"
+                  class="lazyload watch"
                   alt="img description"
                 />
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/img-066.png"
-                  class="watch-shadow"
+                  class="lazyload watch-shadow"
                   alt="img description"
                 />
                 <div class="msg-holder w-msg hld-1">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/img-069.png"
+                    class="lazyload"
                     alt="img description"
                   />
                 </div>
                 <div class="msg-holder w-msg hld-2">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/img-071.png"
+                    class="lazyload"
                     alt="img description"
                   />
                 </div>
@@ -48,7 +46,11 @@
           </div>
           <div class="scroll-down">
             <a href="#">
-              <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
+              <img
+                data-src="@/assets/images/icon-01.svg"
+                class="lazyload"
+                alt="#"
+              />
             </a>
           </div>
         </div>

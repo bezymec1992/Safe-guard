@@ -6,8 +6,8 @@
           <strong class="logo">
             <router-link to="/">
               <img
-                v-lazy-load
                 data-src="@/assets/images/logo-white.svg"
+                class="lazyload"
                 alt="SafeGuard"
               />
             </router-link>
@@ -81,8 +81,8 @@
     >
       <span class="icon-holder">
         <img
-          v-lazy-load
           data-src="@/assets/images/icon-09.svg"
+          class="lazyload"
           alt="arrow-top"
         />
       </span>

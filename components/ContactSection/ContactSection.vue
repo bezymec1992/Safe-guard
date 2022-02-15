@@ -96,8 +96,8 @@
               <div class="inner-holder">
                 <div class="icon-holder">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/icon-07.svg"
+                    class="lazyload"
                     alt="#"
                   />
                 </div>
@@ -111,8 +111,8 @@
               <div class="inner-holder">
                 <div class="icon-holder">
                   <img
-                    v-lazy-load
                     data-src="@/assets/images/icon-08.svg"
+                    class="lazyload"
                     alt="#"
                   />
                 </div>

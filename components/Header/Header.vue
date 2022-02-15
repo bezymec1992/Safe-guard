@@ -4,8 +4,8 @@
       <strong class="logo">
         <nuxt-link to="/">
           <img
-            v-lazy-load
             data-src="@/assets/images/logo.svg"
+            class="lazyload"
             alt="safeguard"
           />
         </nuxt-link>
@@ -23,8 +23,8 @@
             <strong class="logo">
               <nuxt-link to="/">
                 <img
-                  v-lazy-load
                   data-src="@/assets/images/logo.svg"
+                  class="lazyload"
                   alt="safeguard"
                 />
               </nuxt-link>
