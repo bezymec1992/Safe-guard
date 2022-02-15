@@ -48,6 +48,7 @@ export default {
     'nuxt-webfontloader',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
+    'nuxt-lazy-load'
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

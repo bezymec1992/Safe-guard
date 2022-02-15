@@ -3,7 +3,11 @@
     <div class="container">
       <strong class="logo">
         <nuxt-link to="/">
-          <img src="@/assets/images/logo.svg" alt="safeguard" />
+          <img
+            v-lazy-load
+            data-src="@/assets/images/logo.svg"
+            alt="safeguard"
+          />
         </nuxt-link>
       </strong>
       <nav class="main-nav">
@@ -18,7 +22,11 @@
           <div class="nav-top">
             <strong class="logo">
               <nuxt-link to="/">
-                <img src="@/assets/images/logo.svg" alt="safeguard" />
+                <img
+                  v-lazy-load
+                  data-src="@/assets/images/logo.svg"
+                  alt="safeguard"
+                />
               </nuxt-link>
             </strong>
             <a

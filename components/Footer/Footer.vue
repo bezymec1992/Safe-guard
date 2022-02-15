@@ -5,7 +5,11 @@
         <div class="col-lg-6">
           <strong class="logo">
             <router-link to="/">
-              <img src="@/assets/images/logo-white.svg" alt="SafeGuard" />
+              <img
+                v-lazy-load
+                data-src="@/assets/images/logo-white.svg"
+                alt="SafeGuard"
+              />
             </router-link>
           </strong>
           <div class="text-holder">
@@ -76,7 +80,11 @@
       @click.prevent="scrollByTop()"
     >
       <span class="icon-holder">
-        <img src="@/assets/images/icon-09.svg" alt="arrow-top" />
+        <img
+          v-lazy-load
+          data-src="@/assets/images/icon-09.svg"
+          alt="arrow-top"
+        />
       </span>
     </a>
   </footer>

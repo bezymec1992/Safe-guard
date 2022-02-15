@@ -12,7 +12,7 @@
         </div>
         <div class="col-12">
           <div class="img-holder">
-            <img src="@/assets/images/img-059.png" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-059.png" alt="#" />
           </div>
         </div>
       </div>

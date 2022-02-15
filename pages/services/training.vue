@@ -4,7 +4,7 @@
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
-            <img src="@/assets/images/img-017.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-017.svg" alt="#" />
           </span>
           Back</router-link
         >
@@ -24,7 +24,7 @@
             class="col-md-6 d-flex flex-md-row flex-column justify-content-end"
           >
             <div class="punching-bag">
-              <img src="@/assets/images/img-018.png" alt="#" />
+              <img v-lazy-load data-src="@/assets/images/img-018.png" alt="#" />
             </div>
             <div class="text-holder d-md-none">
               <p>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-019.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-019.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -97,7 +97,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-holder">
-            <img src="@/assets/images/img-020.png" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-020.png" alt="#" />
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-021.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-021.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">

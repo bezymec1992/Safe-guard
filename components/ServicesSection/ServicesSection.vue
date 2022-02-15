@@ -10,7 +10,11 @@
                 class="gradient-block gradient-left d-md-flex justify-content-md-center"
               >
                 <div class="punching-bag">
-                  <img src="@/assets/images/img-03.png" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/img-03.png"
+                    alt="#"
+                  />
                 </div>
               </div>
             </nuxt-link>
@@ -44,20 +48,22 @@
                 <div class="phone-wrapper">
                   <div class="phone-holder">
                     <img
-                      src="@/assets/images/img-075.png"
+                      v-lazy-load
+                      data-src="@/assets/images/img-075.png"
                       class="desktop"
                       alt="#"
                     />
                     <img
-                      src="@/assets/images/img-076.png"
+                      v-lazy-load
+                      data-src="@/assets/images/img-076.png"
                       class="mobile"
                       alt="#"
                     />
                     <!-- <div class="msg-holder msg-1">
-                      <img src="@/assets/images/img-060.png" alt="#" />
+                      <img data-src="@/assets/images/img-060.png" alt="#" />
                     </div>
                     <div class="msg-holder msg-2">
-                      <img src="@/assets/images/img-061.png" alt="#" />
+                      <img data-src="@/assets/images/img-061.png" alt="#" />
                     </div> -->
                   </div>
                 </div>
@@ -93,20 +99,22 @@
                 <div class="building-wrapper">
                   <div class="building-holder">
                     <img
-                      src="@/assets/images/img-077.png"
+                      v-lazy-load
+                      data-src="@/assets/images/img-077.png"
                       class="d-none d-lg-block"
                       alt="#"
                     />
                     <img
-                      src="@/assets/images/img-078.png"
+                      v-lazy-load
+                      data-src="@/assets/images/img-078.png"
                       class="d-lg-none"
                       alt="#"
                     />
                     <!-- <div class="cloud-holder hld-1">
-                      <img src="@/assets/images/img-08.png" alt="#" />
+                      <img data-src="@/assets/images/img-08.png" alt="#" />
                     </div>
                     <div class="cloud-holder hld-2">
-                      <img src="@/assets/images/img-09.png" alt="#" />
+                      <img data-src="@/assets/images/img-09.png" alt="#" />
                     </div> -->
                   </div>
                 </div>
@@ -141,13 +149,17 @@
               >
                 <div class="imac-wrapper">
                   <div class="imac-holder">
-                    <img src="@/assets/images/img-079.png" alt="#" />
+                    <img
+                      v-lazy-load
+                      data-src="@/assets/images/img-079.png"
+                      alt="#"
+                    />
 
                     <!-- <div class="iphone-holder hld-1">
-                      <img src="@/assets/images/img-011.png" alt="#" />
+                      <img data-src="@/assets/images/img-011.png" alt="#" />
                     </div>
                     <div class="iphone-holder hld-2">
-                      <img src="@/assets/images/img-012.png" alt="#" />
+                      <img data-src="@/assets/images/img-012.png" alt="#" />
                     </div> -->
                   </div>
                 </div>
@@ -177,7 +189,7 @@
           All Services
           <span class="arrow-wrapper">
             <span class="icon-holder">
-              <img src="@/assets/images/icon-02.svg" alt="#" />
+              <img v-lazy-load data-src="@/assets/images/icon-02.svg" alt="#" />
             </span>
           </span>
         </nuxt-link>

@@ -21,7 +21,11 @@
               See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
-                  <img src="@/assets/images/icon-02.svg" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/icon-02.svg"
+                    alt="#"
+                  />
                 </span>
               </span>
             </router-link>
@@ -38,7 +42,8 @@
               <div class="result-item anim-item-2">
                 <div class="img-holder">
                   <img
-                    :src="require(`@/assets/images/${item.image}`)"
+                    v-lazy-load
+                    :data-src="require(`@/assets/images/${item.image}`)"
                     :alt="item.alt"
                   />
                 </div>

@@ -4,7 +4,7 @@
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
-            <img src="@/assets/images/img-017.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-017.svg" alt="#" />
           </span>
           Back</router-link
         >
@@ -29,15 +29,24 @@
             <div class="building-wrapper">
               <div class="building-holder">
                 <img
-                  src="@/assets/images/img-07.png"
+                  v-lazy-load
+                  data-src="@/assets/images/img-07.png"
                   class="building"
                   alt="#"
                 />
                 <div class="cloud-holder hld-1">
-                  <img src="@/assets/images/img-027.png" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/img-027.png"
+                    alt="#"
+                  />
                 </div>
                 <div class="cloud-holder hld-2">
-                  <img src="@/assets/images/img-028.png" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/img-028.png"
+                    alt="#"
+                  />
                 </div>
               </div>
             </div>
@@ -51,7 +60,7 @@
         </div>
         <div class="scroll-down">
           <a href="#">
-            <img src="@/assets/images/icon-01.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
           </a>
         </div>
       </div>
@@ -69,7 +78,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-029.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-029.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -115,7 +124,7 @@
       </div>
       <div class="col-md-6 d-md-flex align-items-md-center">
         <div class="img-holder">
-          <img src="@/assets/images/img-031.png" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-031.png" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -175,7 +184,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-032.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-032.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">

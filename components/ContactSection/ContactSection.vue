@@ -95,7 +95,11 @@
             <div class="mini-popup" :class="{ visible: popupSuccess }">
               <div class="inner-holder">
                 <div class="icon-holder">
-                  <img src="@/assets/images/icon-07.svg" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/icon-07.svg"
+                    alt="#"
+                  />
                 </div>
                 <div class="text">
                   <h3>Success</h3>
@@ -106,7 +110,11 @@
             <div class="mini-popup error" :class="{ visible: popupError }">
               <div class="inner-holder">
                 <div class="icon-holder">
-                  <img src="@/assets/images/icon-08.svg" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/icon-08.svg"
+                    alt="#"
+                  />
                 </div>
                 <div class="text">
                   <h3>The form incorrectly filled in</h3>

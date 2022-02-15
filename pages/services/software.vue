@@ -4,7 +4,7 @@
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
-            <img src="@/assets/images/img-017.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-017.svg" alt="#" />
           </span>
           Back</router-link
         >
@@ -21,13 +21,31 @@
             class="col-md-6 d-flex align-items-md-center flex-md-row flex-column justify-content-center justify-content-md-end"
           >
             <div class="imac-holder">
-              <img src="@/assets/images/img-067.png" class="mac-off" alt="#" />
-              <img src="@/assets/images/img-068.png" class="mac-on" alt="#" />
+              <img
+                v-lazy-load
+                data-src="@/assets/images/img-067.png"
+                class="mac-off"
+                alt="#"
+              />
+              <img
+                v-lazy-load
+                data-src="@/assets/images/img-068.png"
+                class="mac-on"
+                alt="#"
+              />
               <div class="iphone-holder hld-1">
-                <img src="@/assets/images/img-034.png" alt="#" />
+                <img
+                  v-lazy-load
+                  data-src="@/assets/images/img-034.png"
+                  alt="#"
+                />
               </div>
               <div class="iphone-holder hld-2">
-                <img src="@/assets/images/img-035.png" alt="#" />
+                <img
+                  v-lazy-load
+                  data-src="@/assets/images/img-035.png"
+                  alt="#"
+                />
               </div>
             </div>
             <div class="text-holder mobile mt-auto">
@@ -37,7 +55,7 @@
         </div>
         <div class="scroll-down">
           <a href="#">
-            <img src="@/assets/images/icon-01.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
           </a>
         </div>
       </div>
@@ -55,7 +73,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-036.png" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-036.png" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -91,7 +109,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-holder">
-            <img src="@/assets/images/img-037.png" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/img-037.png" alt="#" />
           </div>
         </div>
       </div>
@@ -109,7 +127,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-038.png" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-038.png" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">

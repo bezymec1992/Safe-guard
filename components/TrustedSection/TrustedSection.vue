@@ -10,7 +10,8 @@
         >
           <div class="img-holder">
             <img
-              :src="require(`@/assets/images/${item.image}`)"
+              v-lazy-load
+              :data-src="require(`@/assets/images/${item.image}`)"
               :alt="item.title"
             />
           </div>

@@ -5,7 +5,7 @@
         All Services
         <span class="arrow-wrapper">
           <span class="icon-holder">
-            <img src="@/assets/images/icon-02.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/icon-02.svg" alt="#" />
           </span>
         </span>
       </nuxt-link>
@@ -13,7 +13,7 @@
         Next Service
         <span class="arrow-wrapper">
           <span class="icon-holder">
-            <img src="@/assets/images/icon-02.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/icon-02.svg" alt="#" />
           </span>
         </span>
       </nuxt-link>

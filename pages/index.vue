@@ -20,17 +20,20 @@
           >
             <div class="img-holder">
               <img
-                src="@/assets/images/img-062.png"
+                v-lazy-load
+                data-src="@/assets/images/img-062.png"
                 class="helm"
                 alt="img description"
               />
               <img
-                src="@/assets/images/img-063.png"
+                v-lazy-load
+                data-src="@/assets/images/img-063.png"
                 class="earth"
                 alt="img description"
               />
               <img
-                src="@/assets/images/img-064.png"
+                v-lazy-load
+                data-src="@/assets/images/img-064.png"
                 class="info"
                 alt="img description"
               />
@@ -40,9 +43,9 @@
       </div>
       <div class="scroll-down d-none d-md-flex">
         <a href="#" @click.prevent="scrollToNextSection()">
-          <img src="@/assets/images/icon-01.svg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
           <span class="arrow-down"
-            ><img src="@/assets/images/icon-03.svg" alt="#"
+            ><img v-lazy-load data-src="@/assets/images/icon-03.svg" alt="#"
           /></span>
         </a>
       </div>
@@ -51,7 +54,7 @@
     <txt-block :class="'txt-block-1'">
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-02.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-02.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-flex flex-column justify-content-center">

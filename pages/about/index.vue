@@ -19,7 +19,11 @@
               See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
-                  <img src="@/assets/images/icon-02.svg" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/icon-02.svg"
+                    alt="#"
+                  />
                 </span>
               </span>
             </nuxt-link>
@@ -27,12 +31,14 @@
           <div class="col-md-6 d-md-flex justify-content-center">
             <div class="diving-suit">
               <img
-                src="@/assets/images/img-040.png"
+                v-lazy-load
+                data-src="@/assets/images/img-040.png"
                 alt="#"
                 class="diving-suit-img-2"
               />
               <img
-                src="@/assets/images/img-039.png"
+                v-lazy-load
+                data-src="@/assets/images/img-039.png"
                 alt="#"
                 class="diving-suit-img-1"
               />
@@ -46,7 +52,11 @@
               See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
-                  <img src="@/assets/images/icon-02.svg" alt="#" />
+                  <img
+                    v-lazy-load
+                    data-src="@/assets/images/icon-02.svg"
+                    alt="#"
+                  />
                 </span>
               </span>
             </router-link>
@@ -54,7 +64,7 @@
         </div>
         <div class="scroll-down">
           <a href="#">
-            <img src="@/assets/images/icon-01.svg" alt="#" />
+            <img v-lazy-load data-src="@/assets/images/icon-01.svg" alt="#" />
           </a>
         </div>
       </div>
@@ -73,7 +83,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-041.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-041.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -110,7 +120,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-042.png" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-042.png" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -161,7 +171,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-047.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-047.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -197,7 +207,7 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img src="@/assets/images/img-048.jpg" alt="#" />
+          <img v-lazy-load data-src="@/assets/images/img-048.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
