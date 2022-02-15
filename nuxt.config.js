@@ -19,9 +19,11 @@ export default {
   },
 
   webfontloader: {
+    events: false,
     google: {
       families: ['Saira:400,500,700&display=swap', 'Ubuntu:700&display=swap'],
     },
+    timeout: 5000,
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -59,4 +61,8 @@ export default {
   build: {
     transpile: ['gsap'],
   },
+
+  // generate: {
+  //   fallback: "404.html"
+  // },
 }

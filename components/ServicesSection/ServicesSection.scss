@@ -108,7 +108,7 @@
 
     .phone-holder {
       position: relative;
-      max-width: 25.1rem;
+      // max-width: 25.1rem;
 
       @include media-breakpoint-up(lg) {
         bottom: -5.4rem;
@@ -118,8 +118,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        max-width: 24.7rem;
+        transform: translateX(-50%) translateY(-40%);
+        max-width: 32.7rem;
+        width: 90%;
       }
 
       img {
@@ -172,14 +173,18 @@
 
     .building-holder {
       position: relative;
-      max-width: 24.9rem;
+      // max-width: 24.9rem;
       z-index: 1;
+
+      @include media-breakpoint-up(lg) {
+        right: -5rem;
+      }
 
       @include media-breakpoint-down(lg) {
         position: absolute;
         top: 12rem;
-        right: 2.1rem;
-        max-width: 23rem;
+        right: 0;
+        max-width: 47rem;
       }
 
       .cloud-holder {

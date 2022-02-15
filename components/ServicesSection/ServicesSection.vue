@@ -44,21 +44,21 @@
                 <div class="phone-wrapper">
                   <div class="phone-holder">
                     <img
-                      src="@/assets/images/img-04.png"
+                      src="@/assets/images/img-075.png"
                       class="desktop"
                       alt="#"
                     />
                     <img
-                      src="@/assets/images/img-013.png"
+                      src="@/assets/images/img-076.png"
                       class="mobile"
                       alt="#"
                     />
-                    <div class="msg-holder msg-1">
+                    <!-- <div class="msg-holder msg-1">
                       <img src="@/assets/images/img-060.png" alt="#" />
                     </div>
                     <div class="msg-holder msg-2">
                       <img src="@/assets/images/img-061.png" alt="#" />
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -92,13 +92,22 @@
               >
                 <div class="building-wrapper">
                   <div class="building-holder">
-                    <img src="@/assets/images/img-07.png" alt="#" />
-                    <div class="cloud-holder hld-1">
+                    <img
+                      src="@/assets/images/img-077.png"
+                      class="d-none d-lg-block"
+                      alt="#"
+                    />
+                    <img
+                      src="@/assets/images/img-078.png"
+                      class="d-lg-none"
+                      alt="#"
+                    />
+                    <!-- <div class="cloud-holder hld-1">
                       <img src="@/assets/images/img-08.png" alt="#" />
                     </div>
                     <div class="cloud-holder hld-2">
                       <img src="@/assets/images/img-09.png" alt="#" />
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -132,16 +141,18 @@
               >
                 <div class="imac-wrapper">
                   <div class="imac-holder">
-                    <img src="@/assets/images/img-010.png" alt="#" />
-                    <div class="iphone-holder hld-1">
+                    <img src="@/assets/images/img-079.png" alt="#" />
+
+                    <!-- <div class="iphone-holder hld-1">
                       <img src="@/assets/images/img-011.png" alt="#" />
                     </div>
                     <div class="iphone-holder hld-2">
                       <img src="@/assets/images/img-012.png" alt="#" />
-                    </div>
+                    </div> -->
                   </div>
-                </div></div
-            ></nuxt-link>
+                </div>
+              </div></nuxt-link
+            >
           </div>
           <div class="col-lg-6 col-txt">
             <div class="content-holder">
