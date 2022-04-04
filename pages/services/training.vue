@@ -46,9 +46,9 @@
     </intro-section>
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
-          High Performance <br />
-          Behavior
+        <h3 class="h2">
+          We will make scaning of <br />
+          your company
         </h3>
         <div class="text-holder">
           <p>
@@ -61,25 +61,78 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-019.jpg"
+            data-src="@/assets/images/img-080.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          High Performance <br />
-          Behavior
+        <div class="content-holder">
+          <h3 class="h2">
+            We will make scaning of <br />
+            your company
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
+          Why team does not <br />
+          perform
         </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-029.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            Why team does not <br />
+            perform
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -118,9 +171,12 @@
         </div>
       </div>
     </visual-section>
-    <txt-block :class="'txt-block-2 style2 reverse'">
+    <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Practical</h3>
+        <h3 class="h2">
+          High Performance <br />
+          Behavior
+        </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -132,22 +188,28 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-021.jpg"
+            data-src="@/assets/images/img-081.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">Practical</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="content-holder">
+          <h3 class="h2">
+            High Performance <br />
+            Behavior
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -159,6 +221,51 @@
         </div>
       </div>
     </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">Practical</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-082.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Practical</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <ImgSection :img="'img-083.jpg'" />
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -170,11 +277,12 @@
 </template>
 
 <script>
-import IntroSection from '@/components/IntroSection/IntroSection.vue'
-import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
-import VisualSection from '@/components/VisualSection/VisualSection.vue'
-import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
-import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
+import IntroSection from '@/components/IntroSection/IntroSection'
+import TxtBlock from '@/components/TxtBlock/TxtBlock'
+import VisualSection from '@/components/VisualSection/VisualSection'
+import QuoteSection from '@/components/QuoteSection/QuoteSection'
+import ButtonsSection from '@/components/ButtonsSection/ButtonsSection'
+import ImgSection from '@/components/ImgSection/ImgSection'
 
 export default {
   name: 'Training',
@@ -184,6 +292,7 @@ export default {
     VisualSection,
     QuoteSection,
     ButtonsSection,
+    ImgSection,
   },
 }
 </script>

@@ -1,0 +1,30 @@
+.img-section {
+  padding-top: 5rem;
+  padding-bottom: 18rem;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 0;
+    padding-bottom: 10rem;
+  }
+
+  .container {
+    @include media-breakpoint-down(xxl) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .img-holder {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+
+      @include media-breakpoint-down(md) {
+        min-height: 350px;
+        object-fit: cover;
+      }
+    }
+  }
+}
