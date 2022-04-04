@@ -87,25 +87,31 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">Tool #1</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
-        </div>
-        <h3 class="h2 text-capitalize">What is this tool about</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="text-rows">
+          <div class="text-row">
+            <h3 class="h2 text-capitalize">Tool #1</h3>
+            <div class="text-holder">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+                posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+                neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+                suscipit justo. Vestibulum at turpis euismod, fermentum
+              </p>
+            </div>
+          </div>
+          <div class="text-row">
+            <h3 class="h2 text-capitalize">What is this tool about</h3>
+            <div class="text-holder">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+                posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+                neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+                suscipit justo. Vestibulum at turpis euismod, fermentum
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -161,25 +167,31 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">Tool #2</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
-        </div>
-        <h3 class="h2 text-capitalize">What is this tool about</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="text-rows">
+          <div class="text-row">
+            <h3 class="h2 text-capitalize">Tool #2</h3>
+            <div class="text-holder">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+                posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+                neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+                suscipit justo. Vestibulum at turpis euismod, fermentum
+              </p>
+            </div>
+          </div>
+          <div class="text-row">
+            <h3 class="h2 text-capitalize">What is this tool about</h3>
+            <div class="text-holder">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+                posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+                neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+                suscipit justo. Vestibulum at turpis euismod, fermentum
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -193,6 +205,7 @@
         </div>
       </div>
     </txt-block>
+    <PlyrSection :file-name="'vid-01.mp4'" />
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -209,6 +222,7 @@ import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import VisualSection from '@/components/VisualSection/VisualSection.vue'
 import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
+import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 
 export default {
   name: 'Software',
@@ -217,6 +231,7 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
+    PlyrSection,
     ButtonsSection,
   },
 }
