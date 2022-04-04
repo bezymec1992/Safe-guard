@@ -72,9 +72,13 @@
         </div>
       </div>
     </intro-section>
-    <txt-block :class="'txt-block-1 style1 reverse'">
+    <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Team Dynamics</h3>
+        <h3 class="h2">
+          We are looking inside the <br />
+          company to see if it’s <br />
+          healthy
+        </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -86,14 +90,43 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-029.jpg"
+            data-src="@/assets/images/img-088.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
+        <div class="content-holder">
+          <h3 class="h2">
+            We are looking inside the <br />
+            company to see if it’s <br />
+            healthy
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
           Team <br />
           Dynamics
         </h3>
@@ -101,10 +134,35 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-089.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            Team <br />
+            Dynamics
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -133,44 +191,46 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6 d-md-flex align-items-md-center">
+      <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-031.png"
+            data-src="@/assets/images/img-090.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="text-rows">
-          <div class="text-row">
-            <h3 class="h2 text-capitalize">
-              Specific Request. <br />
-              Due Diligence
-            </h3>
-            <div class="text-holder">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                nec viverra. In posuere massa sed magna condimentum, eu gravida
-                urna varius. Aenean neque orci, ultrices ac fermentum id,
-                bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis
-                euismod, fermentum
-              </p>
+        <div class="content-holder">
+          <div class="text-rows">
+            <div class="text-row">
+              <h3 class="h2 text-capitalize">
+                Specific Request. <br />
+                Due Diligence
+              </h3>
+              <div class="text-holder">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
+                  nec viverra. In posuere massa sed magna condimentum, eu
+                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
+                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
+                  turpis euismod, fermentum
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="text-row">
-            <h3 class="h2 text-capitalize">Strategical Request</h3>
-            <div class="text-holder">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                nec viverra. In posuere massa sed magna condimentum, eu gravida
-                urna varius. Aenean neque orci, ultrices ac fermentum id,
-                bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis
-                euismod, fermentum
-              </p>
+            <div class="text-row">
+              <h3 class="h2 text-capitalize">Strategical Request</h3>
+              <div class="text-holder">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
+                  nec viverra. In posuere massa sed magna condimentum, eu
+                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
+                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
+                  turpis euismod, fermentum
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -185,10 +245,12 @@
         </div>
       </div>
     </txt-block>
-    <PlyrSection :file-name="'vid-01.mp4'" :class="'pb-0'" />
-    <txt-block :class="'txt-block-1 style2 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Custodian Assets</h3>
+        <h3 class="h2">
+          Checking all the risks <br />
+          and advantages
+        </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -200,14 +262,43 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-032.jpg"
+            data-src="@/assets/images/img-091.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
+        <div class="content-holder">
+          <h3 class="h2">
+            Checking all the risks <br />
+            and advantages
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <PlyrSection :file-name="'vid-01.mp4'" :class="'pb-0'" />
+    <txt-block :class="'txt-block-2 style2 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
           Custodian <br />
           Assets
         </h3>
@@ -215,10 +306,35 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-092.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            Custodian <br />
+            Assets
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">

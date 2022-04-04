@@ -77,9 +77,9 @@
         </div>
       </div>
     </intro-section>
-    <txt-block :class="'txt-block-2 style1'">
+    <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2">
           Assessment and <br />
           Awareness
         </h3>
@@ -91,27 +91,81 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="img-holder ml-lg--10">
+      <div class="col-md-6">
+        <div class="img-holder">
           <img
-            data-src="@/assets/images/img-025.png"
+            data-src="@/assets/images/img-084.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          Assessment and <br />
-          Awareness
+        <div class="content-holder">
+          <h3 class="h2">
+            Assessment and <br />
+            Awareness
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
+          We will support you so you <br />
+          can be safe
         </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-085.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            We will support you <br />
+            so you can be safe
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -126,9 +180,9 @@
     <visual-section :bg="'img-026.jpg'" :class="'bg-img'">
       <h2 class="h1 text-center">ADVICE AND PROTECT</h2>
     </visual-section>
-    <txt-block :class="'txt-block-2 style2'">
+    <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2">
           Advice and <br />
           Protect
         </h3>
@@ -142,39 +196,29 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <div class="phone-wrapper d-flex justify-content-center">
-            <div class="phone-holder">
-              <img
-                data-src="@/assets/images/img-074.png"
-                class="lazyload"
-                alt="#"
-              />
-              <div class="msg-holder msg-1">
-                <img
-                  data-src="@/assets/images/img-072.png"
-                  class="lazyload"
-                  alt="#"
-                />
-              </div>
-              <div class="msg-holder msg-2">
-                <img
-                  data-src="@/assets/images/img-073.png"
-                  class="lazyload"
-                  alt="#"
-                />
-              </div>
-            </div>
-          </div>
+          <img
+            data-src="@/assets/images/img-086.jpg"
+            class="lazyload"
+            alt="#"
+          />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">Practical</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
-          </p>
+        <div class="content-holder">
+          <h3 class="h2">
+            Advice and <br />
+            Protect
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -186,6 +230,57 @@
         </div>
       </div>
     </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
+          Additional <br />
+          topic
+        </h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-087.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            Additional <br />
+            topic
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+
     <PlyrSection :file-name="'vid-01.mp4'" />
     <quote-section>
       <p>
