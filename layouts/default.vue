@@ -10,13 +10,17 @@
 
 <script>
 import Header from '@/components/Header/Header.vue'
-import Footer from '@/components/Footer/Footer.vue'
+// import Footer from '@/components/Footer/Footer.vue'
 
 export default {
   components: {
     Header,
-    Footer,
+    Footer: () => import('@/components/Footer/Footer.vue'),
   },
+  // components: {
+  // Header,
+  // Footer,
+  // },
 }
 </script>
 

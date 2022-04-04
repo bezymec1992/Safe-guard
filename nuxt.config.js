@@ -51,11 +51,6 @@ export default {
     '@nuxtjs/style-resources',
   ],
 
-
-  // bootstrapVue: {
-  //   icons: false
-  // },
-
   lazySizes: {
     extendAssetUrls: {
       img: ['src', 'srcset', 'data-src', 'data-srcset'],
@@ -69,7 +64,6 @@ export default {
     preloadAfterLoad: false,
     loadMode: 1,
   },
-
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

@@ -93,7 +93,7 @@ import ListSection from '@/components/ListSection/ListSection.vue'
 import ServicesSection from '@/components/ServicesSection/ServicesSection.vue'
 import WWSection from '@/components/WWSection/WWSection.vue'
 import WFromSection from '@/components/WFromSection/WFromSection.vue'
-import ContactSection from '@/components/ContactSection/ContactSection.vue'
+// import ContactSection from '@/components/ContactSection/ContactSection.vue'
 
 export default {
   components: {
@@ -104,7 +104,9 @@ export default {
     ServicesSection,
     WWSection,
     WFromSection,
-    ContactSection,
+    ContactSection: () =>
+      import('@/components/ContactSection/ContactSection.vue'),
+    // ContactSection,
   },
   head: {
     title: 'Home page',
