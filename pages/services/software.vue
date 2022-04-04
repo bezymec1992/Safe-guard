@@ -97,12 +97,24 @@
             suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
         </div>
-      </div>
-      <div class="col d-md-none">
+        <h3 class="h2 text-capitalize">What is this tool about</h3>
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <h3 class="h2 text-capitalize">What is this tool about</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
@@ -159,12 +171,24 @@
             suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
         </div>
-      </div>
-      <div class="col d-md-none">
+        <h3 class="h2 text-capitalize">What is this tool about</h3>
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <h3 class="h2 text-capitalize">What is this tool about</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
