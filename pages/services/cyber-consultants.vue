@@ -94,7 +94,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-084.jpg"
+            data-src="@/assets/images/img-093.jpg"
             class="lazyload"
             alt="#"
           />
@@ -281,7 +281,27 @@
       </div>
     </txt-block>
 
-    <PlyrSection :file-name="'vid-01.mp4'" />
+    <visual-section :class="'img-pos1 second-section'">
+      <div
+        class="row flex-col flex-column-reverse flex-md-row justify-content-between"
+      >
+        <div class="col-md-6">
+          <div class="img-holder">
+            <img
+              data-src="@/assets/images/img-094.png"
+              class="lazyload"
+              alt="#"
+            />
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-md-center">
+          <div class="content-holder">
+            <h2 class="h1">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
+          </div>
+        </div>
+      </div>
+    </visual-section>
+
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -297,7 +317,6 @@ import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import VisualSection from '@/components/VisualSection/VisualSection.vue'
 import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
-import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
@@ -307,7 +326,6 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
-    PlyrSection,
     ButtonsSection,
   },
 }
@@ -319,6 +337,35 @@ export default {
     &.style2 {
       @include media-breakpoint-up(md) {
         padding-bottom: 20rem;
+      }
+    }
+  }
+
+  .visual-section {
+    &.second-section {
+      @include media-breakpoint-up(md) {
+        margin-bottom: 20rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        padding-bottom: 3rem;
+        margin-bottom: 10rem;
+      }
+
+      .row {
+        @include media-breakpoint-down(md) {
+          min-height: 58.7rem;
+        }
+      }
+
+      .img-holder {
+        left: 0;
+        right: unset;
+
+        @include media-breakpoint-down(md) {
+          position: relative;
+          margin: 0 -2.4rem;
+        }
       }
     }
   }
