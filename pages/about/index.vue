@@ -93,18 +93,21 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          Let Is <br />
-          Inroduce
-        </h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="content-holder">
+          <h3 class="h2 text-capitalize">
+            Let Is <br />
+            Inroduce
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -134,19 +137,22 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          A Team Dedicated To <br />
-          Protect Your Assets And <br />
-          Reputation
-        </h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="content-holder">
+          <h3 class="h2 text-capitalize">
+            A Team Dedicated To <br />
+            Protect Your Assets And <br />
+            Reputation
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -189,18 +195,21 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          Frank Balte <br />
-          <small>(Function)</small>
-        </h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="content-holder">
+          <h3 class="h2 text-capitalize">
+            Frank Balte <br />
+            <small>(Function)</small>
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -229,18 +238,21 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <h3 class="h2 text-capitalize">
-          Roger van Alphen <br />
-          <small>(Function)</small>
-        </h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
+        <div class="content-holder">
+          <h3 class="h2 text-capitalize">
+            Roger van Alphen <br />
+            <small>(Function)</small>
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
         </div>
       </div>
       <div class="col d-md-none">
@@ -322,6 +334,15 @@ export default {
     @include media-breakpoint-down(md) {
       padding-top: 7rem;
       padding-bottom: 5rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .container {
+      max-width: 128.5rem;
     }
   }
 

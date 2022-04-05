@@ -62,18 +62,20 @@
         </div>
       </div>
       <div class="col-md-6 d-flex flex-column justify-content-center">
-        <h3 class="h2">Who We Are</h3>
-        <div class="text-holder">
-          <p>
-            With our global footprint and our specialized team members and
-            partners we know what it takes to make sure that we can deliver a
-            minimum risk environment for our clients.
-          </p>
-          <p>
-            We know that timing is key, when to accelerate and when to slow
-            down. Having our clients brand top of mind, we make sure that
-            communication, teamwork and quality reports is a given.
-          </p>
+        <div class="content-holder">
+          <h3 class="h2 text-uppercase">Who We Are</h3>
+          <div class="text-holder">
+            <p>
+              With our global footprint and our specialized team members and
+              partners we know what it takes to make sure that we can deliver a
+              minimum risk environment for our clients.
+            </p>
+            <p>
+              We know that timing is key, when to accelerate and when to slow
+              down. Having our clients brand top of mind, we make sure that
+              communication, teamwork and quality reports is a given.
+            </p>
+          </div>
         </div>
       </div>
     </txt-block>
@@ -153,6 +155,12 @@ export default {
         left: 0;
       }
     }
+  }
+}
+
+.txt-block {
+  .img-holder {
+    margin-left: 0;
   }
 }
 </style>
