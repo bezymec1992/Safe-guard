@@ -68,12 +68,14 @@
     </intro-section>
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Tool #1</h3>
+        <h3 class="h2 text-capitalize">Discover statistics and requests</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
         </div>
       </div>
@@ -90,7 +92,9 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">Tool #1</h3>
+              <h3 class="h2 text-capitalize">
+                Discover statistics and requests
+              </h3>
               <div class="text-holder">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -109,9 +113,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
                   nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
-                  turpis euismod, fermentum
+                  gravida urna varius.
                 </p>
               </div>
             </div>
@@ -152,19 +154,21 @@
     </visual-section>
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Tool #2</h3>
+        <h3 class="h2 text-capitalize">Manage customers data</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-038.png"
+            data-src="@/assets/images/img-095.png"
             class="lazyload"
             alt="#"
           />
@@ -174,7 +178,7 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">Tool #2</h3>
+              <h3 class="h2 text-capitalize">Manage customers data</h3>
               <div class="text-holder">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -213,6 +217,101 @@
         </div>
       </div>
     </txt-block>
+    <visual-section :bg="'img-096.png'" :class="'bg-img'"> </visual-section>
+
+    <txt-block :class="'txt-block-1 style1'">
+      <div class="col d-md-none">
+        <h3 class="h2">Organize tasks</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-097.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Organize tasks</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">Requests for business</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-098.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Requests for business</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+
     <PlyrSection :file-name="'vid-01.mp4'" class="d-none d-md-block" />
     <quote-section>
       <p>

@@ -153,6 +153,7 @@
     .imac-holder {
       position: relative;
       max-width: 66.8rem;
+      
 
       @include media-breakpoint-down(md) {
         margin-bottom: 3rem;
