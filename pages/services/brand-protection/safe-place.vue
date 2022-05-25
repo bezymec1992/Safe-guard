@@ -13,7 +13,9 @@
           Back</router-link
         >
         <div class="row">
-          <div class="col-md-6 d-md-flex flex-column justify-content-center intro-text">
+          <div
+            class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
+          >
             <h1 class="h1">Safe place for everyone</h1>
             <div class="text-holder d-none d-md-block">
               <p>

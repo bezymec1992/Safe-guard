@@ -410,7 +410,7 @@ import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
-  name: 'brand-protection',
+  name: 'BrandProtection',
   components: {
     IntroSection,
     TxtBlock,
