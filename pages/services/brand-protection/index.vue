@@ -349,7 +349,7 @@
     </txt-block>
 
     <visual-section class="balloon">
-      <div class="row">
+      <div class="row g-0">
         <div class="col-md-6 d-flex align-items-md-center balloon-text">
           <div class="content-holder">
             <h2 class="h1 anim-item">
@@ -379,7 +379,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 balloon-block">
+        <div class="col-md-6">
           <div class="img-holder">
             <img
               data-src="@/assets/images/img-099.png"

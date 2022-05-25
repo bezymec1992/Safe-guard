@@ -244,27 +244,17 @@
       position: absolute;
       right: 0;
       bottom: 0;
+      width: 101.5rem;
       img {
         width: 100%;
         height: auto;
       }
     }
-    .balloon-block {
-      margin-right: 0;
-      margin-left: 0;
-      padding-left: 0;
-      padding-right: 0;
-    }
-
   }
 
   .balloon-text {
     padding-top: 80px;
     justify-content: center;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
     @include media-breakpoint-down(md) {
       justify-content: flex-start;
       position: relative;

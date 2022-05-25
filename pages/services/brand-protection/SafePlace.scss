@@ -1,9 +1,10 @@
 .safe-pages {
-  position: relative;
-
   .intro-section {
+    position: relative;
+    margin-bottom: 14rem;
     @include media-breakpoint-down(md) {
       padding-top: 23rem;
+      margin-bottom: 0;
     }
   }
 
@@ -11,15 +12,16 @@
     display: block;
     position: relative;
     z-index: 2;
+    @include media-breakpoint-down(md) {
+      top: -130px;
+    }
   }
 
   .intro-text {
     position: relative;
     z-index: 10;
-
-    .h1 {
-    }
   }
+
   .balloon-holder {
     position: absolute;
     right: 0;
@@ -29,6 +31,73 @@
     img {
       width: 100%;
       height: auto;
+    }
+  }
+
+  .anonymous {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 18rem;
+    margin-top: 65px;
+    height: 55rem;
+    @include media-breakpoint-down(md) {
+        margin-top: 48px;
+        margin-bottom: 10rem;
+    }
+    .container {
+      padding-right: 0;
+    }
+    .img-holder {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 120.5rem;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      @include media-breakpoint-down(md) {
+        width: 80rem;
+        bottom: -100px;
+      }
+    }
+  }
+
+  .anonymous-text {
+    padding-top: 80px;
+    justify-content: center;
+    @include media-breakpoint-down(md) {
+      justify-content: flex-start;
+      position: relative;
+      z-index: 4;
+    }
+
+    p {
+      margin-bottom: 35px;
+    }
+  }
+  .get-in {
+    
+    .text-holder {
+        padding-bottom: 24rem;
+        @include media-breakpoint-down(md) {
+          padding-bottom: 12rem;
+        }
+      .h3 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 4rem;
+      }
+
+      .btn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 30rem;
+      }
     }
   }
 }
