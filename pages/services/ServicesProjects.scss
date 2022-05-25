@@ -153,7 +153,6 @@
     .imac-holder {
       position: relative;
       max-width: 66.8rem;
-      
 
       @include media-breakpoint-down(md) {
         margin-bottom: 3rem;
@@ -223,6 +222,57 @@
         height: auto;
         z-index: 2;
       }
+    }
+  }
+
+
+  .balloon {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #ffcf27;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 18rem;
+    margin-top: 65px;
+    height: 48rem;
+    .container {
+      padding-right: 0;
+
+    }
+    .img-holder {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .balloon-block {
+      margin-right: 0;
+      margin-left: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  }
+
+  .balloon-text {
+    padding-top: 80px;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    @include media-breakpoint-down(md) {
+      justify-content: flex-start;
+      position: relative;
+      z-index: 4;
+    }
+  
+    p {
+      margin-bottom: 35px;
     }
   }
 

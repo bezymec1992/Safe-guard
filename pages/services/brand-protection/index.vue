@@ -72,6 +72,7 @@
         </div>
       </div>
     </intro-section>
+
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -346,6 +347,50 @@
         </div>
       </div>
     </txt-block>
+
+    <visual-section class="balloon">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-md-center balloon-text">
+          <div class="content-holder">
+            <h2 class="h1 anim-item">
+              Safe place
+              <br />
+              for everyone
+            </h2>
+            <div class="text-holder anim-item">
+              <p>
+                Want to know how to protect your team and make it more healthy?
+              </p>
+              <nuxt-link
+                to="/services/brand-protection/safe-place"
+                class="btn btn-arrow"
+              >
+                Read More
+                <span class="arrow-wrapper">
+                  <span class="icon-holder">
+                    <img
+                      data-src="@/assets/images/icon-02.svg"
+                      class="lazyload"
+                      alt="#"
+                    />
+                  </span>
+                </span>
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 balloon-block">
+          <div class="img-holder">
+            <img
+              data-src="@/assets/images/img-099.png"
+              class="lazyload"
+              alt="#"
+            />
+          </div>
+        </div>
+      </div>
+    </visual-section>
+
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -365,7 +410,7 @@ import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
-  name: 'BrandProtection',
+  name: 'brand-protection',
   components: {
     IntroSection,
     TxtBlock,
@@ -374,9 +419,15 @@ export default {
     PlyrSection,
     ButtonsSection,
   },
+  data: () => ({}),
+  computed: {
+    hideHomeServices() {
+      return this.$route.name === 'services'
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-@import 'ServicesProjects.scss';
+@import '@/pages/services/ServicesProjects.scss';
 </style>

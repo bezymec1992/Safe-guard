@@ -1,0 +1,35 @@
+.safe-pages {
+  position: relative;
+  .intro-section {
+    padding-top: 0;
+  }
+
+  .back-link {
+    display: block;
+    .icon-holder {
+      margin-top: 148px;
+      display: inline-flex;
+      max-width: 1.6rem;
+      margin-right: 1rem;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .intro-text {
+    position: relative;
+    z-index: 10;
+    .h1 {
+      
+    }
+  }
+  .balloon-holder {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

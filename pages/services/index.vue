@@ -81,5 +81,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'Services.scss';
+@import './Services.scss';
 </style>
