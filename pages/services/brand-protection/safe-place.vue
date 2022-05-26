@@ -113,7 +113,7 @@
             </div>
             <div class="btns-holder">
               <router-link
-                to="/services/software"
+                to="/services/brand-protection/safe-place-services"
                 class="btn btn-dark d-none d-md-inline-flex justify-content-center anim-item"
                 >How do we check a place?</router-link
               >
