@@ -227,6 +227,7 @@
 
 
   .balloon {
+    overflow: hidden;
     position: relative;
     padding-top: 0;
     padding-bottom: 0;
@@ -236,15 +237,27 @@
     margin-bottom: 18rem;
     margin-top: 65px;
     height: 48rem;
+    @include media-breakpoint-down(md) {
+      height: 57rem;
+    }
     .container {
       padding-right: 0;
 
     }
     .img-holder {
       position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 101.5rem;
+      right: 0px;
+      bottom: 0px;
+      width: 56.5rem;
+      @include media-breakpoint-down(md) {
+        right: -118px;
+        bottom: 0px;
+        width: 44.5rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        // width: 32.5rem;
+      }
       img {
         width: 100%;
         height: auto;
@@ -253,9 +266,10 @@
   }
 
   .balloon-text {
-    padding-top: 80px;
+    padding-top: 8rem;
     justify-content: center;
     @include media-breakpoint-down(md) {
+      padding-top: 4.6rem;
       justify-content: flex-start;
       position: relative;
       z-index: 4;
