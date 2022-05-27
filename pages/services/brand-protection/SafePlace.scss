@@ -10,7 +10,6 @@
     @include media-breakpoint-down(sm) {
       padding-bottom: 16.4rem;
     }
-  
   }
 
   .back-link {
@@ -56,8 +55,6 @@
     }
   }
 
- 
-
   .anonymous {
     position: relative;
     padding-top: 0;
@@ -65,36 +62,45 @@
     max-width: 1240px;
     margin: auto;
     margin-bottom: 15rem;
-    margin-top: 65px;
-    height: 55rem;
+    margin-top: 6.5rem;
+    min-height: 55rem;
+
     @include media-breakpoint-down(md) {
+      padding-bottom: 8rem;
       margin-top: 4.8rem;
       margin-bottom: 10rem;
     }
+
     @include media-breakpoint-down(sm) {
       margin-bottom: 7rem;
-      height: 64rem;
+      min-height: 70vh;
     }
+
     .container {
       padding-right: 0;
     }
     .img-holder {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 120.5rem;
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 120.5rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        // width: 64rem;
+        // bottom: -10rem;
+        max-width: 100%;
+      }
+
+      // @include media-breakpoint-down(sm) {
+      //   width: 50rem;
+      //   bottom: 2rem;
+      // }
+
       img {
         width: 100%;
         height: auto;
-      }
-      @include media-breakpoint-down(md) {
-        width: 64rem;
-        bottom: -10rem;
-      }
-
-      @include media-breakpoint-down(sm) {
-        width: 50rem;
-        bottom: 2rem;
       }
     }
     .protection {
@@ -132,36 +138,9 @@
           font-size: 2.5rem;
           line-height: 1.5;
         }
-      
       }
     }
   }
-<<<<<<< HEAD
-=======
-  .get-in {
-    .text-holder {
-      padding-bottom: 24rem;
-      @include media-breakpoint-down(md) {
-        padding-bottom: 11rem;
-      }
-      .h3 {
-        text-align: center;
-        font-size: 4rem;
-        margin-bottom: 4rem;
-        @include media-breakpoint-down(md) {
-          font-size: 1.9rem;
-        }
-      }
-
-      .btn {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        max-width: 30rem;
-      }
-    }
-  }
->>>>>>> c46682092889e1a21f01c7131fe26e2ac890d80e
 
   .awareness {
     .awareness-wrapper {

@@ -17,7 +17,7 @@
             class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
           >
             <h1 class="h1">Safe place for everyone</h1>
-            <div class="text-holder d-none d-md-block">
+            <div class="text-holder">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id, .
@@ -33,12 +33,6 @@
                 class="lazyload ballon"
                 alt="img description"
               />
-            </div>
-            <div class="text-holder d-md-none">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
-              </p>
             </div>
           </div>
         </div>
@@ -315,9 +309,9 @@
         </h3>
         <div class="text-holder">
           <p>
-             imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-              posuere massa sed magna condimentum, eu gravida urna varius.
-              Aenean neque orci, ultrices
+            imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere
+            massa sed magna condimentum, eu gravida urna varius. Aenean neque
+            orci, ultrices
           </p>
         </div>
       </div>
@@ -346,12 +340,11 @@
           </h3>
           <div class="text-holder">
             <p>
-             
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo.
             </p>
             <router-link to="/services/software" class="btn btn-dark"
               >Need our help?</router-link
@@ -386,7 +379,7 @@
               </p>
               <nuxt-link
                 to="/services/brand-protection/safeplace-software"
-                class="btn btn-arrow"
+                class="btn btn-arrow d-none d-md-inline-flex"
               >
                 Read More
                 <span class="arrow-wrapper">
@@ -402,7 +395,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 anonymous-block">
+        <div class="col-md-6">
           <div class="img-holder">
             <img
               data-src="@/assets/images/img-103.png"
@@ -410,38 +403,38 @@
               alt="#"
             />
           </div>
+          <nuxt-link
+            to="/services/brand-protection/safeplace-software"
+            class="btn btn-arrow d-md-none"
+          >
+            Read More
+            <span class="arrow-wrapper">
+              <span class="icon-holder">
+                <img
+                  data-src="@/assets/images/icon-02.svg"
+                  class="lazyload"
+                  alt="#"
+                />
+              </span>
+            </span>
+          </nuxt-link>
         </div>
-        
       </div>
     </visual-section>
 
-    <get-in-touch-section class="get-in">
-      <div class="container">
-        <div class="row">
-          <div class="text-holder">
-            <h3 class="h3">
-              Let’s protect your place and make it <br />
-              safe for everyone now
-            </h3>
-            <router-link to="/services/software" class="btn btn-dark btn-style"
-              >Get on touch</router-link
-            >
-          </div>
-        </div>
-      </div>
-    </get-in-touch-section>
+    <GetIn />
   </div>
 </template>
 
 <script>
-import IntroSection from '@/components/IntroSection/IntroSection.vue'
-// import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
+import IntroSection from '@/components/IntroSection/IntroSection'
+import GetIn from '@/components/SafePlaces/GetIn'
 
 export default {
   name: 'SafePlace',
   components: {
     IntroSection,
-    // ResultsSection,
+    GetIn,
   },
   data() {
     return {

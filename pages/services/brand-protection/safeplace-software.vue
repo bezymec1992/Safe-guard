@@ -197,7 +197,7 @@
       </div>
     </txt-block> -->
     <!-- <visual-section :bg="'img-104.png'" :class="'bg-img'"> </visual-section> -->
-<!-- 
+    <!-- 
     <div class="statistic-section">
       <div class="container">
         <div class="row">
@@ -385,12 +385,8 @@
                 something has happened.
               </p>
               <nuxt-link
-<<<<<<< HEAD:pages/services/brand-protection/safe-place.vue
-                to="/services/brand-protection/safe-place"
-=======
                 to="/services/brand-protection/safeplace"
                 
->>>>>>> c46682092889e1a21f01c7131fe26e2ac890d80e:pages/services/brand-protection/safeplace-software.vue
                 class="btn btn-arrow"
               >
                 Read More
@@ -417,17 +413,6 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD:pages/services/brand-protection/safe-place.vue
-    </visual-section>
-    <GetIn>
-      <temlate v:title>
-        <h2 class="h2">
-          Let’s protect your place and make it <br />
-          safe for everyone now
-        </h2>
-      </temlate>
-    </GetIn>
-=======
     </visual-section> -->
 
     <!-- <get-in-touch-section class="get-in">
@@ -443,24 +428,19 @@
       </div>
 
     </get-in-touch-section> -->
->>>>>>> c46682092889e1a21f01c7131fe26e2ac890d80e:pages/services/brand-protection/safeplace-software.vue
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
-import GetIn from '@/components/SafePlaces/GetIn'
+
 // import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
 
 export default {
-<<<<<<< HEAD:pages/services/brand-protection/safe-place.vue
-  name: 'SafePlace',
-=======
   name: 'SafePlaceSoftware',
->>>>>>> c46682092889e1a21f01c7131fe26e2ac890d80e:pages/services/brand-protection/safeplace-software.vue
   components: {
     IntroSection,
-    GetIn,
+
     // ResultsSection,
   },
   data() {

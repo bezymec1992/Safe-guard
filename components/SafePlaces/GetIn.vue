@@ -8,9 +8,7 @@
             safe for everyone now
           </h2>
         </slot>
-        <router-link :to="link" class="btn btn-dark"
-          >Need our help?</router-link
-        >
+        <nuxt-link :to="to" class="btn btn-dark">Need our help?</nuxt-link>
       </div>
     </div>
   </div>
@@ -24,9 +22,9 @@ export default {
       type: String,
       default: 'title',
     },
-    link: {
-      type: String,
-      default: '/',
+    to: {
+      type: [String, Object],
+      default: '',
     },
   },
 }
