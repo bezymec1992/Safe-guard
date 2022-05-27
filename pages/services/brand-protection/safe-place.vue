@@ -320,9 +320,9 @@
             neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
             suscipit justo.
           </p>
-           <router-link to="/services/software" class="btn btn-dark"
-              >Need our help?</router-link
-            >
+          <router-link to="/services/software" class="btn btn-dark"
+            >Need our help?</router-link
+          >
         </div>
       </div>
       <div class="col-md-6 picture">
@@ -356,7 +356,7 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex. Nullam quis suscipit justo.
             </p>
-             <router-link to="/services/software" class="btn btn-dark"
+            <router-link to="/services/software" class="btn btn-dark"
               >Need our help?</router-link
             >
           </div>
@@ -386,7 +386,6 @@
               </p>
               <nuxt-link
                 to="/services/brand-protection/safe-place"
-                
                 class="btn btn-arrow"
               >
                 Read More
@@ -414,31 +413,27 @@
         </div>
       </div>
     </visual-section>
-
-    <get-in-touch-section class="get-in">
-      <div class="container">
-        <div class="row">
-          <div class="text-holder">
-            <h3 class="h3">Let’s protect your place and make it <br /> safe for everyone now</h3>
-           <router-link to="/services/software" class="btn btn-dark "
-              >Need our help?</router-link
-            >
-          </div>
-        </div>
-      </div>
-
-    </get-in-touch-section>
+    <GetIn>
+      <temlate v:title>
+        <h2 class="h2">
+          Let’s protect your place and make it <br />
+          safe for everyone now
+        </h2>
+      </temlate>
+    </GetIn>
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
+import GetIn from '@/components/SafePlaces/GetIn'
 // import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
 
 export default {
-  name: 'safe-place',
+  name: 'SafePlace',
   components: {
     IntroSection,
+    GetIn,
     // ResultsSection,
   },
   data() {
@@ -495,7 +490,7 @@ export default {
 .results-section {
   margin-bottom: 10.5rem;
   @include media-breakpoint-down(md) {
-       margin-bottom: 6.5rem;
+    margin-bottom: 6.5rem;
   }
 }
 .safe-style {
@@ -561,7 +556,7 @@ export default {
 .reverse {
   margin-bottom: 18.8rem;
   @include media-breakpoint-down(md) {
-        margin-bottom: 4.8rem;
+    margin-bottom: 4.8rem;
   }
 }
 
@@ -583,8 +578,6 @@ export default {
       width: 100%;
     }
   }
-
-
 }
 </style>
 
