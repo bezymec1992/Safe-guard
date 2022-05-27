@@ -50,7 +50,20 @@
 		@include media-breakpoint-up(md) {
 			max-width: 46.4rem;
 		}
+		@include media-breakpoint-down(md) {
+			bottom: 18rem;
+		}
+		p {
+			font-size: 14px;
+			max-width: 24rem;
+		}
 	}
+
+	.balloon-p-txt {
+		position: relative;
+	  
+		
+	  }
 
 	.h1 {
 		margin-bottom: 5rem;

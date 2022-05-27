@@ -362,7 +362,7 @@
                 Want to know how to protect your team and make it more healthy?
               </p>
               <nuxt-link
-                to="/services/brand-protection/safe-place"
+                to="/services/brand-protection/safeplace"
                 class="btn btn-arrow"
               >
                 Read More

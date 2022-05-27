@@ -4,7 +4,11 @@
     margin-bottom: 14rem;
     @include media-breakpoint-down(md) {
       padding-top: 23rem;
+      padding-bottom: 11.4rem;
       margin-bottom: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 16.4rem;
     }
   }
 
@@ -20,19 +24,37 @@
   .intro-text {
     position: relative;
     z-index: 10;
+    @include media-breakpoint-down(md) {
+      bottom: 154px;
+    }
+    .h1 {
+      @include media-breakpoint-down(md) {
+        max-width: 33rem;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 2.4rem;
+      }
+    }
   }
 
   .balloon-holder {
+    overflow-x: hidden;
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 101.5rem;
+    width: 74.5rem;
+    @include media-breakpoint-down(md) {
+      width: 50.5rem;
+      right: -15rem;
+    }
 
     img {
       width: 100%;
       height: auto;
     }
   }
+
+ 
 
   .anonymous {
     position: relative;
@@ -97,18 +119,28 @@
     }
     .content-holder {
       z-index: 10;
+      .h1 {
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+          line-height: 1.5;
+        }
+      
+      }
     }
   }
   .get-in {
     .text-holder {
       padding-bottom: 24rem;
       @include media-breakpoint-down(md) {
-        padding-bottom: 12rem;
+        padding-bottom: 11rem;
       }
       .h3 {
         text-align: center;
         font-size: 4rem;
         margin-bottom: 4rem;
+        @include media-breakpoint-down(md) {
+          font-size: 1.9rem;
+        }
       }
 
       .btn {

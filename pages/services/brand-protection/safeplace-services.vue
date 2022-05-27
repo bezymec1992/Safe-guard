@@ -3,7 +3,7 @@
     <intro-section>
       <div class="container">
         <router-link
-          to="/services/brand-protection/safe-place"
+          to="/services/brand-protection/safeplace"
           class="back-link"
         >
           <span class="icon-holder">
@@ -255,7 +255,7 @@
             </div>
             <div class="btns-holder">
               <router-link
-                to="/services/brand-protection/safe-place-services"
+                to="/services/brand-protection/safeplace-services"
                 class="btn btn-dark d-md-inline-flex justify-content-center anim-item"
                 >View More</router-link
               >
@@ -321,21 +321,20 @@
     <div class="wfrom-section">
       <div class="container">
         <h2 class="h2">
-         Want to know how to <br /> train team by yourself?
+          Want to know how to <br />
+          train team by yourself?
         </h2>
         <div class="row">
           <div class="col-md-6">
             <div class="text-holder">
-              <p>
-                Check our programs we have created and we will help you!
-              </p>
+              <p>Check our programs we have created and we will help you!</p>
             </div>
           </div>
           <div
             class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
           >
             <router-link to="/about/timeline" class="btn btn-arrow">
-             View More
+              View More
               <span class="arrow-wrapper"
                 ><span class="icon-holder"
                   ><img
@@ -354,7 +353,7 @@
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 
 export default {
-  name: 'safe-place-services',
+  name: 'SafePlaceServices',
   components: {
     IntroSection,
   },
@@ -366,7 +365,7 @@ export default {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
   background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
   @include media-breakpoint-down(md) {
@@ -380,6 +379,7 @@ export default {
 }
 
 .safe-style {
+ 
   .item-number {
     display: block;
     margin-bottom: 3.2rem;
@@ -390,6 +390,7 @@ export default {
       font-size: 2rem;
     }
   }
+
 }
 
 .txt-block {
