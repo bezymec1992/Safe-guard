@@ -4,8 +4,13 @@
     margin-bottom: 14rem;
     @include media-breakpoint-down(md) {
       padding-top: 23rem;
+      padding-bottom: 11.4rem;
       margin-bottom: 0;
     }
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 16.4rem;
+    }
+  
   }
 
   .back-link {
@@ -20,19 +25,38 @@
   .intro-text {
     position: relative;
     z-index: 10;
+    @include media-breakpoint-down(md) {
+      bottom: 154px;
+    }
+    .h1 {
+      @include media-breakpoint-down(md) {
+        max-width: 33rem;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 2.4rem;
+        max-width: 27rem;
+      }
+    }
   }
 
   .balloon-holder {
+    overflow-x: hidden;
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 101.5rem;
+    width: 74.5rem;
+    @include media-breakpoint-down(md) {
+      width: 50.5rem;
+      right: -15rem;
+    }
 
     img {
       width: 100%;
       height: auto;
     }
   }
+
+ 
 
   .anonymous {
     position: relative;
@@ -47,8 +71,9 @@
       margin-top: 4.8rem;
       margin-bottom: 10rem;
     }
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(sm) {
       margin-bottom: 7rem;
+      height: 64rem;
     }
     .container {
       padding-right: 0;
@@ -63,8 +88,13 @@
         height: auto;
       }
       @include media-breakpoint-down(md) {
-        width: 80rem;
+        width: 64rem;
         bottom: -10rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 50rem;
+        bottom: 2rem;
       }
     }
     .protection {
@@ -86,7 +116,7 @@
     padding-top: 12rem;
     justify-content: center;
     @include media-breakpoint-down(md) {
-      padding-top: 8rem;
+      padding-top: 7rem;
       justify-content: flex-start;
       position: relative;
       z-index: 4;
@@ -97,8 +127,41 @@
     }
     .content-holder {
       z-index: 10;
+      .h1 {
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+          line-height: 1.5;
+        }
+      
+      }
     }
   }
+<<<<<<< HEAD
+=======
+  .get-in {
+    .text-holder {
+      padding-bottom: 24rem;
+      @include media-breakpoint-down(md) {
+        padding-bottom: 11rem;
+      }
+      .h3 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 4rem;
+        @include media-breakpoint-down(md) {
+          font-size: 1.9rem;
+        }
+      }
+
+      .btn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 30rem;
+      }
+    }
+  }
+>>>>>>> c46682092889e1a21f01c7131fe26e2ac890d80e
 
   .awareness {
     .awareness-wrapper {

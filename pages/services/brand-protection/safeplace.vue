@@ -1,6 +1,6 @@
 <template>
   <div class="safe-pages">
-    <intro-section>
+    <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
@@ -35,7 +35,10 @@
               />
             </div>
             <div class="text-holder d-md-none">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
+              </p>
             </div>
           </div>
         </div>
@@ -113,7 +116,7 @@
             </div>
             <div class="btns-holder">
               <router-link
-                to="/services/brand-protection/safe-place-services"
+                to="/services/brand-protection/safeplace-services"
                 class="btn btn-dark d-none d-md-inline-flex justify-content-center anim-item"
                 >How do we check a place?</router-link
               >
@@ -137,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 d-md-none anim-item-2">
+          <div class="col-12 d-md-none anim-item-2 btn-style">
             <router-link to="/services/software" class="btn btn-dark"
               >How do we check a place?</router-link
             >
@@ -145,21 +148,22 @@
         </div>
       </div>
     </div>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse  safe-style'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Checking all the risks <br />
-          and advantages
+          Due to a global <br />
+          digitalization the <br />
+          influence can be not direct
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere
+            massa sed magna condimentum, eu gravida urna varius. Aenean neque
+            orci, ultrices
           </p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 safe-style-img">
         <div class="img-holder">
           <img
             data-src="@/assets/images/img-101.png"
@@ -187,8 +191,8 @@
           </div>
         </div>
       </div>
-      <div class="col d-md-none">
-        <div class="text-holder">
+      <div class="col d-md-none mobile-text">
+        <div class="text-holder pb-none">
           <p>
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
@@ -232,9 +236,9 @@
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere
+            massa sed magna condimentum, eu gravida urna varius. Aenean neque
+            orci, ultrices
           </p>
         </div>
       </div>
@@ -257,10 +261,9 @@
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius.
+                  imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+                  posuere massa sed magna condimentum, eu gravida urna varius.
+                  Aenean neque orci, ultrices
                 </p>
               </div>
             </div>
@@ -291,15 +294,13 @@
           Second - we create <br />
           awareness program
         </h3>
-        <div class="text-holder">
+        <div class="text-holder txt-mobile">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere
+            massa sed magna condimentum, eu gravida urna varius. Aenean neque
+            orci, ultrices
           </p>
-          <router-link to="/services/software" class="btn btn-dark"
+          <router-link to="/services/software" class="btn btn-dark btn-style"
             >About awareness program</router-link
           >
         </div>
@@ -314,15 +315,10 @@
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo.
+             imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+              posuere massa sed magna condimentum, eu gravida urna varius.
+              Aenean neque orci, ultrices
           </p>
-          <router-link to="/services/software" class="btn btn-dark"
-            >Need our help?</router-link
-          >
         </div>
       </div>
       <div class="col-md-6 picture">
@@ -350,11 +346,12 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo.
+             
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo.
             </p>
             <router-link to="/services/software" class="btn btn-dark"
               >Need our help?</router-link
@@ -368,6 +365,9 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
+          <router-link to="/services/software" class="btn btn-dark btn-style"
+            >Need our help?</router-link
+          >
         </div>
       </div>
     </txt-block>
@@ -385,7 +385,7 @@
                 something has happened.
               </p>
               <nuxt-link
-                to="/services/brand-protection/safe-place"
+                to="/services/brand-protection/safeplace-software"
                 class="btn btn-arrow"
               >
                 Read More
@@ -411,29 +411,36 @@
             />
           </div>
         </div>
+        
       </div>
     </visual-section>
-    <GetIn>
-      <temlate v:title>
-        <h2 class="h2">
-          Let’s protect your place and make it <br />
-          safe for everyone now
-        </h2>
-      </temlate>
-    </GetIn>
+
+    <get-in-touch-section class="get-in">
+      <div class="container">
+        <div class="row">
+          <div class="text-holder">
+            <h3 class="h3">
+              Let’s protect your place and make it <br />
+              safe for everyone now
+            </h3>
+            <router-link to="/services/software" class="btn btn-dark btn-style"
+              >Get on touch</router-link
+            >
+          </div>
+        </div>
+      </div>
+    </get-in-touch-section>
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
-import GetIn from '@/components/SafePlaces/GetIn'
 // import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
 
 export default {
   name: 'SafePlace',
   components: {
     IntroSection,
-    GetIn,
     // ResultsSection,
   },
   data() {
@@ -487,6 +494,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.intro {
+  overflow: hidden;
+}
 .results-section {
   margin-bottom: 10.5rem;
   @include media-breakpoint-down(md) {
@@ -497,6 +507,26 @@ export default {
   margin-bottom: 16rem;
   @include media-breakpoint-down(md) {
     margin-bottom: 3rem;
+  }
+  h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+.mobile-text {
+  .pb-none {
+    margin-bottom: 0;
+  }
+}
+
+.safe-style-img {
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 57rem;
+  margin: auto;
+  @include media-breakpoint-down(md) {
   }
 }
 
@@ -516,10 +546,15 @@ export default {
     margin-bottom: 7rem;
     line-height: 2.5;
     @include media-breakpoint-down(md) {
-      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 3.5rem;
     }
     .h1 {
       font-size: 40px;
+      @include media-breakpoint-down(md) {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
     }
   }
   .statistic-item {
@@ -527,12 +562,31 @@ export default {
       font-size: 2.8rem;
       color: #ffd027;
       line-height: 1.5;
+      @include media-breakpoint-down(md) {
+        font-size: 2rem;
+        text-align: left;
+      }
     }
 
     p {
       line-height: 2;
+      @include media-breakpoint-down(md) {
+        text-align: left;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      margin-bottom: 3rem;
     }
   }
+}
+
+.txt-mobile {
+  margin-bottom: 0;
+}
+
+.btn-style {
+  display: flex;
+  justify-content: center;
 }
 
 .txt-block {
