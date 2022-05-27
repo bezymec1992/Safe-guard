@@ -1,6 +1,6 @@
 <template>
   <div class="safe-pages">
-    <intro-section>
+    <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
@@ -16,26 +16,29 @@
           <div
             class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
           >
-            <h1 class="h1">Safe place for everyone</h1>
+            <h1 class="h1">Safeplace software</h1>
             <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id, .
+                ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
           <div
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
-            <div class="balloon-holder">
+            <div class="mobile-holder">
               <img
-                data-src="@/assets/images/bg-1.png"
+                data-src="@/assets/images/img-005.png"
                 class="lazyload ballon"
                 alt="img description"
               />
             </div>
             <div class="text-holder d-md-none balloon-p-txt">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
+              </p>
             </div>
           </div>
         </div>
@@ -50,21 +53,20 @@
         </div>
       </div>
     </intro-section>
-    <!-- <txt-block :class="'txt-block-1 style1 safe-style'">
+    <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
-        <h3 class="h2">Why did we decide to create SafePlace</h3>
+        <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            vitae imperdiet nibh. P
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-100.png"
+            data-src="@/assets/images/img-006.png"
             class="lazyload"
             alt="#"
           />
@@ -72,7 +74,108 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Why did we decide to create SafePlace</h3>
+          <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+    <!-- <ResultsSection /> -->
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">
+          We have a huge <br />
+          background so we can <br />
+          help you with your team
+        </h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo.
+          </p>
+          <router-link to="/services/software" class="btn btn-dark"
+            >Need our help?</router-link
+          >
+        </div>
+      </div>
+      <div class="col-md-6 picture">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-007.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">
+            We have a huge <br />
+            background so we can <br />
+            help you with your team
+          </h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+
+    <visual-section :bg="'img-008.png'" :class="'bg-img'"> </visual-section>
+
+    <txt-block :class="'txt-block-1 style1 safe-style'">
+      <div class="col d-md-none">
+        <h3 class="h2">Anonymous chat</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-009.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Anonymous chat</h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -93,58 +196,58 @@
           </p>
         </div>
       </div>
-    </txt-block> -->
-    <!-- <ResultsSection /> -->
-    <!-- <div class="results-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="h2 text-capitalize anim-item">
-              What we have <br />
-              discoveder during our <br class="d-none d-md-block" />
-              work with people <br class="d-md-none" />
-            </h2>
-            <div class="text-holder anim-item">
-              <p>
-                We always trying to collect and compare our data during all the
-                time we are working, We want share with you some popular
-                problems in different types of companies in %
-              </p>
-            </div>
-            <div class="btns-holder">
-              <router-link
-                to="/services/brand-protection/safeplace-services"
-                class="btn btn-dark d-none d-md-inline-flex justify-content-center anim-item"
-                >How do we check a place?</router-link
-              >
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-center">
-            <div class="row row-items">
-              <div v-for="item in resultsItems" :key="item.id" class="col-6">
-                <div class="result-item anim-item-2">
-                  <div class="img-holder">
-                    <img
-                      :data-src="require(`@/assets/images/${item.image}`)"
-                      class="lazyload"
-                      :alt="item.alt"
-                    />
-                  </div>
-                  <div class="text">
-                    <p>{{ item.description }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 d-md-none anim-item-2">
+    </txt-block>
+
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+      <div class="col d-md-none">
+        <h3 class="h2">Awareness program</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+          <router-link to="/services/software" class="btn btn-dark"
+            >About awareness program</router-link
+          >
+        </div>
+      </div>
+      <div class="col-md-6 picture">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-0010.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Awareness program</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex. Nullam quis suscipit justo.
+            </p>
             <router-link to="/services/software" class="btn btn-dark"
-              >How do we check a place?</router-link
+              >Need our help?</router-link
             >
           </div>
         </div>
       </div>
-    </div> -->
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </txt-block>
+
     <!-- <txt-block :class="'txt-block-2 style2 pt-0 reverse  safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -328,14 +431,7 @@
       <div class="col-md-6 picture">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/group-2-1.png"
-            class="lazyload"
-            alt="#"
-          />
-        </div>
-        <div class="icon-holder">
-          <img
-            data-src="@/assets/images/group-2-2.png"
+            data-src="@/assets/images/img-007.png"
             class="lazyload"
             alt="#"
           />
@@ -445,32 +541,6 @@ export default {
   },
   data() {
     return {
-      resultsItems: [
-        {
-          id: 1,
-          alt: '#',
-          description: 'megalomania',
-          image: 'img-043.svg',
-        },
-        {
-          id: 2,
-          alt: '#',
-          description: 'sexual context',
-          image: 'img-044.svg',
-        },
-        {
-          id: 3,
-          alt: '#',
-          description: 'aggression & bullying',
-          image: 'img-045.svg',
-        },
-        {
-          id: 4,
-          alt: '#',
-          description: 'non-sexual context',
-          image: 'img-046.svg',
-        },
-      ],
       statisticItems: [
         {
           id: 1,
@@ -494,7 +564,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.results-section {
+.safe-pages {
+  .intro {
+    overflow: hidden;
+    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+    .intro-text {
+      .h1 {
+        max-width: 15rem;
+      }
+    }
+    .text-holder {
+      p {
+        max-width: 48rem;
+      }
+    }
+  }
+
+  .mobile-holder {
+    overflow-x: hidden;
+    position: absolute;
+    right: 142px;
+    bottom: 0;
+    width: 52.5rem;
+    @include media-breakpoint-down(md) {
+      width: 40.5rem;
+      right: 5rem;
+      bottom: 4rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.check-section {
+  max-width: 124rem;
+  margin: auto;
   margin-bottom: 10.5rem;
   @include media-breakpoint-down(md) {
     margin-bottom: 6.5rem;

@@ -20,6 +20,7 @@
             class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
           >
             <h1 class="h1">How safe is your place?</h1>
+
             <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -38,7 +39,7 @@
               />
             </div> -->
             <div class="text-holder d-md-none">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
         </div>
@@ -201,7 +202,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-001.png"
+            data-src="@/assets/images/img-003.png"
             class="lazyload"
             alt="#"
           />
@@ -245,7 +246,7 @@
             </h2>
           </div>
           <div class="content-wrap">
-            <div class="col-md-6 d-flex align-items-xl-center">
+            <div class="col-md-6 d-flex align-items-xl-center points">
               <div class="text-holder anim-item">
                 <ul>
                   <li>Where did problems come from</li>
@@ -255,8 +256,8 @@
             </div>
             <div class="btns-holder">
               <router-link
-                to="/services/brand-protection/safeplace-services"
-                class="btn btn-dark d-md-inline-flex justify-content-center anim-item"
+                to="/services/brand-protection/safeplace-software"
+                class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
                 >View More</router-link
               >
             </div>
@@ -361,85 +362,103 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro-section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-
-  @include media-breakpoint-down(md) {
+.safe-pages {
+  .intro-section {
     position: relative;
-    background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-  }
-
-  @include media-breakpoint-down(md) {
-    min-height: 100vh;
-  }
-}
-
-.safe-style {
- 
-  .item-number {
-    display: block;
-    margin-bottom: 3.2rem;
-    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
     @include media-breakpoint-down(md) {
-      margin-bottom: 1.8rem;
-      font-size: 2rem;
+      position: relative;
+      background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+      min-height: 80vh;
     }
-  }
 
-}
-
-.txt-block {
-  margin-top: 13rem;
-  @include media-breakpoint-down(md) {
-    margin-top: 6rem;
-  }
-  .phone-holder {
-    align-self: center;
-    .img-holder {
-      display: flex;
-      justify-content: center;
-      img {
-        width: 100%;
-        max-width: 35rem;
+    .intro-text {
+      .h1 {
+        max-width: 32rem;
       }
     }
   }
-}
-.final {
-  margin-top: 7rem;
-  @include media-breakpoint-down(md) {
-    margin-top: 4rem;
-  }
-}
 
-.reverse {
-  margin-bottom: 15.8rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 4.8rem;
-  }
-}
+  .safe-style {
+    .item-number {
+      display: block;
+      margin-bottom: 3.2rem;
+      font-size: 3rem;
 
-.picture {
-  position: relative;
-  .img-holder {
-    img {
-      width: 100%;
-      height: auto;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1.8rem;
+        font-size: 2rem;
+      }
     }
   }
-  .icon-holder {
-    display: none;
-    position: absolute;
-    left: 24%;
-    top: 8%;
-    max-width: 35rem;
-    img {
-      width: 100%;
+
+  .txt-block {
+    margin-top: 13rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 6rem;
+    }
+    .phone-holder {
+      align-self: center;
+      .img-holder {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 100%;
+          max-width: 35rem;
+        }
+      }
+    }
+  }
+  .final {
+    margin-top: 7rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 4rem;
+    }
+  }
+
+  .reverse {
+    margin-bottom: 15.8rem;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  .picture {
+    position: relative;
+    .img-holder {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .icon-holder {
+      display: none;
+      position: absolute;
+      left: 24%;
+      top: 8%;
+      max-width: 35rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .btns-holder {
+    margin: auto;
+  }
+  .btn-style {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-width: 30rem;
+  }
+
+  .points {
+    @include media-breakpoint-down(sm) {
+      align-self: center;
     }
   }
 }

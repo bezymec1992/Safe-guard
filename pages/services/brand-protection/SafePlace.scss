@@ -30,6 +30,7 @@
     .h1 {
       @include media-breakpoint-down(md) {
         max-width: 33rem;
+        margin-bottom: 3rem;
       }
       @include media-breakpoint-down(sm) {
         font-size: 2.4rem;
@@ -144,12 +145,14 @@
 
   .awareness {
     .awareness-wrapper {
+      max-width: 32rem;
+
       margin: 10rem auto 6rem;
       max-width: 124rem;
       background-color: #efefef;
       padding: 6rem 8rem;
       @include media-breakpoint-down(md) {
-        padding: 4rem 4rem;
+        // padding: 4rem 4rem;
         margin: 4rem auto;
       }
       @include media-breakpoint-down(sm) {
@@ -190,31 +193,6 @@
     }
   }
 
-  //   .train {
-  //     .train-wrapper {
-  //       width: 144rem;
-  //       margin: auto;
-  //       display: flex;
-  //       justify-content: center;
-  //       align-items: flex-end;
-  //       background-color: #efefef;
-  //       padding-top: 19.5rem;
-
-  //       .h1 {
-  //         font-size: 4rem;
-
-  //       }
-  //       .train-text {
-  //         margin: auto;
-  //         max-width: 60rem;
-  //       }
-  //       .train-button {
-  //         margin: auto;
-  //         display: flex;
-  //         justify-content: center;
-  //       }
-  //     }
-  //   }
 
   .train {
     .train-wrapper {

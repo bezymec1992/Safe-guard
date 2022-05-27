@@ -318,18 +318,12 @@
       <div class="col-md-6 picture">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/group-2-1.png"
+            data-src="@/assets/images/img-105.jpg"
             class="lazyload"
             alt="#"
           />
         </div>
-        <div class="icon-holder">
-          <img
-            data-src="@/assets/images/group-2-2.png"
-            class="lazyload"
-            alt="#"
-          />
-        </div>
+    
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
@@ -404,7 +398,7 @@
             />
           </div>
           <nuxt-link
-            to="/services/brand-protection/safeplace-software"
+            to="/services/brand-protection/safeplace-services"
             class="btn btn-arrow d-md-none"
           >
             Read More
@@ -512,16 +506,6 @@ export default {
   }
 }
 
-.safe-style-img {
-  background-color: #efefef;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  max-width: 57rem;
-  margin: auto;
-  @include media-breakpoint-down(md) {
-  }
-}
 
 .digitalization {
   padding-left: 0 !important;
