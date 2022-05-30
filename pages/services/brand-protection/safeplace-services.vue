@@ -26,7 +26,7 @@
           <div
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
-            <!-- <div class="mobile-holder">
+            <div class="mobile-holder">
               <img
                 data-src="@/assets/images/img-005.png"
                 class="lazyload ballon"
@@ -34,13 +34,13 @@
               />
             </div>
 
-            <div class="mobile">
+            <div class="mobiles">
               <img
                 data-src="@/assets/images/img-0013.png"
                 class="lazyload ballon"
                 alt="img description"
               />
-            </div> -->
+            </div>
             <div class="text-holder d-md-none balloon-p-txt">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -243,7 +243,7 @@
       </div>
     </txt-block>
 
-    <awereness-program class="awareness">
+    <awareness-program class="awareness">
       <div class="row g-0">
         <div class="awareness-wrapper">
           <div class="content-row">
@@ -270,7 +270,7 @@
           </div>
         </div>
       </div>
-    </awereness-program>
+    </awareness-program>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style final'">
       <div class="col d-md-none">
@@ -392,6 +392,30 @@ export default {
         max-width: 40rem;
       }
     }
+
+  .mobile-holder {
+    max-width: 55rem;
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 14.2rem;
+      bottom: 3px;
+    }
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .mobiles {
+    display: none;
+    @include media-breakpoint-down(md) {
+      display: block;
+    }
+  }
   }
 
   .safe-style {

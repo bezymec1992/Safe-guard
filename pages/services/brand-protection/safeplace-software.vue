@@ -35,7 +35,7 @@
               />
             </div>
 
-            <div class="mobile">
+            <div class="mobiles">
               <img
                 data-src="@/assets/images/img-0013.png"
                 class="lazyload ballon"
@@ -360,7 +360,7 @@
               Contact us!
             </h2>
           </slot>
-          <nuxt-link :to="to" class="btn btn-dark">Get on touch</nuxt-link>
+          <nuxt-link :to="to" class="btn btn-dark">Get in touch</nuxt-link>
         </div>
       </div>
     </div>
@@ -459,7 +459,7 @@ export default {
     }
   }
 
-  .mobile {
+  .mobiles {
     display: none;
     @include media-breakpoint-down(md) {
       display: block;

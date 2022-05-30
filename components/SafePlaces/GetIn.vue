@@ -41,6 +41,7 @@ export default {
   .h2 {
     text-align: center;
     margin-bottom: 4rem;
+    text-transform: inherit;
   }
 
   .btn {

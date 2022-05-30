@@ -340,7 +340,7 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex. Nullam quis suscipit justo.
             </p>
-            <router-link to="/services/software" class="btn btn-dark"
+            <router-link to="/" class="btn btn-dark"
               >Need our help?</router-link
             >
           </div>
@@ -352,7 +352,7 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
-          <router-link to="/services/software" class="btn btn-dark btn-style"
+          <router-link to="/" class="btn btn-dark btn-style"
             >Need our help?</router-link
           >
         </div>

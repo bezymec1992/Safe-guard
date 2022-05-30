@@ -27,7 +27,7 @@
           <div
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
-            <!-- <div class="mobile-holder">
+            <div class="mobile-holder">
               <img
                 data-src="@/assets/images/img-005.png"
                 class="lazyload ballon"
@@ -35,13 +35,13 @@
               />
             </div>
 
-            <div class="mobile">
+            <div class="mobiles">
               <img
                 data-src="@/assets/images/img-0013.png"
                 class="lazyload ballon"
                 alt="img description"
               />
-            </div> -->
+            </div>
             <div class="text-holder d-md-none balloon-p-txt">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -174,7 +174,9 @@
         <h3 class="h2">AP is about how to improve your team</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
@@ -212,47 +214,42 @@
       </div>
     </txt-block>
 
-    <awereness-program class="awareness">
-      <div class="row g-0">
-        <div class="awareness-wrapper">
-          <div class="content-row">
-            <h2 class="h1 anim-item">
-              Awareness Program will help to understand
+    <div class="statistic-section">
+      <div class="container">
+        <div class="row">
+          <div class="text-holder row-text">
+            <h2 class="h1">
+              We have different programs which depends on type of company /
+              organization etc you have
             </h2>
           </div>
-          <div class="content-wrap">
-            <div class="col-md-6 d-flex align-items-xl-center points">
-              <div class="text-holder anim-item">
-                <ul>
-                  <li>Where did problems come from</li>
-                  <li>How to improve your team</li>
-                </ul>
+        </div>
+
+        <div class="row row-items">
+          <div
+            v-for="item in statisticItems"
+            :key="item.id"
+            class="col-lg-4 col-md-6 col-sm-12"
+          >
+            <div class="statistic-item">
+              <h3>{{ item.title }}</h3>
+              <div class="text-holder">
+                <p>{{ item.description }}</p>
               </div>
-            </div>
-            <div class="btns-holder">
-              <router-link
-                to="/services/brand-protection/safeplace-software"
-                class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
-                >View More</router-link
-              >
             </div>
           </div>
         </div>
       </div>
-    </awereness-program>
+    </div>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style final'">
       <div class="col d-md-none">
-        <h3 class="h2">
-          Scan again to see and <br />
-          compare final results
-        </h3>
+        <h3 class="h2">Practical</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
@@ -267,19 +264,18 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
-
-          <h3 class="h2">
-            Scan again to see and <br />
-            compare final results
-          </h3>
+          <h3 class="h2">In which formats Awarness Program goes</h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. =
+              viverra.
             </p>
+             <ul>
+            <li>Online workshops / live translations</li>
+            <li>Offline workshops & meetings</li>
+            <li>Regular polls</li>
+          </ul>
           </div>
         </div>
       </div>
@@ -289,38 +285,29 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
+          <ul>
+            <li>Online workshops / live translations</li>
+            <li>Offline workshops & meetings</li>
+            <li>Regular polls</li>
+          </ul>
         </div>
       </div>
     </txt-block>
 
-    <div class="wfrom-section">
+ <div class="get-in">
       <div class="container">
-        <h2 class="h2">
-          Want to know how to <br />
-          train team by yourself?
-        </h2>
         <div class="row">
-          <div class="col-md-6">
-            <div class="text-holder">
-              <p>Check our programs we have created and we will help you!</p>
-            </div>
-          </div>
-          <div
-            class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
-          >
-            <router-link to="/about/timeline" class="btn btn-arrow">
-              View More
-              <span class="arrow-wrapper"
-                ><span class="icon-holder"
-                  ><img
-                    data-src="@/assets/images/icon-02.svg"
-                    class="lazyload"
-                    alt="#" /></span></span
-            ></router-link>
-          </div>
+          <slot name="title">
+            <h2 class="h2">
+              Interested in our Awareness Program? <br />
+              Contact us!
+            </h2>
+          </slot>
+          <nuxt-link :to="to" class="btn btn-dark">Get in touch</nuxt-link>
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -331,6 +318,40 @@ export default {
   name: 'AwarenessProgram',
   components: {
     IntroSection,
+  },
+  data() {
+    return {
+      statisticItems: [
+        {
+          id: 1,
+          title: 'Different types of companies',
+          description: 'Corparate companies, restaurant business, stores etc',
+        },
+        {
+          id: 2,
+          title: 'Organizations',
+          description: 'Charity and volonteer organizations ',
+        },
+        {
+          id: 3,
+          title: 'Other teams',
+          description: 'Sport teams,  clubs, education (courses)',
+        },
+      ],
+      
+    }
+    
+  },
+  
+  props: {
+    title: {
+      type: String,
+      default: 'title',
+    },
+    to: {
+      type: [String, Object],
+      default: '',
+    },
   },
 }
 </script>
@@ -355,9 +376,36 @@ export default {
         max-width: 32rem;
       }
     }
+    .mobile-holder {
+    max-width: 55rem;
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 14.2rem;
+      bottom: 3px;
+    }
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .mobiles {
+    display: none;
+    @include media-breakpoint-down(md) {
+      display: block;
+    }
+  }
   }
 
   .safe-style {
+    margin-bottom: 14rem;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 6rem;
+    }
     .item-number {
       display: block;
       margin-bottom: 3.2rem;
@@ -387,10 +435,21 @@ export default {
       }
     }
   }
+  .txt-block .text-holder p:not(:last-child) {
+      margin-bottom: 2rem;
+  }
+
   .final {
     margin-top: 7rem;
     @include media-breakpoint-down(md) {
       margin-top: 4rem;
+    }
+    .h2 {
+        max-width: 50rem;
+    }
+
+    li {
+        line-height: 2.5;
     }
   }
 
@@ -491,7 +550,7 @@ export default {
       }
     }
   }
- .awareness-bg {
+  .awareness-bg {
     padding-left: 8rem;
     padding-top: 8rem;
     @include media-breakpoint-down(lg) {
@@ -501,6 +560,117 @@ export default {
     @include media-breakpoint-down(md) {
       padding-left: 0;
       padding-top: 0;
+    }
+  }
+
+  .statistic-section {
+    max-width: 124rem;
+    margin: auto;
+    background-color: #efefef;
+    color: #000;
+    padding-top: 10.6rem;
+    padding-bottom: 0rem;
+    margin-bottom: 11rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 5rem;
+      padding-bottom: 7rem;
+      margin-bottom: 8rem;
+      padding-top: 8rem;
+    }
+    .text-holder {
+      margin-bottom: 7rem;
+      line-height: 2.5;
+      @include media-breakpoint-down(md) {
+        text-align: flex-start;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+      .h1 {
+        font-size: 4rem;
+        text-transform: inherit;
+        max-width: 93.5rem;
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    .row-items,
+    .row-text {
+      margin: auto;
+      max-width: 106rem;
+    }
+    .statistic-item {
+      max-width: 40rem;
+      margin-right: 3rem;
+      @include media-breakpoint-down(md) {
+        max-width: 100%;
+        margin-bottom: 3rem;
+      }
+      h3 {
+        font-size: 2.8rem;
+        color: #000;
+        line-height: 1.3;
+        @include media-breakpoint-down(lg) {
+          text-align: left;
+          max-width: 100%;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 2rem;
+        }
+      }
+      p {
+        line-height: 1.7;
+        @include media-breakpoint-down(lg) {
+          text-align: left;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 1.5rem;
+        }
+      }
+      .text-holder {
+        @include media-breakpoint-down(lg) {
+          margin: 0;
+        }
+      }
+    }
+    .col-lg-3,
+    .col-md-6,
+    .col-sm-12 {
+      padding: 0;
+    }
+    .row-text {
+      margin-bottom: 6rem;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .wfrom-section {
+    padding-top: 8rem;
+  }
+
+   .get-in {
+    padding-bottom: 16rem;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 11rem;
+    }
+
+    .h2 {
+      text-align: center;
+      margin-bottom: 4rem;
+      text-transform: inherit;
+      @include media-breakpoint-down(md) {
+          font-size: 2rem;
+      }
+    }
+
+    .btn {
+      margin: auto;
+      justify-content: center;
+      max-width: 30rem;
     }
   }
 }

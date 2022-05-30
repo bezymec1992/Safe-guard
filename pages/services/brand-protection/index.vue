@@ -20,7 +20,7 @@
               Consultancy & <br />
               brand protection
             </h1>
-            <div class="text-holder">
+            <div class="text-holder desktop">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id.
@@ -429,5 +429,13 @@ export default {
 </script>
 
 <style lang="scss">
+
+.desktop {
+  display: block;
+   @include media-breakpoint-down(md) {
+     display: none
+   }
+}
+
 @import '@/pages/services/ServicesProjects.scss';
 </style>
