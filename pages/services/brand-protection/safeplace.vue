@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="col-12 d-md-none anim-item-2 btn-style">
-            <router-link to="/services/software" class="btn btn-dark"
+            <router-link to="/services/brand-protection/safeplace-services" class="btn btn-dark"
               >How do we check a place?</router-link
             >
           </div>
@@ -275,7 +275,7 @@
                   id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
                   turpis euismod, fermentum
                 </p>
-                <router-link to="/services/software" class="btn btn-dark"
+                <router-link to="/services/brand-protection/awareness-program" class="btn btn-dark"
                   >About awareness program</router-link
                 >
               </div>
@@ -294,7 +294,7 @@
             massa sed magna condimentum, eu gravida urna varius. Aenean neque
             orci, ultrices
           </p>
-          <router-link to="/services/software" class="btn btn-dark btn-style"
+          <router-link to="/services/brand-protection/awareness-program" class="btn btn-dark btn-style"
             >About awareness program</router-link
           >
         </div>
@@ -398,7 +398,7 @@
             />
           </div>
           <nuxt-link
-            to="/services/brand-protection/safeplace-services"
+            to="/services/brand-protection/safeplace-software"
             class="btn btn-arrow d-md-none"
           >
             Read More
@@ -484,6 +484,16 @@ export default {
 .intro {
   overflow: hidden;
 }
+
+ .intro-section {
+    position: relative;
+    margin-bottom: 14rem;
+    @include media-breakpoint-down(md) {
+      padding-top: 11rem;
+      padding-bottom: 35.4rem;
+      margin-bottom: 0;
+    }
+  }
 .results-section {
   margin-bottom: 10.5rem;
   @include media-breakpoint-down(md) {
@@ -525,6 +535,7 @@ export default {
     @include media-breakpoint-down(md) {
       line-height: 1.5;
       margin-bottom: 3.5rem;
+      margin-left: 0;
     }
     .h1 {
       font-size: 40px;

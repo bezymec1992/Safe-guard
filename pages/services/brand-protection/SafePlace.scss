@@ -1,32 +1,17 @@
 .safe-pages {
-  .intro-section {
-    position: relative;
-    margin-bottom: 14rem;
-    @include media-breakpoint-down(md) {
-      padding-top: 23rem;
-      padding-bottom: 11.4rem;
-      margin-bottom: 0;
-    }
-    @include media-breakpoint-down(sm) {
-      padding-bottom: 16.4rem;
-    }
-  }
+ 
 
   .back-link {
     display: block;
     position: relative;
     z-index: 2;
-    @include media-breakpoint-down(md) {
-      top: -130px;
-    }
+
   }
 
   .intro-text {
     position: relative;
     z-index: 10;
-    @include media-breakpoint-down(md) {
-      bottom: 154px;
-    }
+ 
     .h1 {
       @include media-breakpoint-down(md) {
         max-width: 33rem;

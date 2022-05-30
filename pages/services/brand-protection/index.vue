@@ -382,7 +382,7 @@
         <div class="col-md-6">
           <div class="img-holder">
             <img
-              data-src="@/assets/images/img-099.png"
+              data-src="@/assets/images/bg-1.png"
               class="lazyload"
               alt="#"
             />

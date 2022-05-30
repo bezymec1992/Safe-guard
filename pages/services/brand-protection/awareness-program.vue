@@ -16,10 +16,11 @@
           <div
             class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
           >
-            <h1 class="h1">How safe is your place?</h1>
+            <h1 class="h1">awareness program</h1>
             <div class="text-holder d-none d-md-block">
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
@@ -62,21 +63,19 @@
     </intro-section>
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
-        <span class="item-number">/01</span>
-        <h3 class="h2">We scan your team and check which problems it has</h3>
+        <h3 class="h2">What is an Awareness Program?</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-001.png"
+            data-src="@/assets/images/img-0014.png"
             class="lazyload"
             alt="#"
           />
@@ -84,11 +83,7 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <span class="item-number">/01</span>
-          <h3 class="h2">
-            We scan your team and <br />
-            check which problems it has
-          </h3>
+          <h3 class="h2">What is an Awareness Program?</h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -112,25 +107,21 @@
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style'">
       <div class="col d-md-none">
-        <span class="item-number">/02</span>
         <h3 class="h2">
-          Transform received <br />
-          results into clear <br />
-          metodology
+          Awareness Program helps to understand the root of a problem
         </h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-002.png"
+            data-src="@/assets/images/img-0014.png"
             class="lazyload"
             alt="#"
           />
@@ -138,10 +129,8 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
-          <span class="item-number">/02</span>
           <h3 class="h2">
-            Transform received <br />
-            results into clear metodology
+            Awareness Program helps to understand the root of a problem
           </h3>
           <div class="text-holder">
             <p>
@@ -167,25 +156,14 @@
       <div class="row g-0">
         <div class="col-md-6 d-flex align-items-xl-center anonymous-text">
           <div class="content-holder">
-            <h2 class="h1 anim-item">
-              Team <br />
-              Protection
+            <h2 class="h1 anim-item awareness-bg">
+              Awareness is something bigger than you think
             </h2>
-            <div class="text-holder anim-item">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id, consectetur efficitur neque.
-              </p>
-            </div>
           </div>
         </div>
         <div class="col-md-6 anonymous-block">
           <div class="img-holder protection">
-            <img
-              data-src="@/assets/images/group-01.png"
-              class="lazyload"
-              alt="#"
-            />
+            <img data-src="@/assets/images/0015.png" class="lazyload" alt="#" />
           </div>
         </div>
       </div>
@@ -193,22 +171,17 @@
 
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
-        <span class="item-number">/03</span>
-        <h3 class="h2">Create Awareness Program</h3>
+        <h3 class="h2">AP is about how to improve your team</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-003.png"
+            data-src="@/assets/images/img-0014.png"
             class="lazyload"
             alt="#"
           />
@@ -216,11 +189,7 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <span class="item-number">/03</span>
-          <h3 class="h2">
-            Create Awareness <br />
-            Program
-          </h3>
+          <h3 class="h2">AP is about how to improve your team</h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -262,7 +231,7 @@
             </div>
             <div class="btns-holder">
               <router-link
-                to="/services/brand-protection/awareness-program"
+                to="/services/brand-protection/safeplace-software"
                 class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
                 >View More</router-link
               >
@@ -274,7 +243,6 @@
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style final'">
       <div class="col d-md-none">
-        <span class="item-number">/04</span>
         <h3 class="h2">
           Scan again to see and <br />
           compare final results
@@ -291,7 +259,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-004.png"
+            data-src="@/assets/images/img-0016.png"
             class="lazyload"
             alt="#"
           />
@@ -299,7 +267,7 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
-          <span class="item-number">/04</span>
+
           <h3 class="h2">
             Scan again to see and <br />
             compare final results
@@ -360,7 +328,7 @@
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 
 export default {
-  name: 'SafePlaceServices',
+  name: 'AwarenessProgram',
   components: {
     IntroSection,
   },
@@ -385,11 +353,6 @@ export default {
     .intro-text {
       .h1 {
         max-width: 32rem;
-      }
-    }
-    .text-holder {
-      p {
-        max-width: 40rem;
       }
     }
   }
@@ -470,6 +433,74 @@ export default {
   .points {
     @include media-breakpoint-down(sm) {
       align-self: center;
+    }
+  }
+  .anonymous {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 15rem;
+    margin-top: 6.5rem;
+    min-height: 55rem;
+    background: linear-gradient(270.2deg, #cdf0ff 56.52%, #c0cfee 99.75%);
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 8rem;
+      margin-top: 4.8rem;
+      margin-bottom: 10rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 7rem;
+      min-height: 70vh;
+    }
+
+    .container {
+      padding-right: 0;
+    }
+    .img-holder {
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 120.5rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        max-width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .protection {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 120.5rem;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      @include media-breakpoint-down(md) {
+        width: 34rem;
+      }
+    }
+  }
+ .awareness-bg {
+    padding-left: 8rem;
+    padding-top: 8rem;
+    @include media-breakpoint-down(lg) {
+      padding-left: 4rem;
+      padding-top: 4rem;
+    }
+    @include media-breakpoint-down(md) {
+      padding-left: 0;
+      padding-top: 0;
     }
   }
 }
