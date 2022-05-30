@@ -318,7 +318,7 @@
 
     <div class="statistic-section">
       <div class="container">
-        <div class="row ">
+        <div class="row">
           <div class="text-holder row-text">
             <h2 class="h1">what can you find out in our app</h2>
             <p>We have created a lot of useful funtionalities for you</p>
@@ -329,7 +329,7 @@
           <div
             v-for="item in statisticItems"
             :key="item.id"
-            class="col-lg-3 col-md-6 col-sm-12 "
+            class="col-lg-3 col-md-6 col-sm-12"
           >
             <div class="statistic-item">
               <h3>{{ item.title }}</h3>
@@ -338,6 +338,25 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <GetIn>
+      <template #title>
+        <h2 class="title">Interested in our Safeplace Software? Contact us!</h2>
+      </template>
+    </GetIn> -->
+
+    <div class="get-in">
+      <div class="container">
+        <div class="row">
+          <slot name="title">
+            <h2 class="h2">
+              Interested in our Safeplace Software? <br /> Contact us!
+            </h2>
+          </slot>
+          <nuxt-link :to="to" class="btn btn-dark">Get on touch</nuxt-link>
         </div>
       </div>
     </div>
@@ -624,6 +643,7 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import MoodSection from '@/components/MoodSection/MoodSection.vue'
+// import GetIn from '@/components/SafePlaces/GetIn.vue'
 
 // import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
 
@@ -632,6 +652,7 @@ export default {
   components: {
     IntroSection,
     MoodSection,
+    // GetIn,
 
     // ResultsSection,
   },
@@ -661,6 +682,17 @@ export default {
         },
       ],
     }
+  },
+
+  props: {
+    title: {
+      type: String,
+      default: 'title',
+    },
+    to: {
+      type: [String, Object],
+      default: '',
+    },
   },
 }
 </script>
@@ -730,10 +762,13 @@ export default {
   margin: auto;
   background-color: #efefef;
   color: #000;
-   padding-top: 10.6rem;
+  padding-top: 10.6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 13rem;
   @include media-breakpoint-down(md) {
     margin-top: 8rem;
     padding-bottom: 7rem;
+    margin-bottom: 11rem;
   }
   .text-holder {
     margin-bottom: 7rem;
@@ -751,15 +786,16 @@ export default {
     }
   }
 
-  .row-items, .row-text {
-   margin: auto;
-   max-width: 106rem;
+  .row-items,
+  .row-text {
+    margin: auto;
+    max-width: 106rem;
   }
   .statistic-item {
     max-width: 20rem;
     @include media-breakpoint-down(md) {
       max-width: 100%;
-       margin-bottom: 3rem;
+      margin-bottom: 3rem;
     }
     h3 {
       font-size: 2.8rem;
@@ -786,13 +822,14 @@ export default {
       @include media-breakpoint-down(lg) {
         margin: 0;
       }
-     
     }
   }
-  .col-lg-3, .col-md-6, .col-sm-12 {
+  .col-lg-3,
+  .col-md-6,
+  .col-sm-12 {
     padding: 0;
   }
-    .row-text {
+  .row-text {
     margin-bottom: 6rem;
     @include media-breakpoint-down(md) {
       margin-bottom: 3rem;
@@ -800,11 +837,9 @@ export default {
   }
 }
 .text-holder {
-     
   p {
     margin-bottom: 2.5rem;
   }
- 
 }
 
 .workshop {
@@ -865,6 +900,26 @@ li {
     max-width: 35rem;
     img {
       width: 100%;
+    }
+  }
+
+  .get-in {
+    padding-bottom: 24rem;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 12rem;
+    }
+
+    .h2 {
+      text-align: center;
+      margin-bottom: 4rem;
+      text-transform: inherit;
+    }
+
+    .btn {
+      margin: auto;
+      justify-content: center;
+      max-width: 30rem;
     }
   }
 }
