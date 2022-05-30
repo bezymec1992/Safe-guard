@@ -153,6 +153,7 @@
     </txt-block>
 
     <visual-section :bg="'img-008.png'" :class="'bg-img'"> </visual-section>
+    <MoodSection />
 
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
@@ -188,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="col d-md-none">
+      <div class="col d-md-none mb-0">
         <div class="text-holder">
           <p>
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
@@ -247,6 +248,99 @@
         </div>
       </div>
     </txt-block>
+
+    <txt-block :class="'txt-block-2 style2 workshop'">
+      <div class="col d-md-none">
+        <h3 class="h2 text-capitalize">
+          On- and Offline <br />
+          workshops
+        </h3>
+        <div class="text-holder">
+          <!-- mobile first -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 phone-holder">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-0011.png"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-start">
+        <div class="content-holder">
+          <div class="text-rows">
+            <div class="text-row">
+              <h3 class="h2 text-capitalize">
+                On- and Offline <br />
+                workshops
+              </h3>
+              <div class="text-holder">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
+                  nec viverra. In posuere massa sed magna condimentum, eu
+                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
+                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
+                  turpis euismod, fermentum
+                </p>
+              </div>
+            </div>
+            <div class="text-row">
+              <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Phasellus vestibulum ac nisi nec viverra</li>
+              </ul>
+              <div class="text-holder"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder txt-mobile">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Phasellus vestibulum ac nisi nec viverra</li>
+          </ul>
+        </div>
+      </div>
+    </txt-block>
+
+    <div class="statistic-section">
+      <div class="container">
+        <div class="row ">
+          <div class="text-holder row-text">
+            <h2 class="h1">what can you find out in our app</h2>
+            <p>We have created a lot of useful funtionalities for you</p>
+          </div>
+        </div>
+
+        <div class="row row-items">
+          <div
+            v-for="item in statisticItems"
+            :key="item.id"
+            class="col-lg-3 col-md-6 col-sm-12 "
+          >
+            <div class="statistic-item">
+              <h3>{{ item.title }}</h3>
+              <div class="text-holder">
+                <p>{{ item.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- <txt-block :class="'txt-block-2 style2 pt-0 reverse  safe-style'">
       <div class="col d-md-none">
@@ -529,6 +623,7 @@
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
+import MoodSection from '@/components/MoodSection/MoodSection.vue'
 
 // import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
 
@@ -536,6 +631,7 @@ export default {
   name: 'SafePlaceSoftware',
   components: {
     IntroSection,
+    MoodSection,
 
     // ResultsSection,
   },
@@ -544,18 +640,24 @@ export default {
       statisticItems: [
         {
           id: 1,
-          title: 'Different types of companies',
-          description: 'Corparate companies, restaurant business, stores etc',
+          title: 'Day mood check',
+          description: 'Check your mood every day to understand changes',
         },
         {
           id: 2,
-          title: 'Organizations',
-          description: 'Charity and volonteer organizations ',
+          title: 'Anonymous chat',
+          description: 'You can easily chat with our supporters  ',
         },
         {
           id: 3,
-          title: 'Other teams',
-          description: 'Sport teams,  clubs, education (courses)',
+          title: 'Awareness program',
+          description:
+            'We will create special program how to improve your team ',
+        },
+        {
+          id: 4,
+          title: 'Online workshops',
+          description: 'Online workshops',
         },
       ],
     }
@@ -613,39 +715,102 @@ export default {
     margin-bottom: 3rem;
   }
 }
+.mb-0 {
+  .text-holder {
+    margin-bottom: 0;
+  }
+}
 
 .digitalization {
   padding-left: 0 !important;
 }
 
 .statistic-section {
-  max-width: 144rem;
+  max-width: 124rem;
   margin: auto;
-  background-color: #262626;
-  color: #fff;
+  background-color: #efefef;
+  color: #000;
+   padding-top: 10.6rem;
   @include media-breakpoint-down(md) {
-    padding-bottom: 0;
+    margin-top: 8rem;
+    padding-bottom: 7rem;
   }
   .text-holder {
     margin-bottom: 7rem;
     line-height: 2.5;
     @include media-breakpoint-down(md) {
-      text-align: center;
-    }
-    .h1 {
-      font-size: 40px;
-    }
-  }
-  .statistic-item {
-    h3 {
-      font-size: 2.8rem;
-      color: #ffd027;
+      text-align: flex-start;
+      margin-bottom: 1rem;
       line-height: 1.5;
     }
-
-    p {
-      line-height: 2;
+    .h1 {
+      font-size: 4rem;
+      @include media-breakpoint-down(md) {
+        font-size: 2.5rem;
+      }
     }
+  }
+
+  .row-items, .row-text {
+   margin: auto;
+   max-width: 106rem;
+  }
+  .statistic-item {
+    max-width: 20rem;
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+       margin-bottom: 3rem;
+    }
+    h3 {
+      font-size: 2.8rem;
+      color: #000;
+      line-height: 1.3;
+      @include media-breakpoint-down(lg) {
+        text-align: left;
+        max-width: 100%;
+      }
+      @include media-breakpoint-down(md) {
+        font-size: 2rem;
+      }
+    }
+    p {
+      line-height: 1.7;
+      @include media-breakpoint-down(lg) {
+        text-align: left;
+      }
+      @include media-breakpoint-down(md) {
+        font-size: 1.5rem;
+      }
+    }
+    .text-holder {
+      @include media-breakpoint-down(lg) {
+        margin: 0;
+      }
+     
+    }
+  }
+  .col-lg-3, .col-md-6, .col-sm-12 {
+    padding: 0;
+  }
+    .row-text {
+    margin-bottom: 6rem;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+.text-holder {
+     
+  p {
+    margin-bottom: 2.5rem;
+  }
+ 
+}
+
+.workshop {
+  margin-bottom: 12rem;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 6rem;
   }
 }
 
@@ -664,6 +829,16 @@ export default {
         max-width: 35rem;
       }
     }
+  }
+}
+
+li {
+  line-height: 2.5;
+}
+
+.text-mobile {
+  p {
+    margin-bottom: 2rem;
   }
 }
 

@@ -1,0 +1,144 @@
+.mood-section {
+  position: relative;
+  padding-top: 10rem;
+  margin-top: 5rem;
+  overflow-x: hidden;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 5.4rem;
+    padding-bottom: 2.3rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 0.4rem;
+  }
+
+  .inner-holder {
+    position: relative;
+    overflow-y: visible;
+    overflow-x: auto;
+  }
+
+  .figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    position: relative;
+  }
+
+  .blocks-holder {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    overflow: auto;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 5.5rem;
+    @include media-breakpoint-down(md) {
+      max-width: 100vw;
+    }
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 2.5rem;
+    }
+  }
+
+  .img {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  .wrapper {
+    position: relative;
+  }
+  .inner {
+    max-width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  .strong {
+    max-width: 250px;
+    font-weight: 800;
+    color: green;
+  }
+
+  .block {
+    margin: 0 auto;
+    @include media-breakpoint-down(sm) {
+      min-width: 23rem;
+    }
+
+    img {
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &:first-child {
+      min-width: 30rem;
+      align-self: center;
+      @include media-breakpoint-down(sm) {
+        min-width: 18rem;
+      }
+    }
+
+    &:nth-child(2) {
+      min-width: 33rem;
+
+      z-index: 50;
+      @include media-breakpoint-down(sm) {
+        min-width: 19rem;
+        align-self: center;
+      }
+    }
+    &:last-child {
+      min-width: 30rem;
+      align-self: center;
+      @include media-breakpoint-down(sm) {
+        min-width: 18rem;
+      }
+    }
+  }
+
+  .title-m {
+    display: none;
+    @include media-breakpoint-down(md) {
+      display: block;
+      font-size: 4rem;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  .h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  .txt {
+    max-width: 60rem;
+    text-align: center;
+    margin: auto;
+  }
+}
