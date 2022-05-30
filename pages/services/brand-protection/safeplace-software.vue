@@ -353,7 +353,8 @@
         <div class="row">
           <slot name="title">
             <h2 class="h2">
-              Interested in our Safeplace Software? <br /> Contact us!
+              Interested in our Safeplace Software? <br />
+              Contact us!
             </h2>
           </slot>
           <nuxt-link :to="to" class="btn btn-dark">Get on touch</nuxt-link>
@@ -715,15 +716,10 @@ export default {
   }
 
   .mobile-holder {
-    overflow-x: hidden;
-    position: absolute;
-    right: 142px;
-    bottom: 0;
-    width: 52.5rem;
-    @include media-breakpoint-down(md) {
-      width: 40.5rem;
-      right: 5rem;
-      bottom: 4rem;
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 14.2rem;
+      bottom: 0;
     }
 
     img {

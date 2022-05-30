@@ -1,36 +1,41 @@
 <template>
   <div class="mood-section">
-    <div class="inner-holder">
-      <div class="container">
-       
-          <h2 class="title-m">Day mood check</h2>
-       
+    <div class="container">
+      <h2 class="title-m">Day mood check</h2>
 
-        <div class="blocks-holder">
-          <div
-            v-for="(step, i) of steps"
-            :key="i"
-            class="block"
-            :class="`item-${i + 1}`"
-          >
-            <div class="img">
-              <img
-                :data-src="require(`@/assets/images/${step.img}`)"
-                alt="image.title"
-                class="lazyload"
-              />
-            </div>
+      <div class="blocks-holder d-none d-lg-flex">
+        <div
+          v-for="(step, i) of steps"
+          :key="i"
+          class="block"
+          :class="`item-${i + 1}`"
+        >
+          <div class="img">
+            <img
+              :data-src="require(`@/assets/images/${step.img}`)"
+              alt="image.title"
+              class="lazyload"
+            />
           </div>
         </div>
-
-          <h2 class="h1">Day mood check</h2>
-          <p class="txt">
-            Mood check will help you and also us to understand how do you feel
-            during each period. It will also help to compare info before and
-            after team’s improving.
-          </p>
-      
       </div>
+
+      <div class="blocks-holder d-lg-none">
+        <div class="img">
+          <img
+            :data-src="require(`@/assets/images/img-106.png`)"
+            alt="image.title"
+            class="lazyload"
+          />
+        </div>
+      </div>
+
+      <h2 class="h1">Day mood check</h2>
+      <p class="txt">
+        Mood check will help you and also us to understand how do you feel
+        during each period. It will also help to compare info before and after
+        team’s improving.
+      </p>
     </div>
   </div>
 </template>
