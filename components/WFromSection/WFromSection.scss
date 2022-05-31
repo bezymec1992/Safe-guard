@@ -7,26 +7,29 @@
 		padding-top: 10rem;
 		padding-bottom: 10rem;
 	}
-
-	.h2 {
-		margin-bottom: 3.6rem;
-
-		@include media-breakpoint-down(md) {
-			margin-bottom: 4rem;
+	.additional-section-wrapper {
+		.h2 {
+			margin-bottom: 3.6rem;
+	
+			@include media-breakpoint-down(md) {
+				margin-bottom: 4rem;
+			}
+		}
+	
+		.container {
+			max-width: 84rem;
+		}
+	
+		.text-holder {
+			font-size: 1.6rem;
+	
+			@include media-breakpoint-down(md) {
+				max-width: 41.6rem;
+				margin-bottom: 3rem;
+				font-size: 1.4rem;
+			}
 		}
 	}
 
-	.container {
-		max-width: 84rem;
-	}
-
-	.text-holder {
-		font-size: 1.6rem;
-
-		@include media-breakpoint-down(md) {
-			max-width: 41.6rem;
-			margin-bottom: 3rem;
-			font-size: 1.4rem;
-		}
-	}
+	
 }

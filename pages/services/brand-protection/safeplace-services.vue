@@ -19,7 +19,8 @@
             <h1 class="h1">How safe is your place?</h1>
             <div class="text-holder d-none d-md-block">
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum lacus, aliquam id eros id, 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
@@ -191,7 +192,7 @@
       </div>
     </visual-section>
 
-    <txt-block :class="'txt-block-1 style1 safe-style'">
+    <txt-block :class="'txt-block-1 style1 safe-style a-program'">
       <div class="col d-md-none">
         <span class="item-number">/03</span>
         <h3 class="h2">Create Awareness Program</h3>
@@ -326,17 +327,13 @@
     </txt-block>
 
     <div class="wfrom-section">
+      <div class="additional-section-wrapper">
       <div class="container">
-        <h2 class="h2">
-          Want to know how to <br />
-          train team by yourself?
-        </h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="text-holder">
-              <p>Check our programs we have created and we will help you!</p>
-            </div>
-          </div>
+        <div class="more-wrapper">
+          <h2 class="h2">
+            Want to know how to <br />
+            train team by yourself?
+          </h2>
           <div
             class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
           >
@@ -351,6 +348,14 @@
             ></router-link>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-holder">
+              <p>Check our programs we have created and we will help you!</p>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -393,29 +398,29 @@ export default {
       }
     }
 
-  .mobile-holder {
-    max-width: 55rem;
-    @include media-breakpoint-up(md) {
-      position: absolute;
-      right: 14.2rem;
-      bottom: 0;
+    .mobile-holder {
+      max-width: 55rem;
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 14.2rem;
+        bottom: 0;
+      }
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
-    @include media-breakpoint-down(md) {
+
+    .mobiles {
       display: none;
+      @include media-breakpoint-down(md) {
+        display: block;
+      }
     }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  .mobiles {
-    display: none;
-    @include media-breakpoint-down(md) {
-      display: block;
-    }
-  }
   }
 
   .safe-style {
@@ -429,6 +434,11 @@ export default {
         font-size: 2rem;
       }
     }
+  }
+
+  .a-program {
+    max-width: 126rem;
+    margin: auto;
   }
 
   .txt-block {
@@ -449,9 +459,15 @@ export default {
     }
   }
   .final {
+    max-width: 126rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 7rem;
     @include media-breakpoint-down(md) {
       margin-top: 4rem;
+    }
+    .content-holder {
+      padding-left: 0;
     }
   }
 
@@ -482,7 +498,9 @@ export default {
     }
   }
   .btns-holder {
-    margin: auto;
+    @include media-breakpoint-down(md) {
+      margin: auto;
+    }
   }
   .btn-style {
     display: flex;
@@ -496,6 +514,31 @@ export default {
       align-self: center;
     }
   }
+
+//   .wfrom-section {
+//     additional-section-wrapper {
+// max-width: 126rem;
+//     margin-left: 10rem;
+//     align-self: center;
+    
+    
+//     .container {
+//       // margin-right: auto;
+
+//       .more-wrapper {
+//         display: flex;
+//         align-items: flex-end;
+//         // max-width: 126rem;
+//         .h2 {
+//           margin-left: 6rem;
+//         }
+//       }
+//     }
+//     .text-holder {
+//       margin-left: 6rem;
+//     }
+//   }
+//   }
 }
 </style>
 
