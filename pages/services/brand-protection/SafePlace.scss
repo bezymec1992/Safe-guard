@@ -29,6 +29,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    // width: 92.5rem;
     width: 74.5rem;
     @include media-breakpoint-down(md) {
       width: 50.5rem;
@@ -74,24 +75,18 @@
       }
 
       @include media-breakpoint-down(md) {
-        // width: 64rem;
-        // bottom: -10rem;
         max-width: 100%;
       }
-
-      // @include media-breakpoint-down(sm) {
-      //   width: 50rem;
-      //   bottom: 2rem;
-      // }
 
       img {
         width: 100%;
         height: auto;
       }
     }
+
     .protection {
       position: absolute;
-      right: 0;
+      right: 4.6rem;
       bottom: 0;
       width: 120.5rem;
       img {
@@ -99,7 +94,8 @@
         height: auto;
       }
       @include media-breakpoint-down(md) {
-        width: 34rem;
+        width: 39rem !important;
+        right: 0;
       }
     }
   }

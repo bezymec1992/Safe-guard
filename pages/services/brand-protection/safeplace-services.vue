@@ -398,7 +398,7 @@ export default {
     @include media-breakpoint-up(md) {
       position: absolute;
       right: 14.2rem;
-      bottom: 3px;
+      bottom: 0;
     }
     @include media-breakpoint-down(md) {
       display: none;

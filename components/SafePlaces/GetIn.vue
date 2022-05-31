@@ -29,7 +29,15 @@ export default {
   },
 }
 </script>
-
+<style lang="scss">
+.get-in {
+  .h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: inherit;
+  }
+}
+</style>
 <style lang="scss" scope>
 .get-in {
   padding-bottom: 24rem;

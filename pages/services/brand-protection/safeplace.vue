@@ -1,5 +1,6 @@
 <template>
   <div class="safe-pages">
+
     <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
@@ -47,6 +48,7 @@
         </div>
       </div>
     </intro-section>
+
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">Why did we decide to create SafePlace</h3>
@@ -91,7 +93,7 @@
         </div>
       </div>
     </txt-block>
-    <!-- <ResultsSection /> -->
+
     <div class="results-section">
       <div class="container">
         <div class="row">
@@ -142,6 +144,7 @@
         </div>
       </div>
     </div>
+
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -222,6 +225,7 @@
         </div>
       </div>
     </div>
+
     <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
@@ -300,6 +304,7 @@
         </div>
       </div>
     </txt-block>
+
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -340,7 +345,7 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex. Nullam quis suscipit justo.
             </p>
-            <router-link to="/" class="btn btn-dark"
+            <router-link to="/contact-us" class="btn btn-dark"
               >Need our help?</router-link
             >
           </div>
@@ -352,12 +357,13 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
-          <router-link to="/" class="btn btn-dark btn-style"
+          <router-link to="/contact-us" class="btn btn-dark btn-style"
             >Need our help?</router-link
           >
         </div>
       </div>
     </txt-block>
+
     <visual-section class="anonymous">
       <div class="row g-0">
         <div class="col-md-6 d-flex align-items-md-center anonymous-text">
@@ -417,6 +423,7 @@
     </visual-section>
 
     <GetIn />
+
   </div>
 </template>
 
@@ -501,6 +508,8 @@ export default {
   }
 }
 .safe-style {
+  max-width: 130.8rem;
+  margin: auto;
   margin-bottom: 16rem;
   @include media-breakpoint-down(md) {
     margin-bottom: 3rem;
@@ -508,6 +517,9 @@ export default {
   h3 {
     margin-bottom: 2rem;
   }
+ .content-holder {
+       max-width: 52rem;
+ }
 }
 
 .mobile-text {
@@ -516,10 +528,16 @@ export default {
   }
 }
 
-
 .digitalization {
   padding-left: 0 !important;
+  margin-left: 3.8rem;
+   .text-holder {
+     max-width: 47rem !important;
+    
+  }
 }
+
+
 
 .statistic-section {
   max-width: 144rem;
@@ -620,6 +638,11 @@ export default {
       width: 100%;
     }
   }
+}
+
+.bg-img {
+  max-width: 130rem;
+  margin: auto;
 }
 </style>
 

@@ -61,6 +61,7 @@
         </div>
       </div>
     </intro-section>
+
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
@@ -102,7 +103,7 @@
         </div>
       </div>
     </txt-block>
-    <!-- <ResultsSection /> -->
+  
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">How does it work?</h3>
@@ -151,6 +152,7 @@
     </txt-block>
 
     <visual-section :bg="'img-008.png'" :class="'bg-img'"> </visual-section>
+    
     <MoodSection />
 
     <txt-block :class="'txt-block-1 style1 safe-style'">
@@ -345,25 +347,13 @@
       </div>
     </div>
 
-    <!-- <GetIn>
+    <GetIn>
       <template #title>
-        <h2 class="title">Interested in our Safeplace Software? Contact us!</h2>
+        <h2 class="h2">Interested in our Safeplace Software? Contact us!</h2>
       </template>
-    </GetIn> -->
+    </GetIn>
 
-    <div class="get-in">
-      <div class="container">
-        <div class="row">
-          <slot name="title">
-            <h2 class="h2">
-              Interested in our Safeplace Software? <br />
-              Contact us!
-            </h2>
-          </slot>
-          <nuxt-link :to="to" class="btn btn-dark">Get in touch</nuxt-link>
-        </div>
-      </div>
-    </div>
+    
 
   </div>
 </template>
@@ -371,17 +361,25 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import MoodSection from '@/components/MoodSection/MoodSection.vue'
-// import GetIn from '@/components/SafePlaces/GetIn.vue'
-// import ResultsSection from '@/components/ResultsSection/ResultsSection.vue';
+import GetIn from '@/components/SafePlaces/GetIn.vue'
+
 
 export default {
   name: 'SafePlaceSoftware',
   components: {
     IntroSection,
     MoodSection,
-    // GetIn,
-
-    // ResultsSection,
+    GetIn,
+  },
+    props: {
+    title: {
+      type: String,
+      default: 'title',
+    },
+    to: {
+      type: [String, Object],
+      default: '',
+    },
   },
   data() {
     return {
@@ -411,22 +409,13 @@ export default {
     }
   },
 
-  props: {
-    title: {
-      type: String,
-      default: 'title',
-    },
-    to: {
-      type: [String, Object],
-      default: '',
-    },
-  },
 }
 </script>
 
 <style lang="scss" scoped>
 .safe-pages {
   .intro {
+    position: relative;
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
     .intro-text {
@@ -436,6 +425,7 @@ export default {
     }
     .text-holder {
       margin-top: 3rem;
+      max-width: 41.4rem;
       p {
         max-width: 48rem;
       }
@@ -447,7 +437,7 @@ export default {
     @include media-breakpoint-up(md) {
       position: absolute;
       right: 14.2rem;
-      bottom: 3px;
+      bottom: 0;
     }
     @include media-breakpoint-down(md) {
       display: none;

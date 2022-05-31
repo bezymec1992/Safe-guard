@@ -1,5 +1,6 @@
 <template>
   <div class="safe-pages">
+    
     <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
@@ -20,7 +21,7 @@
             <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                ipsum lacus, aliquam id eros id.
               </p>
             </div>
           </div>
@@ -45,7 +46,7 @@
             <div class="text-holder d-md-none balloon-p-txt">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                ipsum lacus, aliquam id eros id.
               </p>
             </div>
           </div>
@@ -61,6 +62,7 @@
         </div>
       </div>
     </intro-section>
+
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">What is an Awareness Program?</h3>
@@ -169,7 +171,7 @@
       </div>
     </visual-section>
 
-    <txt-block :class="'txt-block-1 style1 safe-style'">
+    <txt-block :class="'txt-block-1 style1 safe-style double-block'">
       <div class="col d-md-none">
         <h3 class="h2">AP is about how to improve your team</h3>
         <div class="text-holder">
@@ -229,7 +231,7 @@
           <div
             v-for="item in statisticItems"
             :key="item.id"
-            class="col-lg-4 col-md-6 col-sm-12"
+            class="col-lg-4 col-md-6 col-sm-12 statistic"
           >
             <div class="statistic-item">
               <h3>{{ item.title }}</h3>
@@ -271,11 +273,11 @@
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
               viverra.
             </p>
-             <ul>
-            <li>Online workshops / live translations</li>
-            <li>Offline workshops & meetings</li>
-            <li>Regular polls</li>
-          </ul>
+            <ul>
+              <li>Online workshops / live translations</li>
+              <li>Offline workshops & meetings</li>
+              <li>Regular polls</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -294,7 +296,7 @@
       </div>
     </txt-block>
 
- <div class="get-in">
+    <div class="get-in">
       <div class="container">
         <div class="row">
           <slot name="title">
@@ -307,7 +309,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -318,6 +319,16 @@ export default {
   name: 'AwarenessProgram',
   components: {
     IntroSection,
+  },
+  props: {
+    title: {
+      type: String,
+      default: 'title',
+    },
+    to: {
+      type: [String, Object],
+      default: '',
+    },
   },
   data() {
     return {
@@ -338,20 +349,7 @@ export default {
           description: 'Sport teams,  clubs, education (courses)',
         },
       ],
-      
     }
-    
-  },
-  
-  props: {
-    title: {
-      type: String,
-      default: 'title',
-    },
-    to: {
-      type: [String, Object],
-      default: '',
-    },
   },
 }
 </script>
@@ -377,31 +375,34 @@ export default {
       }
     }
     .mobile-holder {
-    max-width: 55rem;
-    @include media-breakpoint-up(md) {
-      position: absolute;
-      right: 14.2rem;
-      bottom: 3px;
+      max-width: 55rem;
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 14.2rem;
+        bottom: 0;
+      }
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
-    @include media-breakpoint-down(md) {
+
+    .mobiles {
       display: none;
+      @include media-breakpoint-down(md) {
+        display: block;
+      }
     }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  .mobiles {
-    display: none;
-    @include media-breakpoint-down(md) {
-      display: block;
-    }
-  }
   }
 
   .safe-style {
+    max-width: 119.6rem;
+    margin: auto;
+    padding-top: 2rem;
     margin-bottom: 14rem;
     @include media-breakpoint-down(md) {
       margin-bottom: 6rem;
@@ -414,6 +415,30 @@ export default {
       @include media-breakpoint-down(md) {
         margin-bottom: 1.8rem;
         font-size: 2rem;
+      }
+    }
+
+    .digitalization {
+      padding-left: 0;
+      .h2 {
+        max-width: 45rem;
+      }
+
+      .text-holder {
+        max-width: 48rem;
+      }
+    }
+
+    .img-holder {
+      margin-left: 0;
+    }
+  }
+
+  .double-block {
+    .img-holder {
+      padding-left: 2.7rem;
+      @include media-breakpoint-down(md) {
+        padding-left: 0;
       }
     }
   }
@@ -436,20 +461,24 @@ export default {
     }
   }
   .txt-block .text-holder p:not(:last-child) {
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   .final {
+    max-width: 115rem;
+    margin: auto;
     margin-top: 7rem;
+    margin-bottom: 13rem;
     @include media-breakpoint-down(md) {
+      margin-bottom: 9rem;
       margin-top: 4rem;
     }
     .h2 {
-        max-width: 50rem;
+      max-width: 50rem;
     }
 
     li {
-        line-height: 2.5;
+      line-height: 2.5;
     }
   }
 
@@ -503,7 +532,7 @@ export default {
     margin-bottom: 15rem;
     margin-top: 6.5rem;
     min-height: 55rem;
-    background: linear-gradient(270.2deg, #cdf0ff 56.52%, #c0cfee 99.75%);
+    background: #cdf0ff;
 
     @include media-breakpoint-down(md) {
       padding-bottom: 8rem;
@@ -570,7 +599,7 @@ export default {
     color: #000;
     padding-top: 10.6rem;
     padding-bottom: 0rem;
-    margin-bottom: 11rem;
+    margin-bottom: 17rem;
     @include media-breakpoint-down(md) {
       margin-top: 5rem;
       padding-bottom: 7rem;
@@ -598,7 +627,7 @@ export default {
     .row-items,
     .row-text {
       margin: auto;
-      max-width: 106rem;
+      max-width: 108rem;
     }
     .statistic-item {
       max-width: 40rem;
@@ -629,11 +658,16 @@ export default {
         }
       }
       .text-holder {
+        max-width: 24rem;
         @include media-breakpoint-down(lg) {
           margin: 0;
         }
       }
     }
+
+   
+
+    
     .col-lg-3,
     .col-md-6,
     .col-sm-12 {
@@ -651,7 +685,7 @@ export default {
     padding-top: 8rem;
   }
 
-   .get-in {
+  .get-in {
     padding-bottom: 16rem;
 
     @include media-breakpoint-down(md) {
@@ -663,7 +697,7 @@ export default {
       margin-bottom: 4rem;
       text-transform: inherit;
       @include media-breakpoint-down(md) {
-          font-size: 2rem;
+        font-size: 2rem;
       }
     }
 

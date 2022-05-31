@@ -125,6 +125,7 @@
         </div>
       </div>
     </txt-block>
+
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -175,9 +176,11 @@
         </div>
       </div>
     </txt-block>
+
     <visual-section :bg="'img-030.jpg'" :class="'bg-img'">
       <h2 class="h1 text-center white">brand protection</h2>
     </visual-section>
+
     <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
@@ -246,6 +249,7 @@
         </div>
       </div>
     </txt-block>
+
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -296,7 +300,9 @@
         </div>
       </div>
     </txt-block>
+
     <PlyrSection :file-name="'vid-01.mp4'" :class="'pb-0'" />
+
     <txt-block :class="'txt-block-2 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -397,6 +403,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section>
+    
     <ButtonsSection :next-link="'software'" />
   </div>
 </template>
