@@ -328,34 +328,46 @@
 
     <div class="wfrom-section">
       <div class="additional-section-wrapper">
-      <div class="container">
-        <div class="more-wrapper">
-          <h2 class="h2">
-            Want to know how to <br />
-            train team by yourself?
-          </h2>
-          <div
-            class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
-          >
-            <router-link to="/about/timeline" class="btn btn-arrow">
-              View More
-              <span class="arrow-wrapper"
-                ><span class="icon-holder"
-                  ><img
-                    data-src="@/assets/images/icon-02.svg"
-                    class="lazyload"
-                    alt="#" /></span></span
-            ></router-link>
+        <div class="container">
+          <div class="more-wrapper">
+           
+              <h2 class="h2">Want to know how to train team by yourself?</h2>
+           
+
+           
+              <router-link to="/contact-us" class="btn btn-arrow more-btn-desktop">
+                View More
+                <span class="arrow-wrapper"
+                  ><span class="icon-holder"
+                    ><img
+                      data-src="@/assets/images/icon-02.svg"
+                      class="lazyload"
+                      alt="#" /></span></span
+              ></router-link>
+          
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
+          <div class="row">
+           
             <div class="text-holder">
-              <p>Check our programs we have created and we will help you!</p>
+              <p>
+               Check our programs we have created and we will help you!
+              </p>
+              <router-link to="/contact-us" class="btn btn-arrow more-btn">
+                View More
+                <span class="arrow-wrapper"
+                  ><span class="icon-holder"
+                    ><img
+                      data-src="@/assets/images/icon-02.svg"
+                      class="lazyload"
+                      alt="#" /></span></span
+              ></router-link>
             </div>
+         
+            <div
+              class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
+            ></div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   </div>
@@ -469,6 +481,11 @@ export default {
     .content-holder {
       padding-left: 0;
     }
+    .digitalization {
+      .text-holder {
+        max-width: 47rem !important;
+      }
+    }
   }
 
   .reverse {
@@ -515,30 +532,62 @@ export default {
     }
   }
 
-//   .wfrom-section {
-//     additional-section-wrapper {
-// max-width: 126rem;
-//     margin-left: 10rem;
-//     align-self: center;
-    
-    
-//     .container {
-//       // margin-right: auto;
+  .wfrom-section {
+    padding-bottom: 14rem;;
+    background-color: #efefef;
+    @include media-breakpoint-down(md) {
+      padding-bottom: 10.3rem;
+    }
+    .additional-section-wrapper {
+      width: 100%;
 
-//       .more-wrapper {
-//         display: flex;
-//         align-items: flex-end;
-//         // max-width: 126rem;
-//         .h2 {
-//           margin-left: 6rem;
-//         }
-//       }
-//     }
-//     .text-holder {
-//       margin-left: 6rem;
-//     }
-//   }
-//   }
+      align-self: center;
+      .more-wrapper {
+        display: flex;
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
+        }
+      }
+      .more {
+        align-self: center;
+        @include media-breakpoint-down(md) {
+          align-self: flex-start;
+        }
+      }
+      .container {
+        max-width: 90rem !important;
+      }
+  
+
+      .more-btn-desktop {
+        margin-top: 2rem;
+        min-width: 20.3rem;
+        margin-left: 10rem;
+        display: flex;
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+      .more-btn {
+        display: none;
+        @include media-breakpoint-down(md) {
+         display: flex;
+        }
+      }
+
+      .text-holder {
+        margin-bottom: 0;
+        p {
+          margin-bottom: 5rem;
+        }
+      }
+      .h2 {
+        max-width: 60rem;
+      }
+    }
+  }
+
+ 
 }
 </style>
 

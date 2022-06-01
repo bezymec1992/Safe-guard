@@ -177,7 +177,7 @@
         </div>
       </div>
     </txt-block>
-    <visual-section :bg="'img-026.jpg'" :class="'bg-img'">
+    <visual-section :bg="'img-026.jpg'" :class="'bg-img visual'">
       <h2 class="h1 text-center">ADVICE AND PROTECT</h2>
     </visual-section>
     <txt-block :class="'txt-block-1 style1'">
@@ -332,6 +332,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .services-project {
   .txt-block-2 {
     &.style2 {
@@ -354,7 +355,7 @@ export default {
 
       .row {
         @include media-breakpoint-down(md) {
-          min-height: 58.7rem;
+          min-height: 47.7rem;
         }
       }
 
@@ -368,7 +369,23 @@ export default {
         }
       }
     }
+    .content-holder {
+      margin-left: -9.5rem;
+      @include media-breakpoint-down(lg) {
+        margin-left: 0;
+      }
+      .h1 {
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+        }
+      }
+    }
   }
+
+  .bg-img {
+    padding-top: 4rem;
+  }
+
 }
 </style>
 

@@ -344,6 +344,28 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+.img-pos1 {
+  .content-holder {
+    margin-top: 10rem;
+     @include media-breakpoint-down(md) {
+       margin-top: 2rem;
+     }
+     .h1 {
+       @include media-breakpoint-down(sm) {
+         font-size: 2.5rem;
+       }
+     }
+  }
+  .row {
+    min-height: 67.7rem;
+    @include media-breakpoint-down(sm) {
+     min-height: 55.7rem;
+    }
+  }
+}
+</style>
+
 <style lang="scss">
 @import 'ServicesProjects.scss';
 </style>

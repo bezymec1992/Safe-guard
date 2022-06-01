@@ -24,7 +24,7 @@ export default {
     },
     to: {
       type: [String, Object],
-      default: '',
+      default: '/contact-us',
     },
   },
 }

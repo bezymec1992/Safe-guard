@@ -34,6 +34,8 @@
         }
       }
     }
+   
+  
 
     .punching-bag {
       max-width: 44.9rem;
@@ -116,7 +118,8 @@
     .building-holder {
       position: relative;
       z-index: 2;
-      max-width: 32rem;
+      max-width: 37rem;
+      right: -12rem;
 
       @include media-breakpoint-down(md) {
         position: absolute;
@@ -225,13 +228,30 @@
     }
   }
 
+  .visual {
+    padding-top: 0;
+    @include media-breakpoint-down(md) {
+      padding-top: 8rem;
+    }
+
+  }
+
+  .soft {
+    .content-holder {
+      color: white
+    }
+    
+  }
+
+  
+
   .balloon {
     overflow: hidden;
     position: relative;
     padding-top: 0;
     padding-bottom: 0;
     background: #ffcf27;
-    max-width: 1240px;
+    max-width: 115.4rem;
     margin: auto;
     margin-bottom: 18rem;
     margin-top: 65px;

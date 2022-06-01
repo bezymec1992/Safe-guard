@@ -56,12 +56,12 @@
     </intro-section>
     <StatisticSection />
     <txt-block :class="'txt-block-1'">
-      <div class="col-md-6">
+      <div class="col-md-5">
         <div class="img-holder">
           <img data-src="@/assets/images/img-02.jpg" class="lazyload" alt="#" />
         </div>
       </div>
-      <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="col-md-7 d-flex flex-column justify-content-center we-are">
         <div class="content-holder">
           <h3 class="h2 text-uppercase">Who We Are</h3>
           <div class="text-holder">
@@ -137,6 +137,7 @@ export default {
 .home-page {
   .intro-section {
     overflow: hidden;
+    min-height: 80.12rem;
     @include media-breakpoint-up(md) {
       min-height: 80.12rem;
     }
@@ -144,9 +145,11 @@ export default {
     .img-holder {
       max-width: 65.5rem;
       position: relative;
+      right: -10rem;
 
       @include media-breakpoint-down(md) {
         transform: translateX(20%);
+        right: 0;
       }
 
       .earth,
@@ -155,6 +158,11 @@ export default {
         left: 0;
       }
     }
+  }
+}
+.we-are {
+  .text-holder {
+    max-width: 60rem;
   }
 }
 

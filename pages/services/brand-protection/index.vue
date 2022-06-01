@@ -387,11 +387,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-holder">
-            <img
-              data-src="@/assets/images/bg-1.png"
-              class="lazyload"
-              alt="#"
-            />
+            <img data-src="@/assets/images/bg-1.png" class="lazyload" alt="#" />
           </div>
         </div>
       </div>
@@ -403,7 +399,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section>
-    
+
     <ButtonsSection :next-link="'software'" />
   </div>
 </template>
@@ -436,12 +432,25 @@ export default {
 </script>
 
 <style lang="scss">
+.intro-section {
+  padding-bottom: 0;
+  .building-wrapper {
+    position: relative;
+    bottom: 8rem !important;
+  }
+  .building-holder {
+    position: relative;
+    z-index: 11;
+    max-width: 37rem;
+    right: -4rem !important;
+  }
+}
 
 .desktop {
   display: block;
-   @include media-breakpoint-down(md) {
-     display: none
-   }
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
 }
 
 @import '@/pages/services/ServicesProjects.scss';

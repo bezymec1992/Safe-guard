@@ -238,7 +238,7 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex. Nullam quis suscipit justo.
             </p>
-            <router-link to="/services/software" class="btn btn-dark"
+            <router-link to="/contact-us" class="btn btn-dark"
               >Need our help?</router-link
             >
           </div>

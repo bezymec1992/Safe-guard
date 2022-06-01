@@ -55,9 +55,14 @@
 
     .gradient-block {
       overflow: hidden;
-      background: linear-gradient(389.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-
-      @include media-breakpoint-up(lg) {
+      background: linear-gradient(
+        106.81deg,
+        #5d90c6 -8.28%,
+        rgba(68, 98, 129, 0) 103.99%
+      );
+    
+       @include
+        media-breakpoint-up(lg) {
         min-height: 40rem;
         max-height: 40rem;
 
@@ -93,11 +98,18 @@
 
     .punching-bag {
       max-width: 40rem;
+      position: relative;
+      right: 6rem;
+      top: 0;
 
       @include media-breakpoint-down(lg) {
         position: absolute;
         max-width: 35rem;
         right: -4rem;
+      }
+      @include media-breakpoint-down(md) {
+        top: 5rem;
+        right: -7rem;
       }
     }
 
@@ -272,11 +284,15 @@
       }
 
       .content-holder {
+        margin-left: -6.5rem;
         @include media-breakpoint-down(lg) {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           flex: 1;
+          margin-left: 0;
+        }
+        @include media-breakpoint-down(md) {
         }
       }
 
@@ -332,9 +348,15 @@
         font-size: 1.8rem;
         line-height: 1.6;
 
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(lg) {
           margin-bottom: 5rem;
           font-size: 1.4rem;
+        }
+        @include media-breakpoint-down(md) {
+          margin-bottom: 3rem;
+        }
+        p {
+          margin-bottom: 0;
         }
       }
     }

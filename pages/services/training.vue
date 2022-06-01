@@ -144,7 +144,7 @@
         </div>
       </div>
     </txt-block>
-    <visual-section>
+    <visual-section class="visual">
       <div class="row">
         <div class="col-md-6 d-flex align-items-md-center">
           <div class="content-holder">
