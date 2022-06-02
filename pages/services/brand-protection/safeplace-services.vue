@@ -330,28 +330,24 @@
       <div class="additional-section-wrapper">
         <div class="container">
           <div class="more-wrapper">
-           
-              <h2 class="h2">Want to know how to train team by yourself?</h2>
-           
+            <h2 class="h2">Want to know how to train team by yourself?</h2>
 
-           
-              <router-link to="/contact-us" class="btn btn-arrow more-btn-desktop">
-                View More
-                <span class="arrow-wrapper"
-                  ><span class="icon-holder"
-                    ><img
-                      data-src="@/assets/images/icon-02.svg"
-                      class="lazyload"
-                      alt="#" /></span></span
-              ></router-link>
-          
+            <router-link
+              to="/contact-us"
+              class="btn btn-arrow more-btn-desktop"
+            >
+              View More
+              <span class="arrow-wrapper"
+                ><span class="icon-holder"
+                  ><img
+                    data-src="@/assets/images/icon-02.svg"
+                    class="lazyload"
+                    alt="#" /></span></span
+            ></router-link>
           </div>
           <div class="row">
-           
             <div class="text-holder">
-              <p>
-               Check our programs we have created and we will help you!
-              </p>
+              <p>Check our programs we have created and we will help you!</p>
               <router-link to="/contact-us" class="btn btn-arrow more-btn">
                 View More
                 <span class="arrow-wrapper"
@@ -362,7 +358,7 @@
                       alt="#" /></span></span
               ></router-link>
             </div>
-         
+
             <div
               class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
             ></div>
@@ -470,6 +466,8 @@ export default {
       }
     }
   }
+
+ 
   .final {
     max-width: 126rem;
     margin-left: auto;
@@ -533,7 +531,7 @@ export default {
   }
 
   .wfrom-section {
-    padding-bottom: 14rem;;
+    padding-bottom: 14rem;
     background-color: #efefef;
     @include media-breakpoint-down(md) {
       padding-bottom: 10.3rem;
@@ -557,7 +555,6 @@ export default {
       .container {
         max-width: 90rem !important;
       }
-  
 
       .more-btn-desktop {
         margin-top: 2rem;
@@ -571,7 +568,7 @@ export default {
       .more-btn {
         display: none;
         @include media-breakpoint-down(md) {
-         display: flex;
+          display: flex;
         }
       }
 
@@ -586,8 +583,11 @@ export default {
       }
     }
   }
-
- 
+   .bg-img {
+    background-position-x: right !important;
+    background-image: url(/_nuxt/assets/images/img-008.png);
+    opacity: 1;
+  }
 }
 </style>
 
