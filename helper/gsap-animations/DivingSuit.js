@@ -14,8 +14,8 @@ export const gsapInitDivingSuit = () => {
           delay: 0.5,
           duration: 2,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+      // start: 'top 75%',
+      // end: 'bottom 10%',
     })
 
     gsap.set('.diving-suit .diving-suit-img-2', {
@@ -36,8 +36,8 @@ export const gsapInitDivingSuit = () => {
             { y: 0, delay: 0.2 },
           ],
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+      // start: 'top 75%',
+      // end: 'bottom 10%',
     })
   }
 }
