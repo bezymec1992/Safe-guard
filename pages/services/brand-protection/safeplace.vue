@@ -542,6 +542,20 @@ export default {
       }
     }
   }
+  .anonymous {
+    position: relative;
+    overflow: hidden;
+    .img-holder {
+      img {
+        @include media-breakpoint-down(sm) {
+          position: absolute;
+          min-width: 50rem;
+          object-fit: cover;
+          right: 0;
+        }
+      }
+    }
+  }
 
   .mobile-text {
     .pb-none {
