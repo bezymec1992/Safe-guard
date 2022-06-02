@@ -407,6 +407,7 @@
               alt="#"
             />
           </div>
+
           <nuxt-link
             to="/services/brand-protection/safeplace-software"
             class="btn btn-arrow d-md-none"
@@ -542,20 +543,6 @@ export default {
       }
     }
   }
-  // .anonymous {
-  //   position: relative;
-  //   overflow: hidden;
-  //   .img-holder {
-  //     img {
-  //       @include media-breakpoint-down(sm) {
-  //         position: absolute;
-  //         
-  //         object-fit: cover;
-  //         right: 0;
-  //       }
-  //     }
-  //   }
-  // }
 
   .anonymous {
     position: relative;
@@ -597,17 +584,24 @@ export default {
         min-width: 50rem;
       }
 
+      @include media-breakpoint-down(sm) {
+       margin: 0 -90px;
+      }
+
       img {
         width: 100%;
-        height: auto;
+        // height: auto;
         object-fit: cover;
-        @include media-breakpoint-down(sm) {
-          position: relative;
-       
-        }
-    
+        // @include media-breakpoint-down(sm) {
+        //   object-fit: contain;
+        //   object-position: left;
+        //   width: 100%;
+        //   min-width: 39rem;
+        // }
       }
     }
+
+
 
     .protection {
       position: absolute;
