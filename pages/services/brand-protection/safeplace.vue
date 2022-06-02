@@ -542,6 +542,112 @@ export default {
       }
     }
   }
+  // .anonymous {
+  //   position: relative;
+  //   overflow: hidden;
+  //   .img-holder {
+  //     img {
+  //       @include media-breakpoint-down(sm) {
+  //         position: absolute;
+  //         
+  //         object-fit: cover;
+  //         right: 0;
+  //       }
+  //     }
+  //   }
+  // }
+
+  .anonymous {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 15rem;
+    margin-top: 6.5rem;
+    min-height: 55rem;
+    overflow: hidden;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 8rem;
+      margin-top: 4.8rem;
+      margin-bottom: 10rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 7rem;
+      min-height: 70vh;
+    }
+
+    .container {
+      padding-right: 0;
+    }
+    .img-holder {
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 120.5rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        max-width: 100%;
+        position: relative;
+        right: 0;
+        min-width: 50rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        @include media-breakpoint-down(sm) {
+          position: relative;
+       
+        }
+    
+      }
+    }
+
+    .protection {
+      position: absolute;
+      right: 4.6rem;
+      bottom: 0;
+      width: 120.5rem;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      @include media-breakpoint-down(md) {
+        width: 39rem !important;
+        right: 0;
+      }
+    }
+  }
+
+  .anonymous-text {
+    padding-top: 12rem;
+    justify-content: center;
+    @include media-breakpoint-down(md) {
+      padding-top: 7rem;
+      justify-content: flex-start;
+      position: relative;
+      z-index: 4;
+    }
+
+    p {
+      margin-bottom: 35px;
+    }
+    .content-holder {
+      z-index: 10;
+      .h1 {
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
 
   .mobile-text {
     .pb-none {

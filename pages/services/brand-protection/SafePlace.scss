@@ -124,6 +124,13 @@
     }
   }
 
+  .double-phone {
+    @include media-breakpoint-down(sm) {
+   background-position-x: right;
+ }
+ 
+}
+
   .awareness {
     .awareness-wrapper {
       max-width: 32rem;

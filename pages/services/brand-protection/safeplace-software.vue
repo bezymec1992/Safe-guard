@@ -151,7 +151,7 @@
       </div>
     </txt-block>
 
-    <visual-section :bg="'img-008.png'" :class="'bg-img'"> </visual-section>
+    <visual-section :bg="'img-008.png'" :class="'bg-img double-phone'"> </visual-section>
     
     <MoodSection />
 
@@ -238,7 +238,7 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex. Nullam quis suscipit justo.
             </p>
-            <router-link to="/contact-us" class="btn btn-dark"
+            <router-link to="/services/software" class="btn btn-dark"
               >Need our help?</router-link
             >
           </div>
@@ -646,6 +646,8 @@ li {
       max-width: 30rem;
     }
   }
+ 
+  
 }
 </style>
 
