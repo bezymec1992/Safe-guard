@@ -70,6 +70,10 @@
 
     label {
       display: block;
+    }
+
+    .label {
+      display: block;
       margin-bottom: 0.6rem;
       font-size: 1.2rem;
       line-height: 1.57;
@@ -121,6 +125,14 @@
         }
       }
 
+      .error-icon {
+        top: 4rem;
+
+        // @include media-breakpoint-down(md) {
+        //   top: 1.3rem;
+        // }
+      }
+
       .textarea-counter {
         position: absolute;
         bottom: 1.2rem;
@@ -141,17 +153,13 @@
 
     .error-icon {
       position: absolute;
-      top: 2rem;
+      top: 50%;
       right: 1.8rem;
       width: 2.4rem;
       height: 2.4rem;
-      background: url("~@/assets/images/icon-04.svg") no-repeat;
+      background: url('~@/assets/images/icon-04.svg') no-repeat;
       z-index: 1;
       cursor: pointer;
-
-      @include media-breakpoint-down(md) {
-        top: 1.3rem;
-      }
     }
 
     .error-title {
