@@ -1,6 +1,5 @@
 <template>
   <div class="safe-pages">
-
     <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
@@ -60,7 +59,7 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 image">
         <div class="img-holder">
           <img
             data-src="@/assets/images/img-100.png"
@@ -137,7 +136,9 @@
             </div>
           </div>
           <div class="col-12 d-md-none anim-item-2 btn-style">
-            <router-link to="/services/brand-protection/safeplace-services" class="btn btn-dark"
+            <router-link
+              to="/services/brand-protection/safeplace-services"
+              class="btn btn-dark"
               >How do we check a place?</router-link
             >
           </div>
@@ -226,9 +227,9 @@
       </div>
     </div>
 
-    <txt-block :class="'txt-block-2 style2'">
+    <txt-block :class="'txt-block-2 style2 phone'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2 inherit">
           First we check group <br />
           dymanics
         </h3>
@@ -253,7 +254,7 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">
+              <h3 class="h2 inherit">
                 First we check group <br />
                 dymanics
               </h3>
@@ -266,7 +267,7 @@
               </div>
             </div>
             <div class="text-row">
-              <h3 class="h2 text-capitalize">
+              <h3 class="h2 inherit">
                 Second - we create <br />
                 awareness program
               </h3>
@@ -279,7 +280,9 @@
                   id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
                   turpis euismod, fermentum
                 </p>
-                <router-link to="/services/brand-protection/awareness-program" class="btn btn-dark"
+                <router-link
+                  to="/services/brand-protection/awareness-program"
+                  class="btn btn-dark"
                   >About awareness program</router-link
                 >
               </div>
@@ -288,7 +291,7 @@
         </div>
       </div>
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2 inherit">
           Second - we create <br />
           awareness program
         </h3>
@@ -298,7 +301,9 @@
             massa sed magna condimentum, eu gravida urna varius. Aenean neque
             orci, ultrices
           </p>
-          <router-link to="/services/brand-protection/awareness-program" class="btn btn-dark btn-style"
+          <router-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-dark btn-style"
             >About awareness program</router-link
           >
         </div>
@@ -328,7 +333,6 @@
             alt="#"
           />
         </div>
-    
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
@@ -423,7 +427,6 @@
     </visual-section>
 
     <GetIn />
-
   </div>
 </template>
 
@@ -488,11 +491,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro {
-  overflow: hidden;
-}
+.safe-pages {
+  .intro {
+    overflow: hidden;
+  }
 
- .intro-section {
+  .intro-section {
     position: relative;
     margin-bottom: 14rem;
     @include media-breakpoint-down(md) {
@@ -501,148 +505,177 @@ export default {
       margin-bottom: 0;
     }
   }
-.results-section {
-  margin-bottom: 10.5rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 6.5rem;
-  }
-}
-.safe-style {
-  max-width: 130.8rem;
-  margin: auto;
-  margin-bottom: 16rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 3rem;
-  }
-  h3 {
-    margin-bottom: 2rem;
-  }
- .content-holder {
-       max-width: 52rem;
- }
-}
-
-.mobile-text {
-  .pb-none {
-    margin-bottom: 0;
-  }
-}
-
-.digitalization {
-  padding-left: 0 !important;
-  margin-left: 3.8rem;
-   .text-holder {
-     max-width: 47rem !important;
-    
-  }
-}
-
-
-
-.statistic-section {
-  max-width: 144rem;
-  margin: auto;
-  background-color: #262626;
-  color: #fff;
-  @include media-breakpoint-down(md) {
-    padding-bottom: 0;
-  }
-  .text-holder {
-    margin-bottom: 7rem;
-    line-height: 2.5;
+  .results-section {
+    margin-bottom: 10.5rem;
     @include media-breakpoint-down(md) {
-      line-height: 1.5;
-      margin-bottom: 3.5rem;
-      margin-left: 0;
+      margin-bottom: 6.5rem;
     }
-    .h1 {
-      font-size: 40px;
-      @include media-breakpoint-down(md) {
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+    .btn-style {
+      .btn-dark {
+        @include media-breakpoint-down(m) {
+          padding: 1.3rem 6.4rem;
+        }
       }
     }
   }
-  .statistic-item {
-    h3 {
-      font-size: 2.8rem;
-      color: #ffd027;
-      line-height: 1.5;
-      @include media-breakpoint-down(md) {
-        font-size: 2rem;
-        text-align: left;
-      }
-    }
-
-    p {
-      line-height: 2;
-      @include media-breakpoint-down(md) {
-        text-align: left;
-      }
-    }
+  .safe-style {
+    max-width: 130.8rem;
+    margin: auto;
+    margin-bottom: 16rem;
     @include media-breakpoint-down(md) {
       margin-bottom: 3rem;
     }
-  }
-}
-
-.txt-mobile {
-  margin-bottom: 0;
-}
-
-.btn-style {
-  display: flex;
-  justify-content: center;
-}
-
-.txt-block {
-  margin-top: 13rem;
-  @include media-breakpoint-down(md) {
-    margin-top: 8rem;
-  }
-  .phone-holder {
-    align-self: center;
-    .img-holder {
-      display: flex;
-      justify-content: center;
-      img {
-        width: 100%;
-        max-width: 35rem;
+    h3 {
+      margin-bottom: 2rem;
+    }
+    .content-holder {
+      max-width: 52rem;
+    }
+    .image {
+      .img-holder {
+        img {
+          width: 100%;
+          min-height: 39rem;
+          object-fit: cover;
+          object-position: right;
+        }
       }
     }
   }
-}
 
-.reverse {
-  margin-bottom: 18.8rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 4.8rem;
-  }
-}
-
-.picture {
-  position: relative;
-  .img-holder {
-    img {
-      width: 100%;
-      height: auto;
+  .mobile-text {
+    .pb-none {
+      margin-bottom: 0;
     }
   }
-  .icon-holder {
-    display: none;
-    position: absolute;
-    left: 24%;
-    top: 8%;
-    max-width: 35rem;
-    img {
-      width: 100%;
+
+  .digitalization {
+    padding-left: 0 !important;
+    margin-left: 3.8rem;
+    .text-holder {
+      max-width: 47rem !important;
     }
   }
-}
 
-.bg-img {
-  max-width: 130rem;
-  margin: auto;
+  .phone {
+    .phone-holder {
+      .img-holder {
+        max-width: 29rem;
+        margin: auto;
+        margin-bottom: 5.6rem;
+      }
+    }
+  }
+
+  .statistic-section {
+    max-width: 144rem;
+    margin: auto;
+    background-color: #262626;
+    color: #fff;
+    @include media-breakpoint-down(md) {
+      padding-bottom: 0;
+    }
+    .text-holder {
+      margin-bottom: 7rem;
+      line-height: 2.5;
+      @include media-breakpoint-down(md) {
+        line-height: 1.5;
+        margin-bottom: 3.5rem;
+        margin-left: 0;
+      }
+      .h1 {
+        font-size: 40px;
+        @include media-breakpoint-down(md) {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+    .statistic-item {
+      h3 {
+        font-size: 2.8rem;
+        color: #ffd027;
+        line-height: 1.5;
+        @include media-breakpoint-down(md) {
+          font-size: 2rem;
+          text-align: left;
+        }
+      }
+
+      p {
+        line-height: 2;
+        @include media-breakpoint-down(md) {
+          text-align: left;
+        }
+      }
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .txt-mobile {
+    margin-bottom: 0;
+  }
+
+  .btn-style {
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt-block {
+    margin-top: 13rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 8rem;
+    }
+    .phone-holder {
+      align-self: center;
+      .img-holder {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 100%;
+          max-width: 35rem;
+        }
+      }
+    }
+  }
+
+  .reverse {
+    margin-bottom: 18.8rem;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  .inherit {
+    text-transform: inherit;
+  }
+
+  .picture {
+    position: relative;
+    .img-holder {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .icon-holder {
+      display: none;
+      position: absolute;
+      left: 24%;
+      top: 8%;
+      max-width: 35rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .bg-img {
+    max-width: 130rem;
+    margin: auto;
+  }
 }
 </style>
 
