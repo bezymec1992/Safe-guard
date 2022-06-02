@@ -20,8 +20,8 @@
           </div>
         </div>
       </div>
-      <ContactSection />
     </visual-section>
+    <ContactSection />
   </div>
 </template>
 
@@ -55,9 +55,12 @@ export default {
 
 <style lang="scss" scoped>
 .contact-us {
+  background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+
   .visual-section {
     max-width: 100%;
     padding-top: 16rem;
+    background: transparent;
 
     @include media-breakpoint-down(md) {
       overflow: hidden;
@@ -89,19 +92,15 @@ export default {
 
   .contact-section {
     position: relative;
+    padding-bottom: 0;
     z-index: 1;
     background: transparent;
-    margin-left: -2.4rem;
-    margin-right: -2.4rem;
-    margin-top: -5%;
 
-    @include media-breakpoint-up(md) {
-      margin-bottom: -25%;
-    }
+    background: linear-gradient(180deg, transparent 50%, $mine-shaft 0);
 
-    @include media-breakpoint-down(md) {
-      background: linear-gradient(to bottom, transparent 50%, #262626 50%);
-    }
+    // @include media-breakpoint-down(md) {
+    //   background: linear-gradient(to bottom, transparent 50%, #262626 50%);
+    // }
   }
 }
 </style>
