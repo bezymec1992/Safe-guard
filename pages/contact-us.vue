@@ -35,21 +35,6 @@ export default {
     ContactSection,
     VisualSection,
   },
-  beforeMount() {
-    // console.log(this.$route.name)
-    if (this.$route.name === 'contact-us') {
-      document.querySelector('.footer').classList.add('contact-us')
-    }
-  },
-  beforeDestroy() {
-    document.querySelector('.footer').classList.remove('contact-us')
-  },
-  //   created() {
-  //     document.querySelector('.footer').classList.add('contact-us')
-  //   },
-  //   unmounted() {
-  //     document.querySelector('.footer').classList.remove('contact-us')
-  //   },
 }
 </script>
 

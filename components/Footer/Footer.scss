@@ -139,10 +139,4 @@
       margin-bottom: 0;
     }
   }
-
-  &.contact-us {
-    @include media-breakpoint-up(md) {
-      padding-top: 30%;
-    }
-  }
 }
