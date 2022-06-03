@@ -332,7 +332,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .services-project {
   .txt-block-2 {
     &.style2 {
@@ -343,7 +342,13 @@ export default {
   }
 
   .visual-section {
+    padding-top: 7rem;
+    overflow: hidden;
+    @include media-breakpoint-down(sm) {
+         min-height: 54vh;
+    }
     &.second-section {
+      min-height: 74vh;
       @include media-breakpoint-up(md) {
         margin-bottom: 20rem;
       }
@@ -366,7 +371,10 @@ export default {
         @include media-breakpoint-down(md) {
           position: relative;
           margin: 0 -2.4rem;
+          min-width: 43rem;
+          bottom: -2rem;
         }
+     
       }
     }
     .content-holder {
@@ -383,9 +391,8 @@ export default {
   }
 
   .bg-img {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
-
 }
 </style>
 

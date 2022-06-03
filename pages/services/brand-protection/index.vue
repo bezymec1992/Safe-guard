@@ -17,7 +17,7 @@
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
             <h1 class="h1">
-              Consultancy & <br />
+              Consultancy & 
               brand protection
             </h1>
             <div class="text-holder desktop">
@@ -55,8 +55,8 @@
             </div>
             <div class="text-holder mobile">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id, consectetur efficitur neque.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
+                amet, consec
               </p>
             </div>
           </div>
@@ -434,9 +434,16 @@ export default {
 <style lang="scss">
 .intro-section {
   padding-bottom: 0;
+  .h1 {
+    @include media-breakpoint-down(md) {
+      max-width: 26rem;
+      font-size: 3.4rem;
+    }
+  }
   .building-wrapper {
-    position: relative;
-    bottom: 8rem !important;
+    // position: relative;
+    // bottom: 8rem !important;
+    margin-top: 2rem;
   }
   .building-holder {
     position: relative;

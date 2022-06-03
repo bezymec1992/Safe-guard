@@ -103,7 +103,7 @@
         </div>
       </div>
     </txt-block>
-  
+
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">How does it work?</h3>
@@ -151,8 +151,9 @@
       </div>
     </txt-block>
 
-    <visual-section :bg="'img-008.png'" :class="'bg-img double-phone'"> </visual-section>
-    
+    <visual-section :bg="'img-008.png'" :class="'bg-img double-phone'">
+    </visual-section>
+
     <MoodSection />
 
     <txt-block :class="'txt-block-1 style1 safe-style'">
@@ -195,12 +196,11 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
-        
         </div>
 
         <!--          BUTTON          -->
-        
-           <!-- <router-link to="/services/software" class="btn btn-dark"
+
+        <!-- <router-link to="/services/software" class="btn btn-dark"
             >About awareness program</router-link
           > -->
       </div>
@@ -215,7 +215,6 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-         
         </div>
       </div>
       <div class="col-md-6 picture">
@@ -352,9 +351,6 @@
         <h2 class="h2">Interested in our Safeplace Software? Contact us!</h2>
       </template>
     </GetIn>
-
-    
-
   </div>
 </template>
 
@@ -363,7 +359,6 @@ import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import MoodSection from '@/components/MoodSection/MoodSection.vue'
 import GetIn from '@/components/SafePlaces/GetIn.vue'
 
-
 export default {
   name: 'SafePlaceSoftware',
   components: {
@@ -371,7 +366,7 @@ export default {
     MoodSection,
     GetIn,
   },
-    props: {
+  props: {
     title: {
       type: String,
       default: 'title',
@@ -408,7 +403,6 @@ export default {
       ],
     }
   },
-
 }
 </script>
 
@@ -490,9 +484,12 @@ export default {
   padding-bottom: 6rem;
   margin-bottom: 13rem;
   @include media-breakpoint-down(md) {
-    margin-top: 8rem;
-    padding-bottom: 7rem;
+    margin-top: 0;
+    padding-bottom: 5rem;
     margin-bottom: 11rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    padding-top: 8rem;
   }
   .text-holder {
     margin-bottom: 7rem;
@@ -506,6 +503,12 @@ export default {
       font-size: 4rem;
       @include media-breakpoint-down(md) {
         font-size: 2.5rem;
+        margin-bottom: 1.7rem;
+      }
+    }
+    p {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1rem;
       }
     }
   }
@@ -515,6 +518,7 @@ export default {
     margin: auto;
     max-width: 106rem;
   }
+
   .statistic-item {
     max-width: 20rem;
     @include media-breakpoint-down(md) {
@@ -589,6 +593,11 @@ export default {
       }
     }
   }
+  .text-holder {
+    @include media-breakpoint-down(md) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 li {
@@ -646,8 +655,6 @@ li {
       max-width: 30rem;
     }
   }
- 
-  
 }
 </style>
 

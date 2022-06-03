@@ -29,7 +29,10 @@
                   The company grows to over 25 employees
                 </h3>
                 <div class="text-holder">
-                  <p>The company grows to over 25 employees</p>
+                  <p>
+                    Trained our own staff to be more client centric and starting
+                    to diversify our service offering.
+                  </p>
                 </div>
               </div>
             </div>

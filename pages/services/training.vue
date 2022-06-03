@@ -297,6 +297,18 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+// .services-project {
+//   .intro-section {
+//     .punching-bag {
+//       @include media-breakpoint-down(sm) {
+//         right: -10;
+//       }
+//     }
+//   }
+// }
+</style>
+
 <style lang="scss">
 @import 'ServicesProjects';
 </style>

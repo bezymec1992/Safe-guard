@@ -1,5 +1,6 @@
 .services-section {
   overflow: hidden;
+ 
 
   .h1 {
     margin-bottom: 10rem;
@@ -60,7 +61,7 @@
         #5d90c6 -8.28%,
         rgba(68, 98, 129, 0) 103.99%
       );
-    
+      // background: linear-gradient(right to left #5D90C6 100% #446281 0%);
        @include
         media-breakpoint-up(lg) {
         min-height: 40rem;

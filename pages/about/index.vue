@@ -31,12 +31,12 @@
           <div class="col-md-6 d-md-flex justify-content-center">
             <div class="diving-suit">
               <img
-                data-src="@/assets/images/img-040.png"
+                src="@/assets/images/img-040.png"
                 alt="#"
                 class="diving-suit-img-2 lazyload"
               />
               <img
-                data-src="@/assets/images/img-039.png"
+                src="@/assets/images/img-039.png"
                 alt="#"
                 class="diving-suit-img-1 lazyload"
               />
@@ -168,7 +168,7 @@
     <ResultsSection />
     <div class="title-section">
       <div class="container">
-        <h2 class="h1">Managing Directors</h2>
+        <h2 class="h1 text-capitalize">Managing Directors</h2>
       </div>
     </div>
     <txt-block :class="'txt-block-2 style1'">
@@ -343,6 +343,12 @@ export default {
 
     .container {
       max-width: 128.5rem;
+    }
+    .h1 {
+      @include media-breakpoint-down(md) {
+        text-transform: inherit;
+        font-size: 3.4rem;
+      }
     }
   }
 

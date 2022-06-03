@@ -125,7 +125,7 @@
   }
 
   .double-phone {
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
    background-position-x: right;
  }
  

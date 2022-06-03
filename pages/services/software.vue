@@ -154,7 +154,7 @@
     </visual-section>
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Manage customers data</h3>
+        <h3 class="h2">Manage customers data</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -178,7 +178,7 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">Manage customers data</h3>
+              <h3 class="h2">Manage customers data</h3>
               <div class="text-holder">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -191,7 +191,7 @@
               </div>
             </div>
             <div class="text-row">
-              <h3 class="h2 text-capitalize">What is this tool about</h3>
+              <h3 class="h2">What is this tool about</h3>
               <div class="text-holder">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -207,7 +207,7 @@
         </div>
       </div>
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">What is this tool about</h3>
+        <h3 class="h2">What is this tool about</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -312,7 +312,7 @@
       </div>
     </txt-block>
 
-    <PlyrSection :file-name="'vid-01.mp4'" class="d-none d-md-block" />
+    <PlyrSection :file-name="'vid-01.mp4'" class="d-block video" />
     <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -348,20 +348,27 @@ export default {
 .img-pos1 {
   .content-holder {
     margin-top: 10rem;
-     @include media-breakpoint-down(md) {
-       margin-top: 2rem;
-     }
-     .h1 {
-       @include media-breakpoint-down(sm) {
-         font-size: 2.5rem;
-       }
-     }
+    @include media-breakpoint-down(md) {
+      margin-top: 2rem;
+    }
+    .h1 {
+      @include media-breakpoint-down(sm) {
+        font-size: 2.5rem;
+      }
+    }
   }
+
+
   .row {
     min-height: 67.7rem;
     @include media-breakpoint-down(sm) {
-     min-height: 55.7rem;
+      min-height: 55.7rem;
     }
+  }
+  .img-holder {
+       @include media-breakpoint-down(sm) {
+          min-width: 46rem;
+       }
   }
 }
 </style>

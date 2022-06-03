@@ -20,17 +20,17 @@
           >
             <div class="img-holder">
               <img
-                data-src="@/assets/images/img-062.png"
+                src="@/assets/images/img-062.png"
                 class="lazyload helm"
                 alt="img description"
               />
               <img
-                data-src="@/assets/images/img-063.png"
+                src="@/assets/images/img-063.png"
                 class="lazyload earth"
                 alt="img description"
               />
               <img
-                data-src="@/assets/images/img-064.png"
+                src="@/assets/images/img-064.png"
                 class="lazyload info"
                 alt="img description"
               />
@@ -58,7 +58,7 @@
     <txt-block :class="'txt-block-1'">
       <div class="col-md-5">
         <div class="img-holder">
-          <img data-src="@/assets/images/img-02.jpg" class="lazyload" alt="#" />
+          <img src="@/assets/images/img-02.jpg" alt="#" />
         </div>
       </div>
       <div class="col-md-7 d-flex flex-column justify-content-center we-are">
@@ -137,7 +137,8 @@ export default {
 .home-page {
   .intro-section {
     overflow: hidden;
-    min-height: 80.12rem;
+    // min-height: 80.12rem;
+    min-height: 100vh;
     @include media-breakpoint-up(md) {
       min-height: 80.12rem;
     }

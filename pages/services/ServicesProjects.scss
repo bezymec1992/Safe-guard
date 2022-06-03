@@ -9,11 +9,10 @@
     @include media-breakpoint-down(md) {
       position: relative;
       background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
+      min-height: 95vh;
     }
 
-    @include media-breakpoint-down(md) {
-      min-height: 100vh;
-    }
+  
 
     .container {
       display: flex;
@@ -51,12 +50,12 @@
         position: absolute;
         max-width: 46.1rem;
         top: 0;
-        right: -10rem;
+        right: -10.3rem;
       }
 
       @include media-breakpoint-down(sm) {
         max-width: 35.1rem;
-        right: -5rem;
+        // right: -5rem;
       }
 
       img {
@@ -115,6 +114,13 @@
       }
     }
 
+    .mobile {
+      p {
+        @include media-breakpoint-down(md) {
+          font-size: 1.6rem;;
+        }
+      }
+    }
     .building-holder {
       position: relative;
       z-index: 2;
@@ -123,11 +129,11 @@
 
       @include media-breakpoint-down(md) {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 53%;
+        transform: translateY(-40%);
         right: 0;
         z-index: 1;
-        max-width: 22rem;
+        max-width: 29rem;
       }
 
       img {

@@ -578,14 +578,14 @@ export default {
       }
 
       @include media-breakpoint-down(md) {
-        max-width: 100%;
+        // max-width: 100%;
         position: relative;
         right: 0;
         min-width: 50rem;
       }
 
       @include media-breakpoint-down(sm) {
-       margin: 0 -90px;
+       margin: 0 -110px;
       }
 
       img {

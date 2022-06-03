@@ -1,6 +1,5 @@
 <template>
   <div class="safe-pages">
-    
     <intro-section class="intro">
       <div class="container">
         <router-link to="/services" class="back-link">
@@ -601,10 +600,13 @@ export default {
     padding-bottom: 0rem;
     margin-bottom: 17rem;
     @include media-breakpoint-down(md) {
+      max-width: 34rem;
       margin-top: 5rem;
-      padding-bottom: 7rem;
+      padding-bottom: 6.5rem;
       margin-bottom: 8rem;
       padding-top: 8rem;
+      // margin-left: 2.4rem;
+      // margin-right: 2.4rem;
     }
     .text-holder {
       margin-bottom: 7rem;
@@ -635,6 +637,7 @@ export default {
       @include media-breakpoint-down(md) {
         max-width: 100%;
         margin-bottom: 3rem;
+        margin-right: 0;
       }
       h3 {
         font-size: 2.8rem;
@@ -662,12 +665,12 @@ export default {
         @include media-breakpoint-down(lg) {
           margin: 0;
         }
+        @include media-breakpoint-down(md) {
+           max-width: 27rem;
+        }
       }
     }
 
-   
-
-    
     .col-lg-3,
     .col-md-6,
     .col-sm-12 {
