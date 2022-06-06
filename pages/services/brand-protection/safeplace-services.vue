@@ -13,9 +13,7 @@
           Back</router-link
         >
         <div class="row">
-          <div
-            class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
-          >
+          <div class="col-md-6 d-md-flex flex-column intro-text">
             <h1 class="h1">How safe is your place?</h1>
             <div class="text-holder d-none d-md-block">
               <p>
@@ -388,6 +386,7 @@ export default {
     flex-direction: column;
     overflow-x: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+    height: 95vh;
 
     @include media-breakpoint-down(md) {
       position: relative;
@@ -396,6 +395,9 @@ export default {
     }
 
     .intro-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
       .h1 {
         max-width: 32rem;
       }
@@ -410,8 +412,8 @@ export default {
       max-width: 55rem;
       @include media-breakpoint-up(md) {
         position: absolute;
-        right: 14.2rem;
-        bottom: 0;
+        right: 20.2rem;
+        bottom: 112px;
       }
       @include media-breakpoint-down(md) {
         display: none;
@@ -467,7 +469,6 @@ export default {
     }
   }
 
- 
   .final {
     max-width: 126rem;
     margin-left: auto;
@@ -583,7 +584,7 @@ export default {
       }
     }
   }
-   .bg-img {
+  .bg-img {
     background-position-x: right !important;
     background-image: url(/_nuxt/assets/images/img-008.png);
     opacity: 1;

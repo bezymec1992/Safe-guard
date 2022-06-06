@@ -431,7 +431,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 .intro-section {
   padding-bottom: 0;
   .h1 {
@@ -452,6 +452,8 @@ export default {
     right: -4rem !important;
   }
 }
+
+
 
 .desktop {
   display: block;

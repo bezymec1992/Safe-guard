@@ -495,6 +495,7 @@ export default {
 .safe-pages {
   .intro {
     overflow: hidden;
+    height: 95vh;
   }
 
   .intro-section {
@@ -507,20 +508,15 @@ export default {
     }
   }
   .results-section {
+    max-width: 122rem;
+    margin: auto;
     margin-bottom: 10.5rem;
     @include media-breakpoint-down(md) {
       margin-bottom: 6.5rem;
     }
-    .btn-style {
-      .btn-dark {
-        @include media-breakpoint-down(m) {
-          padding: 1.3rem 6.4rem;
-        }
-      }
-    }
   }
   .safe-style {
-    max-width: 130.8rem;
+    max-width: 124rem;
     margin: auto;
     margin-bottom: 16rem;
     @include media-breakpoint-down(md) {
@@ -574,40 +570,33 @@ export default {
         position: absolute;
         right: 0;
         bottom: 0;
-        width: 120.5rem;
+       min-width: 50rem
       }
 
       @include media-breakpoint-down(md) {
         // max-width: 100%;
         position: relative;
         right: 0;
-        min-width: 50rem;
+        min-width: 805;
+      
       }
 
       @include media-breakpoint-down(sm) {
-       margin: 0 -110px;
+       margin: 0 0 0 -13rem;
+       min-width: 52rem;
       }
 
       img {
         width: 100%;
-        // height: auto;
         object-fit: cover;
-        // @include media-breakpoint-down(sm) {
-        //   object-fit: contain;
-        //   object-position: left;
-        //   width: 100%;
-        //   min-width: 39rem;
-        // }
       }
     }
-
-
 
     .protection {
       position: absolute;
       right: 4.6rem;
       bottom: 0;
-      width: 120.5rem;
+      // width: 120.5rem;
       img {
         width: 100%;
         height: auto;
@@ -651,7 +640,7 @@ export default {
 
   .digitalization {
     padding-left: 0 !important;
-    margin-left: 3.8rem;
+    margin-left: 0;
     .text-holder {
       max-width: 47rem !important;
     }
@@ -743,7 +732,14 @@ export default {
 
   .reverse {
     margin-bottom: 18.8rem;
+    @include media-breakpoint-up(xxl) {
+      margin-left: 12rem;
+    }
+    @include media-breakpoint-down(xl) {
+      margin-left: 3rem;
+    }
     @include media-breakpoint-down(md) {
+      margin-left: 0;
       margin-bottom: 4.8rem;
     }
   }
@@ -752,14 +748,10 @@ export default {
     text-transform: inherit;
   }
 
+
   .picture {
     position: relative;
-    .img-holder {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
+
     .icon-holder {
       display: none;
       position: absolute;
@@ -775,6 +767,17 @@ export default {
   .bg-img {
     max-width: 130rem;
     margin: auto;
+  }
+}
+
+  .workshop {
+    
+  }
+
+.btn-dark {
+  min-width: 33.5rem;
+  @include media-breakpoint-down(m) {
+    padding: 1.3rem 6.4rem;
   }
 }
 </style>

@@ -14,7 +14,7 @@
         >
         <div class="row">
           <div
-            class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
+            class="col-md-6 d-md-flex flex-column  intro-text"
           >
             <h1 class="h1">awareness program</h1>
             <div class="text-holder d-none d-md-block">
@@ -369,6 +369,9 @@ export default {
     }
 
     .intro-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
       .h1 {
         max-width: 32rem;
       }
@@ -377,8 +380,8 @@ export default {
       max-width: 55rem;
       @include media-breakpoint-up(md) {
         position: absolute;
-        right: 14.2rem;
-        bottom: 0;
+        right: 20.2rem;
+        bottom: 112px;
       }
       @include media-breakpoint-down(md) {
         display: none;
@@ -552,7 +555,7 @@ export default {
         position: absolute;
         right: 0;
         bottom: 0;
-        width: 120.5rem;
+        // width: 120.5rem;
       }
 
       @include media-breakpoint-down(md) {
@@ -568,7 +571,7 @@ export default {
       position: absolute;
       right: 0;
       bottom: 0;
-      width: 120.5rem;
+      // width: 120.5rem;
       img {
         width: 100%;
         height: auto;
@@ -666,7 +669,7 @@ export default {
           margin: 0;
         }
         @include media-breakpoint-down(md) {
-           max-width: 27rem;
+          max-width: 27rem;
         }
       }
     }

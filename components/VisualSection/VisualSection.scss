@@ -31,7 +31,7 @@
   }
 
   .img-holder {
-    max-width: 56.1rem;
+    // max-width: 56.1rem;
 
     img {
       width: 100%;
@@ -44,6 +44,7 @@
     background-size: cover;
     background-position: center;
     min-height: 70rem;
+    background-color: #efefef;
 
     @include media-breakpoint-down(md) {
       padding-top: 3rem;

@@ -121,7 +121,7 @@
             <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
-                Consultancy and <br />
+                Consultancy & <br />
                 Brand Protection
               </h3>
               <div class="text-holder">

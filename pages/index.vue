@@ -160,6 +160,7 @@ export default {
       }
     }
   }
+
 }
 .we-are {
   .text-holder {

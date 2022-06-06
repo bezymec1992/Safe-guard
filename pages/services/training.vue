@@ -298,15 +298,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .services-project {
-//   .intro-section {
-//     .punching-bag {
-//       @include media-breakpoint-down(sm) {
-//         right: -10;
-//       }
-//     }
-//   }
-// }
+  .visual {
+    overflow: hidden;
+
+.img-holder {
+  margin: 0 -3rem 0 -7rem;
+}
+
+  }
 </style>
 
 <style lang="scss">

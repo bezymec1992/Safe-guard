@@ -94,7 +94,7 @@
 
     &:nth-child(2) {
       width: 100%;
-      max-width: 33rem;
+      max-width: 30rem;
 
       z-index: 50;
       @include media-breakpoint-down(md) {

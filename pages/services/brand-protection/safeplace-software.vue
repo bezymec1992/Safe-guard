@@ -13,9 +13,7 @@
           Back</router-link
         >
         <div class="row">
-          <div
-            class="col-md-6 d-md-flex flex-column justify-content-center intro-text"
-          >
+          <div class="col-md-6 d-md-flex flex-column intro-text">
             <h1 class="h1">Safeplace software</h1>
             <div class="text-holder d-none d-md-block">
               <p>
@@ -44,8 +42,8 @@
             </div>
             <div class="text-holder d-md-none balloon-p-txt">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
+                amet, consec
               </p>
             </div>
           </div>
@@ -277,7 +275,7 @@
           />
         </div>
       </div>
-      <div class="col-md-6 d-none d-md-flex flex-column justify-content-start">
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
@@ -413,8 +411,12 @@ export default {
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
     .intro-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
       .h1 {
         max-width: 15rem;
+        margin-bottom: 0;
       }
     }
     .text-holder {
@@ -430,8 +432,8 @@ export default {
     max-width: 55rem;
     @include media-breakpoint-up(md) {
       position: absolute;
-      right: 14.2rem;
-      bottom: 0;
+      right: 20.2rem;
+      bottom: 112px;
     }
     @include media-breakpoint-down(md) {
       display: none;
@@ -567,6 +569,7 @@ export default {
 .text-holder {
   p {
     margin-bottom: 2.5rem;
+    line-height: 1.8;
   }
 }
 
@@ -574,6 +577,19 @@ export default {
   margin-bottom: 12rem;
   @include media-breakpoint-down(md) {
     margin-bottom: 6rem;
+  }
+  .content-holder {
+    @include media-breakpoint-up(xxl) {
+      padding-left: 10rem;
+    }
+  }
+  &.reverse {
+    @include media-breakpoint-up(xxl) {
+      padding-left: 0rem;
+    }
+    @include media-breakpoint-down(xxl) {
+     padding-left: 0rem;
+    }
   }
 }
 
@@ -589,7 +605,7 @@ export default {
       justify-content: center;
       img {
         width: 100%;
-        max-width: 35rem;
+        max-width: 48rem;
       }
     }
   }

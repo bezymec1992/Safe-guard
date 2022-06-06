@@ -261,7 +261,7 @@
     margin: auto;
     margin-bottom: 18rem;
     margin-top: 65px;
-    height: 45rem;
+    height: 65rem;
     @include media-breakpoint-down(md) {
       height: 57rem;
       margin-bottom: 10rem;
@@ -274,16 +274,14 @@
       position: absolute;
       right: 0px;
       bottom: 0px;
-      width: 56.5rem;
+      width: 70.9%;
+     
       @include media-breakpoint-down(md) {
         right: -118px;
-        bottom: 0px;
         width: 44.5rem;
+        max-width: 50rem;
       }
 
-      @include media-breakpoint-down(sm) {
-        // width: 32.5rem;
-      }
       img {
         width: 100%;
         height: auto;
@@ -292,8 +290,9 @@
   }
 
   .balloon-text {
-    padding-top: 8rem;
+    padding-top: 15rem;
     justify-content: center;
+    align-items: center;
     @include media-breakpoint-down(md) {
       padding-top: 4.6rem;
       justify-content: flex-start;
