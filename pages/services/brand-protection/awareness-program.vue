@@ -13,9 +13,7 @@
           Back</router-link
         >
         <div class="row">
-          <div
-            class="col-md-6 d-md-flex flex-column  intro-text"
-          >
+          <div class="col-md-6 d-md-flex flex-column intro-text">
             <h1 class="h1">awareness program</h1>
             <div class="text-holder d-none d-md-block">
               <p>
@@ -28,11 +26,11 @@
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
             <div class="mobile-holder">
-              <img
+              <!-- <img
                 data-src="@/assets/images/img-005.png"
                 class="lazyload ballon"
                 alt="img description"
-              />
+              /> -->
             </div>
 
             <div class="mobiles">
@@ -217,21 +215,13 @@
 
     <div class="statistic-section">
       <div class="container">
-        <div class="row">
-          <div class="text-holder row-text">
-            <h2 class="h1">
-              We have different programs which depends on type of company /
-              organization etc you have
-            </h2>
-          </div>
-        </div>
+        <h2 class="h1">
+          We have different programs which depends on type of company /
+          organization etc you have
+        </h2>
 
         <div class="row row-items">
-          <div
-            v-for="item in statisticItems"
-            :key="item.id"
-            class="col-lg-4 col-md-6 col-sm-12 statistic"
-          >
+          <div v-for="item in statisticItems" :key="item.id" class="statistic">
             <div class="statistic-item">
               <h3>{{ item.title }}</h3>
               <div class="text-holder">
@@ -595,95 +585,72 @@ export default {
   }
 
   .statistic-section {
+    background-color: #efefef;
     max-width: 124rem;
     margin: auto;
-    background-color: #efefef;
-    color: #000;
-    padding-top: 10.6rem;
-    padding-bottom: 0rem;
-    margin-bottom: 17rem;
-    @include media-breakpoint-down(md) {
-      max-width: 34rem;
-      margin-top: 5rem;
-      padding-bottom: 6.5rem;
-      margin-bottom: 8rem;
-      padding-top: 8rem;
-      // margin-left: 2.4rem;
-      // margin-right: 2.4rem;
-    }
-    .text-holder {
-      margin-bottom: 7rem;
-      line-height: 2.5;
-      @include media-breakpoint-down(md) {
-        text-align: flex-start;
-        margin-bottom: 1rem;
-        line-height: 1.5;
-      }
-      .h1 {
-        font-size: 4rem;
-        text-transform: inherit;
-        max-width: 93.5rem;
-        @include media-breakpoint-down(md) {
-          font-size: 2.5rem;
-        }
-      }
+    .statistic-item {
+      margin-bottom: 3.2rem;
     }
 
-    .row-items,
-    .row-text {
-      margin: auto;
-      max-width: 108rem;
-    }
-    .statistic-item {
-      max-width: 40rem;
-      margin-right: 3rem;
-      @include media-breakpoint-down(md) {
-        max-width: 100%;
-        margin-bottom: 3rem;
-        margin-right: 0;
+    .h1 {
+      font-size: 4rem;
+      text-transform: inherit;
+      max-width: 93.5rem;
+      margin-bottom: 7.2rem;
+      margin-left: 3.5rem;
+      @include media-breakpoint-down(lg) {
+        margin-left: 0;
       }
-      h3 {
-        font-size: 2.8rem;
-        color: #000;
-        line-height: 1.3;
-        @include media-breakpoint-down(lg) {
-          text-align: left;
-          max-width: 100%;
+      @include media-breakpoint-down(md) {
+        font-size: 2.4rem;
+        margin-bottom: 4.2rem;
+        margin-left: 0;
+      }
+    }
+    .row-items {
+      margin-left: 3.5rem;
+      display: grid;
+      grid-template-columns: 41rem 30rem 30rem;
+      gap: 8rem;
+      max-height: 30rem;
+      @include media-breakpoint-down(xl) {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+      }
+      @include media-breakpoint-down(lg) {
+        margin-left: 0;
+      }
+      @include media-breakpoint-down(md) {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .statistic:first-child {
+        h3 {
+          max-width: 40rem;
         }
+      }
+
+      h3 {
+        text-align: left;
+        font-weight: 500;
+        font-size: 2.8rem;
         @include media-breakpoint-down(md) {
           font-size: 2rem;
         }
       }
-      p {
-        line-height: 1.7;
-        @include media-breakpoint-down(lg) {
-          text-align: left;
-        }
-        @include media-breakpoint-down(md) {
-          font-size: 1.5rem;
-        }
-      }
-      .text-holder {
-        max-width: 24rem;
-        @include media-breakpoint-down(lg) {
-          margin: 0;
-        }
-        @include media-breakpoint-down(md) {
-          max-width: 27rem;
-        }
-      }
-    }
 
-    .col-lg-3,
-    .col-md-6,
-    .col-sm-12 {
-      padding: 0;
-    }
-    .row-text {
-      margin-bottom: 6rem;
-      @include media-breakpoint-down(md) {
-        margin-bottom: 3rem;
+      .text-holder {
+        @include media-breakpoint-down(md) {
+          max-width: 70rem;
+        }
       }
+      p {
+        text-align: left;
+      }
+    }
+    .statistic {
+      padding: 0;
     }
   }
 

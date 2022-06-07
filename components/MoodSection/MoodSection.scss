@@ -116,11 +116,15 @@
   .title-m {
     display: none;
     @include media-breakpoint-down(md) {
+      text-transform: uppercase;
       display: block;
       font-size: 4rem;
       text-align: center;
       margin: auto;
       margin-bottom: 20px;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 2.5rem;
     }
   }
 
@@ -138,5 +142,9 @@
     max-width: 60rem;
     text-align: center;
     margin: auto;
+    @include media-breakpoint-down(md) {
+      text-align: left;
+      margin-left: 0;
+    }
   }
 }

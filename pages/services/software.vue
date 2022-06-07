@@ -319,7 +319,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section>
-    <ButtonsSection />
+    <ButtonsSection :next-link="'training'" />
   </div>
 </template>
 

@@ -28,11 +28,11 @@
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
             <div class="balloon-holder">
-              <img
+              <!-- <img
                 data-src="@/assets/images/bg-1.png"
                 class="lazyload ballon"
                 alt="img description"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
       <div class="col-md-6 image">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-100.png"
+            data-src="@/assets/images/bg-1.png"
             class="lazyload"
             alt="#"
           />
@@ -96,7 +96,7 @@
     <div class="results-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 result-paragraph">
             <h2 class="h2 text-capitalize anim-item">
               What we have <br />
               discoveder during our <br class="d-none d-md-block" />
@@ -310,7 +310,7 @@
       </div>
     </txt-block>
 
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse safeguard'">
       <div class="col d-md-none">
         <h3 class="h2">
           We have a huge <br />
@@ -514,6 +514,12 @@ export default {
     @include media-breakpoint-down(md) {
       margin-bottom: 6.5rem;
     }
+    .result-paragraph {
+      margin-top: 4rem;
+      @include media-breakpoint-down(md) {
+        margin-top: 1rem;
+      }
+    }
   }
   .safe-style {
     max-width: 124rem;
@@ -530,6 +536,7 @@ export default {
     }
     .image {
       .img-holder {
+        background-color: #FFD027;;
         img {
           width: 100%;
           min-height: 39rem;
@@ -570,7 +577,7 @@ export default {
         position: absolute;
         right: 0;
         bottom: 0;
-       min-width: 50rem
+        min-width: 50rem;
       }
 
       @include media-breakpoint-down(md) {
@@ -578,12 +585,11 @@ export default {
         position: relative;
         right: 0;
         min-width: 805;
-      
       }
 
       @include media-breakpoint-down(sm) {
-       margin: 0 0 0 -13rem;
-       min-width: 52rem;
+        margin: 0 0 0 -13rem;
+        min-width: 52rem;
       }
 
       img {
@@ -649,9 +655,11 @@ export default {
   .phone {
     .phone-holder {
       .img-holder {
-        max-width: 29rem;
+        // max-width: 29rem;
         margin: auto;
-        margin-bottom: 5.6rem;
+       @include media-breakpoint-down(md) {
+           margin-bottom: 5.6rem;
+        }
       }
     }
   }
@@ -731,23 +739,36 @@ export default {
   }
 
   .reverse {
-    margin-bottom: 18.8rem;
-    @include media-breakpoint-up(xxl) {
-      margin-left: 12rem;
-    }
-    @include media-breakpoint-down(xl) {
-      margin-left: 3rem;
-    }
     @include media-breakpoint-down(md) {
       margin-left: 0;
       margin-bottom: 4.8rem;
     }
   }
 
+  .safeguard {
+    margin-bottom: 18.8rem;
+    @include media-breakpoint-up(xxl) {
+      margin-left: 0;
+      }
+      .content-holder {
+        padding-left: 5rem !important;
+        @include media-breakpoint-down(lg) {
+          padding-left: 0 !important;
+        }
+      }
+    
+    @include media-breakpoint-down(xl) {
+      margin-left: 3rem;
+    }
+    @include media-breakpoint-down(md) {
+      margin-left: 0;
+   
+    }
+  }
+
   .inherit {
     text-transform: inherit;
   }
-
 
   .picture {
     position: relative;
@@ -770,9 +791,8 @@ export default {
   }
 }
 
-  .workshop {
-    
-  }
+.workshop {
+}
 
 .btn-dark {
   min-width: 33.5rem;

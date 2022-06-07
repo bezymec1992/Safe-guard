@@ -318,21 +318,41 @@
       </div>
     </txt-block>
 
-    <div class="statistic-section">
-      <div class="container">
-        <div class="row">
+    <!-- <div class="statistic-section">
+      <div class="container"> -->
+    <!-- <div class="row">
           <div class="text-holder row-text">
             <h2 class="h1">what can you find out in our app</h2>
             <p>We have created a lot of useful funtionalities for you</p>
           </div>
-        </div>
-
+        </div> -->
+    <!-- 
         <div class="row row-items">
           <div
             v-for="item in statisticItems"
             :key="item.id"
             class="col-lg-3 col-md-6 col-sm-12"
           >
+            <div class="statistic-item">
+              <h3>{{ item.title }}</h3>
+              <div class="text-holder">
+                <p>{{ item.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="statistic-section">
+      <div class="container">
+        <h2 class="h1">what can you find out in our app</h2>
+        <p class="subtitle">
+          We have created a lot of useful funtionalities for you
+        </p>
+
+        <div class="row row-items">
+          <div v-for="item in statisticItems" :key="item.id" class="statistic">
             <div class="statistic-item">
               <h3>{{ item.title }}</h3>
               <div class="text-holder">
@@ -477,94 +497,192 @@ export default {
   padding-left: 0 !important;
 }
 
+// .statistic-section {
+//   max-width: 124rem;
+//   margin: auto;
+//   background-color: #efefef;
+//   color: #000;
+//   padding-top: 10.6rem;
+//   padding-bottom: 6rem;
+//   margin-bottom: 13rem;
+//   @include media-breakpoint-down(md) {
+//     margin-top: 0;
+//     padding-bottom: 5rem;
+//     margin-bottom: 11rem;
+//     margin-left: 2.4rem;
+//     margin-right: 2.4rem;
+//     padding-top: 8rem;
+//   }
+//   .text-holder {
+//     margin-bottom: 7rem;
+//     line-height: 2.5;
+//     @include media-breakpoint-down(md) {
+//       text-align: flex-start;
+//       margin-bottom: 1rem;
+//       line-height: 1.5;
+//     }
+//     .h1 {
+//       font-size: 4rem;
+//       @include media-breakpoint-down(md) {
+//         font-size: 2.5rem;
+//         margin-bottom: 1.7rem;
+//       }
+//     }
+//     p {
+//       @include media-breakpoint-down(md) {
+//         margin-bottom: 1rem;
+//       }
+//     }
+//   }
+
+//   .row-items,
+//   .row-text {
+//     margin: auto;
+//     max-width: 106rem;
+//   }
+
+//   .statistic-item {
+//     max-width: 20rem;
+//     @include media-breakpoint-down(md) {
+//       max-width: 100%;
+//       margin-bottom: 3rem;
+//     }
+//     h3 {
+//       font-size: 2.8rem;
+//       color: #000;
+//       line-height: 1.3;
+//       @include media-breakpoint-down(lg) {
+//         text-align: left;
+//         max-width: 100%;
+//       }
+//       @include media-breakpoint-down(md) {
+//         font-size: 2rem;
+//       }
+//     }
+//     p {
+//       line-height: 1.7;
+//       @include media-breakpoint-down(lg) {
+//         text-align: left;
+//       }
+//       @include media-breakpoint-down(md) {
+//         font-size: 1.5rem;
+//       }
+//     }
+//     .text-holder {
+//       @include media-breakpoint-down(lg) {
+//         margin: 0;
+//       }
+//     }
+//   }
+//   .col-lg-3,
+//   .col-md-6,
+//   .col-sm-12 {
+//     padding: 0;
+//   }
+//   .row-text {
+//     margin-bottom: 6rem;
+//     @include media-breakpoint-down(md) {
+//       margin-bottom: 3rem;
+//     }
+//   }
+// }
+
 .statistic-section {
+  background-color: #efefef;
   max-width: 124rem;
   margin: auto;
-  background-color: #efefef;
-  color: #000;
-  padding-top: 10.6rem;
-  padding-bottom: 6rem;
   margin-bottom: 13rem;
-  @include media-breakpoint-down(md) {
-    margin-top: 0;
-    padding-bottom: 5rem;
-    margin-bottom: 11rem;
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-    padding-top: 8rem;
-  }
-  .text-holder {
-    margin-bottom: 7rem;
-    line-height: 2.5;
-    @include media-breakpoint-down(md) {
-      text-align: flex-start;
-      margin-bottom: 1rem;
-      line-height: 1.5;
-    }
-    .h1 {
-      font-size: 4rem;
-      @include media-breakpoint-down(md) {
-        font-size: 2.5rem;
-        margin-bottom: 1.7rem;
-      }
-    }
-    p {
-      @include media-breakpoint-down(md) {
-        margin-bottom: 1rem;
-      }
-    }
-  }
-
-  .row-items,
-  .row-text {
-    margin: auto;
-    max-width: 106rem;
-  }
-
+  
   .statistic-item {
-    max-width: 20rem;
-    @include media-breakpoint-down(md) {
-      max-width: 100%;
-      margin-bottom: 3rem;
+    margin-bottom: 3.2rem;
+    .text-holder {
+      text-align: left;
+      margin-left: 0;
     }
-    h3 {
-      font-size: 2.8rem;
-      color: #000;
-      line-height: 1.3;
-      @include media-breakpoint-down(lg) {
-        text-align: left;
-        max-width: 100%;
+  }
+
+  .h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    max-width: 93.5rem;
+    margin-bottom: 1rem;
+    margin-left: 3.5rem;
+    @include media-breakpoint-down(lg) {
+      margin-left: 0;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 2.5rem;
+      margin-bottom: 1.7rem;
+      margin-left: 0;
+    }
+  }
+  .subtitle {
+    margin-bottom: 7rem;
+    margin-left: 3.5rem;
+    @include media-breakpoint-down(lg) {
+      margin-left: 0;
+      margin-bottom: 4rem;
+    }
+  }
+  .row-items {
+    margin-left: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 8rem;
+    max-height: 30rem;
+    @include media-breakpoint-down(xl) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 4rem;
+    }
+    @include media-breakpoint-down(lg) {
+      margin-left: 0;
+      grid-template-columns: 1fr 1fr;
+    }
+    @include media-breakpoint-down(md) {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .statistic:first-child {
+      h3 {
+        max-width: 21rem;
+        
       }
+    }
+
+    h3 {
+      text-align: left;
+      font-weight: 500;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      line-height: 1.1;
       @include media-breakpoint-down(md) {
         font-size: 2rem;
       }
     }
-    p {
-      line-height: 1.7;
-      @include media-breakpoint-down(lg) {
-        text-align: left;
-      }
+
+    .text-holder {
       @include media-breakpoint-down(md) {
-        font-size: 1.5rem;
+        max-width: 70rem;
       }
     }
-    .text-holder {
-      @include media-breakpoint-down(lg) {
-        margin: 0;
-      }
+    p {
+      text-align: left;
     }
   }
-  .col-lg-3,
-  .col-md-6,
-  .col-sm-12 {
+  .statistic {
     padding: 0;
   }
-  .row-text {
-    margin-bottom: 6rem;
-    @include media-breakpoint-down(md) {
-      margin-bottom: 3rem;
-    }
+  @include media-breakpoint-down(md) {
+    // padding-bottom: 8rem;
+   
+    height: 85vh;
   }
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 10rem;
+    height: 88vh;
+  }
+
 }
 .text-holder {
   p {
@@ -588,7 +706,7 @@ export default {
       padding-left: 0rem;
     }
     @include media-breakpoint-down(xxl) {
-     padding-left: 0rem;
+      padding-left: 0rem;
     }
   }
 }

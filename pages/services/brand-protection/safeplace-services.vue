@@ -26,11 +26,11 @@
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
             <div class="mobile-holder">
-              <img
+              <!-- <img
                 data-src="@/assets/images/img-005.png"
                 class="lazyload ballon"
                 alt="img description"
-              />
+              /> -->
             </div>
 
             <div class="mobiles">

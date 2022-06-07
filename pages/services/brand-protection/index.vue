@@ -356,7 +356,7 @@
 
     <visual-section class="balloon">
       <div class="row g-0">
-        <div class="col-md-6 d-flex align-items-md-center balloon-text">
+        <div class="col-md-6 d-flex  balloon-text">
           <div class="content-holder">
             <h2 class="h1 anim-item">
               Safe place
@@ -432,7 +432,8 @@ export default {
 </script>
 
 <style lang="scss" >
-.intro-section {
+.services-project {
+  .intro-section {
   padding-bottom: 0;
   .h1 {
     @include media-breakpoint-down(md) {
@@ -453,13 +454,32 @@ export default {
   }
 }
 
-
-
 .desktop {
   display: block;
   @include media-breakpoint-down(md) {
     display: none;
   }
+}
+
+.balloon {
+  .balloon-text {
+    padding-top: 18rem;
+    @include media-breakpoint-down(md) {
+      padding-top: 10rem;
+    }
+     
+  }
+
+  .content-holder {
+    .h1 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      max-width: 38rem;
+    }
+  }
+}
 }
 
 @import '@/pages/services/ServicesProjects.scss';

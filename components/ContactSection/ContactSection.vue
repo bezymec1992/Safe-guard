@@ -4,25 +4,10 @@
       <div class="row">
         <div class="col-md-5">
           <h2 class="h2">Contact Us</h2>
-          <ul>
-            <li>
-              <h3>Address</h3>
-              <address>
-                Hobbemakade 29, 1071 XK, <br />
-                Amsterdam, Netherlands
-              </address>
-            </li>
-            <li>
-              <h3>E-mail</h3>
-              <a href="mailto:safeguard_help@gmail.com"
-                >safeguard_help@gmail.com</a
-              >
-            </li>
-            <li>
-              <h3>Phone</h3>
-              <a href="tel:+330123456789">+330123456789</a>
-            </li>
-          </ul>
+           <p class="text-holder">
+             We're here to help and answer any question you might have. We
+             look forward to hearing from you.
+           </p>
         </div>
         <div class="col-md-7">
           <div class="form-holder">
