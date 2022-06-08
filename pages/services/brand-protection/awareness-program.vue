@@ -309,6 +309,7 @@ export default {
   components: {
     IntroSection,
   },
+  layout: 'safe-layout',
   props: {
     title: {
       type: String,

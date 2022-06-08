@@ -384,6 +384,7 @@ export default {
     MoodSection,
     GetIn,
   },
+  layout: 'safe-layout',
   props: {
     title: {
       type: String,

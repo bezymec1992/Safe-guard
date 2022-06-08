@@ -375,6 +375,7 @@ export default {
   components: {
     IntroSection,
   },
+  layout: 'safe-layout',
 }
 </script>
 
