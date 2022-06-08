@@ -2,36 +2,32 @@
   <header class="header">
     <div class="container">
       <!-- <strong  class="logo"> -->
-       <div v-if="safePlace" class="logo">
-          <nuxt-link to="/services/brand-protection/safeplace">
+      <div v-if="safePlace" class="logo">
+        <nuxt-link to="/services/brand-protection/safeplace">
           <img
             data-src="@/assets/images/logo-2.png"
             class="lazyload"
             alt="safeguard"
           />
         </nuxt-link>
-       </div>
-        <nuxt-link v-else to="/">
-          <img
-            data-src="@/assets/images/logo.svg"
-            class="lazyload"
-            alt="safeguard"
-          />
-        </nuxt-link>
+      </div>
+      <nuxt-link v-else to="/">
+        <img
+          data-src="@/assets/images/logo.svg"
+          class="lazyload"
+          alt="safeguard"
+        />
+      </nuxt-link>
       <!-- </strong> -->
-      <strong class="logo">
-       
-      </strong>
-      
+      <strong class="logo"> </strong>
+
       <nav class="main-nav">
-         <ul v-if="safePlace" class="main-menu">
+        <ul v-if="safePlace" class="main-menu">
           <li v-for="item in desktopLinks" :key="item.id">
             <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link
-              to="/"
-              class="btn btn-dark  safeplace-nav"
+            <nuxt-link to="/" class="btn btn-dark safeplace-nav"
               >Safeguard</nuxt-link
             >
           </li>
@@ -48,7 +44,6 @@
             >
           </li>
         </ul>
-       
       </nav>
       <nav class="additional-nav" :class="{ open: menuOpen }">
         <div class="container">
@@ -62,8 +57,16 @@
                 />
               </nuxt-link>
             </strong>
-             <strong v-else class="logo">
-              <nuxt-link to="/">
+            <strong v-else class="logo">
+              <nuxt-link v-if="safePlace" to="/">
+                <img
+                  data-src="@/assets/images/logo-2.png"
+                  class="lazyload"
+                  alt="safeguard"
+                />
+              </nuxt-link>
+
+              <nuxt-link v-else to="/">
                 <img
                   data-src="@/assets/images/logo.svg"
                   class="lazyload"
@@ -86,10 +89,17 @@
               <li v-for="item in mobileLinks" :key="item.id">
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
-              <li class="btn btn-dark">
+              <li v-if="safePlace">
+                <nuxt-link
+                  to="/"
+                  class="btn btn-dark d-md-inline-flex justify-content-center"
+                  >Safeguard</nuxt-link
+                >
+              </li>
+              <li v-else>
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
-                  class="btn btn-dark d-none d-md-inline-flex justify-content-center"
+                  class="btn btn-dark d-md-inline-flex justify-content-center"
                   >Safeplace</nuxt-link
                 >
               </li>

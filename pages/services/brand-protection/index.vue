@@ -16,10 +16,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
-            <h1 class="h1">
-              Consultancy & 
-              brand protection
-            </h1>
+            <h1 class="h1">Consultancy & brand protection</h1>
             <div class="text-holder desktop">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -356,7 +353,7 @@
 
     <visual-section class="balloon">
       <div class="row g-0">
-        <div class="col-md-6 d-flex  balloon-text">
+        <div class="col-md-6 d-flex balloon-text">
           <div class="content-holder">
             <h2 class="h1 anim-item">
               Safe place
@@ -414,6 +411,7 @@ import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
   name: 'BrandProtection',
+
   components: {
     IntroSection,
     TxtBlock,
@@ -431,55 +429,54 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .services-project {
   .intro-section {
-  padding-bottom: 0;
-  .h1 {
-    @include media-breakpoint-down(md) {
-      max-width: 25rem;
-      font-size: 3.4rem;
-    }
-  }
-  .building-wrapper {
-    // position: relative;
-    // bottom: 8rem !important;
-    margin-top: 2rem;
-  }
-  .building-holder {
-    position: relative;
-    z-index: 11;
-    max-width: 37rem;
-    right: -4rem !important;
-  }
-}
-
-.desktop {
-  display: block;
-  @include media-breakpoint-down(md) {
-    display: none;
-  }
-}
-
-.balloon {
-  .balloon-text {
-    padding-top: 18rem;
-    @include media-breakpoint-down(md) {
-      padding-top: 10rem;
-    }
-     
-  }
-
-  .content-holder {
+    padding-bottom: 0;
     .h1 {
-      font-size: 4.5rem;
+      @include media-breakpoint-down(md) {
+        max-width: 25rem;
+        font-size: 3.4rem;
+      }
     }
-
-    p {
-      max-width: 38rem;
+    .building-wrapper {
+      // position: relative;
+      // bottom: 8rem !important;
+      margin-top: 2rem;
+    }
+    .building-holder {
+      position: relative;
+      z-index: 11;
+      max-width: 37rem;
+      right: -4rem !important;
     }
   }
-}
+
+  .desktop {
+    display: block;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  .balloon {
+    .balloon-text {
+      padding-top: 18rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 10rem;
+      }
+    }
+
+    .content-holder {
+      .h1 {
+        font-size: 4.5rem;
+      }
+
+      p {
+        max-width: 38rem;
+      }
+    }
+  }
 }
 
 @import '@/pages/services/ServicesProjects.scss';

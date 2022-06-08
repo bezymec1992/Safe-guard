@@ -61,11 +61,7 @@
       </div>
       <div class="col-md-6 image">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/bg-1.png"
-            class="lazyload"
-            alt="#"
-          />
+          <img data-src="@/assets/images/bg-1.png" class="lazyload" alt="#" />
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -441,7 +437,8 @@ export default {
     IntroSection,
     GetIn,
   },
-  layout: 'sayf-layout.vue',
+  layout: 'safe-layout',
+
   data() {
     return {
       resultsItems: [
@@ -537,7 +534,7 @@ export default {
     }
     .image {
       .img-holder {
-        background-color: #FFD027;;
+        background-color: #ffd027;
         img {
           width: 100%;
           min-height: 39rem;
@@ -658,8 +655,8 @@ export default {
       .img-holder {
         // max-width: 29rem;
         margin: auto;
-       @include media-breakpoint-down(md) {
-           margin-bottom: 5.6rem;
+        @include media-breakpoint-down(md) {
+          margin-bottom: 5.6rem;
         }
       }
     }
@@ -750,20 +747,19 @@ export default {
     margin-bottom: 18.8rem;
     @include media-breakpoint-up(xxl) {
       margin-left: 0;
+    }
+    .content-holder {
+      padding-left: 5rem !important;
+      @include media-breakpoint-down(lg) {
+        padding-left: 0 !important;
       }
-      .content-holder {
-        padding-left: 5rem !important;
-        @include media-breakpoint-down(lg) {
-          padding-left: 0 !important;
-        }
-      }
-    
+    }
+
     @include media-breakpoint-down(xl) {
       margin-left: 3rem;
     }
     @include media-breakpoint-down(md) {
       margin-left: 0;
-   
     }
   }
 
