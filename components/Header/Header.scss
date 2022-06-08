@@ -120,6 +120,8 @@
       margin-bottom: 10rem;
     }
 
+
+
     .additional-menu {
       padding: 0;
       margin: 0;
@@ -174,6 +176,11 @@
           margin-bottom: 2rem;
         }
       }
+      .btn-dark {
+        color: #fff;
+        min-width: 23rem;
+        min-height: 4rem;
+      }
     }
 
     .open-menu {
@@ -224,4 +231,19 @@
       }
     }
   }
+  .safeplace-nav {
+    border-bottom: #000;
+    text-decoration: none;
+   }
+
+   .btn-dark {
+     padding: .8rem 0rem;
+     min-width: 13.2rem;
+     max-width: 13.2rem;
+     font-size: 1.8rem;
+   }
+   .btn-dark:hover {
+     background: #212529;
+     border: #212529;
+   }
 }

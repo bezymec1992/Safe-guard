@@ -437,7 +437,7 @@ export default {
   padding-bottom: 0;
   .h1 {
     @include media-breakpoint-down(md) {
-      max-width: 26rem;
+      max-width: 25rem;
       font-size: 3.4rem;
     }
   }

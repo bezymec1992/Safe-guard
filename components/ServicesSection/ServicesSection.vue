@@ -12,10 +12,18 @@
                 <div class="punching-bag">
                   <img
                     data-src="@/assets/images/img-03.png"
-                    class="lazyload"
+                    class="lazyload d-none d-lg-block"
+                    alt="#"
+                  />
+                  <img
+                    data-src="@/assets/images/img-018.png"
+                    class="lazyload d-lg-none"
                     alt="#"
                   />
                 </div>
+                <!-- <div class="punching-bag-mobile">
+                  
+                </div> -->
               </div>
             </nuxt-link>
           </div>
@@ -40,7 +48,9 @@
           </div>
         </div>
         <div class="row g-0">
+            
           <div class="col-lg-6">
+            
             <nuxt-link to="/services/cyber-consultants">
               <div
                 class="gradient-block gradient-right d-md-flex justify-content-md-center"

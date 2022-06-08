@@ -1,8 +1,8 @@
 <template>
   <header class="header">
     <div class="container">
-      <strong class="logo">
-        <nuxt-link to="/">
+      <strong class="logo" v-if="safePlace">
+        <nuxt-link to="//services/brand-protection/safeplace">
           <img
             data-src="@/assets/images/logo.svg"
             class="lazyload"
@@ -10,10 +10,38 @@
           />
         </nuxt-link>
       </strong>
+      <strong class="logo">
+        <nuxt-link to="/">
+          <img
+            data-src="@/assets/images/logo-2.png"
+            class="lazyload"
+            alt="safeguard"
+          />
+        </nuxt-link>
+      </strong>
       <nav class="main-nav">
-        <ul class="main-menu">
+        <ul class="main-menu v-if='safePlace">
           <li v-for="item in desktopLinks" :key="item.id">
             <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link
+              to="/services/brand-protection/safeplace"
+              class="btn btn-dark d-none d-md-inline-flex justify-content-center safeplace-nav"
+              >Safeplace</nuxt-link
+            >
+          </li>
+        </ul>
+        <ul class="main-menu if-else">
+          <li v-for="item in desktopLinks" :key="item.id">
+            <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link
+              to="/"
+              class="btn btn-dark d-none d-md-inline-flex justify-content-center safeplace-nav"
+              >Safeguard</nuxt-link
+            >
           </li>
         </ul>
       </nav>
@@ -43,6 +71,13 @@
             <ul class="additional-menu">
               <li v-for="item in mobileLinks" :key="item.id">
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
+              </li>
+              <li class="btn btn-dark">
+                <nuxt-link
+                  to="/services/brand-protection/safeplace"
+                  class="btn btn-dark d-none d-md-inline-flex justify-content-center"
+                  >Safeplace</nuxt-link
+                >
               </li>
             </ul>
             <ul class="additional-menu">

@@ -441,6 +441,7 @@ export default {
     IntroSection,
     GetIn,
   },
+  layout: 'sayf-layout.vue',
   data() {
     return {
       resultsItems: [

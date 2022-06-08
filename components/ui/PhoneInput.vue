@@ -81,6 +81,7 @@ export default {
 
 <style lang="scss">
 .form-group {
+  // margin-top: 4rem;
   position: relative;
 
   .vue-phone-number-input {
@@ -104,22 +105,22 @@ export default {
   }
 
   .country-selector__input {
-    min-height: 6rem;
-    height: 6rem;
+    min-height: 6rem !important;
+    height: 6rem !important;
 
     @include media-breakpoint-down(md) {
-      min-height: 4.9rem;
-      height: 4.9rem;
+      min-height: 5rem !important;
+      height: 5rem !important;
     }
   }
 
   .input-tel__input {
-    min-height: 6rem;
+    min-height: 6rem !important;
     height: 6rem;
 
     @include media-breakpoint-down(md) {
-      min-height: 4.9rem;
-      height: 4.9rem;
+      min-height: 5rem !important;
+      height: 5rem !important;
     }
 
     &::placeholder {
@@ -133,12 +134,12 @@ export default {
   }
 
   .input-tel {
-    min-height: 6rem;
-    height: 6rem;
+    min-height: 6rem !important;
+    height: 6rem !important;
 
     @include media-breakpoint-down(md) {
-      min-height: 4.9rem;
-      height: 4.9rem;
+      min-height: 4.9rem !important;
+      height: 4.9rem !important;
     }
 
     input {

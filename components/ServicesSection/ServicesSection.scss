@@ -1,6 +1,6 @@
 .services-section {
   overflow: hidden;
- 
+//  position: relative;
 
   .h1 {
     margin-bottom: 10rem;
@@ -97,6 +97,7 @@
       margin-bottom: 5.4rem;
     }
 
+
     .punching-bag {
       max-width: 40rem;
       position: relative;
@@ -109,8 +110,8 @@
         right: -4rem;
       }
       @include media-breakpoint-down(md) {
-        top: 5rem;
-        right: -7rem;
+        right: -5.5rem;
+        top: -6rem;
       }
     }
 

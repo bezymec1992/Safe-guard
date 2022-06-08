@@ -186,7 +186,7 @@ export default {
         return this.popupShowing('error')
       } else {
         this.$v.$reset()
-        this.form.fullName = ''
+        this.form.name = ''
         this.form.email = ''
         this.form.phone = ''
         this.form.companyName = ''
@@ -221,8 +221,8 @@ export default {
       }
     },
     onPhoneInput() {
-      // console.log(this.$refs.telInput.results);
-      console.log(this.$refs.telInput.results)
+ 
+      // console.log(this.$refs.telInput.results)
 
       this.form.phoneIsValid = this.$refs.telInput.results.isValid
     },

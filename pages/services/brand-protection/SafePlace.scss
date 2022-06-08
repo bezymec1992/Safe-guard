@@ -142,11 +142,12 @@
 
   .double-phone {
     @include media-breakpoint-down(lg) {
-   background-position-x: right;
+   background-position-x: right !important;
    background-color: #efefef;
  }
  @include media-breakpoint-down(md) {
    min-height: 36rem;
+   background-position-x: right !important;
  }
 }
 

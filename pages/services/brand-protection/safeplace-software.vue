@@ -629,7 +629,7 @@ export default {
     display: grid;
     grid-template-columns: repeat(4, 220px);
     gap: 8rem;
-    max-height: 30rem;
+    // max-height: 30rem;
     @include media-breakpoint-down(xl) {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 4rem;
@@ -676,11 +676,12 @@ export default {
   @include media-breakpoint-down(md) {
     // padding-bottom: 8rem;
    
-    height: 85vh;
+    min-height: 63vh;
   }
   @include media-breakpoint-down(sm) {
     margin-bottom: 10rem;
-    height: 88vh;
+    min-height: 68vh;
+    // padding-bottom: 16rem;
   }
 
 }

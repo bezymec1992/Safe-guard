@@ -298,14 +298,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .visual {
-    overflow: hidden;
-
-.img-holder {
-  margin: 0 -3rem 0 -7rem;
-}
-
+.intro-section {
+  .text-holder {
+    p {
+      @include media-breakpoint-up(lg) {
+        max-width: 32rem;
+      }
+     @include media-breakpoint-down(md) {
+        min-width: 31.4rem;
+        max-width: 31.4rem;
+      font-size: 1.4rem;
+      }
+    }
   }
+}
+.visual {
+  overflow: hidden;
+
+  .img-holder {
+    margin: 0 -3rem 0 -7rem;
+  }
+}
 </style>
 
 <style lang="scss">
