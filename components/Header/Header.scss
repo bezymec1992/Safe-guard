@@ -57,7 +57,7 @@
     }
 
     a {
-      display: inline-flex;
+      // display: inline-flex;
       position: relative;
       line-height: 1;
 
@@ -175,6 +175,10 @@
         li {
           margin-bottom: 2rem;
         }
+      }
+
+      .btn-dark {
+        min-width: 34.2rem!important;
       }
   
     }
