@@ -1,26 +1,42 @@
 <template>
   <header class="header">
     <div class="container">
-      <strong class="logo" v-if="safePlace">
-        <nuxt-link to="//services/brand-protection/safeplace">
-          <img
-            data-src="@/assets/images/logo.svg"
-            class="lazyload"
-            alt="safeguard"
-          />
-        </nuxt-link>
-      </strong>
-      <strong class="logo">
-        <nuxt-link to="/">
+      <!-- <strong  class="logo"> -->
+       <div v-if="safePlace" class="logo">
+          <nuxt-link to="/services/brand-protection/safeplace">
           <img
             data-src="@/assets/images/logo-2.png"
             class="lazyload"
             alt="safeguard"
           />
         </nuxt-link>
+       </div>
+        <nuxt-link v-else to="/">
+          <img
+            data-src="@/assets/images/logo.svg"
+            class="lazyload"
+            alt="safeguard"
+          />
+        </nuxt-link>
+      <!-- </strong> -->
+      <strong class="logo">
+       
       </strong>
+      
       <nav class="main-nav">
-        <ul class="main-menu v-if='safePlace">
+         <ul v-if="safePlace" class="main-menu">
+          <li v-for="item in desktopLinks" :key="item.id">
+            <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link
+              to="/"
+              class="btn btn-dark  safeplace-nav"
+              >Safeguard</nuxt-link
+            >
+          </li>
+        </ul>
+        <ul v-else class="main-menu">
           <li v-for="item in desktopLinks" :key="item.id">
             <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
           </li>
@@ -32,23 +48,21 @@
             >
           </li>
         </ul>
-        <ul class="main-menu if-else">
-          <li v-for="item in desktopLinks" :key="item.id">
-            <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              to="/"
-              class="btn btn-dark d-none d-md-inline-flex justify-content-center safeplace-nav"
-              >Safeguard</nuxt-link
-            >
-          </li>
-        </ul>
+       
       </nav>
       <nav class="additional-nav" :class="{ open: menuOpen }">
         <div class="container">
           <div class="nav-top">
-            <strong class="logo">
+            <strong v-if="safePlaceLogo" class="logo">
+              <nuxt-link to="/">
+                <img
+                  data-src="@/assets/images/logo-2.png"
+                  class="lazyload"
+                  alt="safeguard"
+                />
+              </nuxt-link>
+            </strong>
+             <strong v-else class="logo">
               <nuxt-link to="/">
                 <img
                   data-src="@/assets/images/logo.svg"
@@ -105,6 +119,16 @@
 <script>
 export default {
   name: 'Header',
+  props: {
+    safePlace: {
+      type: Boolean,
+      default: false,
+    },
+    // safePlaceLogo: {
+    //   type: Boolean,
+    //   default: false,
+    // },
+  },
   data: () => ({
     menuOpen: false,
     desktopLinks: [
