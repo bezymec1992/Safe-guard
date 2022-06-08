@@ -103,7 +103,9 @@
                   >Safeplace</nuxt-link
                 >
               </li>
+              <span class="line"></span>
             </ul>
+            
             <ul class="additional-menu">
               <li v-for="item in mobileAdditionalLinks" :key="item.id">
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>

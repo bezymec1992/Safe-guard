@@ -117,7 +117,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 10rem;
+      margin-bottom: 7.8rem;
     }
 
 
@@ -166,7 +166,7 @@
       }
 
       &:not(:last-child) {
-        margin-bottom: 10rem;
+        margin-bottom: 6.4rem;
       }
 
       &:last-child {
@@ -180,6 +180,7 @@
       .btn-dark {
         min-width: 34.2rem!important;
         width: 100%;
+        padding: 1.7rem 0;
       }
   
     }
@@ -243,6 +244,15 @@
      min-width: 13.2rem;
      max-width: 13.2rem;
      font-size: 1.8rem;
+   }
+
+   .line {
+     border: 1px solid #000;
+     opacity: 0.2;
+     min-width: 34.2rem;;
+     display: flex;
+    margin-top:4rem;
+    margin-bottom: -4rem;
    }
    
 }
