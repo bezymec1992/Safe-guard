@@ -350,7 +350,7 @@ export default {
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
     @include media-breakpoint-down(md) {
@@ -388,6 +388,11 @@ export default {
       display: none;
       @include media-breakpoint-down(md) {
         display: block;
+        margin-bottom: 3rem;
+      }
+      @include media-breakpoint-down(sm) {
+        position: relative;
+        right: 3rem;
       }
     }
   }
@@ -589,6 +594,12 @@ export default {
     background-color: #efefef;
     max-width: 124rem;
     margin: auto;
+    @include media-breakpoint-down(md) {
+      margin-right: 2.4rem;
+      margin-left: 2.4rem;
+      padding-top: 8rem;
+      margin-bottom: 8rem;
+    }
     .statistic-item {
       margin-bottom: 3.2rem;
     }

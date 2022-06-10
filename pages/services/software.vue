@@ -346,18 +346,26 @@ export default {
 
 <style lang="scss" scoped>
 .img-pos1 {
+  position: relative;
+  overflow: hidden;
+  min-height: 47vh;
+  @include media-breakpoint-down(md) {
+    min-height: 70rem;
+  }
   .content-holder {
     margin-top: 10rem;
     @include media-breakpoint-down(md) {
       margin-top: 2rem;
     }
     .h1 {
+      @include media-breakpoint-down(lg) {
+        z-index: 1000;
+      }
       @include media-breakpoint-down(sm) {
         font-size: 2.5rem;
       }
     }
   }
-
 
   .row {
     min-height: 67.7rem;
@@ -366,9 +374,14 @@ export default {
     }
   }
   .img-holder {
-       @include media-breakpoint-down(sm) {
-          min-width: 46rem;
-       }
+    @include media-breakpoint-down(md) {
+      min-width: 54rem;
+    }
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      bottom: 0;
+      right: -5rem;
+    }
   }
 }
 </style>

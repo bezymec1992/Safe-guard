@@ -80,7 +80,7 @@
       </div>
     </txt-block>
     <ListSection />
-    <ServicesSection :class="'w-btn'" />
+    <ServicesSection :class="'w-btn mobile-img'" />
     <WWSection />
     <WFromSection />
     <ContactSection />
@@ -160,7 +160,6 @@ export default {
       }
     }
   }
-
 }
 .we-are {
   .text-holder {
@@ -173,4 +172,9 @@ export default {
     margin-left: 0;
   }
 }
+
+.services-section .row .col-txt .h2 {
+  max-width: 25rem !important;
+}
+
 </style>

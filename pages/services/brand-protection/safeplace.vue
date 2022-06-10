@@ -493,7 +493,7 @@ export default {
 .safe-pages {
   .intro {
     overflow: hidden;
-    height: 95vh;
+    min-height: 95vh;
   }
 
   .intro-section {
@@ -748,6 +748,9 @@ export default {
     @include media-breakpoint-up(xxl) {
       margin-left: 0;
     }
+    @include media-breakpoint-down(md) {
+      margin-bottom: 10rem;
+    }
     .content-holder {
       padding-left: 5rem !important;
       @include media-breakpoint-down(lg) {
@@ -783,7 +786,7 @@ export default {
   }
 
   .bg-img {
-    max-width: 130rem;
+    max-width: 144rem;
     margin: auto;
   }
 }

@@ -2,6 +2,11 @@
 	padding-top: 14.2rem;
 	padding-bottom: 6.4rem;
 	background: $celery;
+	@include media-breakpoint-down(md) {
+		min-height: 90vh;
+		padding-top: 11.2rem;
+		padding-bottom: 3.4rem;
+	}
 
 	.container {
 		display: flex;
@@ -60,9 +65,8 @@
 	}
 
 	.balloon-p-txt {
-		position: relative;
-	  
-		
+		// position: relative;
+		display: block;
 	  }
 
 	.h1 {

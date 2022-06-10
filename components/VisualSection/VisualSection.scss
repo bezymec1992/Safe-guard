@@ -5,7 +5,8 @@
   background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
 
   @include media-breakpoint-down(md) {
-    padding-top: 8rem;
+    
+    padding-top: 7.5rem;
     background: linear-gradient(342.45deg, #5d90c6 5.67%, #c0cfee 65.87%);
   }
 
@@ -75,6 +76,7 @@
 
       @include media-breakpoint-down(md) {
         width: 100%;
+        right: -6.2rem;
       }
     }
   }

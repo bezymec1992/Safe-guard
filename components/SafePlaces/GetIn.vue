@@ -8,7 +8,7 @@
             safe for everyone now
           </h2>
         </slot>
-        <nuxt-link :to="to" class="btn btn-dark">Need our help?</nuxt-link>
+        <nuxt-link :to="to" class="btn btn-dark">Get in touch</nuxt-link>
       </div>
     </div>
   </div>

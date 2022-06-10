@@ -15,6 +15,7 @@
         <div class="row">
           <div class="col-md-6 d-md-flex flex-column intro-text">
             <h1 class="h1">How safe is your place?</h1>
+            <!-- desktop -->
             <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -22,9 +23,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
-          >
+          <div class="col-md-6 balloon-wrap">
             <div class="mobile-holder">
               <!-- <img
                 data-src="@/assets/images/img-005.png"
@@ -36,15 +35,13 @@
             <div class="mobiles">
               <img
                 data-src="@/assets/images/img-0013.png"
-                class="lazyload ballon"
+                class="lazyload balloon"
                 alt="img description"
               />
             </div>
+            <!-- mobile -->
             <div class="text-holder d-md-none balloon-p-txt">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
         </div>
@@ -63,12 +60,11 @@
       <div class="col d-md-none">
         <span class="item-number">/01</span>
         <h3 class="h2">We scan your team and check which problems it has</h3>
+        <!-- mobile top -->
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            vitae imperdiet nibh.
           </p>
         </div>
       </div>
@@ -88,6 +84,7 @@
             We scan your team and <br />
             check which problems it has
           </h3>
+          <!-- desktop -->
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -100,10 +97,11 @@
         </div>
       </div>
       <div class="col d-md-none">
+        <!-- mobile bottom -->
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
+            condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
@@ -112,17 +110,11 @@
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style'">
       <div class="col d-md-none">
         <span class="item-number">/02</span>
-        <h3 class="h2">
-          Transform received <br />
-          results into clear <br />
-          metodology
-        </h3>
+        <h3 class="h2">Transform received results into clear metodology</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            vitae imperdiet nibh.
           </p>
         </div>
       </div>
@@ -140,7 +132,8 @@
           <span class="item-number">/02</span>
           <h3 class="h2">
             Transform received <br />
-            results into clear metodology
+            results into clear <br />
+            metodology
           </h3>
           <div class="text-holder">
             <p>
@@ -156,8 +149,8 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
+            condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
@@ -174,6 +167,13 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id, consectetur efficitur neque.
+              </p>
+            </div>
+            <div class="anim-item mobile-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
+                nec
               </p>
             </div>
           </div>
@@ -197,10 +197,7 @@
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            vitae imperdiet nibh.
           </p>
         </div>
       </div>
@@ -235,41 +232,39 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
+            condimentum, eu gravida urna varius.
           </p>
         </div>
       </div>
     </txt-block>
 
-    <awareness-program class="awareness">
-      <div class="row g-0">
-        <div class="awareness-wrapper">
-          <div class="content-row">
-            <h2 class="h1 anim-item">
-              Awareness Program will help to understand
-            </h2>
+  
+      <div class="awareness-section">
+        <div class="content-row">
+          <h2 class="h1 anim-item">
+            Awareness Program will help to understand
+          </h2>
+        </div>
+        <div class="content-wrap">
+          <div class="col-md-6 d-flex align-items-xl-center points">
+            <div class="text-holder anim-item">
+              <ul>
+                <li>Where did problems come from</li>
+                <li>How to improve your team</li>
+              </ul>
+            </div>
           </div>
-          <div class="content-wrap">
-            <div class="col-md-6 d-flex align-items-xl-center points">
-              <div class="text-holder anim-item">
-                <ul>
-                  <li>Where did problems come from</li>
-                  <li>How to improve your team</li>
-                </ul>
-              </div>
-            </div>
-            <div class="btns-holder">
-              <router-link
-                to="/services/brand-protection/awareness-program"
-                class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
-                >View More</router-link
-              >
-            </div>
+          <div class="btns-holder">
+            <router-link
+              to="/services/brand-protection/awareness-program"
+              class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
+              >View More</router-link
+            >
           </div>
         </div>
       </div>
-    </awareness-program>
+    
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style final'">
       <div class="col d-md-none">
@@ -281,9 +276,7 @@
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. =
+            vitae imperdiet nibh.
           </p>
         </div>
       </div>
@@ -305,11 +298,8 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. =
+              Phasellus vestibulum ac nisi nec viverra. In posuere massa sed
+              magna condimentum, eu gravida urna varius.
             </p>
           </div>
         </div>
@@ -381,13 +371,25 @@ export default {
 
 <style lang="scss" scoped>
 .safe-pages {
+ 
+    // .awareness-section {
+    //   max-width: 124rem;
+    //   margin: 11.7rem auto 14rem;
+    //   background-color: #efefef;
+    //   padding: 6rem 8rem;
+    //   @include media-breakpoint-down(lg) {
+    //   padding: 8rem 2.4rem;
+    //   margin: 8rem 2.4rem;
+    //   }
+    // }
+  
   .intro-section {
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-    height: 95vh;
+    min-height: 81.2rem;
 
     @include media-breakpoint-down(md) {
       position: relative;
@@ -409,6 +411,9 @@ export default {
       }
     }
 
+    .balloon {
+      max-width: 34rem;
+    }
     .mobile-holder {
       max-width: 55rem;
       @include media-breakpoint-up(md) {
@@ -426,10 +431,30 @@ export default {
       }
     }
 
+    .safe-style {
+      h3 {
+        @include media-breakpoint-down(md) {
+          max-width: 312px;
+        }
+      }
+    }
+
     .mobiles {
       display: none;
       @include media-breakpoint-down(md) {
         display: block;
+        margin-bottom: 3rem;
+      }
+      @include media-breakpoint-down(sm) {
+        position: relative;
+        right: 2rem;
+      }
+      .balloon-wrap {
+        //  display: flex;
+        //  flex-direction: column;
+        //   justify-content: center;
+        //   align-items: flex-end;
+        //   align-self: flex-end;
       }
     }
   }
@@ -466,6 +491,25 @@ export default {
           width: 100%;
           max-width: 35rem;
         }
+      }
+    }
+  }
+
+  .anonymous {
+    .text-holder {
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+    }
+  }
+
+  .mobile-txt {
+    display: none;
+    @include media-breakpoint-down(sm) {
+      display: block;
+      max-width: 34.7rem;
+      p {
+        font-size: 1.4rem;
       }
     }
   }
@@ -528,7 +572,7 @@ export default {
 
   .points {
     @include media-breakpoint-down(sm) {
-      align-self: center;
+      align-self: left;
     }
   }
 
@@ -590,6 +634,54 @@ export default {
     background-image: url(/_nuxt/assets/images/img-008.png);
     opacity: 1;
   }
+
+ 
+   
+
+    .awareness-section {
+      max-width: 124rem;
+      margin: 11.7rem auto 14rem;
+      background-color: #efefef;
+      padding: 6rem 8rem;
+      @include media-breakpoint-down(lg) {
+      padding: 8rem 2.4rem;
+      margin: 6rem 2.4rem 8rem;
+      }
+   
+
+    .content-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      @include media-breakpoint-down(lg) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    .h1 {
+      font-size: 3rem;
+      text-transform: inherit;
+      margin-bottom: 3.6rem;
+      @include media-breakpoint-down(sm) {
+        font-size: 2.3rem;
+        max-width: 27.5rem;
+      }
+    }
+
+    li {
+      font-size: 2.4rem;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 1.8rem;
+      }
+    }
+    li:nth-child(2) {
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 6.4rem;
+      }
+    }
+     }
+  
 }
 </style>
 

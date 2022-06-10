@@ -204,7 +204,7 @@
       </div>
     </txt-block>
 
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse a-program'">
       <div class="col d-md-none">
         <h3 class="h2">Awareness program</h3>
         <div class="text-holder">
@@ -233,10 +233,12 @@
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
               viverra. In posuere massa sed magna condimentum, eu gravida urna
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo.
+              ex.
             </p>
-            <router-link to="/services/software" class="btn btn-dark"
-              >Need our help?</router-link
+            <router-link
+              to="/services/brand-protection/awareness-program"
+              class="btn btn-dark"
+              >About awareness program</router-link
             >
           </div>
         </div>
@@ -247,6 +249,11 @@
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
             quis suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
+          <router-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-dark"
+            >Awareness program</router-link
+          >
         </div>
       </div>
     </txt-block>
@@ -317,32 +324,6 @@
         </div>
       </div>
     </txt-block>
-
-    <!-- <div class="statistic-section">
-      <div class="container"> -->
-    <!-- <div class="row">
-          <div class="text-holder row-text">
-            <h2 class="h1">what can you find out in our app</h2>
-            <p>We have created a lot of useful funtionalities for you</p>
-          </div>
-        </div> -->
-    <!-- 
-        <div class="row row-items">
-          <div
-            v-for="item in statisticItems"
-            :key="item.id"
-            class="col-lg-3 col-md-6 col-sm-12"
-          >
-            <div class="statistic-item">
-              <h3>{{ item.title }}</h3>
-              <div class="text-holder">
-                <p>{{ item.description }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="statistic-section">
       <div class="container">
@@ -417,7 +398,7 @@ export default {
         {
           id: 4,
           title: 'Online workshops',
-          description: 'Online workshops',
+          description: 'We have prepared a video-content for you',
         },
       ],
     }
@@ -443,6 +424,9 @@ export default {
     .text-holder {
       margin-top: 3rem;
       max-width: 41.4rem;
+      @include media-breakpoint-up(xxl) {
+        max-width: 44.4rem;
+      }
       p {
         max-width: 48rem;
       }
@@ -466,12 +450,17 @@ export default {
     }
   }
 
-  .mobiles {
-    display: none;
-    @include media-breakpoint-down(md) {
-      display: block;
+   .mobiles {
+      display: none;
+      @include media-breakpoint-down(md) {
+        display: block;
+        margin-bottom: 3rem;
+      }
+      @include media-breakpoint-down(sm) {
+        position: relative;
+        right: 3rem;
+      }
     }
-  }
 }
 
 .check-section {
@@ -497,103 +486,29 @@ export default {
 .digitalization {
   padding-left: 0 !important;
 }
+.a-program {
+  .text-holder {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   .btn-dark {
+      
+      @include media-breakpoint-down(md) {
+      min-width: 32.7rem;
+      
+    }
+   }
+  }
 
-// .statistic-section {
-//   max-width: 124rem;
-//   margin: auto;
-//   background-color: #efefef;
-//   color: #000;
-//   padding-top: 10.6rem;
-//   padding-bottom: 6rem;
-//   margin-bottom: 13rem;
-//   @include media-breakpoint-down(md) {
-//     margin-top: 0;
-//     padding-bottom: 5rem;
-//     margin-bottom: 11rem;
-//     margin-left: 2.4rem;
-//     margin-right: 2.4rem;
-//     padding-top: 8rem;
-//   }
-//   .text-holder {
-//     margin-bottom: 7rem;
-//     line-height: 2.5;
-//     @include media-breakpoint-down(md) {
-//       text-align: flex-start;
-//       margin-bottom: 1rem;
-//       line-height: 1.5;
-//     }
-//     .h1 {
-//       font-size: 4rem;
-//       @include media-breakpoint-down(md) {
-//         font-size: 2.5rem;
-//         margin-bottom: 1.7rem;
-//       }
-//     }
-//     p {
-//       @include media-breakpoint-down(md) {
-//         margin-bottom: 1rem;
-//       }
-//     }
-//   }
-
-//   .row-items,
-//   .row-text {
-//     margin: auto;
-//     max-width: 106rem;
-//   }
-
-//   .statistic-item {
-//     max-width: 20rem;
-//     @include media-breakpoint-down(md) {
-//       max-width: 100%;
-//       margin-bottom: 3rem;
-//     }
-//     h3 {
-//       font-size: 2.8rem;
-//       color: #000;
-//       line-height: 1.3;
-//       @include media-breakpoint-down(lg) {
-//         text-align: left;
-//         max-width: 100%;
-//       }
-//       @include media-breakpoint-down(md) {
-//         font-size: 2rem;
-//       }
-//     }
-//     p {
-//       line-height: 1.7;
-//       @include media-breakpoint-down(lg) {
-//         text-align: left;
-//       }
-//       @include media-breakpoint-down(md) {
-//         font-size: 1.5rem;
-//       }
-//     }
-//     .text-holder {
-//       @include media-breakpoint-down(lg) {
-//         margin: 0;
-//       }
-//     }
-//   }
-//   .col-lg-3,
-//   .col-md-6,
-//   .col-sm-12 {
-//     padding: 0;
-//   }
-//   .row-text {
-//     margin-bottom: 6rem;
-//     @include media-breakpoint-down(md) {
-//       margin-bottom: 3rem;
-//     }
-//   }
-// }
+}
 
 .statistic-section {
   background-color: #efefef;
   max-width: 124rem;
   margin: auto;
   margin-bottom: 13rem;
-  
+  overflow: hidden;
+
   .statistic-item {
     margin-bottom: 3.2rem;
     .text-holder {
@@ -628,11 +543,10 @@ export default {
   .row-items {
     margin-left: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(4, 220px);
+    grid-template-columns: 220px 220px 250px 220px;
     gap: 8rem;
-    // max-height: 30rem;
     @include media-breakpoint-down(xl) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 220px 220px 250px 220px;
       gap: 4rem;
     }
     @include media-breakpoint-down(lg) {
@@ -647,7 +561,6 @@ export default {
     .statistic:first-child {
       h3 {
         max-width: 21rem;
-        
       }
     }
 
@@ -675,17 +588,17 @@ export default {
     padding: 0;
   }
   @include media-breakpoint-down(md) {
-    // padding-bottom: 8rem;
-   
     min-height: 63vh;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
   }
   @include media-breakpoint-down(sm) {
-    margin-bottom: 10rem;
+    padding-top: 8rem;
+    margin-bottom: 11rem;
     min-height: 68vh;
-    // padding-bottom: 16rem;
   }
-
 }
+
 .text-holder {
   p {
     margin-bottom: 2.5rem;
