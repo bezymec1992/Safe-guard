@@ -45,7 +45,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     'nuxt-lazysizes',
-    'bootstrap-vue/nuxt',
     'nuxt-webfontloader',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
