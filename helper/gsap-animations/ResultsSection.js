@@ -14,8 +14,7 @@ export const gsapInit = () => {
 				delay: 0.5,
 				duration: 2,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".results-section .anim-item-2", { opacity: 0 });
@@ -27,7 +26,6 @@ export const gsapInit = () => {
 				delay: 1,
 				duration: 1,
 			}),
-		start: "top 75%",
-		end: "bottom 10%",
+
 	});
 }

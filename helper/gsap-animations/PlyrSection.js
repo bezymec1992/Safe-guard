@@ -11,8 +11,7 @@ export const gsapInit = () => {
     })
     ScrollTrigger.batch('.plyr-holder', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, scale: 1 }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
   }
 }

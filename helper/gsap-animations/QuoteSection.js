@@ -14,7 +14,6 @@ export const gsapInit = () => {
 				delay: 0.3,
 				duration: 0.5,
 			}),
-		start: "top 75%",
-		end: "bottom 10%",
+
 	});
 }

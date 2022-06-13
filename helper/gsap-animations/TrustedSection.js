@@ -13,8 +13,7 @@ export const gsapInit = () => {
 				delay: 0.2,
 				duration: 2,
 			}),
-		start: "top 75%",
-		end: "bottom 10%",
+
 	});
 
 	gsap.set(".trusted-section .img-holder", { opacity: 0, y: 24 });
@@ -27,7 +26,6 @@ export const gsapInit = () => {
 				delay: 0.7,
 				duration: 0.4,
 			}),
-		start: "top 75%",
-		end: "bottom 10%",
+
 	});
 }

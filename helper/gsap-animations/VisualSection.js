@@ -20,8 +20,7 @@ export const gsapInit = () => {
 		});
 		ScrollTrigger.batch(".visual-section .h1", {
 			onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, }),
-			start: "top 75%",
-			end: "bottom 10%",
+
 		});
 	}
 
@@ -33,8 +32,7 @@ export const gsapInit = () => {
 		});
 		ScrollTrigger.batch(".visual-section .text-holder", {
 			onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, delay: 0.3 }),
-			start: "top 75%",
-			end: "bottom 10%",
+
 		});
 	}
 	// end animation for txt-block-2

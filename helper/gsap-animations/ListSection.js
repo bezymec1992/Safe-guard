@@ -11,8 +11,7 @@ export const gsapInit = () => {
 				opacity: 1,
 				stagger: 0.15,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".list-section ul", { opacity: 0, y: 24 });
@@ -20,7 +19,6 @@ export const gsapInit = () => {
 		onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.25 }),
 		onEnterBack: (batch) =>
 			gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-		start: "top 85%",
-		end: "bottom 10%",
+
 	});
 }

@@ -20,8 +20,7 @@ export const gsapInitIntroSectionWatch = () => {
           duration: 0.5,
           rotation: 0,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
 
     gsap.set('.intro-section .watch-shadow', {
@@ -34,8 +33,7 @@ export const gsapInitIntroSectionWatch = () => {
           delay: 1,
           duration: 0.8,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
 
     gsap.set('.intro-section .w-msg', {
@@ -51,8 +49,7 @@ export const gsapInitIntroSectionWatch = () => {
           duration: 0.5,
           stagger: 0.35,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
   }
 }
