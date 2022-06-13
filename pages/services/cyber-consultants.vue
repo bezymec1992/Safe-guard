@@ -376,6 +376,13 @@ export default {
         }
      
       }
+      .content-holder {
+        .h1 {
+          @include media-breakpoint-down(md) {
+            max-width: 28rem;
+          }
+        }
+      }
     }
     .content-holder {
       margin-left: -9.5rem;

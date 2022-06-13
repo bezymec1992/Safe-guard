@@ -14,17 +14,20 @@
         >
         <div class="row">
           <div
-            class="col-md-6 text-col d-md-flex flex-column justify-content-center"
+            class="col-md-6 text-col d-md-flex flex-column justify-content-center text-bg"
           >
             <h1 class="h1">Software</h1>
             <div class="text-holder">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
+              </p>
             </div>
           </div>
           <div
             class="col-md-6 d-flex align-items-md-center flex-md-row flex-column justify-content-center justify-content-md-end"
           >
-            <div class="imac-holder">
+            <div class="imac-holder intro-pic">
               <img
                 data-src="@/assets/images/img-067.png"
                 class="lazyload mac-off"
@@ -51,7 +54,9 @@
               </div>
             </div>
             <div class="text-holder mobile mt-auto">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </p>
             </div>
           </div>
         </div>
@@ -219,7 +224,8 @@
     </txt-block>
     <visual-section :bg="'img-096.png'" :class="'bg-img'"> </visual-section>
 
-    <txt-block :class="'txt-block-1 style1'">
+    <txt-block :class="'txt-block-1 style1 computers'">
+      <!-- Mobile -->
       <div class="col d-md-none">
         <h3 class="h2">Organize tasks</h3>
         <div class="text-holder">
@@ -242,6 +248,7 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <!-- Desktop -->
         <div class="content-holder">
           <h3 class="h2">Organize tasks</h3>
           <div class="text-holder">
@@ -257,6 +264,7 @@
         </div>
       </div>
       <div class="col d-md-none">
+        <!-- mobile under -->
         <div class="text-holder">
           <p>
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
@@ -265,7 +273,8 @@
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse computers-2'">
+      <!-- mobile -->
       <div class="col d-md-none">
         <h3 class="h2">Requests for business</h3>
         <div class="text-holder">
@@ -288,6 +297,7 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <!-- desktop -->
         <div class="content-holder">
           <h3 class="h2">Requests for business</h3>
           <div class="text-holder">
@@ -303,6 +313,7 @@
         </div>
       </div>
       <div class="col d-md-none">
+        <!-- mobile under -->
         <div class="text-holder">
           <p>
             Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
@@ -345,6 +356,46 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.software {
+  max-height: 72rem;
+  .intro-pic {
+    min-width: 66.8rem;
+    right: -8rem;
+    @include media-breakpoint-down(xl) {
+      right: 0;
+    }
+  }
+  .text-bg {
+    margin-top: 20rem;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+}
+.computers {
+  .img-holder {
+    margin-left: -9rem;
+    @include media-breakpoint-down(lg) {
+      margin-left: 0;
+    }
+  }
+
+  .text-holder {
+    max-width: 48rem;
+  }
+}
+
+.computers-2 {
+  .img-holder {
+    margin-right: -1rem;
+  }
+  .content-holder {
+    padding-left: 0;
+  }
+  .text-holder {
+    max-width: 47rem;
+  }
+}
 .img-pos1 {
   position: relative;
   overflow: hidden;

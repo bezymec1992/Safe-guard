@@ -372,16 +372,7 @@ export default {
 <style lang="scss" scoped>
 .safe-pages {
  
-    // .awareness-section {
-    //   max-width: 124rem;
-    //   margin: 11.7rem auto 14rem;
-    //   background-color: #efefef;
-    //   padding: 6rem 8rem;
-    //   @include media-breakpoint-down(lg) {
-    //   padding: 8rem 2.4rem;
-    //   margin: 8rem 2.4rem;
-    //   }
-    // }
+
   
   .intro-section {
     position: relative;
@@ -389,7 +380,7 @@ export default {
     flex-direction: column;
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-    min-height: 81.2rem;
+     min-height: 78rem;
 
     @include media-breakpoint-down(md) {
       position: relative;

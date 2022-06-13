@@ -138,9 +138,9 @@ export default {
   .intro-section {
     overflow: hidden;
     // min-height: 80.12rem;
-    min-height: 100vh;
+    max-height: 75rem;
     @include media-breakpoint-up(md) {
-      min-height: 80.12rem;
+      max-height: 80.12rem;
     }
 
     .img-holder {

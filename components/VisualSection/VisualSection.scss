@@ -71,12 +71,13 @@
     .img-holder {
       position: absolute;
       bottom: 0;
-      right: 0;
-      min-width: 50%;
+      right: -11.6rem;
+      // min-width: 50%;
 
       @include media-breakpoint-down(md) {
-        width: 100%;
-        right: -6.2rem;
+        min-width: 54rem;
+        // width: 112%;
+        // right: -6.2rem;
       }
     }
   }

@@ -225,6 +225,7 @@
 
     <txt-block :class="'txt-block-2 style2 phone'">
       <div class="col d-md-none">
+        <!-- Mobile -->
         <h3 class="h2 inherit">
           First we check group <br />
           dymanics
@@ -250,6 +251,7 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
+              <!-- Desktop -->
               <h3 class="h2 inherit">
                 First we check group <br />
                 dymanics
@@ -263,6 +265,7 @@
               </div>
             </div>
             <div class="text-row">
+              <!-- desktop -->
               <h3 class="h2 inherit">
                 Second - we create <br />
                 awareness program
@@ -287,8 +290,9 @@
         </div>
       </div>
       <div class="col d-md-none">
+        <!-- Mobile under  -->
         <h3 class="h2 inherit">
-          Second - we create <br />
+         Second - we create <br />
           awareness program
         </h3>
         <div class="text-holder txt-mobile">
@@ -794,11 +798,13 @@ export default {
 .workshop {
 }
 
-.btn-dark {
-  min-width: 33.5rem;
+.btn-style {
+  .btn-dark {
+  min-width: 30.5rem;
   @include media-breakpoint-down(m) {
     padding: 1.3rem 6.4rem;
   }
+}
 }
 </style>
 
