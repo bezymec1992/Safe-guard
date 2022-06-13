@@ -491,13 +491,6 @@ export default {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   .btn-dark {
-      
-      @include media-breakpoint-down(md) {
-      min-width: 32.7rem;
-      
-    }
-   }
   }
 
 }

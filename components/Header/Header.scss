@@ -10,6 +10,10 @@
     padding-top: 4rem;
   }
 
+  .nav-body {
+    width: 100%;
+  }
+
   .logo {
     display: flex;
 
@@ -120,8 +124,6 @@
       margin-bottom: 7.8rem;
     }
 
-
-
     .additional-menu {
       padding: 0;
       margin: 0;
@@ -178,11 +180,14 @@
       }
 
       .btn-dark {
-        min-width: 34.2rem!important;
+        display: flex;
         width: 100%;
+        max-width: 34rem;
         padding: 1.7rem 0;
+        @include media-breakpoint-down(sm) {
+          width: 100%;
+        }
       }
-  
     }
 
     .open-menu {
@@ -223,7 +228,6 @@
       border-bottom: 0.3rem solid $black;
       height: 0;
       transition: $transition;
-      
 
       &:nth-child(1) {
         margin-top: -0.5rem;
@@ -237,22 +241,21 @@
   .safeplace-nav {
     border-bottom: #000;
     text-decoration: none;
-   }
+  }
 
-   .btn-dark {
-     padding: .8rem 0rem;
-     min-width: 13.2rem;
-     max-width: 13.2rem;
-     font-size: 1.8rem;
-   }
+  .btn-dark {
+    padding: 0.8rem 0rem;
+    min-width: 13.2rem;
+    max-width: 13.2rem;
+    font-size: 1.8rem;
+  }
 
-   .line {
-     border: 1px solid #000;
-     opacity: 0.2;
-     min-width: 34.2rem;;
-     display: flex;
-    margin-top:4rem;
+  .line {
+    border: 1px solid #000;
+    opacity: 0.2;
+    min-width: 34.2rem;
+    display: flex;
+    margin-top: 4rem;
     margin-bottom: -4rem;
-   }
-   
+  }
 }

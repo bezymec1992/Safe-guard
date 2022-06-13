@@ -239,32 +239,28 @@
       </div>
     </txt-block>
 
-  
-      <div class="awareness-section">
-        <div class="content-row">
-          <h2 class="h1 anim-item">
-            Awareness Program will help to understand
-          </h2>
+    <div class="awareness-section">
+      <div class="content-row">
+        <h2 class="h1 anim-item">Awareness Program will help to understand</h2>
+      </div>
+      <div class="content-wrap">
+        <div class="col-md-6 d-flex align-items-xl-center points">
+          <div class="text-holder anim-item">
+            <ul>
+              <li>Where did problems come from</li>
+              <li>How to improve your team</li>
+            </ul>
+          </div>
         </div>
-        <div class="content-wrap">
-          <div class="col-md-6 d-flex align-items-xl-center points">
-            <div class="text-holder anim-item">
-              <ul>
-                <li>Where did problems come from</li>
-                <li>How to improve your team</li>
-              </ul>
-            </div>
-          </div>
-          <div class="btns-holder">
-            <router-link
-              to="/services/brand-protection/awareness-program"
-              class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
-              >View More</router-link
-            >
-          </div>
+        <div class="btns-holder">
+          <router-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-dark d-md-inline-flex justify-content-center anim-item btn-style"
+            >View More</router-link
+          >
         </div>
       </div>
-    
+    </div>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse safe-style final'">
       <div class="col d-md-none">
@@ -371,16 +367,13 @@ export default {
 
 <style lang="scss" scoped>
 .safe-pages {
- 
-
-  
   .intro-section {
     position: relative;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-     min-height: 78rem;
+    min-height: 78rem;
 
     @include media-breakpoint-down(md) {
       position: relative;
@@ -551,14 +544,17 @@ export default {
   }
   .btns-holder {
     @include media-breakpoint-down(md) {
-      margin: auto;
+      display: flex;
+      max-width: 35rem;
+      width: 100%;
     }
   }
   .btn-style {
     display: flex;
     justify-content: center;
     align-self: center;
-    min-width: 30rem;
+    max-width: 30rem;
+    width: 100%;
   }
 
   .points {
@@ -626,19 +622,15 @@ export default {
     opacity: 1;
   }
 
- 
-   
-
-    .awareness-section {
-      max-width: 124rem;
-      margin: 11.7rem auto 14rem;
-      background-color: #efefef;
-      padding: 6rem 8rem;
-      @include media-breakpoint-down(lg) {
+  .awareness-section {
+    max-width: 124rem;
+    margin: 11.7rem auto 14rem;
+    background-color: #efefef;
+    padding: 6rem 8rem;
+    @include media-breakpoint-down(lg) {
       padding: 8rem 2.4rem;
       margin: 6rem 2.4rem 8rem;
-      }
-   
+    }
 
     .content-wrap {
       display: flex;
@@ -671,8 +663,7 @@ export default {
         margin-bottom: 6.4rem;
       }
     }
-     }
-  
+  }
 }
 </style>
 

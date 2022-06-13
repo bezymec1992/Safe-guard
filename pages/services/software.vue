@@ -53,11 +53,12 @@
                 />
               </div>
             </div>
-            <div class="text-holder mobile mt-auto">
-              <p>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </p>
-            </div>
+
+              <h1 class="h1 mbl">Software</h1>
+              <div class="text-holder mobile mt-auto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+          
           </div>
         </div>
         <div class="scroll-down">
@@ -357,19 +358,51 @@ export default {
 
 <style lang="scss" scoped>
 .software {
-  max-height: 72rem;
+  position: relative;
+  min-height: 78rem;
+  @include media-breakpoint-down(lg) {
+    min-height: 100rem;
+  }
+  @include media-breakpoint-down(sm) {
+    min-height: 96vh !important;
+  }
   .intro-pic {
     min-width: 66.8rem;
     right: -8rem;
+    bottom: 8.5rem;
     @include media-breakpoint-down(xl) {
       right: 0;
     }
   }
   .text-bg {
-    margin-top: 20rem;
+    // margin-top: 20rem;
+    z-index: 1000;
+    @include media-breakpoint-down(lg) {
+      margin-top: 56rem;
+    }
     @include media-breakpoint-down(md) {
       display: none;
     }
+  }
+
+  .text-holder {
+    @include media-breakpoint-down(md) {
+      bottom: 7rem;
+    }
+  }
+}
+
+.mbl {
+  display: none;
+  @include media-breakpoint-down(md) {
+    position:  absolute;
+    top: 18rem;
+    display: block;
+  }
+}
+.services-project .intro-section .imac-holder {
+  @include media-breakpoint-down(md) {
+    margin-top: 10rem;
   }
 }
 .computers {
