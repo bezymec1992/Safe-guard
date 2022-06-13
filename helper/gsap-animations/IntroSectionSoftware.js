@@ -20,8 +20,7 @@ export const gsapInitIntroSectionSoftware = () => {
     })
     ScrollTrigger.batch('.software .mac-on', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, delay: 0.7 }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
     gsap.set('.software .hld-1', {
       opacity: 0,
@@ -29,8 +28,7 @@ export const gsapInitIntroSectionSoftware = () => {
     })
     ScrollTrigger.batch('.software .hld-1', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, delay: 1 }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
     gsap.set('.software .hld-2', {
       opacity: 0,
@@ -38,8 +36,7 @@ export const gsapInitIntroSectionSoftware = () => {
     })
     ScrollTrigger.batch('.software .hld-2', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, delay: 1 }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
   }
 }

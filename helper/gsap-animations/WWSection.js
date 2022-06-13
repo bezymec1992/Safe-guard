@@ -13,8 +13,7 @@ export const gsapInit = () => {
 				stagger: 0.15,
 				delay: 0.2,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".ww-section .text-holder", { opacity: 0, y: 24 });
@@ -26,8 +25,7 @@ export const gsapInit = () => {
 				stagger: 0.15,
 				delay: 0.3,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".ww-section .col-sm-6", { opacity: 0, y: 24 });
@@ -36,7 +34,6 @@ export const gsapInit = () => {
 			gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, delay: 0.5 }),
 		onEnterBack: (batch) =>
 			gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-		start: "top 85%",
-		end: "bottom 10%",
+
 	});
 }

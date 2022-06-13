@@ -22,8 +22,7 @@ export const gsapInitIntroSectionCyberConsultants = () => {
           duration: 0.5,
           rotation: 0,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
     gsap.set('.intro-section .msg-holder', {
       opacity: 0,
@@ -38,8 +37,6 @@ export const gsapInitIntroSectionCyberConsultants = () => {
           duration: 0.5,
           stagger: 0.35,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
     })
   }
 }

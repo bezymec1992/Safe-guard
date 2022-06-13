@@ -7,7 +7,6 @@ export const gsapInit = () => {
 	gsap.set(".contact-section .container", { opacity: 0 });
 	ScrollTrigger.batch(".contact-section .container", {
 		onEnter: (batch) => gsap.to(batch, { opacity: 1, stagger: 0.15 }),
-		start: "top 75%",
-		end: "bottom 10%",
+
 	});
 }

@@ -17,8 +17,7 @@ export const gsapInitIntroSectionPunchingBug = () => {
           delay: 0.5,
           duration: 0.5,
         }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
   }
 }

@@ -8,8 +8,7 @@ export const gsapInit = () => {
 	gsap.set(".statistic-section .statistic-item", { opacity: 0, y: 24 });
 	ScrollTrigger.batch(".statistic-section .statistic-item", {
 		onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.35 }),
-		start: "top 85%",
-		end: "bottom 10%",
+
 	});
 }
 

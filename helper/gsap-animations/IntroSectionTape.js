@@ -12,8 +12,7 @@ export const gsapInitIntroSectionTape = () => {
     })
     ScrollTrigger.batch('.intro-section .tape', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, scale: 1 }),
-      start: 'top 75%',
-      end: 'bottom 10%',
+
     })
   }
 }

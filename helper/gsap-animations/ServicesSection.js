@@ -11,8 +11,7 @@ export const gsapInit = () => {
 				opacity: 1,
 				stagger: 0.15,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".services-section .btn-holder", { opacity: 0 });
@@ -22,8 +21,7 @@ export const gsapInit = () => {
 				opacity: 1,
 				stagger: 0.15,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".services-section .gradient-left", { opacity: 0, x: 24 });
@@ -34,8 +32,7 @@ export const gsapInit = () => {
 				x: 0,
 				stagger: 0.15,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".services-section .gradient-right", { opacity: 0, x: -24 });
@@ -46,8 +43,7 @@ export const gsapInit = () => {
 				x: 0,
 				stagger: 0.15,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 	gsap.set(".services-section .content-holder", { opacity: 0, y: 24 });
@@ -59,8 +55,7 @@ export const gsapInit = () => {
 				stagger: 0.15,
 				delay: 0.2,
 			}),
-		start: "top 85%",
-		end: "bottom 30%",
+
 	});
 
 }

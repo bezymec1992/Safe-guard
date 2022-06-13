@@ -15,8 +15,7 @@ export const gsapInitIntroSectionHelm = () => {
     ScrollTrigger.batch('.intro-section .helm', {
       onEnter: (batch) =>
         gsap.to(batch, { opacity: 1, x: 0, y: 0, stagger: 0.15, scale: 1 }),
-      // start: 'top 100%',
-      // end: 'bottom 100%',
+
     })
 
     gsap.set('.intro-section .earth', {
@@ -36,8 +35,7 @@ export const gsapInitIntroSectionHelm = () => {
           scale: 1,
           delay: 0.5,
         }),
-      // start: 'top 80%',
-      // end: 'bottom 30%',
+
     })
 
     gsap.set('.intro-section .info', {
@@ -49,8 +47,7 @@ export const gsapInitIntroSectionHelm = () => {
           opacity: 1,
           delay: 1,
         }),
-      // start: 'top 80%',
-      // end: 'bottom 30%',
+
     })
   }
 }
