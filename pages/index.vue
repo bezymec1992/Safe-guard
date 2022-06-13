@@ -21,17 +21,17 @@
             <div class="img-holder">
               <img
                 src="@/assets/images/img-062.png"
-                class="lazyload helm"
+                class="helm"
                 alt="img description"
               />
               <img
                 src="@/assets/images/img-063.png"
-                class="lazyload earth"
+                class="earth"
                 alt="img description"
               />
               <img
                 src="@/assets/images/img-064.png"
-                class="lazyload info"
+                class="info"
                 alt="img description"
               />
             </div>
@@ -150,7 +150,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         transform: translateX(20%);
-        right: 0;
+        right: 7rem;
       }
 
       .earth,
