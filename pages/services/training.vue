@@ -299,15 +299,17 @@ export default {
 
 <style lang="scss" scoped>
 .intro-section {
+  padding-top: 18.2rem;
+  padding-bottom: 6.4rem;
   .text-holder {
     p {
       @include media-breakpoint-up(lg) {
         max-width: 32rem;
       }
-     @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(md) {
         min-width: 31.4rem;
         max-width: 31.4rem;
-      font-size: 1.4rem;
+        font-size: 1.4rem;
       }
     }
   }

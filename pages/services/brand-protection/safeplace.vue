@@ -497,7 +497,7 @@ export default {
 .safe-pages {
   .intro {
     overflow: hidden;
-    min-height: 95vh;
+    min-height: 90vh;
   }
 
   .intro-section {

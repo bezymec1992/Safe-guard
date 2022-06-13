@@ -373,7 +373,8 @@ export default {
     flex-direction: column;
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-    min-height: 78rem;
+    min-height: 74rem;
+    padding-bottom: 6rem;
 
     @include media-breakpoint-down(md) {
       position: relative;
@@ -433,13 +434,7 @@ export default {
         position: relative;
         right: 2rem;
       }
-      .balloon-wrap {
-        //  display: flex;
-        //  flex-direction: column;
-        //   justify-content: center;
-        //   align-items: flex-end;
-        //   align-self: flex-end;
-      }
+    
     }
   }
 
@@ -669,5 +664,5 @@ export default {
 
 <style lang="scss">
 @import 'SafePlace.scss';
-@import 'SafePlaceServices.scss';
+// @import 'SafePlaceServices.scss';
 </style>

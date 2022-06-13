@@ -1,7 +1,8 @@
 .services-page {
   .intro-section {
     overflow: hidden;
-    min-height: 78rem;
+    padding-top: 18.2rem;
+    padding-bottom: 6.4rem;
 
     @include media-breakpoint-down(md) {
       padding-bottom: 4rem;

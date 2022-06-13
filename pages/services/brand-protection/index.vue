@@ -432,11 +432,26 @@ export default {
 <style lang="scss">
 .services-project {
   .intro-section {
-    padding-bottom: 0;
+    padding-top: 18.2rem;
+    padding-bottom: 6.4rem;
+    position: relative;
+    min-height: 90vh;
+    @include media-breakpoint-down(md) {
+    
+    padding-top: 11.2rem;
+    padding-bottom: 3.4rem;
+    }
+
+
+    .back-link {
+      position: absolute;
+      top: 18rem;
+    }
     .h1 {
       @include media-breakpoint-down(md) {
         max-width: 25rem;
         font-size: 3.4rem;
+        margin-top: 13.8rem;
       }
     }
     .building-wrapper {

@@ -294,8 +294,8 @@ export default {
 <style lang="scss" scoped>
 .about-page {
   .intro-section {
-    // padding-top: 18.2rem;
-     min-height: 78rem;
+   padding-top: 18.2rem;
+    padding-bottom: 6.4rem;
     .diving-suit {
       max-width: 41.3rem;
       margin: auto;

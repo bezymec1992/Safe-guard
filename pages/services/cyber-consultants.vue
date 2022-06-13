@@ -333,6 +333,11 @@ export default {
 
 <style lang="scss" scoped>
 .services-project {
+
+  .intro-section {
+    padding-top: 18.2rem;
+    padding-bottom: 6.4rem;
+  }
   .txt-block-2 {
     &.style2 {
       @include media-breakpoint-up(md) {

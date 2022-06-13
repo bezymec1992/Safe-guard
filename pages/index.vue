@@ -136,11 +136,11 @@ export default {
 <style lang="scss" scoped>
 .home-page {
   .intro-section {
-    overflow: hidden;
-    // min-height: 80.12rem;
-    max-height: 75rem;
+    overflow-x: hidden;
     @include media-breakpoint-up(md) {
-      max-height: 80.12rem;
+      min-height: 90vh;
+      padding-top: 11.2rem;
+      padding-bottom: 3.4rem;
     }
 
     .img-holder {
@@ -176,5 +176,4 @@ export default {
 .services-section .row .col-txt .h2 {
   max-width: 25rem !important;
 }
-
 </style>
