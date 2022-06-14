@@ -142,6 +142,11 @@ export default {
       padding-top: 11.2rem;
       padding-bottom: 3.4rem;
     }
+      @include media-breakpoint-down(md) {
+      min-height: 97vh;
+      padding-top: 16.2rem;
+      // padding-bottom: 3.4rem;
+    }
 
     .img-holder {
       max-width: 65.5rem;

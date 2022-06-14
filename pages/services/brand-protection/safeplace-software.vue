@@ -412,6 +412,9 @@ export default {
     position: relative;
     overflow: hidden;
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
+    @include media-breakpoint-down(md) {
+      min-height: 96vh;
+    }
     .intro-text {
       display: flex;
       flex-direction: column;
@@ -450,17 +453,27 @@ export default {
     }
   }
 
-   .mobiles {
-      display: none;
-      @include media-breakpoint-down(md) {
-        display: block;
-        margin-bottom: 3rem;
-      }
-      @include media-breakpoint-down(sm) {
-        position: relative;
-        right: 3rem;
-      }
+  .mobiles {
+    display: none;
+    @include media-breakpoint-down(md) {
+      display: block;
+      margin-bottom: 3rem;
     }
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      right: 3rem;
+      bottom: 12rem;
+    }
+  }
+
+  .balloon-p-txt {
+    p {
+       @include media-breakpoint-down(md) {
+      position: absolute;
+      top: 41rem;
+    }
+    }
+  }
 }
 
 .check-section {
@@ -488,11 +501,10 @@ export default {
 }
 .a-program {
   .text-holder {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
 }
 
 .statistic-section {

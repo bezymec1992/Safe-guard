@@ -507,6 +507,7 @@ export default {
       padding-top: 11rem;
       padding-bottom: 35.4rem;
       margin-bottom: 0;
+      min-height: 95vh;
     }
   }
   .results-section {

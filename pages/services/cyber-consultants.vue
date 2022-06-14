@@ -333,14 +333,14 @@ export default {
 
 <style lang="scss" scoped>
 .services-project {
-
   .intro-section {
     padding-top: 18.2rem;
-    padding-bottom: 6.4rem;
+    padding-bottom: 2.4rem;
   }
   .txt-block-2 {
     &.style2 {
       @include media-breakpoint-up(md) {
+        padding-top: 13.2rem;
         padding-bottom: 20rem;
       }
     }
@@ -350,7 +350,7 @@ export default {
     padding-top: 7rem;
     overflow: hidden;
     @include media-breakpoint-down(sm) {
-         min-height: 54vh;
+      min-height: 54vh;
     }
     &.second-section {
       min-height: 74vh;
@@ -379,7 +379,6 @@ export default {
           min-width: 43rem;
           bottom: -2rem;
         }
-     
       }
       .content-holder {
         .h1 {

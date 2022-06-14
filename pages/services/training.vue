@@ -300,7 +300,10 @@ export default {
 <style lang="scss" scoped>
 .intro-section {
   padding-top: 18.2rem;
-  padding-bottom: 6.4rem;
+  padding-bottom: 2.4rem;
+  @include media-breakpoint-down(md) {
+    min-height: 95vh;
+  }
   .text-holder {
     p {
       @include media-breakpoint-up(lg) {

@@ -432,10 +432,10 @@ export default {
 <style lang="scss">
 .services-project {
   .intro-section {
-    padding-top: 18.2rem;
-    padding-bottom: 6.4rem;
+    // padding-top: 18.2rem;
+    // padding-bottom: 2.4rem;
     position: relative;
-    min-height: 90vh;
+    max-height: 72h;
     @include media-breakpoint-down(md) {
     
     padding-top: 11.2rem;
@@ -462,7 +462,7 @@ export default {
     .building-holder {
       position: relative;
       z-index: 11;
-      max-width: 37rem;
+      max-width: 28rem;
       right: -4rem !important;
     }
   }

@@ -2,10 +2,12 @@
   .intro-section {
     overflow: hidden;
     padding-top: 18.2rem;
-    padding-bottom: 6.4rem;
+    padding-bottom: 2.4rem;
 
     @include media-breakpoint-down(md) {
-      padding-bottom: 4rem;
+      // padding-bottom: 4rem;
+      padding-top: 16.2rem;
+      min-height: 97vh;
     }
 
     .h1 {
