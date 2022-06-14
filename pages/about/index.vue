@@ -294,8 +294,14 @@ export default {
 <style lang="scss" scoped>
 .about-page {
   .intro-section {
-   padding-top: 18.2rem;
-    padding-bottom: 6.4rem;
+    padding-top: 18.2rem;
+    padding-bottom: 2.4rem;
+    @include media-breakpoint-down(md) {
+      // padding-top: 18.2rem;
+      // padding-bottom: 2.4rem;
+      padding-top: 15.2rem;
+      min-height: 95vh;
+    }
     .diving-suit {
       max-width: 41.3rem;
       margin: auto;

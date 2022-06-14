@@ -54,11 +54,10 @@
               </div>
             </div>
 
-              <h1 class="h1 mbl">Software</h1>
-              <div class="text-holder mobile mt-auto">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              </div>
-          
+            <h1 class="h1 mbl">Software</h1>
+            <div class="text-holder mobile mt-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
           </div>
         </div>
         <div class="scroll-down">
@@ -359,13 +358,15 @@ export default {
 <style lang="scss" scoped>
 .software {
   position: relative;
-  min-height: 78rem;
+  min-height: 74rem;
+  padding-bottom: 0 !important;
   @include media-breakpoint-down(lg) {
     min-height: 100rem;
   }
   @include media-breakpoint-down(sm) {
-    min-height: 96vh !important;
+    min-height: 95vh !important;
   }
+
   .intro-pic {
     min-width: 66.8rem;
     right: -8rem;
@@ -395,7 +396,7 @@ export default {
 .mbl {
   display: none;
   @include media-breakpoint-down(md) {
-    position:  absolute;
+    position: absolute;
     top: 18rem;
     display: block;
   }

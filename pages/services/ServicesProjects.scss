@@ -125,16 +125,17 @@
     .building-holder {
       position: relative;
       z-index: 2;
-      max-width: 37rem;
+      max-width: 28rem;
       right: -12rem;
 
       @include media-breakpoint-down(md) {
         position: absolute;
-        top: 53%;
+        top: 49%;
         transform: translateY(-40%);
         right: 0;
         z-index: 1;
         max-width: 29rem;
+        min-height: 75vh;
       }
 
       img {
