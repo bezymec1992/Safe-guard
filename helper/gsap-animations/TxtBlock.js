@@ -9,7 +9,7 @@ export const gsapInit = () => {
     gsap.set('.txt-block-1 .img-holder', { opacity: 0, x: 24 })
     ScrollTrigger.batch('.txt-block-1 .img-holder', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
-      start: "center 80%",
+      start: "center 90%",
     })
 
     gsap.set('.txt-block-1 .h2', {
@@ -18,7 +18,7 @@ export const gsapInit = () => {
     })
     ScrollTrigger.batch('.txt-block-1 .h2', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      start: "center 70%",
+      start: "center 85%",
     })
 
     gsap.set('.txt-block-1 .text-holder', {
@@ -37,7 +37,7 @@ export const gsapInit = () => {
     gsap.set('.txt-block-2 .img-holder', { opacity: 0, x: -24 })
     ScrollTrigger.batch('.txt-block-2 .img-holder', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, x: 0, stagger: 0.15 }),
-      start: "center 80%",
+      start: "center 90%",
     })
 
     gsap.set('.txt-block-2 .h2', {
@@ -46,7 +46,7 @@ export const gsapInit = () => {
     })
     ScrollTrigger.batch('.txt-block-2 .h2', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      start: "center 80%",
+      start: "center 90%",
     })
 
     gsap.set('.txt-block-2 .text-holder', {
@@ -55,7 +55,7 @@ export const gsapInit = () => {
     })
     ScrollTrigger.batch('.txt-block-2 .text-holder', {
       onEnter: (batch) => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15 }),
-      start: "center 80%",
+      start: "center 90%",
     })
   }
   // end animation for txt-block-2

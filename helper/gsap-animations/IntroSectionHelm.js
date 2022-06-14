@@ -11,13 +11,11 @@ export const gsapInitIntroSectionHelm = () => {
       y: 200,
       scale: 0,
       scaleX: 20,
-
     })
     ScrollTrigger.batch('.intro-section .helm', {
       onEnter: (batch) =>
         gsap.to(batch, { opacity: 1, x: 0, y: 0, stagger: 0.15, scale: 1 }),
       start: "center 100%",
-
     })
 
     gsap.set('.intro-section .earth', {

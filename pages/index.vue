@@ -135,7 +135,10 @@ export default {
 <style lang="scss" scoped>
 .home-page {
   .intro-section {
-    overflow-x: hidden;
+    @include media-breakpoint-up(md) {
+      overflow: hidden;
+    }
+
     @include media-breakpoint-up(md) {
       min-height: 90vh;
       padding-top: 11.2rem;
@@ -148,15 +151,77 @@ export default {
       right: -10rem;
 
       @include media-breakpoint-down(md) {
-        transform: translateX(20%);
-        right: 2rem;
+        transform: unset;
+        right: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .earth,
       .info {
         position: absolute;
+        top: 0;
         left: 0;
       }
+
+      // .helm {
+      //   opacity: 0;
+      //   transform: translate(-22.4rem, 20rem) scale(0);
+
+      //   &.lazyload {
+      //     animation: helm-animation;
+      //     animation-duration: 1s;
+      //     animation-fill-mode: forwards;
+      //     animation-timing-function: ease-in;
+      //     animation-delay: 0.3s;
+      //   }
+
+      //   @keyframes helm-animation {
+      //     100% {
+      //       opacity: 1;
+      //       transform: translate(0, 0) scale(1);
+      //     }
+      //   }
+      // }
+
+      // .earth {
+      //   opacity: 0;
+      //   transform: translate(1rem, 1rem) scale(0);
+
+      //   &.lazyload {
+      //     animation: earth-animation;
+      //     animation-duration: 1s;
+      //     animation-fill-mode: forwards;
+      //     animation-timing-function: ease-in;
+      //     animation-delay: 1.6s;
+      //   }
+
+      //   @keyframes earth-animation {
+      //     100% {
+      //       opacity: 1;
+      //       transform: translate(0, 0) scale(1);
+      //     }
+      //   }
+      // }
+
+      // .info {
+      //   opacity: 0;
+
+      //   &.lazyload {
+      //     animation: info-animation;
+      //     animation-duration: 0.5s;
+      //     animation-fill-mode: forwards;
+      //     animation-timing-function: ease-in;
+      //     animation-delay: 2.8s;
+      //   }
+
+      //   @keyframes info-animation {
+      //     100% {
+      //       opacity: 1;
+      //     }
+      //   }
+      // }
     }
   }
 }

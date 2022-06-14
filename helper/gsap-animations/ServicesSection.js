@@ -10,6 +10,7 @@ export const gsapInit = () => {
 			gsap.to(batch, {
 				opacity: 1,
 				stagger: 0.15,
+				start: "center 80%"
 			}),
 
 	});
@@ -20,6 +21,7 @@ export const gsapInit = () => {
 			gsap.to(batch, {
 				opacity: 1,
 				stagger: 0.15,
+				start: "center 80%"
 			}),
 
 	});
@@ -31,6 +33,7 @@ export const gsapInit = () => {
 				opacity: 1,
 				x: 0,
 				stagger: 0.15,
+				start: "center 60%"
 			}),
 
 	});
@@ -42,6 +45,7 @@ export const gsapInit = () => {
 				opacity: 1,
 				x: 0,
 				stagger: 0.15,
+				start: "center 60%"
 			}),
 
 	});
@@ -54,6 +58,7 @@ export const gsapInit = () => {
 				y: 0,
 				stagger: 0.15,
 				delay: 0.2,
+				start: "center 60%"
 			}),
 
 	});
