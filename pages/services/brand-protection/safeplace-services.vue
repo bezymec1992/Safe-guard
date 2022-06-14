@@ -434,7 +434,6 @@ export default {
         position: relative;
         right: 2rem;
       }
-    
     }
   }
 
@@ -581,7 +580,7 @@ export default {
         }
       }
       .container {
-        max-width: 90rem !important;
+        max-width: 97rem !important;
       }
 
       .more-btn-desktop {

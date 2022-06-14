@@ -135,16 +135,14 @@ export default {
 <style lang="scss" scoped>
 .home-page {
   .intro-section {
-    @include media-breakpoint-up(md) {
-      overflow: hidden;
-    }
+    overflow: hidden;
 
     @include media-breakpoint-up(md) {
       min-height: 90vh;
       padding-top: 11.2rem;
       padding-bottom: 3.4rem;
     }
-      @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) {
       min-height: 97vh;
       padding-top: 16.2rem;
       // padding-bottom: 3.4rem;
@@ -157,7 +155,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         transform: unset;
-        right: unset;
+        right: -4rem;
         display: flex;
         align-items: center;
         justify-content: center;

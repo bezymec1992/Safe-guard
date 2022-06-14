@@ -292,7 +292,7 @@
       <div class="col d-md-none">
         <!-- Mobile under  -->
         <h3 class="h2 inherit">
-         Second - we create <br />
+          Second - we create <br />
           awareness program
         </h3>
         <div class="text-holder txt-mobile">
@@ -584,15 +584,13 @@ export default {
       }
 
       @include media-breakpoint-down(md) {
-        // max-width: 100%;
         position: relative;
         right: 0;
-        min-width: 805;
       }
 
       @include media-breakpoint-down(sm) {
-        margin: 0 0 0 -13rem;
-        min-width: 52rem;
+        width: 100%;
+        margin: 0;
       }
 
       img {
@@ -801,11 +799,11 @@ export default {
 
 .btn-style {
   .btn-dark {
-  min-width: 30.5rem;
-  @include media-breakpoint-down(m) {
-    padding: 1.3rem 6.4rem;
+    min-width: 30.5rem;
+    @include media-breakpoint-down(m) {
+      padding: 1.3rem 6.4rem;
+    }
   }
-}
 }
 </style>
 

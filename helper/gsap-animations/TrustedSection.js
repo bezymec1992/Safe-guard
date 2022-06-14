@@ -10,8 +10,8 @@ export const gsapInit = () => {
 			gsap.to(batch, {
 				opacity: 1,
 				stagger: 0.15,
-				delay: 0.2,
-				duration: 2,
+				delay: 1,
+				duration: 0.5,
 			}),
 
 	});
@@ -23,8 +23,8 @@ export const gsapInit = () => {
 				opacity: 1,
 				y: 0,
 				stagger: 0.3,
-				delay: 0.7,
-				duration: 0.4,
+				delay: 1,
+				duration: 0.5,
 			}),
 
 	});

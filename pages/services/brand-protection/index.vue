@@ -420,12 +420,6 @@ export default {
     PlyrSection,
     ButtonsSection,
   },
-  data: () => ({}),
-  computed: {
-    hideHomeServices() {
-      return this.$route.name === 'services'
-    },
-  },
 }
 </script>
 
@@ -437,11 +431,9 @@ export default {
     position: relative;
     max-height: 72h;
     @include media-breakpoint-down(md) {
-    
-    padding-top: 11.2rem;
-    padding-bottom: 3.4rem;
+      padding-top: 11.2rem;
+      padding-bottom: 3.4rem;
     }
-
 
     .back-link {
       position: absolute;

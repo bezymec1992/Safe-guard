@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <Header safe-place="boolean" />
+    <Header :safe-place="true" />
     <main class="main">
       <nuxt />
     </main>

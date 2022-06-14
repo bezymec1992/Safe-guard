@@ -293,6 +293,8 @@ export default {
 
 <style lang="scss" scoped>
 .about-page {
+  overflow: hidden;
+
   .intro-section {
     padding-top: 18.2rem;
     padding-bottom: 2.4rem;

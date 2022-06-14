@@ -80,7 +80,7 @@ export default {
         translateY: '20%',
         scale: 0.7,
         opacity: 0,
-        duration: 1,
+        duration: 0.5,
       })
       gsap.set(`.item-${count + 1} .inner`, {
         opacity: 0,
@@ -91,8 +91,8 @@ export default {
       ScrollTrigger.batch(`.item-${count + 1} .img`, {
         onEnter: (batch) =>
           gsap.to(batch, {
-            delay: count + 0.5,
-            duration: 1.3,
+            delay: count + 0.1,
+            duration: 0.5,
             opacity: 1,
             translateY: 0,
             scale: 1,
@@ -101,8 +101,8 @@ export default {
       ScrollTrigger.batch(`.item-${count + 1} .inner`, {
         onEnter: (batch) =>
           gsap.to(batch, {
-            delay: count + 0.5,
-            duration: 1.3,
+            delay: count + 0.1,
+            duration: 0.5,
             opacity: 1,
           }),
       })

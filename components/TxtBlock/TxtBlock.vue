@@ -16,6 +16,7 @@ export default {
   mounted() {
     gsapInit()
   },
+  beforeDestroy() {},
 }
 </script>
 

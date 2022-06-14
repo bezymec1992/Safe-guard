@@ -13,9 +13,11 @@ export const gsapInitIntroSectionHelm = () => {
       scaleX: 20,
     })
     ScrollTrigger.batch('.intro-section .helm', {
+      start: "center 100%",
+
       onEnter: (batch) =>
         gsap.to(batch, { opacity: 1, x: 0, y: 0, stagger: 0.15, scale: 1 }),
-      start: "center 100%",
+
     })
 
     gsap.set('.intro-section .earth', {
@@ -26,6 +28,7 @@ export const gsapInitIntroSectionHelm = () => {
       scaleX: 20,
     })
     ScrollTrigger.batch('.intro-section .earth', {
+      start: "center 100%",
       onEnter: (batch) =>
         gsap.to(batch, {
           opacity: 1,
@@ -34,7 +37,7 @@ export const gsapInitIntroSectionHelm = () => {
           stagger: 0.15,
           scale: 1,
           delay: 0.5,
-          start: "center 100%",
+
         }),
 
     })
@@ -43,11 +46,12 @@ export const gsapInitIntroSectionHelm = () => {
       opacity: 0,
     })
     ScrollTrigger.batch('.intro-section .info', {
+      start: "center 100%",
       onEnter: (batch) =>
         gsap.to(batch, {
           opacity: 1,
           delay: 1,
-          start: "center 100%",
+
         }),
 
     })

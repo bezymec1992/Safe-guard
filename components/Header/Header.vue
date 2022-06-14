@@ -3,7 +3,7 @@
     <div class="container">
       <!-- <strong  class="logo"> -->
       <div v-if="safePlace" class="logo">
-        <nuxt-link to="/services/brand-protection/safeplace">
+        <nuxt-link to="/services/brand-protection/safeplace" @click="closeMenu">
           <img
             data-src="@/assets/images/logo-2.png"
             class="lazyload"
@@ -11,7 +11,7 @@
           />
         </nuxt-link>
       </div>
-      <nuxt-link v-else to="/">
+      <nuxt-link v-else to="/" @click="closeMenu">
         <img
           data-src="@/assets/images/logo.svg"
           class="lazyload"
@@ -86,17 +86,21 @@
           </div>
           <div v-if="safePlace" class="nav-body">
             <ul class="additional-menu">
-              <li v-for="item in mobileSafeLinks" :key="item.id">
+              <li
+                v-for="item in mobileSafeLinks"
+                :key="item.id"
+                @click="closeMenu"
+              >
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
-              <li v-if="safePlace">
+              <li v-if="safePlace" @click="closeMenu" class="cc">
                 <nuxt-link
                   to="/"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
                   >Safeguard</nuxt-link
                 >
               </li>
-              <li v-else>
+              <li v-else @click="closeMenu">
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
@@ -105,8 +109,8 @@
               </li>
               <span class="line"></span>
             </ul>
-            
-            <ul class="additional-menu">
+
+            <ul class="additional-menu" @click="closeMenu">
               <li v-for="item in mobileAdditionalLinks" :key="item.id">
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
@@ -114,17 +118,17 @@
           </div>
           <div v-else class="nav-body">
             <ul class="additional-menu">
-              <li v-for="item in mobileLinks" :key="item.id">
+              <li v-for="item in mobileLinks" :key="item.id" @click="closeMenu">
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
-              <li v-if="safePlace">
+              <li v-if="safePlace" @click="closeMenu">
                 <nuxt-link
                   to="/"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
                   >Safeguard</nuxt-link
                 >
               </li>
-              <li v-else>
+              <li v-else @click="closeMenu">
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
@@ -133,7 +137,11 @@
               </li>
             </ul>
             <ul class="additional-menu">
-              <li v-for="item in mobileAdditionalLinks" :key="item.id">
+              <li
+                v-for="item in mobileAdditionalLinks"
+                :key="item.id"
+                @click="openMenu"
+              >
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
             </ul>
@@ -144,7 +152,7 @@
         class="open-menu d-block d-lg-none"
         href="#"
         :class="{ open: menuOpen }"
-        @click.prevent="openMenu()"
+        @click.prevent="openMenu"
       >
         <span></span>
         <span></span>
@@ -162,10 +170,6 @@ export default {
       type: Boolean,
       default: false,
     },
-    // safePlaceLogo: {
-    //   type: Boolean,
-    //   default: false,
-    // },
   },
   data: () => ({
     menuOpen: false,
@@ -270,14 +274,6 @@ export default {
       },
     ],
   }),
-  watch: {
-    $route() {
-      if (document.body.classList.contains('menu-opened')) {
-        document.body.classList.remove('menu-opened')
-        this.menuOpen = !this.menuOpen
-      }
-    },
-  },
   methods: {
     openMenu() {
       this.menuOpen = !this.menuOpen
@@ -287,6 +283,11 @@ export default {
       } else {
         document.body.classList.remove('menu-opened')
       }
+    },
+
+    closeMenu() {
+      this.menuOpen = false
+      document.body.classList.remove('menu-opened')
     },
   },
 }

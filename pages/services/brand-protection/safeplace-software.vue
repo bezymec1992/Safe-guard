@@ -459,19 +459,19 @@ export default {
       display: block;
       margin-bottom: 3rem;
     }
-    @include media-breakpoint-down(sm) {
-      position: absolute;
-      right: 3rem;
-      bottom: 12rem;
-    }
+    // @include media-breakpoint-down(sm) {
+    //   position: absolute;
+    //   right: 3rem;
+    //   bottom: 12rem;
+    // }
   }
 
   .balloon-p-txt {
     p {
-       @include media-breakpoint-down(md) {
-      position: absolute;
-      top: 41rem;
-    }
+      @include media-breakpoint-down(md) {
+        position: absolute;
+        top: 41rem;
+      }
     }
   }
 }

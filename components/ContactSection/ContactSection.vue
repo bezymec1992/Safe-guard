@@ -4,10 +4,17 @@
       <div class="row">
         <div class="col-md-5">
           <h2 class="h2">Contact Us</h2>
-           <p class="text-holder">
-             We're here to help and answer any question you might have. We
-             look forward to hearing from you.
-           </p>
+          <slot name="content">
+            <div class="just-text">
+              <div class="text-holder">
+                <p>
+                  We're here to help and answer any question you might have.
+                  <br class="d-none d-md-block" />
+                  We look forward to hearing from you.
+                </p>
+              </div>
+            </div>
+          </slot>
         </div>
         <div class="col-md-7">
           <div class="form-holder">
@@ -221,7 +228,6 @@ export default {
       }
     },
     onPhoneInput() {
- 
       // console.log(this.$refs.telInput.results)
 
       this.form.phoneIsValid = this.$refs.telInput.results.isValid
@@ -232,4 +238,14 @@ export default {
 
 <style lang="scss">
 @import '@/components/ContactSection/ContactSection.scss';
+</style>
+
+<style lang="scss" scoped>
+.contact-section {
+  .just-text {
+    @include media-breakpoint-up(md) {
+      max-width: 33rem;
+    }
+  }
+}
 </style>
