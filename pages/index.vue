@@ -20,18 +20,18 @@
           >
             <div class="img-holder">
               <img
-                src="@/assets/images/img-062.png"
-                class="helm"
+                data-src="@/assets/images/img-062.png"
+                class="helm lazyload"
                 alt="img description"
               />
               <img
-                src="@/assets/images/img-063.png"
-                class="earth"
+                data-src="@/assets/images/img-063.png"
+                class="earth lazyload"
                 alt="img description"
               />
               <img
-                src="@/assets/images/img-064.png"
-                class="info"
+                data-src="@/assets/images/img-064.png"
+                class="info lazyload"
                 alt="img description"
               />
             </div>
@@ -88,14 +88,14 @@
 </template>
 
 <script>
-import IntroSection from '@/components/IntroSection/IntroSection.vue'
-import StatisticSection from '@/components/StatisticSection/StatisticSection.vue'
-import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
-import ListSection from '@/components/ListSection/ListSection.vue'
-import ServicesSection from '@/components/ServicesSection/ServicesSection.vue'
-import WWSection from '@/components/WWSection/WWSection.vue'
-import WFromSection from '@/components/WFromSection/WFromSection.vue'
-// import ContactSection from '@/components/ContactSection/ContactSection.vue'
+import IntroSection from '@/components/IntroSection/IntroSection'
+import StatisticSection from '@/components/StatisticSection/StatisticSection'
+import TxtBlock from '@/components/TxtBlock/TxtBlock'
+import ListSection from '@/components/ListSection/ListSection'
+import ServicesSection from '@/components/ServicesSection/ServicesSection'
+import WWSection from '@/components/WWSection/WWSection'
+import WFromSection from '@/components/WFromSection/WFromSection'
+import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
   components: {
@@ -106,9 +106,7 @@ export default {
     ServicesSection,
     WWSection,
     WFromSection,
-    ContactSection: () =>
-      import('@/components/ContactSection/ContactSection.vue'),
-    // ContactSection,
+    ContactSection,
   },
   head: {
     title: 'Home page',
@@ -120,6 +118,7 @@ export default {
       },
     ],
   },
+
   methods: {
     scrollToNextSection() {
       const container = document.querySelector('.intro-section')
@@ -155,7 +154,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         transform: translateX(20%);
-        right: 7rem;
+        right: 2rem;
       }
 
       .earth,

@@ -105,8 +105,8 @@ export default {
   }
 
   .country-selector__input {
-    min-height: 6rem !important;
-    height: 6rem !important;
+    min-height: 6.5rem !important;
+    height: 6.5rem !important;
 
     @include media-breakpoint-down(md) {
       min-height: 5rem !important;
@@ -115,8 +115,8 @@ export default {
   }
 
   .input-tel__input {
-    min-height: 6rem !important;
-    height: 6rem;
+    min-height: 6.5rem !important;
+    height: 6.5rem;
 
     @include media-breakpoint-down(md) {
       min-height: 5rem !important;
@@ -134,8 +134,8 @@ export default {
   }
 
   .input-tel {
-    min-height: 6rem !important;
-    height: 6rem !important;
+    min-height: 6.5rem !important;
+    height: 6.5rem !important;
 
     @include media-breakpoint-down(md) {
       min-height: 4.9rem !important;
