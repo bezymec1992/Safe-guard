@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <h2 class="h2">Contact Us</h2>
           <slot name="content">
+            <h2 class="h2">Contact Us</h2>
             <div class="just-text">
               <div class="text-holder">
                 <p>

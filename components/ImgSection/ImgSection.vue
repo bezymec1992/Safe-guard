@@ -2,7 +2,11 @@
   <div class="img-section">
     <div class="container">
       <div class="img-holder">
-        <img :src="require('@/assets/images/' + img)" :alt="imgAlt" />
+        <img
+          v-if="img"
+          :src="require('@/assets/images/' + img)"
+          :alt="imgAlt"
+        />
       </div>
     </div>
   </div>
