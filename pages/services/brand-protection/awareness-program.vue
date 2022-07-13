@@ -268,7 +268,7 @@
           <li>Lorem ipsum dolor sit amet</li>
           <li>Phasellus vestibulum ac nisi nec</li>
         </ul>
-        <nuxt-link to="/" class="btn btn-dark"
+        <nuxt-link to="/" class="btn btn-dark d-block"
           >About Safeplace Software</nuxt-link
         >
       </div>
