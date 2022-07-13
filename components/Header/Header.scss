@@ -94,6 +94,14 @@
         }
       }
     }
+
+    &.safeplace {
+      li {
+        @include media-breakpoint-up(lg) {
+          margin-left: 3.2rem;
+        }
+      }
+    }
   }
 
   .additional-nav {

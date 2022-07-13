@@ -64,7 +64,7 @@
       <strong class="logo"> </strong>
 
       <nav class="main-nav">
-        <ul v-if="safePlace" class="main-menu">
+        <ul v-if="safePlace" class="main-menu safeplace">
           <li v-for="item in desktopSafeLinks" :key="item.id">
             <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
           </li>
@@ -249,6 +249,11 @@ export default {
         title: 'Software',
         url: '/services/brand-protection/safeplace-software',
       },
+      {
+        id: 5,
+        title: 'Live program',
+        url: '/services/brand-protection/live-program',
+      },
     ],
     mobileLinks: [
       {
@@ -292,6 +297,11 @@ export default {
         id: 4,
         title: 'Software',
         url: '/services/brand-protection/safeplace-software',
+      },
+      {
+        id: 5,
+        title: 'Live program',
+        url: '/services/brand-protection/live-program',
       },
     ],
     mobileAdditionalLinks: [

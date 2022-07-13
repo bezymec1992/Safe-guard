@@ -264,6 +264,7 @@ export default {
 
     @include media-breakpoint-down(md) {
       background: url('@/assets/images/img-145.jpg') no-repeat 100% 50%;
+      background-size: cover;
     }
 
     .container {
@@ -284,6 +285,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         top: 0.7rem;
+        max-width: 10.4rem;
       }
     }
   }
