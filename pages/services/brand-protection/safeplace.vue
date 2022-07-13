@@ -50,11 +50,14 @@
       </div>
       <div class="col-md-6 image">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-108.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-108.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-154.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -155,11 +158,14 @@
       </div>
       <div class="col-md-6 image">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-110.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-110.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-155.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -187,7 +193,7 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark"
+          <nuxt-link to="/services/training" class="btn btn-dark d-block"
             >About assessment</nuxt-link
           >
         </div>
@@ -207,11 +213,14 @@
       </div>
       <div class="col-md-6 image">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-112.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-112.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-156.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -258,11 +267,14 @@
       </div>
       <div class="col-md-6 safe-style-img">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-111.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-111.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-157.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">

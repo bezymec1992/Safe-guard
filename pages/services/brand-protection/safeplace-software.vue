@@ -56,11 +56,14 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-129.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-129.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-146.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -157,11 +160,14 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-133.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-133.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-147.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">

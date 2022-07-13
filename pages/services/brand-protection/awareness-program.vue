@@ -133,11 +133,14 @@
       </div>
       <div class="col-md-6 image">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-122.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-122.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-148.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -177,11 +180,14 @@
       </div>
       <div class="col-md-6 safe-style-img">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-123.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-123.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-149.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
