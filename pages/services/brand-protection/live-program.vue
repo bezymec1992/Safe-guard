@@ -259,7 +259,7 @@ export default {
 .safe-pages {
   .intro-section {
     color: $white;
-    background: url('@/assets/images/img-135.jpg') no-repeat 10% 50%;
+    background: url('@/assets/images/img-135.jpg') no-repeat 100% 50%;
     background-size: cover;
 
     @include media-breakpoint-down(md) {
@@ -298,7 +298,6 @@ export default {
     }
 
     .container {
-      max-width: 59.7rem;
     }
 
     .h2 {
@@ -311,6 +310,8 @@ export default {
     }
 
     .text-holder {
+      max-width: 59.7rem;
+      margin: auto;
       font-size: 1.8rem;
       text-align: center;
 

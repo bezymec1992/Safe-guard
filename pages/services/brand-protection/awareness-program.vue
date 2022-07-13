@@ -343,6 +343,7 @@ export default {
     @include media-breakpoint-down(sm) {
       background: url('@/assets/images/img-120.jpg') no-repeat;
       background-position: 50% 50%;
+      background-size: 80rem;
     }
 
     .h1 {

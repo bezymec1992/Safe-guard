@@ -203,7 +203,7 @@
 
     <txt-block class="txt-block-2 style2 safe-style reverse pt-0">
       <div class="col d-md-none">
-        <h3 class="h2">Easier with Safeplace Software</h3>
+        <h3 class="h2">On- and Offline workshops</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -225,7 +225,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Easier with Safeplace Software</h3>
+          <h3 class="h2">
+            On- and Offline <br />
+            workshops
+          </h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -463,9 +466,9 @@ export default {
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        bottom: 0;
+        bottom: -6.3rem;
         right: 0;
-        width: 59%;
+        width: 65%;
       }
 
       @include media-breakpoint-down(md) {

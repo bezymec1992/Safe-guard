@@ -135,7 +135,17 @@
             </div>
           </div>
         </div>
-        <ImgSection img="img-109.jpg" />
+
+        <div class="img-holder">
+          <picture>
+            <source
+              srcset="@/assets/images/img-109.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-158.jpg" class="lazyload" alt="#" />
+          </picture>
+        </div>
       </div>
     </div>
 
@@ -247,7 +257,7 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark"
+          <nuxt-link to="/services/training" class="btn btn-dark d-block"
             >Awareness program</nuxt-link
           >
         </div>
@@ -299,7 +309,7 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark"
+          <nuxt-link to="/services/training" class="btn btn-dark d-block"
             >Our software</nuxt-link
           >
         </div>
@@ -340,7 +350,6 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
-import ImgSection from '@/components/ImgSection/ImgSection'
 import QuoteSection from '@/components/QuoteSection/QuoteSection'
 import ContactSection from '@/components/ContactSection/ContactSection'
 
@@ -349,7 +358,6 @@ export default {
   components: {
     IntroSection,
     TxtBlock,
-    ImgSection,
     QuoteSection,
     ContactSection,
   },
@@ -447,6 +455,18 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 1.6rem;
+      }
+    }
+
+    .img-holder {
+      @include media-breakpoint-down(md) {
+        margin-left: -2.4rem;
+        margin-right: -2.4rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }
