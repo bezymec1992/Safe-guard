@@ -2,7 +2,7 @@
   <div class="safe-pages">
     <intro-section class="d-flex">
       <div class="container">
-        <div class="row flex-column">
+        <div class="row flex-column flex-md-row">
           <div
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
           >
@@ -10,19 +10,26 @@
               How safe is <br />
               your place?
             </h1>
-            <div class="text-holder">
+            <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
-          <div
-            class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
-          >
-            <!-- <div class="bg-holder">
-             <img src="" alt="">
-            </div> -->
+          <div class="col-md-4">
+            <div class="img-holder">
+              <img
+                src="@/assets/images/img-127.png"
+                alt="Safe place for everyone"
+              />
+            </div>
+            <div class="text-holder d-md-none">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
+              </p>
+            </div>
           </div>
         </div>
         <div class="scroll-down">
@@ -315,14 +322,35 @@ export default {
 <style lang="scss" scoped>
 .safe-pages {
   .intro-section {
-    background: url('@/assets/images/img-125.jpg') no-repeat #e2e2e2;
-    background-position: 50% 100%;
-    background-size: cover;
+    overflow: hidden;
+    background: #e4e4e4;
 
-    @include media-breakpoint-down(md) {
-      background: url('@/assets/images/img-126.jpg') no-repeat;
-      background-position: 67% 100%;
-      background-size: cover;
+    .container {
+      position: relative;
+    }
+
+    .img-holder {
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        top: 50%;
+        right: -30%;
+        transform: translateY(-50%);
+        max-width: 95rem;
+        width: 100%;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-top: -5rem;
+        margin-left: -18rem;
+        margin-right: -19rem;
+        position: relative;
+        right: -4rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
 
     .h1 {

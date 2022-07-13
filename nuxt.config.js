@@ -15,7 +15,7 @@ export default {
   css: ['@/assets/scss/styles.scss'],
 
   styleResources: {
-    scss: ['./assets/scss/_vars.scss', './bootstrap/scss/_mixins.scss'],
+    scss: ['./assets/scss/_vars.scss', "./assets/scss/_mixins.scss", './bootstrap/scss/_mixins.scss'],
   },
 
   webfontloader: {

@@ -21,7 +21,7 @@
             class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
           >
             <!-- <div class="bg-holder">
-             <img src="" alt="">
+              <img src="@/assets/images/img-127.png" alt="Safe place for everyone" />
             </div> -->
           </div>
         </div>
@@ -194,56 +194,7 @@
       </div>
     </txt-block>
 
-    <txt-block class="txt-block-2 style2 pt-0 reverse safe-style">
-      <div class="col d-md-none">
-        <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 safe-style-img">
-        <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-111.jpg"
-            class="lazyload"
-            alt="#"
-          />
-        </div>
-      </div>
-      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder digitalization">
-          <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
-          <div class="text-holder">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere
-            </p>
-            <nuxt-link to="/services/training" class="btn btn-dark"
-              >Our software</nuxt-link
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col d-md-none mobile-text">
-        <div class="text-holder pb-none">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
-          </p>
-          <nuxt-link to="/services/training" class="btn btn-dark"
-            >Our software</nuxt-link
-          >
-        </div>
-      </div>
-    </txt-block>
-
-    <txt-block class="txt-block-1 style1 safe-style pt-0">
+    <txt-block class="txt-block-2 style2 reverse safe-style pt-0">
       <div class="col d-md-none">
         <h3 class="h2">Awareness program</h3>
         <div class="text-holder">
@@ -289,6 +240,55 @@
           </p>
           <nuxt-link to="/services/training" class="btn btn-dark"
             >Awareness program</nuxt-link
+          >
+        </div>
+      </div>
+    </txt-block>
+
+    <txt-block class="txt-block-1 style1 pt-0 safe-style">
+      <div class="col d-md-none">
+        <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 safe-style-img">
+        <div class="img-holder">
+          <img
+            data-src="@/assets/images/img-111.jpg"
+            class="lazyload"
+            alt="#"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder digitalization">
+          <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere
+            </p>
+            <nuxt-link to="/services/training" class="btn btn-dark"
+              >Our software</nuxt-link
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none mobile-text">
+        <div class="text-holder pb-none">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+          <nuxt-link to="/services/training" class="btn btn-dark"
+            >Our software</nuxt-link
           >
         </div>
       </div>

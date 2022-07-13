@@ -68,46 +68,59 @@ export default {
   },
 
   mounted() {
-    for (let i = 0; i < this.steps.length; i++) {
-      this.setAnimations(i)
-      this.playAnimations(i)
-    }
+    gsap.set('.blocks-holder .img', {
+      opacity: 0,
+      translateY: '20%',
+      duration: 0.5,
+      scale: 0.7,
+    })
+    ScrollTrigger.batch('.blocks-holder .img', {
+      onEnter: (batch) =>
+        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.5, scale: 1 }),
+    })
   },
 
-  methods: {
-    setAnimations(count) {
-      gsap.set(`.item-${count + 1} .img`, {
-        translateY: '20%',
-        scale: 0.7,
-        opacity: 0,
-        duration: 0.5,
-      })
-      gsap.set(`.item-${count + 1} .inner`, {
-        opacity: 0,
-      })
-    },
+  // mounted() {
+  //   for (let i = 0; i < this.steps.length; i++) {
+  //     this.setAnimations(i)
+  //     this.playAnimations(i)
+  //   }
+  // },
 
-    playAnimations(count) {
-      ScrollTrigger.batch(`.item-${count + 1} .img`, {
-        onEnter: (batch) =>
-          gsap.to(batch, {
-            delay: count + 0.1,
-            duration: 0.5,
-            opacity: 1,
-            translateY: 0,
-            scale: 1,
-          }),
-      })
-      ScrollTrigger.batch(`.item-${count + 1} .inner`, {
-        onEnter: (batch) =>
-          gsap.to(batch, {
-            delay: count + 0.1,
-            duration: 0.5,
-            opacity: 1,
-          }),
-      })
-    },
-  },
+  // methods: {
+  //   setAnimations(count) {
+  //     gsap.set(`.item-${count + 1} .img`, {
+  //       translateY: '20%',
+  //       scale: 0.7,
+  //       opacity: 0,
+  //       duration: 0.5,
+  //     })
+  //     gsap.set(`.item-${count + 1} .inner`, {
+  //       opacity: 0,
+  //     })
+  //   },
+
+  //   playAnimations(count) {
+  //     ScrollTrigger.batch(`.item-${count + 1} .img`, {
+  //       onEnter: (batch) =>
+  //         gsap.to(batch, {
+  //           delay: count + 0.1,
+  //           duration: 0.5,
+  //           opacity: 1,
+  //           translateY: 0,
+  //           scale: 1,
+  //         }),
+  //     })
+  //     ScrollTrigger.batch(`.item-${count + 1} .inner`, {
+  //       onEnter: (batch) =>
+  //         gsap.to(batch, {
+  //           delay: count + 0.1,
+  //           duration: 0.5,
+  //           opacity: 1,
+  //         }),
+  //     })
+  //   },
+  // },
 }
 </script>
 

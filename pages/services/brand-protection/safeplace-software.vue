@@ -1,20 +1,15 @@
 <template>
   <div class="safe-pages">
-    <intro-section class="intro">
+    <intro-section class="d-flex">
       <div class="container">
-        <router-link to="/services" class="back-link">
-          <span class="icon-holder">
-            <img
-              data-src="@/assets/images/img-017.svg"
-              class="lazyload"
-              alt="#"
-            />
-          </span>
-          Back</router-link
-        >
-        <div class="row">
-          <div class="col-md-6 d-md-flex flex-column intro-text">
-            <h1 class="h1">Safeplace software</h1>
+        <div class="row flex-column flex-md-row">
+          <div
+            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
+          >
+            <h1 class="h1">
+              Safeplace <br />
+              software
+            </h1>
             <div class="text-holder d-none d-md-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -22,28 +17,17 @@
               </p>
             </div>
           </div>
-          <div
-            class="col-md-6 d-flex flex-md-row flex-column align-items-md-center justify-content-center justify-content-md-end balloon-wrap"
-          >
-            <div class="mobile-holder">
+          <div class="col-md-4">
+            <div class="img-holder">
               <img
-                data-src="@/assets/images/img-005.png"
-                class="lazyload ballon"
-                alt="img description"
+                src="@/assets/images/img-128.png"
+                alt="Safe place for everyone"
               />
             </div>
-
-            <div class="mobiles">
-              <img
-                data-src="@/assets/images/img-0013.png"
-                class="lazyload ballon"
-                alt="img description"
-              />
-            </div>
-            <div class="text-holder d-md-none balloon-p-txt">
+            <div class="text-holder d-md-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
-                amet, consec
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
@@ -73,7 +57,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-006.png"
+            data-src="@/assets/images/img-129.jpg"
             class="lazyload"
             alt="#"
           />
@@ -111,15 +95,12 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <!-- <router-link to="/services/software" class="btn btn-dark"
-            >Need our help?</router-link
-          > -->
         </div>
       </div>
       <div class="col-md-6 picture">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-007.png"
+            data-src="@/assets/images/img-130.png"
             class="lazyload"
             alt="#"
           />
@@ -134,7 +115,7 @@
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
               viverra. In posuere massa sed magna condimentum, eu gravida urna
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. =
+              ex.
             </p>
           </div>
         </div>
@@ -149,8 +130,18 @@
       </div>
     </txt-block>
 
-    <visual-section :bg="'img-008.png'" :class="'bg-img double-phone'">
-    </visual-section>
+    <div class="full-img-section">
+      <div class="img-holder">
+        <picture>
+          <source
+            srcset="@/assets/images/img-131.jpg"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <img src="@/assets/images/img-132.jpg" />
+        </picture>
+      </div>
+    </div>
 
     <MoodSection />
 
@@ -167,7 +158,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-009.png"
+            data-src="@/assets/images/img-133.jpg"
             class="lazyload"
             alt="#"
           />
@@ -204,21 +195,23 @@
       </div>
     </txt-block>
 
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse a-program'">
+    <txt-block class="txt-block-2 style2 safe-style reverse pt-0">
       <div class="col d-md-none">
-        <h3 class="h2">Awareness program</h3>
+        <h3 class="h2">Easier with Safeplace Software</h3>
         <div class="text-holder">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
+            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
+            suscipit justo. Vestibulum at turpis euismod, fermentum
           </p>
         </div>
       </div>
-      <div class="col-md-6 picture">
+      <div class="col-md-6 image">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-0010.png"
+            data-src="@/assets/images/img-124.png"
             class="lazyload"
             alt="#"
           />
@@ -226,118 +219,166 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Awareness program</h3>
+          <h3 class="h2">Easier with Safeplace Software</h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
               viverra. In posuere massa sed magna condimentum, eu gravida urna
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
+              fermentum
             </p>
-            <router-link
-              to="/services/brand-protection/awareness-program"
-              class="btn btn-dark"
-              >About awareness program</router-link
-            >
           </div>
-        </div>
-      </div>
-      <div class="col d-md-none">
-        <div class="text-holder">
-          <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
-          <router-link
-            to="/services/brand-protection/awareness-program"
-            class="btn btn-dark"
-            >Awareness program</router-link
-          >
-        </div>
-      </div>
-    </txt-block>
-
-    <txt-block :class="'txt-block-2 style2 workshop'">
-      <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
-          On- and Offline <br />
-          workshops
-        </h3>
-        <div class="text-holder">
-          <!-- mobile first -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 phone-holder">
-        <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-0011.png"
-            class="lazyload"
-            alt="#"
-          />
-        </div>
-      </div>
-      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
-          <div class="text-rows">
-            <div class="text-row">
-              <h3 class="h2 text-capitalize">
-                On- and Offline <br />
-                workshops
-              </h3>
-              <div class="text-holder">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
-                  turpis euismod, fermentum
-                </p>
-              </div>
-            </div>
-            <div class="text-row">
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Phasellus vestibulum ac nisi nec viverra</li>
-              </ul>
-              <div class="text-holder"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col d-md-none">
-        <div class="text-holder txt-mobile">
-          <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
-          <ul>
+          <ul class="mb-5">
             <li>Lorem ipsum dolor sit amet</li>
-            <li>Phasellus vestibulum ac nisi nec viverra</li>
+            <li>Phasellus vestibulum ac nisi nec</li>
           </ul>
         </div>
       </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
+            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+          </p>
+        </div>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Phasellus vestibulum ac nisi nec</li>
+        </ul>
+      </div>
     </txt-block>
 
-    <div class="statistic-section">
+    <div class="find-section">
       <div class="container">
-        <h2 class="h1">what can you find out in our app</h2>
-        <p class="subtitle">
-          We have created a lot of useful funtionalities for you
-        </p>
-
-        <div class="row row-items">
-          <div v-for="item in statisticItems" :key="item.id" class="statistic">
-            <div class="statistic-item">
-              <h3>{{ item.title }}</h3>
-              <div class="text-holder">
-                <p>{{ item.description }}</p>
+        <h2 class="h2 text-md-center">what can you find out in our app</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-011.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Day mood <br class="d-none d-md-block" />
+                  check
+                </h3>
+                <div class="text-holder">
+                  <p>Check your mood every day to understand changes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-012.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Anonymous <br class="d-none d-md-block" />
+                  chat
+                </h3>
+                <div class="text-holder">
+                  <p>You can easily chat with our supporters</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-013.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Awareness <br class="d-none d-md-block" />
+                  program
+                </h3>
+                <div class="text-holder">
+                  <p>We will create special program how to improve your team</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-014.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Online <br class="d-none d-md-block" />
+                  workshops
+                </h3>
+                <div class="text-holder">
+                  <p>We have prepared a video-content for you</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-015.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  News and <br class="d-none d-md-block" />
+                  updates
+                </h3>
+                <div class="text-holder">
+                  <p>Latest news and updates from Safeplace team</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-016.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Ideas how to <br class="d-none d-md-block" />
+                  improve a team
+                </h3>
+                <div class="text-holder">
+                  <p>New articles and posts for employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-017.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Events and <br class="d-none d-md-block" />
+                  agenda
+                </h3>
+                <div class="text-holder">
+                  <p>Info about new Safeplace meeting & workshops</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <div class="icon-holder">
+                <img src="@/assets/images/icon-018.svg" alt="Day mood check" />
+              </div>
+              <div class="content-holder">
+                <h3>
+                  Awareness <br class="d-none d-md-block" />
+                  quiz
+                </h3>
+                <div class="text-holder">
+                  <p>Check your awareness with our quiz</p>
+                </div>
               </div>
             </div>
           </div>
@@ -345,368 +386,215 @@
       </div>
     </div>
 
-    <GetIn>
-      <template #title>
-        <h2 class="h2">Interested in our Safeplace Software? Contact us!</h2>
+    <div class="work-section">
+      <div class="container">
+        <div class="img-holder">
+          <img
+            src="@/assets/images/img-134.png"
+            alt="We work for your safety"
+          />
+        </div>
+        <h2 class="h2">We work for your safety</h2>
+        <div class="text-holder">
+          <p>
+            Condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac
+            fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum
+            at turpis euismod, fermentum
+          </p>
+        </div>
+      </div>
+    </div>
+    <ContactSection class="style2">
+      <template #content>
+        <h2 class="h2">Interested or want to know more?</h2>
+        <ul>
+          <li>
+            <h3>Address</h3>
+            <address>Hobbemakade 29, 1071 XK, Amsterdam, Netherlands</address>
+          </li>
+          <li>
+            <h3>E-mail</h3>
+            <a href="mailto:safeguard_help@gmail.com"
+              >safeguard_help@gmail.com</a
+            >
+          </li>
+          <li>
+            <h3>Phone</h3>
+            <a href="tel:+330123456789">+330123456789</a>
+          </li>
+        </ul>
       </template>
-    </GetIn>
+    </ContactSection>
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import MoodSection from '@/components/MoodSection/MoodSection.vue'
-import GetIn from '@/components/SafePlaces/GetIn.vue'
+import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
   name: 'SafePlaceSoftware',
   components: {
     IntroSection,
     MoodSection,
-    GetIn,
+    ContactSection,
   },
   layout: 'safe-layout',
-  props: {
-    title: {
-      type: String,
-      default: 'title',
-    },
-    to: {
-      type: [String, Object],
-      default: '',
-    },
-  },
-  data() {
-    return {
-      statisticItems: [
-        {
-          id: 1,
-          title: 'Day mood check',
-          description: 'Check your mood every day to understand changes',
-        },
-        {
-          id: 2,
-          title: 'Anonymous chat',
-          description: 'You can easily chat with our supporters  ',
-        },
-        {
-          id: 3,
-          title: 'Awareness program',
-          description:
-            'We will create special program how to improve your team ',
-        },
-        {
-          id: 4,
-          title: 'Online workshops',
-          description: 'We have prepared a video-content for you',
-        },
-      ],
-    }
-  },
 }
 </script>
 
 <style lang="scss" scoped>
 .safe-pages {
-  .intro {
-    position: relative;
+  .intro-section {
     overflow: hidden;
-    background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-    @include media-breakpoint-down(md) {
-      min-height: 96vh;
-    }
-    .intro-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      .h1 {
-        max-width: 15rem;
-        margin-bottom: 0;
-      }
-    }
-    .text-holder {
-      margin-top: 3rem;
-      max-width: 41.4rem;
-      @include media-breakpoint-up(xxl) {
-        max-width: 44.4rem;
-      }
-      p {
-        max-width: 48rem;
-      }
-    }
-  }
+    background: #ebebeb;
 
-  .mobile-holder {
-    max-width: 55rem;
-    @include media-breakpoint-up(md) {
-      position: absolute;
-      right: 20.2rem;
-      bottom: 112px;
-    }
-    @include media-breakpoint-down(md) {
-      display: none;
+    .container {
+      position: relative;
     }
 
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  .mobiles {
-    display: none;
-    @include media-breakpoint-down(md) {
-      display: block;
-      margin-bottom: 3rem;
-    }
-    // @include media-breakpoint-down(sm) {
-    //   position: absolute;
-    //   right: 3rem;
-    //   bottom: 12rem;
-    // }
-  }
-
-  .balloon-p-txt {
-    p {
-      @include media-breakpoint-down(md) {
+    .img-holder {
+      @include media-breakpoint-up(md) {
         position: absolute;
-        top: 41rem;
+        bottom: 0;
+        right: 0;
+        width: 59%;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-top: -8rem;
+        margin-right: -8rem;
+        margin-left: -19rem;
+        margin-bottom: 3rem;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }
-}
 
-.check-section {
-  max-width: 124rem;
-  margin: auto;
-  margin-bottom: 10.5rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 6.5rem;
-  }
-}
-.safe-style {
-  margin-bottom: 16rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 3rem;
-  }
-}
-.mb-0 {
-  .text-holder {
-    margin-bottom: 0;
-  }
-}
+  .full-img-section {
+    max-width: 144rem;
+    width: 100%;
+    margin: auto;
 
-.digitalization {
-  padding-left: 0 !important;
-}
-.a-program {
-  .text-holder {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-.statistic-section {
-  background-color: #efefef;
-  max-width: 124rem;
-  margin: auto;
-  margin-bottom: 13rem;
-  overflow: hidden;
-
-  .statistic-item {
-    margin-bottom: 3.2rem;
-    .text-holder {
-      text-align: left;
-      margin-left: 0;
+    .img-holder {
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 
-  .h1 {
-    font-size: 4rem;
-    text-transform: uppercase;
-    max-width: 93.5rem;
-    margin-bottom: 1rem;
-    margin-left: 3.5rem;
-    @include media-breakpoint-down(lg) {
-      margin-left: 0;
-    }
-    @include media-breakpoint-down(md) {
-      font-size: 2.5rem;
-      margin-bottom: 1.7rem;
-      margin-left: 0;
-    }
-  }
-  .subtitle {
-    margin-bottom: 7rem;
-    margin-left: 3.5rem;
-    @include media-breakpoint-down(lg) {
-      margin-left: 0;
-      margin-bottom: 4rem;
-    }
-  }
-  .row-items {
-    margin-left: 3.5rem;
-    display: grid;
-    grid-template-columns: 220px 220px 250px 220px;
-    gap: 8rem;
-    @include media-breakpoint-down(xl) {
-      grid-template-columns: 220px 220px 250px 220px;
-      gap: 4rem;
-    }
-    @include media-breakpoint-down(lg) {
-      margin-left: 0;
-      grid-template-columns: 1fr 1fr;
-    }
-    @include media-breakpoint-down(md) {
-      grid-template-columns: 1fr;
-      gap: 0;
+  .find-section {
+    overflow: hidden;
+
+    .container {
+      max-width: 120rem;
     }
 
-    .statistic:first-child {
-      h3 {
-        max-width: 21rem;
+    .row {
+      @include media-breakpoint-up(lg) {
+        @include grid-gutter(4rem);
+      }
+
+      @include media-breakpoint-up(xl) {
+        @include grid-gutter(8rem);
+      }
+    }
+
+    .h2 {
+      margin-bottom: 7.2rem;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 3.2rem;
+      }
+    }
+
+    .item {
+      margin-bottom: 7rem;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 4rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        display: flex;
       }
     }
 
     h3 {
-      text-align: left;
-      font-weight: 500;
-      font-size: 2.8rem;
       margin-bottom: 1rem;
-      line-height: 1.1;
+      font-size: 2.8rem;
+
       @include media-breakpoint-down(md) {
-        font-size: 2rem;
+        margin-bottom: 0.6rem;
+        font-size: 2.4rem;
+      }
+    }
+
+    .icon-holder {
+      max-width: 6rem;
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(md) {
+        min-width: 4.8rem;
+        max-width: 4.8rem;
+        margin-right: 2.4rem;
+      }
+
+      img {
+        width: 100%;
       }
     }
 
     .text-holder {
-      @include media-breakpoint-down(md) {
-        max-width: 70rem;
-      }
-    }
-    p {
-      text-align: left;
+      font-size: 1.6rem;
     }
   }
-  .statistic {
-    padding: 0;
-  }
-  @include media-breakpoint-down(md) {
-    min-height: 63vh;
-    margin-right: 2.4rem;
-    margin-left: 2.4rem;
-  }
-  @include media-breakpoint-down(sm) {
-    padding-top: 8rem;
-    margin-bottom: 11rem;
-    min-height: 68vh;
-  }
-}
 
-.text-holder {
-  p {
-    margin-bottom: 2.5rem;
-    line-height: 1.8;
-  }
-}
+  .work-section {
+    padding-top: 5rem;
+    padding-bottom: 12rem;
 
-.workshop {
-  margin-bottom: 12rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 6rem;
-  }
-  .content-holder {
-    @include media-breakpoint-up(xxl) {
-      padding-left: 10rem;
+    @include media-breakpoint-down(md) {
+      overflow: hidden;
+      padding-top: 6rem;
+      padding-bottom: 11rem;
     }
-  }
-  &.reverse {
-    @include media-breakpoint-up(xxl) {
-      padding-left: 0rem;
-    }
-    @include media-breakpoint-down(xxl) {
-      padding-left: 0rem;
-    }
-  }
-}
 
-.txt-block {
-  margin-top: 13rem;
-  @include media-breakpoint-down(md) {
-    margin-top: 8rem;
-  }
-  .phone-holder {
-    align-self: center;
     .img-holder {
-      display: flex;
-      justify-content: center;
+      max-width: 79.2rem;
+      margin: auto auto 6.5rem;
+
+      @include media-breakpoint-down(md) {
+        margin-left: -4rem;
+        margin-right: -5rem;
+      }
+
       img {
         width: 100%;
-        max-width: 48rem;
+        height: auto;
       }
-    }
-  }
-  .text-holder {
-    @include media-breakpoint-down(md) {
-      margin-bottom: 0;
-    }
-  }
-}
-
-li {
-  line-height: 2.5;
-}
-
-.text-mobile {
-  p {
-    margin-bottom: 2rem;
-  }
-}
-
-.reverse {
-  margin-bottom: 18.8rem;
-  @include media-breakpoint-down(md) {
-    margin-bottom: 4.8rem;
-  }
-}
-
-.picture {
-  position: relative;
-  .img-holder {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .icon-holder {
-    display: none;
-    position: absolute;
-    left: 24%;
-    top: 8%;
-    max-width: 35rem;
-    img {
-      width: 100%;
-    }
-  }
-
-  .get-in {
-    padding-bottom: 24rem;
-
-    @include media-breakpoint-down(md) {
-      padding-bottom: 12rem;
     }
 
     .h2 {
+      margin-bottom: 1.2rem;
       text-align: center;
-      margin-bottom: 4rem;
-      text-transform: inherit;
     }
 
-    .btn {
+    .text-holder {
+      max-width: 59.7rem;
       margin: auto;
-      justify-content: center;
-      max-width: 30rem;
+      font-size: 1.8rem;
+      text-align: center;
+
+      @include media-breakpoint-down(md) {
+        font-size: 1.6rem;
+      }
     }
   }
 }

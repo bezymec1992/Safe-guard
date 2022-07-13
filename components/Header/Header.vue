@@ -237,7 +237,7 @@ export default {
       {
         id: 2,
         title: 'Assessment',
-        url: '/services/brand-protection/safeplace-services',
+        url: '/services/brand-protection/your-place',
       },
       {
         id: 3,
@@ -281,7 +281,7 @@ export default {
       {
         id: 2,
         title: 'Assessment',
-        url: '/services/brand-protection/safeplace-services',
+        url: '/services/brand-protection/your-place',
       },
       {
         id: 3,

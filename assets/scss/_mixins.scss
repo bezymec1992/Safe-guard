@@ -1,9 +1,11 @@
-@mixin grid-gutter($gutter-width) {
-	margin-left: -$gutter-width/2;
-	margin-right: -$gutter-width/2;
+@use 'sass:math';
 
-	> [class^="col"] {
-		padding-left: $gutter-width/2;
-		padding-right: $gutter-width/2;
-	}
+@mixin grid-gutter($gutter-width) {
+  margin-left: math.div(-$gutter-width, 2);
+  margin-right: math.div(-$gutter-width, 2);
+
+  > [class^='col'] {
+    padding-left: calc($gutter-width / 2);
+    padding-right: calc($gutter-width / 2);
+  }
 }
