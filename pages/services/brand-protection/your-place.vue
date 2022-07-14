@@ -68,7 +68,11 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">We scan your team and check which problems it has</h3>
+          <h3 class="h2">
+            We scan your team <br />
+            and check which <br />
+            problems it has
+          </h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -114,7 +118,11 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
-          <h3 class="h2">Transform received results into clear metodology</h3>
+          <h3 class="h2">
+            Transform received <br />
+            results into clear <br />
+            metodology
+          </h3>
           <div class="text-holder">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -189,10 +197,13 @@
       <div class="inner-holder">
         <div class="container">
           <div class="row align-items-start">
-            <div class="col-lg-6">
-              <h2 class="h2">Awareness Program will help to understand</h2>
+            <div class="col-lg-7">
+              <h2 class="h2">
+                Awareness Program will help <br class="d-none d-md-block" />
+                to understand
+              </h2>
             </div>
-            <div class="col-lg-6 d-lg-flex justify-content-lg-end d-none">
+            <div class="col-lg-5 d-lg-flex justify-content-lg-end d-none">
               <nuxt-link to="/" class="btn btn-arrow">
                 Read more
                 <span class="arrow-wrapper">
@@ -347,7 +358,7 @@ export default {
         top: 50%;
         right: -30%;
         transform: translateY(-50%);
-        max-width: 95rem;
+        max-width: 107rem;
         width: 100%;
       }
 
@@ -385,7 +396,7 @@ export default {
 
     .inner-holder {
       width: 100%;
-      max-width: 120rem;
+      max-width: 124rem;
       margin: auto;
 
       @include media-breakpoint-up(md) {
@@ -404,6 +415,7 @@ export default {
 
     .h2 {
       margin-bottom: 4.8rem;
+      text-transform: unset;
     }
 
     ul {
@@ -412,6 +424,10 @@ export default {
       list-style: none;
       font-size: 3rem;
       line-height: 1.5;
+
+      @include media-breakpoint-up(xl) {
+        padding-right: 10rem;
+      }
 
       @include media-breakpoint-up(lg) {
         display: flex;

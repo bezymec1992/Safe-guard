@@ -225,6 +225,14 @@
         }
       }
     }
+
+    &.reverse {
+      .content-holder {
+        @include media-breakpoint-up(xl) {
+          padding-left: 2rem;
+        }
+      }
+    }
   }
 
   .quote-block {

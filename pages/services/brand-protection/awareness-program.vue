@@ -39,7 +39,7 @@
 
     <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2">
           What is an Awareness <br />
           Program?
         </h3>
@@ -64,7 +64,7 @@
         <div class="content-holder d-flex flex-grow-1">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">
+              <h3 class="h2">
                 What is an Awareness <br />
                 Program?
               </h3>
@@ -79,7 +79,7 @@
               </div>
             </div>
             <div class="text-row">
-              <h3 class="h2 text-capitalize">
+              <h3 class="h2">
                 Awareness Program helps to understand the root of a problem
               </h3>
               <div class="text-holder">
@@ -96,7 +96,7 @@
         </div>
       </div>
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2">
           Awareness Program helps to understand the root of a problem
         </h3>
         <div class="text-holder">
