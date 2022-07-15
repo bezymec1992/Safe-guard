@@ -100,9 +100,10 @@
                 <div
                   class="col-12 d-flex justify-content-center justify-content-md-start"
                 >
-                  <a href="#" class="btn btn-dark" @click.prevent="sendForm"
-                    >Send Message</a
-                  >
+                  <a href="#" class="btn btn-dark" @click.prevent="sendForm">
+                    <span v-if="loading" class="loading-dots">Loading</span>
+                    <span v-else>Send Message</span>
+                  </a>
                 </div>
               </div>
             </form>
@@ -169,6 +170,7 @@ export default {
       },
       popupSuccess: false,
       popupError: false,
+      loading: false,
     }
   },
   validations() {
@@ -192,13 +194,39 @@ export default {
       if (this.$v.form.$invalid) {
         return this.popupShowing('error')
       } else {
-        this.$v.$reset()
-        this.form.name = ''
-        this.form.email = ''
-        this.form.phone = ''
-        this.form.companyName = ''
-        this.form.textArea = ''
-        this.popupShowing('success')
+        const url = this.$config.apiURL + '/contact-us'
+        const formData = {
+          message: this.form.textArea,
+          email: this.form.email,
+          name: this.form.name,
+          company: this.form.companyName,
+          phone: this.$refs.telInput.results.formattedNumber,
+        }
+
+        try {
+          this.loading = true
+
+          const response = await fetch(url, {
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            method: 'POST',
+            body: JSON.stringify(formData),
+          })
+          await response.json()
+
+          console.log('form success')
+          this.$v.$reset()
+          this.form.name = ''
+          this.form.email = ''
+          this.form.phone = ''
+          this.form.companyName = ''
+          this.form.textArea = ''
+          this.loading = false
+          this.popupShowing('success')
+        } catch (error) {
+          console.error('error', error)
+        }
       }
     },
     popupShowing(status) {
@@ -228,8 +256,6 @@ export default {
       }
     },
     onPhoneInput() {
-      // console.log(this.$refs.telInput.results)
-
       this.form.phoneIsValid = this.$refs.telInput.results.isValid
     },
   },
@@ -246,6 +272,32 @@ export default {
     @include media-breakpoint-up(md) {
       max-width: 33rem;
     }
+  }
+}
+
+.loading-dots {
+  &::after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;
+  }
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: white;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%,
+  100% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
 </style>
