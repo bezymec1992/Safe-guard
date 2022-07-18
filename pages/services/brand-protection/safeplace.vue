@@ -198,7 +198,7 @@
           </p>
           <nuxt-link
             to="/services/brand-protection/your-place"
-            class="btn btn-dark"
+            class="btn btn-dark d-block"
             >About assessment</nuxt-link
           >
         </div>
@@ -256,7 +256,7 @@
           </p>
           <nuxt-link
             to="/services/brand-protection/awareness-program"
-            class="btn btn-dark"
+            class="btn btn-dark d-block"
             >Awareness program</nuxt-link
           >
         </div>
@@ -297,7 +297,7 @@
             </p>
             <nuxt-link
               to="/services/brand-protection/safeplace-software"
-              class="btn btn-dark"
+              class="btn btn-dark d-block"
               >Our software</nuxt-link
             >
           </div>
@@ -312,7 +312,7 @@
           </p>
           <nuxt-link
             to="/services/brand-protection/awareness-program"
-            class="btn btn-dark"
+            class="btn btn-dark d-block"
             >Our live program</nuxt-link
           >
         </div>
@@ -355,7 +355,7 @@
             </p>
             <nuxt-link
               to="/services/brand-protection/live-program"
-              class="btn btn-dark"
+              class="btn btn-dark d-block"
               >Our live program</nuxt-link
             >
           </div>
