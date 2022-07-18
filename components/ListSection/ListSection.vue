@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/ListSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/ListSection.js'
 
 export default {
   name: 'ListSection',
   mounted() {
-    gsapInit()
+    // gsapInit()
   },
 }
 </script>

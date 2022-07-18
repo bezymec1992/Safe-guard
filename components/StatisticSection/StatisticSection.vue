@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/StatisticSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/StatisticSection.js'
 
 export default {
   name: 'StatisticSection',
@@ -49,9 +49,9 @@ export default {
       ],
     }
   },
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

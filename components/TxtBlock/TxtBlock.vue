@@ -9,14 +9,13 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/TxtBlock.js'
+// import { gsapInit } from '@/helper/gsap-animations/TxtBlock.js'
 
 export default {
   name: 'TxtBlock',
-  mounted() {
-    gsapInit()
-  },
-  beforeDestroy() {},
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

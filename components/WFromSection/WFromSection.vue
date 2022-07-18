@@ -35,13 +35,13 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/WFromSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/WFromSection.js'
 
 export default {
   name: 'WFromSection',
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

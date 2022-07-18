@@ -48,9 +48,7 @@
           </div>
         </div>
         <div class="row g-0">
-            
           <div class="col-lg-6">
-            
             <nuxt-link to="/services/cyber-consultants">
               <div
                 class="gradient-block gradient-right d-md-flex justify-content-md-center"
@@ -209,12 +207,12 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/ServicesSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/ServicesSection.js'
 
 export default {
   name: 'ServicesSection',
   mounted() {
-    gsapInit()
+    // gsapInit()
   },
 }
 </script>

@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/WWSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/WWSection.js'
 
 export default {
   name: 'WWSection',
@@ -60,9 +60,9 @@ export default {
       ],
     }
   },
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

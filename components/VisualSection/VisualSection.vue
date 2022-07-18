@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/VisualSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/VisualSection.js'
 
 export default {
   name: 'TxtBlock',
@@ -24,7 +24,7 @@ export default {
     },
   },
   mounted() {
-    gsapInit()
+    // gsapInit()
   },
 }
 </script>

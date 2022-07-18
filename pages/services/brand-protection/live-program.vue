@@ -99,11 +99,11 @@
         <div class="img-holder">
           <picture>
             <source
-              srcset="@/assets/images/img-139.jpg"
+              srcset="@/assets/images/img-169.jpg"
               media="(min-width: 768px)"
               type="image/jpg"
             />
-            <img src="@/assets/images/img-140.jpg" class="lazyload" alt="#" />
+            <img src="@/assets/images/img-170.jpg" class="lazyload" alt="#" />
           </picture>
         </div>
       </div>
@@ -125,7 +125,20 @@
       </div>
     </txt-block>
 
-    <txt-block :class="'txt-block-1 style1 safe-style pt-0'">
+    <div class="full-img-section">
+      <div class="img-holder">
+        <picture>
+          <source
+            srcset="@/assets/images/img-167.jpg"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <img src="@/assets/images/img-168.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
         <h3 class="h2">Management</h3>
         <div class="text-holder">
@@ -317,6 +330,19 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 1.6rem;
+      }
+    }
+  }
+
+  .full-img-section {
+    max-width: 144rem;
+    width: 100%;
+    margin: auto;
+
+    .img-holder {
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }

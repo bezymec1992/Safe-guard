@@ -108,4 +108,12 @@
       }
     }
   }
+
+  &.row-items-center {
+    .row {
+      @include media-breakpoint-up(md) {
+        align-items: center;
+      }
+    }
+  }
 }

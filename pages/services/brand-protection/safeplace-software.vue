@@ -58,11 +58,11 @@
         <div class="img-holder">
           <picture>
             <source
-              srcset="@/assets/images/img-129.jpg"
+              srcset="@/assets/images/img-133.jpg"
               media="(min-width: 768px)"
               type="image/jpg"
             />
-            <img src="@/assets/images/img-146.jpg" class="lazyload" alt="#" />
+            <img src="@/assets/images/img-147.jpg" class="lazyload" alt="#" />
           </picture>
         </div>
       </div>
@@ -148,60 +148,7 @@
 
     <MoodSection />
 
-    <txt-block :class="'txt-block-1 style1 safe-style'">
-      <div class="col d-md-none">
-        <h3 class="h2">Anonymous chat</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="img-holder">
-          <picture>
-            <source
-              srcset="@/assets/images/img-133.jpg"
-              media="(min-width: 768px)"
-              type="image/jpg"
-            />
-            <img src="@/assets/images/img-147.jpg" class="lazyload" alt="#" />
-          </picture>
-        </div>
-      </div>
-      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
-          <h3 class="h2">Anonymous chat</h3>
-          <div class="text-holder">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col d-md-none mb-0">
-        <div class="text-holder">
-          <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
-          </p>
-        </div>
-
-        <!--          BUTTON          -->
-
-        <!-- <router-link to="/services/software" class="btn btn-dark"
-            >About awareness program</router-link
-          > -->
-      </div>
-    </txt-block>
-
-    <txt-block class="txt-block-2 style2 safe-style reverse pt-0">
+    <txt-block class="txt-block-2 style2 safe-style reverse">
       <div class="col d-md-none">
         <h3 class="h2">On- and Offline workshops</h3>
         <div class="text-holder">

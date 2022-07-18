@@ -1,8 +1,7 @@
 <template>
   <div class="mood-section">
     <div class="container">
-      <h2 class="title-m">Day mood check</h2>
-
+      <h2>Discover our app</h2>
       <div class="blocks-holder d-none d-lg-flex">
         <div
           v-for="(step, i) of steps"
@@ -30,7 +29,7 @@
         </div>
       </div>
 
-      <h2 class="h1">Day mood check</h2>
+      <h3 class="h1">Day mood check</h3>
       <p class="txt">
         Mood check will help you and also us to understand how do you feel
         during each period. It will also help to compare info before and after
@@ -41,10 +40,10 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import { gsap } from 'gsap'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
+// gsap.registerPlugin(ScrollTrigger)
 
 export default {
   name: 'MoodSection',
@@ -67,18 +66,18 @@ export default {
     }
   },
 
-  mounted() {
-    gsap.set('.blocks-holder .img', {
-      opacity: 0,
-      translateY: '20%',
-      duration: 0.5,
-      scale: 0.7,
-    })
-    ScrollTrigger.batch('.blocks-holder .img', {
-      onEnter: (batch) =>
-        gsap.to(batch, { opacity: 1, y: 0, stagger: 0.5, scale: 1 }),
-    })
-  },
+  // mounted() {
+  //   gsap.set('.blocks-holder .img', {
+  //     opacity: 0,
+  //     translateY: '20%',
+  //     duration: 0.5,
+  //     scale: 0.7,
+  //   })
+  //   ScrollTrigger.batch('.blocks-holder .img', {
+  //     onEnter: (batch) =>
+  //       gsap.to(batch, { opacity: 1, y: 0, stagger: 0.5, scale: 1 }),
+  //   })
+  // },
 
   // mounted() {
   //   for (let i = 0; i < this.steps.length; i++) {

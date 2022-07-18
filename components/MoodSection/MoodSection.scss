@@ -8,6 +8,18 @@
     padding-bottom: 2.3rem;
   }
 
+  h2 {
+    margin-bottom: 8rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 3.8rem;
+      font-size: 2.8rem;
+    }
+  }
+
   .inner-holder {
     position: relative;
   }

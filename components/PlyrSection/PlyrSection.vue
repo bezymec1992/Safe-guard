@@ -19,7 +19,7 @@
 // import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js' data-poster="poster.jpg"
 import 'vue-plyr/dist/vue-plyr.css'
 
-import { gsapInit } from '@/helper/gsap-animations/PlyrSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/PlyrSection.js'
 
 export default {
   name: 'PlyrSection',
@@ -30,8 +30,8 @@ export default {
       default: '',
     },
   },
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>

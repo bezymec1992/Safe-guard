@@ -53,11 +53,14 @@
       </div>
       <div class="col-md-6">
         <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-121.jpg"
-            class="lazyload"
-            alt="#"
-          />
+          <picture>
+            <source
+              srcset="@/assets/images/img-164.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-165.jpg" class="lazyload" alt="#" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column">
@@ -73,8 +76,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
                   nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex.
+                  gravida urna varius.
                 </p>
               </div>
             </div>
@@ -86,9 +88,7 @@
                 <p class="mb-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex.
+                  nec viverra.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@
       </p>
     </QuoteSection>
 
-    <ImgSection img="img-083.jpg" class="pb-0" />
+    <ImgSection img="img-166.jpg" class="pb-0" />
 
     <txt-block class="txt-block-1 style1 safe-style pb-0">
       <div class="col d-md-none">
@@ -258,7 +258,9 @@
             <li>Lorem ipsum dolor sit amet</li>
             <li>Phasellus vestibulum ac nisi nec</li>
           </ul>
-          <nuxt-link to="/" class="btn btn-dark"
+          <nuxt-link
+            to="/services/brand-protection/safeplace-software"
+            class="btn btn-dark"
             >About Safeplace Software</nuxt-link
           >
         </div>
@@ -268,7 +270,9 @@
           <li>Lorem ipsum dolor sit amet</li>
           <li>Phasellus vestibulum ac nisi nec</li>
         </ul>
-        <nuxt-link to="/" class="btn btn-dark d-block"
+        <nuxt-link
+          to="/services/brand-protection/safeplace-software"
+          class="btn btn-dark d-block"
           >About Safeplace Software</nuxt-link
         >
       </div>

@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/QuoteSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/QuoteSection.js'
 
 export default {
   name: 'QuoteSection',
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

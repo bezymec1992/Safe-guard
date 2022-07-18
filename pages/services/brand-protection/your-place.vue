@@ -7,8 +7,8 @@
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
           >
             <h1 class="h1">
-              How safe is <br />
-              your place?
+              Our <br class="d-md-none" />
+              workflow
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
@@ -58,11 +58,11 @@
         <div class="img-holder">
           <picture>
             <source
-              srcset="@/assets/images/img-115.jpg"
+              srcset="@/assets/images/img-160.jpg"
               media="(min-width: 768px)"
               type="image/jpg"
             />
-            <img src="@/assets/images/img-150.jpg" class="lazyload" alt="#" />
+            <img src="@/assets/images/img-161.jpg" class="lazyload" alt="#" />
           </picture>
         </div>
       </div>
@@ -144,9 +144,20 @@
       </div>
     </txt-block>
 
-    <ImgSection img="img-117.jpg" />
+    <div class="full-img-section">
+      <div class="img-holder">
+        <picture>
+          <source
+            srcset="@/assets/images/img-117.jpg"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <img src="@/assets/images/img-171.jpg" />
+        </picture>
+      </div>
+    </div>
 
-    <txt-block class="txt-block-1 style1 safe-style pt-0 pb-0">
+    <txt-block class="txt-block-1 style1 safe-style row-items-center">
       <div class="col d-md-none">
         <h3 class="h2">Create Awareness Program</h3>
         <div class="text-holder">
@@ -175,54 +186,48 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              viverra.
             </p>
+          </div>
+          <div class="additional-info">
+            <div class="additional-title">
+              <p>Awareness Program will help to understand</p>
+            </div>
+            <ul>
+              <li>Where did problems come from</li>
+              <li>How to improve your team</li>
+            </ul>
+            <nuxt-link
+              to="/services/brand-protection/awareness-program"
+              class="btn btn-arrow"
+            >
+              Read more
+              <span class="arrow-wrapper">
+                <span class="icon-holder">
+                  <img
+                    data-src="@/assets/images/icon-02.svg"
+                    class="lazyload"
+                    alt="#"
+                  />
+                </span>
+              </span>
+            </nuxt-link>
           </div>
         </div>
       </div>
       <div class="col d-md-none">
-        <div class="text-holder">
-          <p>
-            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
-            condimentum, eu gravida urna varius.
-          </p>
-        </div>
-      </div>
-    </txt-block>
-
-    <div class="block-section">
-      <div class="inner-holder">
-        <div class="container">
-          <div class="row align-items-start">
-            <div class="col-lg-7">
-              <h2 class="h2">
-                Awareness Program will help <br class="d-none d-md-block" />
-                to understand
-              </h2>
-            </div>
-            <div class="col-lg-5 d-lg-flex justify-content-lg-end d-none">
-              <nuxt-link to="/" class="btn btn-arrow">
-                Read more
-                <span class="arrow-wrapper">
-                  <span class="icon-holder">
-                    <img
-                      data-src="@/assets/images/icon-02.svg"
-                      class="lazyload"
-                      alt="#"
-                    />
-                  </span>
-                </span>
-              </nuxt-link>
-            </div>
+        <div class="additional-info">
+          <div class="additional-title">
+            <p>Awareness Program will help to understand</p>
           </div>
           <ul>
             <li>Where did problems come from</li>
             <li>How to improve your team</li>
           </ul>
-          <nuxt-link to="/" class="btn btn-arrow d-lg-none">
+          <nuxt-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-arrow"
+          >
             Read more
             <span class="arrow-wrapper">
               <span class="icon-holder">
@@ -236,7 +241,7 @@
           </nuxt-link>
         </div>
       </div>
-    </div>
+    </txt-block>
 
     <txt-block class="txt-block-2 style2 reverse safe-style pt-0">
       <div class="col d-md-none">
@@ -252,11 +257,11 @@
         <div class="img-holder">
           <picture>
             <source
-              srcset="@/assets/images/img-118.jpg"
+              srcset="@/assets/images/img-162.jpg"
               media="(min-width: 768px)"
               type="image/jpg"
             />
-            <img src="@/assets/images/img-153.jpg" class="lazyload" alt="#" />
+            <img src="@/assets/images/img-163.jpg" class="lazyload" alt="#" />
           </picture>
         </div>
       </div>
@@ -318,7 +323,6 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
-import ImgSection from '@/components/ImgSection/ImgSection'
 import QuoteSection from '@/components/QuoteSection/QuoteSection'
 import ContactSection from '@/components/ContactSection/ContactSection'
 
@@ -327,7 +331,6 @@ export default {
   components: {
     IntroSection,
     TxtBlock,
-    ImgSection,
     QuoteSection,
     ContactSection,
   },
@@ -368,6 +371,7 @@ export default {
         margin-right: -19rem;
         position: relative;
         right: -4rem;
+        margin-bottom: -4rem;
       }
 
       img {
@@ -385,85 +389,42 @@ export default {
     }
   }
 
-  .block-section {
-    padding-top: 10rem;
-    padding-bottom: 12rem;
+  .txt-block {
+    .additional-info {
+      .additional-title {
+        font-size: 2.8rem;
+        line-height: 1.3;
 
-    @include media-breakpoint-down(lg) {
-      padding-top: 6rem;
-      padding-bottom: 10rem;
-    }
-
-    .inner-holder {
-      width: 100%;
-      max-width: 124rem;
-      margin: auto;
-
-      @include media-breakpoint-up(md) {
-        padding-left: 3rem;
-        padding-right: 3rem;
-      }
-
-      @include media-breakpoint-up(lg) {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-        padding-left: 5.6rem;
-        padding-right: 5.6rem;
-        border: 0.1rem solid rgba($black, 0.4);
-      }
-    }
-
-    .h2 {
-      margin-bottom: 4.8rem;
-      text-transform: unset;
-    }
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      font-size: 3rem;
-      line-height: 1.5;
-
-      @include media-breakpoint-up(xl) {
-        padding-right: 10rem;
-      }
-
-      @include media-breakpoint-up(lg) {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      @include media-breakpoint-down(lg) {
-        margin-bottom: 4rem;
-      }
-
-      @include media-breakpoint-down(md) {
-        font-size: 2rem;
-      }
-
-      li {
-        position: relative;
-        padding-left: 3.5rem;
-
-        &:not(:last-child) {
-          @include media-breakpoint-down(lg) {
-            margin-bottom: 1.8rem;
-          }
+        @include media-breakpoint-down(md) {
+          font-weight: 500;
+          font-size: 2.4rem;
         }
 
-        &::before {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: 0;
-          transform: translateY(-50%);
-          width: 2.1rem;
-          height: 2.1rem;
-          background: url("data:image/svg+xml,%3Csvg width='18' height='20' viewBox='0 0 18 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.5 1.44338L16.1603 5.28868C16.4697 5.46731 16.6603 5.79743 16.6603 6.1547V13.8453C16.6603 14.2026 16.4697 14.5327 16.1603 14.7113L9.5 18.5566C9.1906 18.7353 8.8094 18.7353 8.5 18.5566L1.83975 14.7113C1.53034 14.5327 1.33975 14.2026 1.33975 13.8453V6.1547C1.33975 5.79743 1.53034 5.46731 1.83975 5.28868L8.5 1.44338C8.8094 1.26474 9.1906 1.26474 9.5 1.44338Z' stroke='black' stroke-width='2'/%3E%3C/svg%3E%0A");
-          background-size: 2rem;
-          background-repeat: no-repeat;
+        @include media-breakpoint-up(md) {
+          margin-top: 3rem;
+          margin-bottom: -2rem;
         }
+      }
+
+      ul {
+        margin-bottom: 2.4rem;
+
+        @include media-breakpoint-down(md) {
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+
+  .full-img-section {
+    max-width: 124rem;
+    width: 100%;
+    margin: auto;
+
+    .img-holder {
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }

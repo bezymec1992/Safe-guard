@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/TrustedSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/TrustedSection.js'
 
 export default {
   name: 'TrustedSection',
@@ -62,9 +62,9 @@ export default {
       ],
     }
   },
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

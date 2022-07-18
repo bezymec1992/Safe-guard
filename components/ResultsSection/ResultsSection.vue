@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import { gsapInit } from '@/helper/gsap-animations/ResultsSection.js'
+// import { gsapInit } from '@/helper/gsap-animations/ResultsSection.js'
 
 export default {
   name: 'ResultsSection',
@@ -99,9 +99,9 @@ export default {
       ],
     }
   },
-  mounted() {
-    gsapInit()
-  },
+  // mounted() {
+  //   gsapInit()
+  // },
 }
 </script>
 

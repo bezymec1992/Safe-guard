@@ -115,7 +115,7 @@
     <div class="quote-block">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-9">
             <div class="title-holder">
               <div class="icon-holder">
                 <img src="@/assets/images/icon-010.svg" alt="icon quote" />
@@ -123,15 +123,6 @@
               <h2 class="h2">
                 What have we seen while working with different companies
               </h2>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="text-holder">
-              <p>
-                Lorem ipsum imperdiet nibh. Phasellus vestibulum ac nisi nec
-                viverra. In posuere massa sed magna condimentum, eu gravida
-                bulum posuere.
-              </p>
             </div>
           </div>
         </div>
@@ -151,7 +142,7 @@
 
     <div class="single-title">
       <div class="container">
-        <h2 class="h2">what can we offer</h2>
+        <h2 class="h2">what do we offer</h2>
       </div>
     </div>
 
@@ -190,7 +181,9 @@
               Suspendisse vitae imperdiet nib
             </p>
 
-            <nuxt-link to="/services/training" class="btn btn-dark"
+            <nuxt-link
+              to="/services/brand-protection/your-place"
+              class="btn btn-dark"
               >About assessment</nuxt-link
             >
           </div>
@@ -203,7 +196,9 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark d-block"
+          <nuxt-link
+            to="/services/brand-protection/your-place"
+            class="btn btn-dark"
             >About assessment</nuxt-link
           >
         </div>
@@ -244,7 +239,9 @@
               varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
               ex.
             </p>
-            <nuxt-link to="/services/training" class="btn btn-dark"
+            <nuxt-link
+              to="/services/brand-protection/awareness-program"
+              class="btn btn-dark"
               >Awareness program</nuxt-link
             >
           </div>
@@ -257,7 +254,9 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark d-block"
+          <nuxt-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-dark"
             >Awareness program</nuxt-link
           >
         </div>
@@ -296,7 +295,9 @@
               Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
               viverra. In posuere
             </p>
-            <nuxt-link to="/services/training" class="btn btn-dark"
+            <nuxt-link
+              to="/services/brand-protection/safeplace-software"
+              class="btn btn-dark"
               >Our software</nuxt-link
             >
           </div>
@@ -309,8 +310,68 @@
             vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
-          <nuxt-link to="/services/training" class="btn btn-dark d-block"
-            >Our software</nuxt-link
+          <nuxt-link
+            to="/services/brand-protection/awareness-program"
+            class="btn btn-dark"
+            >Our live program</nuxt-link
+          >
+        </div>
+      </div>
+    </txt-block>
+
+    <txt-block class="txt-block-2 style2 reverse safe-style pt-0">
+      <div class="col d-md-none">
+        <h3 class="h2">Live program</h3>
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 image">
+        <div class="img-holder">
+          <picture>
+            <source
+              srcset="@/assets/images/img-159.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img src="@/assets/images/img-159.jpg" class="lazyload" alt="#" />
+          </picture>
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder">
+          <h3 class="h2">Live program</h3>
+          <div class="text-holder">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
+              viverra. In posuere massa sed magna condimentum, eu gravida urna
+              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
+              ex.
+            </p>
+            <nuxt-link
+              to="/services/brand-protection/live-program"
+              class="btn btn-dark"
+              >Our live program</nuxt-link
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
+            posuere massa sed magna condimentum, eu gravida urna varius.
+          </p>
+          <nuxt-link
+            to="/services/brand-protection/live-program"
+            class="btn btn-dark d-block"
+            >Our live program</nuxt-link
           >
         </div>
       </div>
@@ -423,10 +484,6 @@ export default {
         @include media-breakpoint-up(lg) {
           margin-bottom: 8.6rem;
         }
-
-        @include media-breakpoint-up(md) {
-          max-width: 66.7rem;
-        }
       }
 
       .icon-holder {
@@ -437,6 +494,7 @@ export default {
         @include media-breakpoint-down(md) {
           width: 2.4rem;
           min-width: 2.4rem;
+          margin-bottom: 1rem;
         }
 
         img {
