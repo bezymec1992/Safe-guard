@@ -60,8 +60,6 @@
           alt="safeguard"
         />
       </nuxt-link>
-      <!-- </strong> -->
-      <strong class="logo"> </strong>
 
       <nav class="main-nav">
         <ul v-if="safePlace" class="main-menu safeplace">

@@ -2,7 +2,7 @@
   <div class="form-group" :class="{ error: errorShowing }">
     <div class="form-holder">
       <label>
-        <span class="label" v-if="label">{{ label }}</span>
+        <span v-if="label" class="label">{{ label }}</span>
         <VuePhoneNumberInput
           :value="value"
           :border-radius="4"
@@ -145,6 +145,15 @@ export default {
     input {
       border-color: rgba($black, 0.2) !important;
     }
+  }
+
+  .country-selector__country-flag {
+    top: 2.6rem;
+    left: 1.4rem;
+  }
+
+  .country-selector__toggle {
+    top: 1.7rem;
   }
 
   .country-selector__label {

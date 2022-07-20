@@ -109,12 +109,13 @@ export default {
     ContactSection,
   },
   head: {
-    title: 'Home page',
+    title: 'SafeGuard - Home page',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Home page description',
+        content:
+          'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
       },
     ],
   },
