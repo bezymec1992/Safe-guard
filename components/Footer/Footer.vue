@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <strong class="logo">
+          <div class="logo">
             <router-link to="/">
               <img
                 data-src="@/assets/images/logo-white.svg"
@@ -11,7 +11,7 @@
                 alt="SafeGuard"
               />
             </router-link>
-          </strong>
+          </div>
           <div class="text-holder">
             <p>
               We are specialist protecting your assets and reputation to make

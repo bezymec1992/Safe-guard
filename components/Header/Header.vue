@@ -4,11 +4,6 @@
       <!-- <strong  class="logo"> -->
       <div v-if="safePlace" class="logo">
         <nuxt-link to="/services/brand-protection/safeplace" @click="closeMenu">
-          <!-- <img
-            data-src="@/assets/images/logo-2.png"
-            class="lazyload"
-            alt="safeguard"
-          /> -->
           <svg
             width="194"
             height="42"
@@ -88,7 +83,7 @@
       <nav class="additional-nav" :class="{ open: menuOpen }">
         <div class="container">
           <div class="nav-top">
-            <strong v-if="safePlace" class="logo">
+            <div v-if="safePlace" class="logo">
               <nuxt-link to="/">
                 <img
                   data-src="@/assets/images/logo-2.png"
@@ -96,8 +91,8 @@
                   alt="safeguard"
                 />
               </nuxt-link>
-            </strong>
-            <strong v-else class="logo">
+            </div>
+            <div v-else class="logo">
               <nuxt-link v-if="safePlace" to="/">
                 <img
                   data-src="@/assets/images/logo-2.png"
@@ -113,7 +108,7 @@
                   alt="safeguard"
                 />
               </nuxt-link>
-            </strong>
+            </div>
             <a
               class="open-menu d-block d-lg-none"
               href="#"
