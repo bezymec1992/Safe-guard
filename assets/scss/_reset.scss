@@ -168,10 +168,10 @@ h3 {
   }
 }
 
-// .lazyLoad {
-//   opacity: 0;
+.lazyLoad {
+  opacity: 0;
+}
 
-//   &.isLoaded {
-//     opacity: 1;
-//   }
-// }
+.lazyloaded {
+  opacity: 1;
+}

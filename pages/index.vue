@@ -20,16 +20,19 @@
           >
             <div class="img-holder">
               <img
+                src="#"
                 data-src="@/assets/images/img-062.png"
                 class="helm lazyload"
                 alt="img description"
               />
               <img
+                src="#"
                 data-src="@/assets/images/img-063.png"
                 class="earth lazyload"
                 alt="img description"
               />
               <img
+                src="#"
                 data-src="@/assets/images/img-064.png"
                 class="info lazyload"
                 alt="img description"
@@ -41,12 +44,14 @@
       <div class="scroll-down d-none d-md-flex">
         <a href="#" @click.prevent="scrollToNextSection()">
           <img
+            src="#"
             data-src="@/assets/images/icon-01.svg"
             class="lazyload"
             alt="#"
           />
           <span class="arrow-down"
             ><img
+              src="#"
               data-src="@/assets/images/icon-03.svg"
               class="lazyload"
               alt="#"
@@ -58,7 +63,7 @@
     <txt-block :class="'txt-block-1'">
       <div class="col-md-5">
         <div class="img-holder">
-          <img src="@/assets/images/img-02.jpg" alt="#" />
+          <img data-src="@/assets/images/img-02.jpg" class="lazyload" alt="#" />
         </div>
       </div>
       <div class="col-md-7 d-flex flex-column justify-content-center we-are">

@@ -12,12 +12,8 @@
 
 <script>
 export default {
-  props: {
-    error: {
-      type: Object,
-      default: null,
-    },
-  },
+  props: ['error'],
+  layout: 'default',
 }
 </script>
 

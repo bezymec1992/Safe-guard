@@ -48,14 +48,16 @@
           </svg>
         </nuxt-link>
       </div>
-      <nuxt-link v-else to="/" @click="closeMenu">
-        <img
-          data-src="@/assets/images/logo.svg"
-          class="lazyload"
-          alt="safeguard"
-        />
-      </nuxt-link>
-
+      <div v-else class="logo">
+        <nuxt-link to="/" @click="closeMenu">
+          <img
+            data-src="@/assets/images/logo.svg"
+            src="#"
+            class="lazyload"
+            alt="safeguard"
+          />
+        </nuxt-link>
+      </div>
       <nav class="main-nav">
         <ul v-if="safePlace" class="main-menu safeplace">
           <li v-for="item in desktopSafeLinks" :key="item.id">

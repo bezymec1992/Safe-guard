@@ -21,12 +21,12 @@
       display: inline-flex;
       max-width: 19.4rem;
 
-      &:hover {
-        opacity: 0.6;
-      }
-
       @include media-breakpoint-down(md) {
         max-width: 16rem;
+      }
+
+      &:hover {
+        opacity: 0.6;
       }
     }
 
@@ -226,7 +226,7 @@
       width: 100%;
       border-bottom: 0.3rem solid;
       height: 0;
-      transition: $transition;
+      transition: auto;
 
       &:nth-child(1) {
         margin-top: -0.5rem;
