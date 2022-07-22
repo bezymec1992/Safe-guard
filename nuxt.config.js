@@ -60,27 +60,27 @@ export default {
   ],
 
 
-  lazySizes: {
-    extendAssetUrls: {
-      img: ['src', 'srcset', 'data-src', 'data-srcset'],
-      source: ['src', 'srcset', 'data-src', 'data-srcset'],
-    },
-  },
-
-
   // lazySizes: {
   //   extendAssetUrls: {
   //     img: ['src', 'srcset', 'data-src', 'data-srcset'],
   //     source: ['src', 'srcset', 'data-src', 'data-srcset'],
-
-  //     // Example for a custom component
-  //     AppImage: ['source-md-url', 'image-url'],
   //   },
-  //   throttleDelay: 100,
-  //   ricTimeout: 400,
-  //   preloadAfterLoad: false,
-  //   loadMode: 1,
   // },
+
+
+  lazySizes: {
+    extendAssetUrls: {
+      img: ['src', 'srcset', 'data-src', 'data-srcset'],
+      source: ['src', 'srcset', 'data-src', 'data-srcset'],
+
+      // Example for a custom component
+      AppImage: ['source-md-url', 'image-url'],
+    },
+    throttleDelay: 100,
+    ricTimeout: 400,
+    preloadAfterLoad: false,
+    loadMode: 1,
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

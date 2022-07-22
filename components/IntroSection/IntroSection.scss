@@ -1,135 +1,132 @@
 .intro-section {
-	padding-top: 14.2rem;
-	padding-bottom: 6.4rem;
-	background: $celery;
-	@include media-breakpoint-down(md) {
-		min-height: 90vh;
-		padding-top: 11.2rem;
-		padding-bottom: 3.4rem;
-	}
+  padding-top: 14.2rem;
+  padding-bottom: 6.4rem;
+  background: $celery;
+  @include media-breakpoint-down(md) {
+    min-height: 90vh;
+    padding-top: 11.2rem;
+    padding-bottom: 3.4rem;
+  }
 
-	.container {
-		display: flex;
-		flex-direction: column;
-		
-		@include media-breakpoint-up(md) {
-			min-height: 65vh;
-		}
-	}
-	.row {
-		flex: 1;
-	}
+  .container {
+    display: flex;
+    flex-direction: column;
 
-	.back-link {
-		display: inline-flex;
-		align-items: center;
-		margin-bottom: 5.5rem;
-		font-size: 1.8rem;
-		line-height: 1;
+    @include media-breakpoint-up(md) {
+      min-height: 65vh;
+    }
+  }
+  .row {
+    flex: 1;
+  }
 
-		&:hover {
-			.icon-holder {
-				transform: translateX(-0.5rem);
-			}
-		}
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5.5rem;
+    font-size: 1.8rem;
+    line-height: 1;
 
-		.icon-holder {
-			display: inline-flex;
-			max-width: 1.6rem;
-			margin-right: 1rem;
-			transition: $transition;
+    &:hover {
+      .icon-holder {
+        transform: translateX(-0.5rem);
+      }
+    }
 
-			img {
-				width: 100%;
-				height: auto;
-			}
-		}
-		@include media-breakpoint-down(md) {
-			margin-bottom: 4.5rem;
-		}
-	}
+    .icon-holder {
+      display: inline-flex;
+      max-width: 1.6rem;
+      margin-right: 1rem;
+      transition: $transition;
 
-	.text-holder {
-		position: relative;
-		z-index: 4;
-		font-size: 1.8rem;
-		line-height: 1.6;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      margin-bottom: 4.5rem;
+    }
+  }
 
-		@include media-breakpoint-up(md) {
-			max-width: 46.4rem;
-		}
-		@include media-breakpoint-down(md) {
-			// bottom: 18rem;
-		}
-	
-	}
+  .text-holder {
+    position: relative;
+    z-index: 4;
+    font-size: 1.8rem;
+    line-height: 1.6;
 
-	.balloon-p-txt {
-		// position: relative;
-		display: block;
-	  }
+    @include media-breakpoint-up(md) {
+      max-width: 46.4rem;
+    }
+    @include media-breakpoint-down(md) {
+      // bottom: 18rem;
+    }
+  }
 
-	.h1 {
-		margin-bottom: 5rem;
-		z-index: 10;
-	}
+  .balloon-p-txt {
+    // position: relative;
+    display: block;
+  }
 
-	.img-holder {
-	
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
+  .h1 {
+    margin-bottom: 5rem;
+    z-index: 10;
+  }
 
-	.scroll-down {
-		display: none;
+  .img-holder {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 
-		a {
-			position: relative;
-			display: inline-flex;
-			flex-direction: column;
-			max-width: 2.5rem;
+  .scroll-down {
+    display: none;
 
-			&:hover {
-				.arrow-down {
-					animation-play-state: paused;
-				}
-			}
+    a {
+      position: relative;
+      display: inline-flex;
+      flex-direction: column;
+      max-width: 2.5rem;
 
-			.arrow-down {
-				position: absolute;
-				display: flex;
-				bottom: -2.2rem;
-				animation: jumpInfinite 2s infinite;
+      &:hover {
+        .arrow-down {
+          animation-play-state: paused;
+        }
+      }
 
-				@keyframes jumpInfinite {
-					0% {
-						transform: translateY(0);
-						opacity: 0;
-					}
-					50% {
-						opacity: 1;
-					}
-					100% {
-						transform: translateY(1rem);
-						opacity: 0;
-					}
-				}
-			}
+      .arrow-down {
+        position: absolute;
+        display: flex;
+        bottom: -2.2rem;
+        animation: jumpInfinite 2s infinite;
 
-			img {
-				width: 100%;
-				height: auto;
-			}
-		}
-	}
+        @keyframes jumpInfinite {
+          0% {
+            transform: translateY(0);
+            opacity: 0;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            transform: translateY(1rem);
+            opacity: 0;
+          }
+        }
+      }
 
-	&.with-scroll {
-		
-		.scroll-down {
-			display: flex;
-			justify-content: center;
-		}
-	}
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &.with-scroll {
+    .scroll-down {
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

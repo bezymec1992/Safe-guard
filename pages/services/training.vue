@@ -144,7 +144,7 @@
         </div>
       </div>
     </txt-block>
-    <visual-section class="visual">
+    <!-- <visual-section class="visual">
       <div class="row">
         <div class="col-md-6 d-flex align-items-md-center">
           <div class="content-holder">
@@ -170,6 +170,19 @@
           </div>
         </div>
       </div>
+    </visual-section> -->
+    <visual-section class="visual-video">
+      <video
+        src="@/assets/videos/video-02.mp4"
+        poster="@/assets/videos/poster-02.jpg"
+        muted
+        loop
+        autoplay
+      >
+        Sorry, your browser doesn't support embedded videos, but don't worry,
+        you can <a href="videofile.ogg">download it</a>
+        and watch it with your favorite video player!
+      </video>
     </visual-section>
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
@@ -317,11 +330,37 @@ export default {
     }
   }
 }
-.visual {
-  overflow: hidden;
+// .visual {
+//   overflow: hidden;
 
-  .img-holder {
-    margin: 0 -3rem 0 -7rem;
+//   .img-holder {
+//     margin: 0 -3rem 0 -7rem;
+//   }
+// }
+
+.visual-video {
+  position: relative;
+  padding-bottom: 46.8%;
+
+  @include media-breakpoint-down(lg) {
+    padding-bottom: 75%;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 95%;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 120%;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 </style>

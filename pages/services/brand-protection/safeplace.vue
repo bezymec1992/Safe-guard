@@ -334,8 +334,8 @@
         <div class="img-holder">
           <picture>
             <source
-              srcset="@/assets/images/img-159.jpg"
-              media="(min-width: 768px)"
+              srcset="@/assets/images/img-172.jpg"
+              media="(max-width: 768px)"
               type="image/jpg"
             />
             <img src="@/assets/images/img-159.jpg" class="lazyload" alt="#" />
@@ -445,11 +445,48 @@ export default {
 
     @include media-breakpoint-down(md) {
       display: flex;
-      min-height: 95vh;
+      min-height: 90vh;
       background: url('@/assets/images/img-114.jpg');
       background-position: 100% 44%;
       background-size: cover;
       background-repeat: no-repeat;
+    }
+
+    &::before {
+      @include media-breakpoint-up(md) {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 16.5rem;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    }
+
+    &::after {
+      @include media-breakpoint-up(md) {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80rem;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.3) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
     }
 
     .h1 {

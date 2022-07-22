@@ -68,7 +68,6 @@ export default {
     @include media-breakpoint-down(md) {
       position: relative;
       background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);
-      min-height: 100vh;
     }
 
     .h1 {

@@ -3,7 +3,11 @@
     <client-only>
       <div class="container">
         <vue-plyr>
-          <video crossorigin playsinline>
+          <video
+            crossorigin
+            playsinline
+            :data-poster="require('@/assets/images/img-048.jpg')"
+          >
             <source
               :src="require(`@/assets/videos/${fileName}`)"
               type="video/mp4"
@@ -19,8 +23,6 @@
 // import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js' data-poster="poster.jpg"
 import 'vue-plyr/dist/vue-plyr.css'
 
-// import { gsapInit } from '@/helper/gsap-animations/PlyrSection.js'
-
 export default {
   name: 'PlyrSection',
   props: {
@@ -30,8 +32,21 @@ export default {
       default: '',
     },
   },
-  // mounted() {
-  //   gsapInit()
-  // },
 }
 </script>
+
+<style lang="scss">
+.plyr-holder {
+  .plyr {
+    min-height: 40rem;
+  }
+
+  .plyr__video-wrapper {
+    position: unset;
+  }
+
+  .plyr__poster {
+    background-size: cover;
+  }
+}
+</style>

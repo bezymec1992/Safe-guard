@@ -10,20 +10,18 @@
                 class="gradient-block gradient-left d-md-flex justify-content-md-center"
               >
                 <div class="punching-bag">
-                  <img
-                    data-src="@/assets/images/img-03.png"
-                    class="lazyload d-none d-lg-block"
-                    alt="#"
-                  />
-                  <img
-                    data-src="@/assets/images/img-018.png"
-                    class="lazyload d-lg-none"
-                    alt="#"
-                  />
+                  <picture>
+                    <source
+                      data-srcset="@/assets/images/img-018.png"
+                      media="(max-width: 992px)"
+                    />
+                    <img
+                      data-src="@/assets/images/img-03.png"
+                      alt="Training and Implementation"
+                      class="lazyload"
+                    />
+                  </picture>
                 </div>
-                <!-- <div class="punching-bag-mobile">
-                  
-                </div> -->
               </div>
             </nuxt-link>
           </div>
@@ -55,22 +53,17 @@
               >
                 <div class="phone-wrapper">
                   <div class="phone-holder">
-                    <img
-                      data-src="@/assets/images/img-075.png"
-                      class="desktop lazyload"
-                      alt="#"
-                    />
-                    <img
-                      data-src="@/assets/images/img-076.png"
-                      class="mobile lazyload"
-                      alt="#"
-                    />
-                    <!-- <div class="msg-holder msg-1">
-                      <img data-src="@/assets/images/img-060.png" alt="#" />
-                    </div>
-                    <div class="msg-holder msg-2">
-                      <img data-src="@/assets/images/img-061.png" alt="#" />
-                    </div> -->
+                    <picture>
+                      <source
+                        data-srcset="@/assets/images/img-076.png"
+                        media="(max-width: 992px)"
+                      />
+                      <img
+                        data-src="@/assets/images/img-075.png"
+                        alt="Cyber Consultants"
+                        class="lazyload"
+                      />
+                    </picture>
                   </div>
                 </div>
               </div>
@@ -104,22 +97,17 @@
               >
                 <div class="building-wrapper">
                   <div class="building-holder">
-                    <img
-                      data-src="@/assets/images/img-077.png"
-                      class="lazyload d-none d-lg-block"
-                      alt="#"
-                    />
-                    <img
-                      data-src="@/assets/images/img-078.png"
-                      class="lazyload d-lg-none"
-                      alt="#"
-                    />
-                    <!-- <div class="cloud-holder hld-1">
-                      <img data-src="@/assets/images/img-08.png" alt="#" />
-                    </div>
-                    <div class="cloud-holder hld-2">
-                      <img data-src="@/assets/images/img-09.png" alt="#" />
-                    </div> -->
+                    <picture>
+                      <source
+                        data-srcset="@/assets/images/img-078.png"
+                        media="(max-width: 992px)"
+                      />
+                      <img
+                        data-src="@/assets/images/img-077.png"
+                        alt="Consultancy and Brand Protection"
+                        class="lazyload"
+                      />
+                    </picture>
                   </div>
                 </div>
               </div>
@@ -129,8 +117,8 @@
             <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
-                Consultancy & <br />
-                Brand Protection
+                Consultancy <br />
+                & Brand Protection
               </h3>
               <div class="text-holder">
                 <p>
@@ -154,21 +142,14 @@
                 <div class="imac-wrapper">
                   <div class="imac-holder">
                     <img
+                      src="#"
                       data-src="@/assets/images/img-079.png"
                       class="lazyload"
                       alt="#"
                     />
-
-                    <!-- <div class="iphone-holder hld-1">
-                      <img data-src="@/assets/images/img-011.png" alt="#" />
-                    </div>
-                    <div class="iphone-holder hld-2">
-                      <img data-src="@/assets/images/img-012.png" alt="#" />
-                    </div> -->
                   </div>
-                </div>
-              </div></nuxt-link
-            >
+                </div></div
+            ></nuxt-link>
           </div>
           <div class="col-lg-6 col-txt">
             <div class="content-holder">
@@ -207,13 +188,8 @@
 </template>
 
 <script>
-// import { gsapInit } from '@/helper/gsap-animations/ServicesSection.js'
-
 export default {
   name: 'ServicesSection',
-  mounted() {
-    // gsapInit()
-  },
 }
 </script>
 

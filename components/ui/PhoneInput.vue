@@ -150,10 +150,18 @@ export default {
   .country-selector__country-flag {
     top: 2.6rem;
     left: 1.4rem;
+
+    @include media-breakpoint-down(md) {
+      top: 1.9rem;
+    }
   }
 
   .country-selector__toggle {
     top: 1.7rem;
+
+    @include media-breakpoint-down(md) {
+      top: 1rem;
+    }
   }
 
   .country-selector__label {

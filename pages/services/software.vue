@@ -4,11 +4,7 @@
       <div class="container">
         <router-link to="/services" class="back-link">
           <span class="icon-holder">
-            <img
-              data-src="@/assets/images/img-017.svg"
-              class="lazyload"
-              alt="#"
-            />
+            <img src="@/assets/images/img-017.svg" alt="#" />
           </span>
           Back</router-link
         >
@@ -28,34 +24,18 @@
             class="col-md-6 d-flex align-items-md-center flex-md-row flex-column justify-content-center justify-content-md-end"
           >
             <div class="imac-holder intro-pic">
-              <img
-                data-src="@/assets/images/img-067.png"
-                class="lazyload mac-off"
-                alt="#"
-              />
-              <img
-                data-src="@/assets/images/img-068.png"
-                class="lazyload mac-on"
-                alt="#"
-              />
+              <img src="@/assets/images/img-067.png" class="mac-off" alt="#" />
+              <img src="@/assets/images/img-068.png" class="mac-on" alt="#" />
               <div class="iphone-holder hld-1">
-                <img
-                  data-src="@/assets/images/img-034.png"
-                  class="lazyload"
-                  alt="#"
-                />
+                <img src="@/assets/images/img-034.png" alt="#" />
               </div>
               <div class="iphone-holder hld-2">
-                <img
-                  data-src="@/assets/images/img-035.png"
-                  class="lazyload"
-                  alt="#"
-                />
+                <img src="@/assets/images/img-035.png" alt="#" />
               </div>
             </div>
 
             <h1 class="h1 mbl">Software</h1>
-            <div class="text-holder mobile mt-auto">
+            <div class="text-holder mobile">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
@@ -239,12 +219,14 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-097.png"
-            class="lazyload"
-            alt="#"
-          />
+        <div class="img-holder macbook-img">
+          <picture>
+            <source
+              srcset="@/assets/images/img-173.png"
+              media="(max-width: 768px)"
+            />
+            <img src="@/assets/images/img-097.png" alt="Organize tasks" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -288,12 +270,14 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="img-holder">
-          <img
-            data-src="@/assets/images/img-098.png"
-            class="lazyload"
-            alt="#"
-          />
+        <div class="img-holder mac-tablet">
+          <picture>
+            <source
+              srcset="@/assets/images/img-174.png"
+              media="(max-width: 768px)"
+            />
+            <img src="@/assets/images/img-098.png" alt="Organize tasks" />
+          </picture>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -368,9 +352,19 @@ export default {
   }
 
   .intro-pic {
-    min-width: 66.8rem;
     right: -8rem;
     bottom: 8.5rem;
+
+    @include media-breakpoint-up(lg) {
+      // width: 100%;
+      max-width: 66.8rem;
+      margin-left: -5rem;
+    }
+
+    @include media-breakpoint-down(lg) {
+      bottom: 0;
+    }
+
     @include media-breakpoint-down(xl) {
       right: 0;
     }
@@ -379,16 +373,10 @@ export default {
     // margin-top: 20rem;
     z-index: 1000;
     @include media-breakpoint-down(lg) {
-      margin-top: 56rem;
+      // margin-top: 56rem;
     }
     @include media-breakpoint-down(md) {
       display: none;
-    }
-  }
-
-  .text-holder {
-    @include media-breakpoint-down(md) {
-      bottom: 7rem;
     }
   }
 }
@@ -401,16 +389,16 @@ export default {
     display: block;
   }
 }
-.services-project .intro-section .imac-holder {
-  @include media-breakpoint-down(md) {
-    margin-top: 10rem;
-  }
-}
+
 .computers {
   .img-holder {
     margin-left: -9rem;
     @include media-breakpoint-down(lg) {
       margin-left: 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-left: -2.2rem;
     }
   }
 
@@ -419,9 +407,25 @@ export default {
   }
 }
 
+.macbook-img {
+  @include media-breakpoint-down(sm) {
+    margin-top: -2rem;
+    margin-right: -2.2rem;
+  }
+}
+
 .computers-2 {
+  @include media-breakpoint-down(sm) {
+    overflow: hidden;
+  }
+
   .img-holder {
     margin-right: -1rem;
+
+    @include media-breakpoint-down(sm) {
+      margin-right: -4rem;
+      margin-left: -1.4rem;
+    }
   }
   .content-holder {
     padding-left: 0;
@@ -430,6 +434,7 @@ export default {
     max-width: 47rem;
   }
 }
+
 .img-pos1 {
   position: relative;
   overflow: hidden;

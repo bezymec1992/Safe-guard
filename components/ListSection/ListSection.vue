@@ -40,11 +40,17 @@ export default {
     @include media-breakpoint-down(xl) {
       max-width: 96rem;
     }
+
+    // @include media-breakpoint-down(sm) {
+    //   padding-right: 1rem;
+    // }
+
     li {
       font-size: 1.8rem;
       @include media-breakpoint-down(md) {
         font-size: 1.4rem;
       }
+
       &:first-child {
         max-width: 44.7rem;
         @include media-breakpoint-down(lg) {

@@ -139,7 +139,7 @@ h3 {
   z-index: 10;
 
   @include media-breakpoint-down(md) {
-    right: 0rem;
+    right: 2rem;
     bottom: 4rem;
     width: 4rem;
     height: 4rem;
@@ -168,10 +168,24 @@ h3 {
   }
 }
 
-.lazyLoad {
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
+}
+.page-enter,
+.page-leave-active {
   opacity: 0;
 }
 
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
 .lazyloaded {
   opacity: 1;
+  transition: opacity 300ms;
+}
+
+img.lazyload:not([src]) {
+  visibility: hidden;
 }

@@ -19,6 +19,16 @@
           </div>
           <div class="col-md-4">
             <div class="img-holder">
+              <!-- <picture>
+                <source
+                  srcset="@/assets/images/img-175.png"
+                  media="(max-width: 575px)"
+                />
+                <img
+                  src="@/assets/images/img-127.png"
+                  alt="Safe place for everyone"
+                />
+              </picture> -->
               <img
                 src="@/assets/images/img-127.png"
                 alt="Safe place for everyone"
@@ -372,6 +382,14 @@ export default {
         position: relative;
         right: -4rem;
         margin-bottom: -4rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        margin-top: -10rem;
+        margin-left: -21rem;
+        margin-right: -26rem;
+        right: -14.5rem;
+        margin-bottom: -7rem;
       }
 
       img {

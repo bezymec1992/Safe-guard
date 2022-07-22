@@ -419,10 +419,17 @@ export default {
       }
 
       @include media-breakpoint-down(md) {
-        margin-top: -8rem;
+        margin-top: -15rem;
         margin-right: -8rem;
-        margin-left: -19rem;
-        margin-bottom: 3rem;
+        margin-left: -22rem;
+        margin-bottom: -1rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        margin-top: -14rem;
+        margin-right: -4rem;
+        margin-left: -14rem;
+        margin-bottom: -1rem;
       }
 
       img {

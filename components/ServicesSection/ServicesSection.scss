@@ -1,6 +1,6 @@
 .services-section {
   overflow: hidden;
-//  position: relative;
+  //  position: relative;
 
   .h1 {
     margin-bottom: 10rem;
@@ -26,7 +26,13 @@
       margin-bottom: 20rem;
 
       @include media-breakpoint-down(lg) {
-        margin-bottom: 4rem;
+        margin-bottom: 10rem;
+      }
+    }
+
+    &:last-child {
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 12rem;
       }
     }
 
@@ -62,8 +68,7 @@
         rgba(68, 98, 129, 0) 103.99%
       );
       // background: linear-gradient(right to left #5D90C6 100% #446281 0%);
-       @include
-        media-breakpoint-up(lg) {
+      @include media-breakpoint-up(lg) {
         min-height: 40rem;
         max-height: 40rem;
 
@@ -96,7 +101,6 @@
     .h2 {
       margin-bottom: 5.4rem;
     }
-
 
     .punching-bag {
       max-width: 40rem;
@@ -133,14 +137,13 @@
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        max-width: 32.7rem;
+        max-width: 29rem;
         width: 90%;
       }
       @include media-breakpoint-down(md) {
         top: 55%;
         left: 50%;
       }
-
 
       img {
         &.desktop {
@@ -238,6 +241,7 @@
         top: 50%;
         right: -12rem;
         transform: translateY(-50%);
+        padding-left: 2rem;
       }
     }
 
@@ -246,7 +250,7 @@
       max-width: 50rem;
 
       @include media-breakpoint-down(lg) {
-        max-width: 48.8rem;
+        max-width: 45.8rem;
       }
 
       .iphone-holder {
@@ -376,6 +380,24 @@
       @include media-breakpoint-down(lg) {
         top: 20%;
         transform: translateY(0);
+      }
+    }
+
+    .punching-bag {
+      @include media-breakpoint-down(lg) {
+        top: 0;
+      }
+    }
+
+    .phone-holder {
+      @include media-breakpoint-down(lg) {
+        top: 50%;
+      }
+    }
+
+    .building-holder {
+      @include media-breakpoint-down(lg) {
+        top: 16rem;
       }
     }
   }

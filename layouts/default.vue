@@ -1,11 +1,13 @@
 <template>
-  <div class="wrapper">
-    <Header />
-    <main class="main">
-      <nuxt />
-    </main>
-    <Footer />
-  </div>
+  <transition>
+    <div class="wrapper">
+      <Header />
+      <main class="main">
+        <nuxt />
+      </main>
+      <Footer />
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -24,4 +26,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>

@@ -312,6 +312,11 @@ export default {
         margin: auto auto 5.2rem;
       }
 
+      @include media-breakpoint-down(sm) {
+        max-width: 25rem;
+        margin: auto auto 4.2rem;
+      }
+
       img {
         width: 100%;
         height: auto;

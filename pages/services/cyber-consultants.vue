@@ -33,28 +33,20 @@
             <div class="phone-wrapper">
               <div class="phone-holder">
                 <img
-                  data-src="@/assets/images/img-022.png"
-                  class="lazyload phone-img desktop"
+                  src="@/assets/images/img-022.png"
+                  class="phone-img desktop"
                   alt="#"
                 />
                 <img
-                  data-src="@/assets/images/img-013.png"
-                  class="lazyload phone-img mobile"
+                  src="@/assets/images/img-013.png"
+                  class="phone-img mobile"
                   alt="#"
                 />
                 <div class="msg-holder msg-1">
-                  <img
-                    data-src="@/assets/images/img-072.png"
-                    class="lazyload"
-                    alt="#"
-                  />
+                  <img src="@/assets/images/img-072.png" alt="#" />
                 </div>
                 <div class="msg-holder msg-2">
-                  <img
-                    data-src="@/assets/images/img-073.png"
-                    class="lazyload"
-                    alt="#"
-                  />
+                  <img src="@/assets/images/img-073.png" alt="#" />
                 </div>
               </div>
             </div>
@@ -334,7 +326,6 @@ export default {
 <style lang="scss" scoped>
 .services-project {
   .intro-section {
-    padding-top: 18.2rem;
     padding-bottom: 2.4rem;
   }
   .txt-block-2 {

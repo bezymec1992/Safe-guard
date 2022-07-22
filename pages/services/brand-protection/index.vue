@@ -355,12 +355,12 @@
       <div class="row g-0">
         <div class="col-md-6 d-flex balloon-text">
           <div class="content-holder">
-            <h2 class="h1 anim-item">
+            <h2 class="h1">
               Safe place
               <br />
               for everyone
             </h2>
-            <div class="text-holder anim-item">
+            <div class="text-holder">
               <p>
                 Want to know how to protect your team and make it more healthy?
               </p>
@@ -429,21 +429,15 @@ export default {
     // padding-top: 18.2rem;
     // padding-bottom: 2.4rem;
     position: relative;
-    max-height: 72h;
     @include media-breakpoint-down(md) {
       padding-top: 11.2rem;
       padding-bottom: 3.4rem;
     }
 
-    .back-link {
-      position: absolute;
-      top: 18rem;
-    }
     .h1 {
       @include media-breakpoint-down(md) {
         max-width: 25rem;
         font-size: 3.4rem;
-        margin-top: 13.8rem;
       }
     }
     .building-wrapper {

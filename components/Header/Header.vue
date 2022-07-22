@@ -53,6 +53,7 @@
           <img
             data-src="@/assets/images/logo.svg"
             src="#"
+            height="42px"
             class="lazyload"
             alt="safeguard"
           />
@@ -226,7 +227,7 @@ export default {
     desktopSafeLinks: [
       {
         id: 1,
-        title: 'About Safeplace',
+        title: 'Safeplace',
         url: '/services/brand-protection/safeplace',
       },
       {
@@ -275,7 +276,7 @@ export default {
     mobileSafeLinks: [
       {
         id: 1,
-        title: 'About Safeplace',
+        title: 'Safeplace',
         url: '/services/brand-protection/safeplace',
       },
       {

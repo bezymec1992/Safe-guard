@@ -4,7 +4,7 @@
 
   @include media-breakpoint-down(md) {
     padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-bottom: 9rem;
   }
 
   .h2 {
@@ -89,10 +89,10 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       width: 3.7rem;
       height: 4.3rem;
-      background: url("~@/assets/images/icon-05.svg") no-repeat;
+      background: url('~@/assets/images/icon-05.svg') no-repeat;
       background-size: contain;
 
       @include media-breakpoint-down(lg) {
@@ -116,7 +116,7 @@
 
       &::before {
         @include media-breakpoint-down(lg) {
-          background: url("~@/assets/images/icon-06.svg") no-repeat;
+          background: url('~@/assets/images/icon-06.svg') no-repeat;
           background-size: contain;
         }
       }
@@ -137,14 +137,14 @@
 
     &::after {
       @include media-breakpoint-up(lg) {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         left: -10.7rem;
         display: block;
         width: 3.7rem;
         height: 4.3rem;
-        background: url("~@/assets/images/icon-05.svg") no-repeat;
+        background: url('~@/assets/images/icon-05.svg') no-repeat;
         background-size: contain;
       }
     }
@@ -152,7 +152,7 @@
     &.active {
       &::after {
         @include media-breakpoint-up(lg) {
-          background: url("~@/assets/images/icon-06.svg") no-repeat;
+          background: url('~@/assets/images/icon-06.svg') no-repeat;
           background-size: contain;
         }
       }

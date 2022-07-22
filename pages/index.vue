@@ -8,7 +8,7 @@
               Never Caught <br />
               Off-Guard Again
             </h1>
-            <div class="text-holder">
+            <div class="text-holder d-none d-md-block">
               <p>
                 We are specialist in protecting your assets and reputation to
                 make sure you operate risk-free and focus on your core business.
@@ -16,15 +16,21 @@
             </div>
           </div>
           <div
-            class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-end"
+            class="col-md-6 d-md-flex align-items-md-center justify-content-center justify-content-md-end"
           >
             <div class="img-holder">
-              <img
-                src="#"
-                data-src="@/assets/images/img-062.png"
-                class="helm lazyload"
-                alt="img description"
-              />
+              <picture>
+                <source
+                  data-srcset="@/assets/images/img-062.webp"
+                  type="image/webp"
+                />
+                <img
+                  data-src="@/assets/images/img-062.png"
+                  class="helm lazyload"
+                  alt="img description"
+                />
+              </picture>
+
               <img
                 src="#"
                 data-src="@/assets/images/img-063.png"
@@ -37,6 +43,12 @@
                 class="info lazyload"
                 alt="img description"
               />
+            </div>
+            <div class="text-holder d-md-none">
+              <p>
+                We are specialist in protecting your assets and reputation to
+                make sure you operate risk-free and focus on your core business.
+              </p>
             </div>
           </div>
         </div>
@@ -151,11 +163,17 @@ export default {
     @include media-breakpoint-down(md) {
       min-height: 97vh;
       padding-top: 16.2rem;
-      // padding-bottom: 3.4rem;
+    }
+
+    .h1 {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1rem;
+      }
     }
 
     .img-holder {
       max-width: 65.5rem;
+      min-height: 22rem;
       position: relative;
       right: -10rem;
 
@@ -165,6 +183,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 2rem;
       }
 
       .earth,
