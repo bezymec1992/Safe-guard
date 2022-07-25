@@ -250,12 +250,14 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
 import ContactSection from '@/components/ContactSection/ContactSection'
+import TxtBlock from '@/components/TxtBlock/TxtBlock'
 
 export default {
   name: 'LiveProgram',
   components: {
     IntroSection,
     ContactSection,
+    TxtBlock,
   },
   layout: 'safe-layout',
   head() {

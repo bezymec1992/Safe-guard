@@ -366,13 +366,13 @@
               </p>
               <nuxt-link
                 to="/services/brand-protection/safeplace"
-                class="btn btn-arrow"
+                class="btn btn-arrow white"
               >
                 Read More
                 <span class="arrow-wrapper">
                   <span class="icon-holder">
                     <img
-                      data-src="@/assets/images/icon-02.svg"
+                      data-src="@/assets/images/icon-019.svg"
                       class="lazyload"
                       alt="#"
                     />
@@ -380,11 +380,6 @@
                 </span>
               </nuxt-link>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="img-holder">
-            <img data-src="@/assets/images/bg-1.png" class="lazyload" alt="#" />
           </div>
         </div>
       </div>
@@ -461,16 +456,13 @@ export default {
   }
 
   .balloon {
-    .balloon-text {
-      padding-top: 18rem;
-      @include media-breakpoint-down(md) {
-        padding-top: 10rem;
-      }
-    }
-
     .content-holder {
       .h1 {
         font-size: 4.5rem;
+
+        @include media-breakpoint-down(md) {
+          font-size: 4rem;
+        }
       }
 
       p {

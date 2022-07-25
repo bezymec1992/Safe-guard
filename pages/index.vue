@@ -28,6 +28,8 @@
                   data-src="@/assets/images/img-062.png"
                   class="helm lazyload"
                   alt="img description"
+                  width="400px"
+                  height="400px"
                 />
               </picture>
 
@@ -100,11 +102,14 @@
     <ServicesSection :class="'w-btn mobile-img'" />
     <WWSection />
     <WFromSection />
-    <ContactSection />
+    <LazyHydrate when-visible>
+      <ContactSection />
+    </LazyHydrate>
   </div>
 </template>
 
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 import IntroSection from '@/components/IntroSection/IntroSection'
 import StatisticSection from '@/components/StatisticSection/StatisticSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
@@ -112,7 +117,6 @@ import ListSection from '@/components/ListSection/ListSection'
 import ServicesSection from '@/components/ServicesSection/ServicesSection'
 import WWSection from '@/components/WWSection/WWSection'
 import WFromSection from '@/components/WFromSection/WFromSection'
-import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
   components: {
@@ -123,7 +127,8 @@ export default {
     ServicesSection,
     WWSection,
     WFromSection,
-    ContactSection,
+    ContactSection: () => import('@/components/ContactSection/ContactSection'),
+    LazyHydrate,
   },
   head: {
     title: 'SafeGuard - Home page',

@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row flex-column flex-md-row">
           <div
-            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
+            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
             <h1 class="h1">
               Our <br class="d-md-none" />
@@ -167,7 +167,9 @@
       </div>
     </div>
 
-    <txt-block class="txt-block-1 style1 safe-style row-items-center">
+    <txt-block
+      class="txt-block-1 style1 safe-style row-items-center mob-paddings-big"
+    >
       <div class="col d-md-none">
         <h3 class="h2">Create Awareness Program</h3>
         <div class="text-holder">
@@ -368,9 +370,9 @@ export default {
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        top: 50%;
+        bottom: -15rem;
         right: -30%;
-        transform: translateY(-50%);
+        // transform: translateY(-50%);
         max-width: 107rem;
         width: 100%;
       }
@@ -430,6 +432,13 @@ export default {
         @include media-breakpoint-down(md) {
           margin-bottom: 4rem;
         }
+      }
+    }
+
+    &.mob-paddings-big {
+      @include media-breakpoint-down(md) {
+        padding-top: 11rem;
+        padding-bottom: 11rem;
       }
     }
   }

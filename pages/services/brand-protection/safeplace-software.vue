@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row flex-column flex-md-row">
           <div
-            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
+            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
             <h1 class="h1">
               Safeplace <br />
@@ -385,9 +385,10 @@
 </template>
 
 <script>
-import IntroSection from '@/components/IntroSection/IntroSection.vue'
-import MoodSection from '@/components/MoodSection/MoodSection.vue'
+import IntroSection from '@/components/IntroSection/IntroSection'
+import MoodSection from '@/components/MoodSection/MoodSection'
 import ContactSection from '@/components/ContactSection/ContactSection'
+import TxtBlock from '@/components/TxtBlock/TxtBlock'
 
 export default {
   name: 'SafePlaceSoftware',
@@ -395,6 +396,7 @@ export default {
     IntroSection,
     MoodSection,
     ContactSection,
+    TxtBlock,
   },
   layout: 'safe-layout',
 }
@@ -413,7 +415,7 @@ export default {
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        bottom: -6.3rem;
+        bottom: -11.3rem;
         right: 0;
         width: 65%;
       }
@@ -534,8 +536,8 @@ export default {
       margin: auto auto 6.5rem;
 
       @include media-breakpoint-down(md) {
-        margin-left: -4rem;
-        margin-right: -5rem;
+        margin-left: -2.4rem;
+        margin-right: -2.4rem;
       }
 
       img {

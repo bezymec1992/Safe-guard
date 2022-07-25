@@ -174,9 +174,16 @@
   }
 
   ////new
-  ///
-  ///
-  ///
+
+  .intro-section {
+    @include media-breakpoint-down(md) {
+      padding-top: 12.2rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 14rem;
+    }
+  }
 
   .img-section {
     .container {
@@ -185,6 +192,12 @@
   }
 
   .txt-block {
+    h3 {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1.5rem;
+      }
+    }
+
     ul {
       margin: 0;
       padding: 0;

@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row flex-column">
           <div
-            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-center flex-grow-1"
+            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
             <h1 class="h1">
               Safe place <br />
@@ -499,10 +499,11 @@ export default {
   }
 
   .quote-block {
-    padding-top: 14rem;
+    padding-top: 18rem;
 
     @include media-breakpoint-down(md) {
       padding-top: 7rem;
+      padding-bottom: 3rem;
     }
 
     .container {
@@ -516,7 +517,7 @@ export default {
       }
 
       .h2 {
-        margin-bottom: 1.6rem;
+        margin-bottom: 6rem;
 
         @include media-breakpoint-up(lg) {
           margin-bottom: 8.6rem;

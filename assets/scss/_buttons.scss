@@ -72,5 +72,19 @@
         }
       }
     }
+
+    &.white {
+      color: $white;
+
+      .arrow-wrapper {
+        background: $white;
+      }
+
+      &:hover {
+        .arrow-wrapper {
+          background: darken($white, 10);
+        }
+      }
+    }
   }
 }
