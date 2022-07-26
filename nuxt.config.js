@@ -10,11 +10,43 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: 'nl',
+    },
     title: 'SafeGuard',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=0' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, user-scalable=0',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'SafeGuard',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
+      },
+      // {
+      //   hid: 'og:image',
+      //   property: 'og:image',
+      //   content: '/favicon.ico',
+      // },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -85,7 +117,33 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      name: 'SafeGuard',
+      short_name: 'SafeGuard',
+      description:
+        'Juridische hulp door de beste studenten',
+      icon: {
+        source: '/logo.png',
+        fileName: 'logo.png',
+      },
+
+      lang: 'nl',
+    },
+    meta: {
+      name: 'SafeGuard',
+      favicon: '/favicon.ico',
+      short_name: 'SafeGuard',
+      description:
+        'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
+      lang: 'nl',
+      display: 'standalone',
+      orientation: 'portrait',
+      start_url: '/',
+      ogSiteName: 'SafeGuard',
+      ogTitle: 'SafeGuard',
+      ogDescription:
+        'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
+      ogImage: '/logo.png',
+      twitterCard: 'summary_large_image',
     },
   },
 
