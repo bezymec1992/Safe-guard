@@ -445,7 +445,6 @@ export default {
 
     @include media-breakpoint-down(md) {
       display: flex;
-      min-height: 90vh;
       background: url('@/assets/images/img-114.jpg');
       background-position: 100% 44%;
       background-size: cover;

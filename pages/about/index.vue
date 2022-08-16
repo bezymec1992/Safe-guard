@@ -299,10 +299,7 @@ export default {
     padding-top: 18.2rem;
     padding-bottom: 2.4rem;
     @include media-breakpoint-down(md) {
-      // padding-top: 18.2rem;
-      // padding-bottom: 2.4rem;
-      padding-top: 15.2rem;
-      min-height: 95vh;
+      padding-top: 10.2rem;
     }
     .diving-suit {
       max-width: 41.3rem;

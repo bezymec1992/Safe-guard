@@ -318,6 +318,9 @@ export default {
       },
     ],
   }),
+  mounted() {
+    this.getCorrectVh()
+  },
   methods: {
     openMenu() {
       this.menuOpen = !this.menuOpen

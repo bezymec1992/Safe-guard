@@ -3,7 +3,8 @@
   padding-bottom: 6.4rem;
   background: $celery;
   @include media-breakpoint-down(md) {
-    min-height: 90vh;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
     padding-top: 11.2rem;
     padding-bottom: 3.4rem;
   }

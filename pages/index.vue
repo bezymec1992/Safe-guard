@@ -165,10 +165,6 @@ export default {
       padding-top: 11.2rem;
       padding-bottom: 3.4rem;
     }
-    @include media-breakpoint-down(md) {
-      min-height: 97vh;
-      padding-top: 16.2rem;
-    }
 
     .h1 {
       @include media-breakpoint-down(md) {

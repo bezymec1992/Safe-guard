@@ -1,8 +1,6 @@
 const isProd = process.env.NODE_ENV === 'prod';
 const API_URL = isProd ? process.env.API_URL_PROD : process.env.API_URL_DEV;
 
-
-
 export default {
   publicRuntimeConfig: {
     apiURL: API_URL,
@@ -11,7 +9,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
-      lang: 'nl',
+      lang: 'en',
     },
     title: 'SafeGuard',
     meta: [
@@ -70,6 +68,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '@/plugins/vue-plyr', mode: 'client' },
+    { src: '@/plugins/getCorrectVh' }
   ],
 
 
@@ -156,3 +155,5 @@ export default {
   //   fallback: "404.html"
   // },
 }
+
+
