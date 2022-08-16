@@ -125,7 +125,7 @@ export default {
         fileName: 'logo.png',
       },
 
-      lang: 'nl',
+      lang: 'en',
     },
     meta: {
       name: 'SafeGuard',
@@ -133,7 +133,7 @@ export default {
       short_name: 'SafeGuard',
       description:
         'We are specialist in protecting your assets and reputation to make sure you operate risk-free and focus on your core business.',
-      lang: 'nl',
+      lang: 'en',
       display: 'standalone',
       orientation: 'portrait',
       start_url: '/',
