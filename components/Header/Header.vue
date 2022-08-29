@@ -65,8 +65,8 @@
             <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/" class="btn btn-dark safeplace-nav"
-              >Safeguard</nuxt-link
+            <nuxt-link to="/" class="btn btn-dark safeplace-nav text-nowrap"
+              >Go to Safeguard</nuxt-link
             >
           </li>
         </ul>
@@ -78,7 +78,7 @@
             <nuxt-link
               to="/services/brand-protection/safeplace"
               class="btn btn-dark d-none d-md-inline-flex justify-content-center safeplace-nav"
-              >Safeplace</nuxt-link
+              >Go to Safeplace</nuxt-link
             >
           </li>
         </ul>
@@ -135,14 +135,14 @@
                 <nuxt-link
                   to="/"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
-                  >Safeguard</nuxt-link
+                  >Go to Safeguard</nuxt-link
                 >
               </li>
               <li v-else @click="closeMenu">
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
                   class="btn btn-dark d-md-inline-flex justify-content-center"
-                  >Safeplace</nuxt-link
+                  >Go to Safeplace</nuxt-link
                 >
               </li>
               <span class="line"></span>
@@ -225,11 +225,11 @@ export default {
       },
     ],
     desktopSafeLinks: [
-      {
-        id: 1,
-        title: 'Safeplace',
-        url: '/services/brand-protection/safeplace',
-      },
+      // {
+      //   id: 1,
+      //   title: 'Safeplace',
+      //   url: '/services/brand-protection/safeplace',
+      // },
       {
         id: 2,
         title: 'Assessment',
@@ -274,11 +274,11 @@ export default {
       },
     ],
     mobileSafeLinks: [
-      {
-        id: 1,
-        title: 'Safeplace',
-        url: '/services/brand-protection/safeplace',
-      },
+      // {
+      //   id: 1,
+      //   title: 'Safeplace',
+      //   url: '/services/brand-protection/safeplace',
+      // },
       {
         id: 2,
         title: 'Assessment',
@@ -335,6 +335,11 @@ export default {
     closeMenu() {
       this.menuOpen = false
       document.body.classList.remove('menu-opened')
+    },
+
+    getCorrectVh() {
+      const vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', vh + 'px')
     },
   },
 }

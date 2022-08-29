@@ -3,6 +3,10 @@
     box-shadow: none;
   }
 
+  &:hover {
+    border-color: transparent;
+  }
+
   &-dark {
     min-width: 20rem;
     padding: 1.1rem 2rem;

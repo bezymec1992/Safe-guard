@@ -11,6 +11,7 @@
           :value="value"
           v-on="listeners"
           @input="onInput"
+          :maxlength="maxlength"
         />
         <span v-if="errorShowing" class="error-form"
           ><span class="error-icon" @click="errorFormsClick($event)"></span>

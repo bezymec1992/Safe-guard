@@ -86,6 +86,7 @@
                     :error-showing="$v.form.companyName.$error"
                     placeholder="Company Name"
                     label="Company Name"
+                    :maxlength="30"
                   />
                 </div>
                 <div class="col-12">
@@ -249,10 +250,13 @@ export default {
           /[&/\\#,+()$~%@!'":*?+=<>{}0-9]/g,
           ''
         )
-        this.form[Vmodel] = x.substring(0, 50)
+        this.form[Vmodel] = x.substring(0, 15)
       } else if (Vmodel === 'email') {
         const x = this.form[Vmodel].replace(/[&/\\#,+()$~%^'":*?<>{ }]/g, '')
         this.form[Vmodel] = x.substring(0, 100)
+      } else if (Vmodel === 'company') {
+        const x = this.form[Vmodel]
+        this.form[Vmodel] = x.substring(0, 30)
       }
     },
     onPhoneInput() {

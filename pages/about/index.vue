@@ -84,12 +84,15 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="img-holder">
-          <img
+        <div class="video-holder">
+          <!-- <img
             data-src="@/assets/images/img-041.jpg"
             class="lazyload"
             alt="#"
-          />
+          /> -->
+          <video muted autoplay loop>
+            <source src="@/assets/videos/video-04.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
@@ -277,6 +280,7 @@ import StatisticSection from '@/components/StatisticSection/StatisticSection.vue
 import ResultsSection from '@/components/ResultsSection/ResultsSection.vue'
 import TrustedSection from '@/components/TrustedSection/TrustedSection.vue'
 import ContactSection from '@/components/ContactSection/ContactSection.vue'
+import getterBreakpoints from '@/mixins/getterBreakpoints'
 
 export default {
   name: 'About',
@@ -288,6 +292,7 @@ export default {
     TrustedSection,
     ContactSection,
   },
+  mixins: [getterBreakpoints],
 }
 </script>
 
@@ -348,13 +353,8 @@ export default {
       padding-bottom: 5rem;
     }
 
-    @include media-breakpoint-up(xxl) {
-      padding-left: 3rem;
-      padding-right: 3rem;
-    }
-
     .container {
-      max-width: 128.5rem;
+      max-width: 115rem;
     }
     .h1 {
       @include media-breakpoint-down(md) {

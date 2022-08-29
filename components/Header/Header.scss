@@ -244,9 +244,8 @@
   }
 
   .btn-dark {
-    padding: 1.25rem 0;
-    min-width: 13.2rem;
-    max-width: 13.2rem;
+    min-width: unset;
+    padding: 1.25rem 2rem;
     font-size: 1.8rem;
 
     &::after {

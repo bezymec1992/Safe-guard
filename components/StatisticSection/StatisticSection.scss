@@ -7,6 +7,16 @@
     padding-bottom: 5rem;
   }
 
+  @include media-breakpoint-up(xl) {
+    overflow: hidden;
+  }
+
+  .row {
+    @include media-breakpoint-up(xl) {
+      @include grid-gutter(13rem);
+    }
+  }
+
   .statistic-item {
     margin-bottom: 5rem;
 
@@ -29,7 +39,6 @@
         margin: auto;
         text-align: center;
       }
-     
     }
   }
 }

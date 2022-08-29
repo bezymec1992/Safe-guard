@@ -315,7 +315,8 @@ export default {
   padding-top: 18.2rem;
   padding-bottom: 2.4rem;
   @include media-breakpoint-down(md) {
-    min-height: 95vh;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
   }
   .text-holder {
     p {

@@ -297,7 +297,7 @@
             </p>
             <nuxt-link
               to="/services/brand-protection/safeplace-software"
-              class="btn btn-dark d-block"
+              class="btn btn-dark"
               >Our software</nuxt-link
             >
           </div>
@@ -311,9 +311,9 @@
             posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
           <nuxt-link
-            to="/services/brand-protection/awareness-program"
+            to="/services/brand-protection/safeplace-software"
             class="btn btn-dark d-block"
-            >Our live program</nuxt-link
+            >Our software</nuxt-link
           >
         </div>
       </div>
@@ -355,7 +355,7 @@
             </p>
             <nuxt-link
               to="/services/brand-protection/live-program"
-              class="btn btn-dark d-block"
+              class="btn btn-dark"
               >Our live program</nuxt-link
             >
           </div>

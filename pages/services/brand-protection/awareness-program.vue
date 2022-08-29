@@ -219,7 +219,7 @@
       </div>
     </txt-block>
 
-    <txt-block class="txt-block-1 style1 safe-style pt-0">
+    <txt-block class="txt-block-1 style1 safe-style pt-0 pb-0">
       <div class="col d-md-none">
         <h3 class="h2">Easier with Safeplace Software</h3>
         <div class="text-holder">
@@ -362,6 +362,14 @@ export default {
       @include media-breakpoint-up(md) {
         padding-bottom: 5rem;
       }
+    }
+  }
+
+  .quote-section {
+    padding-top: 20rem;
+
+    @include media-breakpoint-down(md) {
+      padding-top: 12rem;
     }
   }
 }

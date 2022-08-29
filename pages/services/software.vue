@@ -344,12 +344,6 @@ export default {
   position: relative;
   min-height: 74rem;
   padding-bottom: 0 !important;
-  @include media-breakpoint-down(lg) {
-    min-height: 100rem;
-  }
-  @include media-breakpoint-down(sm) {
-    min-height: 95vh !important;
-  }
 
   .intro-pic {
     right: -8rem;
@@ -433,6 +427,10 @@ export default {
   .text-holder {
     max-width: 47rem;
   }
+}
+
+.visual-section {
+  max-width: 126.2rem;
 }
 
 .img-pos1 {

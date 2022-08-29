@@ -17,7 +17,7 @@
             </p>
           </div>
           <div class="btns-holder">
-            <router-link to="/services" class="btn btn-arrow anim-item">
+            <router-link to="/about/timeline" class="btn btn-arrow anim-item">
               See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">

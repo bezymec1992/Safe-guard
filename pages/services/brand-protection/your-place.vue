@@ -2,22 +2,22 @@
   <div class="safe-pages">
     <intro-section class="d-flex">
       <div class="container">
-        <div class="row flex-column flex-md-row">
+        <div class="row flex-column flex-lg-row">
           <div
-            class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
+            class="col-lg-8 col-lg-6 d-flex flex-column justify-content-between justify-content-lg-end flex-grow-1"
           >
             <h1 class="h1">
-              Our <br class="d-md-none" />
+              Our <br class="d-lg-none" />
               workflow
             </h1>
-            <div class="text-holder d-none d-md-block">
+            <div class="text-holder d-none d-lg-block">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id,
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="img-holder">
               <!-- <picture>
                 <source
@@ -34,7 +34,7 @@
                 alt="Safe place for everyone"
               />
             </div>
-            <div class="text-holder d-md-none">
+            <div class="text-holder d-lg-none">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ipsum lacus, aliquam id eros id,
@@ -301,12 +301,16 @@
       </div>
     </txt-block>
 
-    <QuoteSection class="text-uppercase">
+    <!-- <QuoteSection class="text-uppercase">
       <p>
         This is a place for a final <br class="d-none d-md-block" />
         slogan on this page
       </p>
-    </QuoteSection>
+    </QuoteSection> -->
+
+    <visual-section :bg="'img-178.jpg'" :class="'bg-img visual'">
+      <h2 class="h1 text-center mt-auto white">improve your team dynamics</h2>
+    </visual-section>
 
     <ContactSection class="style2">
       <template #content>
@@ -335,7 +339,7 @@
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
-import QuoteSection from '@/components/QuoteSection/QuoteSection'
+import VisualSection from '@/components/VisualSection/VisualSection'
 import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
@@ -343,7 +347,7 @@ export default {
   components: {
     IntroSection,
     TxtBlock,
-    QuoteSection,
+    VisualSection,
     ContactSection,
   },
   layout: 'safe-layout',
@@ -368,7 +372,7 @@ export default {
     }
 
     .img-holder {
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         position: absolute;
         bottom: -15rem;
         right: -30%;
@@ -377,7 +381,12 @@ export default {
         width: 100%;
       }
 
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-up(xl) {
+        right: -23%;
+        max-width: 104rem;
+      }
+
+      @include media-breakpoint-down(lg) {
         margin-top: -5rem;
         margin-left: -18rem;
         margin-right: -19rem;
@@ -453,6 +462,19 @@ export default {
         width: 100%;
         height: auto;
       }
+    }
+  }
+
+  .visual-section {
+    margin-bottom: 16rem;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 1.5rem;
+      margin-bottom: 10rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 4rem;
     }
   }
 }

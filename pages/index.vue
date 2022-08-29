@@ -99,6 +99,7 @@
       </div>
     </txt-block>
     <ListSection />
+    <VideoSection src="video-03.mp4" />
     <ServicesSection :class="'w-btn mobile-img'" />
     <WWSection />
     <WFromSection />
@@ -117,6 +118,7 @@ import ListSection from '@/components/ListSection/ListSection'
 import ServicesSection from '@/components/ServicesSection/ServicesSection'
 import WWSection from '@/components/WWSection/WWSection'
 import WFromSection from '@/components/WFromSection/WFromSection'
+import VideoSection from '@/components/VideoSection'
 
 export default {
   components: {
@@ -129,6 +131,7 @@ export default {
     WFromSection,
     ContactSection: () => import('@/components/ContactSection/ContactSection'),
     LazyHydrate,
+    VideoSection,
   },
   head: {
     title: 'SafeGuard - Home page',
