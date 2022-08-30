@@ -171,19 +171,7 @@
         </div>
       </div>
     </visual-section> -->
-    <visual-section class="visual-video">
-      <video
-        src="@/assets/videos/video-02.mp4"
-        poster="@/assets/videos/poster-02.jpg"
-        muted
-        loop
-        autoplay
-      >
-        Sorry, your browser doesn't support embedded videos, but don't worry,
-        you can <a href="videofile.ogg">download it</a>
-        and watch it with your favorite video player!
-      </video>
-    </visual-section>
+    <visual-section class="visual-video" video-bg="video-02.mp4" />
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
