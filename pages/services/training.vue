@@ -171,7 +171,7 @@
         </div>
       </div>
     </visual-section> -->
-    <visual-section class="visual-video" video-bg="video-02.mp4" />
+    <visual-section class="bg-img" video-bg="video-02.mp4" />
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -327,30 +327,8 @@ export default {
 //   }
 // }
 
-.visual-video {
-  position: relative;
-  padding-bottom: 46.8%;
-
-  @include media-breakpoint-down(lg) {
-    padding-bottom: 75%;
-  }
-
-  @include media-breakpoint-down(md) {
-    padding-bottom: 95%;
-  }
-
-  @include media-breakpoint-down(sm) {
-    padding-bottom: 120%;
-  }
-
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.visual-section {
+  max-width: 117.3rem;
 }
 </style>
 
