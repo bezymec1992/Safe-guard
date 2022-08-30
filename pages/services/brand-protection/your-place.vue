@@ -308,7 +308,7 @@
       </p>
     </QuoteSection> -->
 
-    <visual-section :bg="'img-178.jpg'" :class="'bg-img visual'">
+    <visual-section video-bg="video-05.mp4" :class="'bg-img visual'">
       <h2 class="h1 text-center mt-auto white">improve your team dynamics</h2>
     </visual-section>
 
@@ -466,6 +466,7 @@ export default {
   }
 
   .visual-section {
+    max-width: 120rem;
     margin-bottom: 16rem;
 
     @include media-breakpoint-down(md) {

@@ -8,6 +8,9 @@
     <div class="container">
       <slot></slot>
     </div>
+    <video v-if="videoBg" muted autoplay loop>
+      <source :src="require(`@/assets/videos/${videoBg}`)" type="video/mp4" />
+    </video>
   </div>
 </template>
 
@@ -21,6 +24,10 @@ export default {
       type: String,
       default: null,
       required: false,
+    },
+    videoBg: {
+      type: String,
+      default: '',
     },
   },
   mounted() {
