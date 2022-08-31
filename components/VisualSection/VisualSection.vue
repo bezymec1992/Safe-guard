@@ -8,7 +8,7 @@
     <div class="container">
       <slot></slot>
     </div>
-    <video v-if="videoBg" muted autoplay loop>
+    <video v-if="videoBg" autoplay loop playsinline muted>
       <source :src="require(`@/assets/videos/${videoBg}`)" type="video/mp4" />
     </video>
   </div>

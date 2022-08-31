@@ -1,7 +1,7 @@
 <template>
   <div class="video-scetion">
     <div class="video-holder">
-      <video muted autoplay loop>
+      <video autoplay loop playsinline muted>
         <source :src="require(`@/assets/videos/${src}`)" type="video/mp4" />
       </video>
     </div>
