@@ -20,9 +20,6 @@
     }
 
     .text-holder {
-      p {
-        max-width: 31rem;
-      }
       &.mobile {
         @include media-breakpoint-up(md) {
           max-width: 29.7rem;
