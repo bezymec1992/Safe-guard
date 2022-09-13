@@ -9,14 +9,14 @@
             <h1 class="h1">Who we are</h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We know all the strategic and operational moves to protect you.
+                We have come from the deep and with our rich experience we learned to have overview in order to prevent.
               </p>
             </div>
             <nuxt-link
               to="/about/timeline"
               class="btn btn-arrow d-none d-md-inline-flex justify-content-center"
             >
-              See Timeline
+              View Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
                   <img
@@ -74,12 +74,11 @@
     <StatisticSection />
     <txt-block :class="'txt-block-1 style1 reverse'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Let Is Inroduce</h3>
+        <h3 class="h2 text-capitalize">Let Us Introduce Ourselves</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We are a team of disciplined individuals that are dedicated and specialized in solving problems.
+            The biggest part of our team is daily busy with preventive measurements and analyzing the mechanics how we can prevent the best way possible in each different industry where we work in. 
           </p>
         </div>
       </div>
@@ -98,17 +97,13 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2 text-capitalize">
-            Let Is <br />
-            Inroduce
+            Let Us Introduce <br/> Ourselves
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              We are a team of disciplined individuals that are dedicated and specialized in solving problems.
+              The biggest part of our team is daily busy with preventive measurements and analyzing the mechanics how we can prevent the best way possible in each different industry where we work in. 
+              Our methodology which we have developed the last 5 years is constantly being improved in order to give us the overview which we need to support our clients in the best way possible.
             </p>
           </div>
         </div>
@@ -116,8 +111,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Our methodology which we have developed the last 5 years is constantly being improved in order to give us the overview which we need to support our clients in the best way possible.
           </p>
         </div>
       </div>
@@ -148,12 +142,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              With our global footprint and partners, we know how we can let our clients operate in a low-risk environment. Reputation management is key in our approach.
             </p>
           </div>
         </div>
@@ -161,14 +150,13 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            With our global footprint and our specialized team members and
-            partners we know what it takes to make sure that we can deliver a
-            minimum risk environment for our clients.
+            With our global footprint and partners, we know how we can let our clients operate in a low-risk environment. Reputation management is key in our approach.
           </p>
         </div>
       </div>
     </txt-block>
-    <ResultsSection />
+    <!-- <ResultsSection /> -->
+    <div class="result-section"></div>
     <div class="title-section">
       <div class="container">
         <h2 class="h1 text-capitalize">Managing Directors</h2>
@@ -201,7 +189,7 @@
         <div class="content-holder">
           <h3 class="h2 text-capitalize">
             Frank Balte <br />
-            <small>(Function)</small>
+            <small>(Head of Strategy)</small>
           </h3>
           <div class="text-holder">
             <p>
@@ -227,8 +215,8 @@
     <txt-block :class="'txt-block-1 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
-          Roger van Alphen <br />
-          <small>(Function)</small>
+          Roger<br />
+          <small>(Head of Operations)</small>
         </h3>
       </div>
       <div class="col-md-6">
@@ -243,8 +231,8 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2 text-capitalize">
-            Roger van Alphen <br />
-            <small>(Function)</small>
+            Roger<br />
+            <small>(Head of Operations)</small>
           </h3>
           <div class="text-holder">
             <p>
@@ -277,7 +265,7 @@
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import StatisticSection from '@/components/StatisticSection/StatisticSection.vue'
-import ResultsSection from '@/components/ResultsSection/ResultsSection.vue'
+// import ResultsSection from '@/components/ResultsSection/ResultsSection.vue'
 import TrustedSection from '@/components/TrustedSection/TrustedSection.vue'
 import ContactSection from '@/components/ContactSection/ContactSection.vue'
 import getterBreakpoints from '@/mixins/getterBreakpoints'
@@ -288,7 +276,7 @@ export default {
     IntroSection,
     TxtBlock,
     StatisticSection,
-    ResultsSection,
+    // ResultsSection,
     TrustedSection,
     ContactSection,
   },
@@ -298,6 +286,12 @@ export default {
 
 <style lang="scss" scoped>
 .about-page {
+  .result-section {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 50rem;
+    background-color: lightgrey;
+  }
   overflow: hidden;
 
   .intro-section {

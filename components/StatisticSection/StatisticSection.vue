@@ -30,21 +30,21 @@ export default {
       statisticItems: [
         {
           id: 1,
-          title: '3.5 Billions',
+          title: '1000+ companies ',
           description:
-            'Preventive measurements implemented (cost reduction, loss of investmen).',
+            'We have served more than 1000 companies in protecting their assets.',
         },
         {
           id: 2,
           title: '25+ Years',
           description:
-            'Of experience in minimizing risk and protecting assets.',
+            'Of minimizing risk and asset protection.',
         },
         {
           id: 3,
-          title: '1.5 Billions',
+          title: '500 MM USD +',
           description:
-            'Of experience in minimizing risk and protecting assets.',
+            'We have guided investors with safeguarding their investment.',
         },
       ],
     }

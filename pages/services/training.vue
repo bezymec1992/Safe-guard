@@ -21,7 +21,7 @@
               Implementation
             </h1>
             <div class="text-holder d-none d-md-block">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>We focus on the relevant and urgent topics for you and we make sure that things get done. We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. That’s the way we work.</p>
             </div>
           </div>
           <div
@@ -36,8 +36,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id, consectetur efficitur neque.
+                We focus on the relevant and urgent topics for you and we make sure that things get done. We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. That’s the way we work.
               </p>
             </div>
           </div>
@@ -47,14 +46,12 @@
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
-          We will make scaning of <br />
-          your company
+          We will slice it into pieces of deliverables
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            After our SAFEGUARD SCAN we will provide according our methodology a planning where we believe it is the most urgent to start.
+            
           </p>
         </div>
       </div>
@@ -70,17 +67,12 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            We will make scaning of <br />
-            your company
+            We will slice it into pieces of deliverables
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              After our SAFEGUARD SCAN we will provide according our methodology a planning where we believe it is the most urgent to start.
+              This plan will not only contain the habits and the desired workflow, we will also present the root cause. Together we will decide on the intensity of our program and the most suitable action plan.
             </p>
           </div>
         </div>
@@ -88,8 +80,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            This plan will not only contain the habits and the desired workflow, we will also present the root cause. Together we will decide on the intensity of our program and the most suitable action plan.
           </p>
         </div>
       </div>
@@ -97,14 +88,11 @@
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Why team does not <br />
-          perform
+          Analyzing Your Group Dynamics
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            At the end of the day, it is a people’s job. We will help you to improve the group dynamics based on their performance and characteristics so they can perform with a smile. What is the ideal setup for each department/team based on their characteristics?   
           </p>
         </div>
       </div>
@@ -120,17 +108,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            Why team does not <br />
-            perform
+            Analyzing Your Group Dynamics
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              At the end of the day, it is a people’s job. We will help you to improve the group dynamics based on their performance and characteristics so they can perform with a smile. What is the ideal setup for each department/team based on their characteristics?  Who is their ideal manager? Do they need a manager? What type? Do not worry, we will provide you with these answers. 
             </p>
           </div>
         </div>
@@ -138,8 +120,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Who is their ideal manager? Do they need a manager? What type? Do not worry, we will provide you with these answers.
           </p>
         </div>
       </div>
@@ -180,9 +161,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Implementing a mindset that a team can focus on their performance. Creating a healthy work environment where competition is embraced.  
           </p>
         </div>
       </div>
@@ -203,12 +182,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              Implementing a mindset that a team can focus on their performance. Creating a healthy work environment where competition is embraced. A team that understands that team spirit and which type of behaviors makes you and the team perform. In the end this is what we will deliver after our process. 
             </p>
           </div>
         </div>
@@ -216,20 +190,17 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            A team that understands that team spirit and which type of behaviors makes you and the team perform. In the end this is what we will deliver after our process.
           </p>
         </div>
       </div>
     </txt-block>
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
-        <h3 class="h2">Practical</h3>
+        <h3 class="h2">Making Your Team Better</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            The insights that your company will have will deliver a sense of pride to belong to this company. Your people are one of the most important assets of your brand. 
           </p>
         </div>
       </div>
@@ -244,15 +215,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Practical</h3>
+          <h3 class="h2">Making Your Team Better</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              The insights that your company will have will deliver a sense of pride to belong to this company. Your people are one of the most important assets of your brand. Making this better will deliver an impact that is not only measurable but also an impact that you can feel. This is the energy we will create together with your team.
             </p>
           </div>
         </div>
@@ -260,8 +226,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Making this better will deliver an impact that is not only measurable but also an impact that you can feel. This is the energy we will create together with your team.
           </p>
         </div>
       </div>

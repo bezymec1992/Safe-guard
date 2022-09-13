@@ -19,8 +19,7 @@
             <h1 class="h1">Consultancy & brand protection</h1>
             <div class="text-holder desktop">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id.
+                Your internal brand values and exposure will make sure you are consistent. Consistency is key for success.
               </p>
             </div>
           </div>
@@ -52,8 +51,7 @@
             </div>
             <div class="text-holder mobile">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sit
-                amet, consec
+                Your internal brand values and exposure will make sure you are consistent. Consistency is key for success.
               </p>
             </div>
           </div>
@@ -73,15 +71,11 @@
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
-          We are looking inside the <br />
-          company to see if it’s <br />
-          healthy
+          We start where the decisions are taken.
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Having the overview how the mechanics work inside your company is where we start. 
           </p>
         </div>
       </div>
@@ -97,18 +91,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            We are looking inside the <br />
-            company to see if it’s <br />
-            healthy
+            We start where the decisions are taken.
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              Having the overview how the mechanics work inside your company is where we start. Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company.
             </p>
           </div>
         </div>
@@ -116,8 +103,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company.
           </p>
         </div>
       </div>
@@ -126,14 +112,11 @@
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Team <br />
-          Dynamics
+          Your People are Part of Your Brand
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand.
           </p>
         </div>
       </div>
@@ -149,17 +132,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            Team <br />
-            Dynamics
+            Your People are Part <br/> of Your Brand
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected. 
             </p>
           </div>
         </div>
@@ -167,8 +144,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Make sure that your company’s activities are brand protected. 
           </p>
         </div>
       </div>
@@ -181,14 +157,11 @@
     <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
-          Specific Request. <br />
-          Due Diligence
+          Expanding, Investing in new ventures
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use. This is not only based on language but moreover on behavior, culture and ethics. We make them concrete so companies understand the next steps. Together with your business analysis and our analysis you will have control.
           </p>
         </div>
       </div>
@@ -206,30 +179,19 @@
           <div class="text-rows">
             <div class="text-row">
               <h3 class="h2 text-capitalize">
-                Specific Request. <br />
-                Due Diligence
+                Expanding, Investing in new ventures
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
-                  turpis euismod, fermentum
+                  The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use. This is not only based on language but moreover on behavior, culture and ethics. We make them concrete so companies understand the next steps. Together with your business analysis and our analysis you will have control.
                 </p>
               </div>
             </div>
             <div class="text-row">
-              <h3 class="h2 text-capitalize">Strategical Request</h3>
+              <h3 class="h2 text-capitalize">SafeGuard  DashBoard</h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius. Aenean neque orci, ultrices ac fermentum
-                  id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at
-                  turpis euismod, fermentum
+                  On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
                 </p>
               </div>
             </div>
@@ -237,11 +199,10 @@
         </div>
       </div>
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">Strategical Request</h3>
+        <h3 class="h2 text-capitalize">SafeGuard  DashBoard</h3>
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
           </p>
         </div>
       </div>

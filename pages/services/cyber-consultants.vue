@@ -21,9 +21,9 @@
               Consultants
             </h1>
             <div class="text-holder d-none d-md-block">
+              <h3>Make it top of mind</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id.
+                Awareness is the best way to start within your company. Understanding the threats and where they possibly come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimizing the risks.
               </p>
             </div>
           </div>
@@ -52,8 +52,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id, consectetur efficitur neque.
+                Awareness is the best way to start within your company. Understanding the threats and where they possibly come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimizing the risks.
               </p>
             </div>
           </div>
@@ -72,14 +71,11 @@
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Assessment and <br />
-          Awareness
+          Keep the Doors Closed
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately. 
           </p>
         </div>
       </div>
@@ -95,17 +91,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            Assessment and <br />
-            Awareness
+            Keep the Doors Closed
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately. Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
             </p>
           </div>
         </div>
@@ -113,8 +103,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
           </p>
         </div>
       </div>
@@ -122,14 +111,11 @@
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
-          We will support you so you <br />
-          can be safe
+          Cyber Protocols
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation and that you are prepared for the near future. This guideline is always a work in progress. 
           </p>
         </div>
       </div>
@@ -145,17 +131,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            We will support you <br />
-            so you can be safe
+            Cyber Protocols
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation and that you are prepared for the near future. This guideline is always a work in progress. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
             </p>
           </div>
         </div>
@@ -163,8 +143,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
           </p>
         </div>
       </div>
@@ -175,14 +154,11 @@
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Advice and <br />
-          Protect
+          SafeGuard Cyber Certificate
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.   
           </p>
         </div>
       </div>
@@ -198,17 +174,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            Advice and <br />
-            Protect
+            SafeGuard Cyber Certificate
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.  The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level. 
             </p>
           </div>
         </div>
@@ -216,8 +186,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level.
           </p>
         </div>
       </div>

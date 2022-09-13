@@ -1,7 +1,7 @@
 <template>
   <div class="trusted-section">
     <div class="container">
-      <h2 class="h2 text-md-center">Trusted by</h2>
+      <h2 class="h2 text-md-center">WE SUPPORT</h2>
       <div class="row justify-content-center">
         <div
           v-for="item in trustedItems"

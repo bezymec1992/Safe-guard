@@ -29,14 +29,11 @@
             <div class="content-holder">
               <span class="item-number">/01</span>
               <h3 class="h2">
-                Training and <br />
-                Implementation
+                Training
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere
+                  We focus on the relevant and urgent topics for you and we make sure that things get done. We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. That’s the way we work.
                 </p>
               </div>
               <nuxt-link to="/services/training" class="btn btn-dark"
@@ -74,13 +71,11 @@
               <span class="item-number">/02</span>
               <h3 class="h2">
                 Cyber <br />
-                Consultants
+                CONSULTANCY
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere
+                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step. The devil is in the details. In this area a small mistake can have a big impact on your brand.
                 </p>
               </div>
               <nuxt-link to="/services/cyber-consultants" class="btn btn-dark"
@@ -117,14 +112,11 @@
             <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
-                Consultancy <br />
-                & Brand Protection
+                BRAND <br/> PROTECTION
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere
+                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset. Together with your team we will make sure that all measurements are taken.
                 </p>
               </div>
               <nuxt-link to="/services/brand-protection" class="btn btn-dark"

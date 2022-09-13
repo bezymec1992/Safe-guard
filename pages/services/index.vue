@@ -6,7 +6,8 @@
           <div class="col-md-6 d-md-flex flex-column justify-content-center">
             <h1 class="h1">Services</h1>
             <div class="text-holder d-none d-md-block">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <h3>BE ADVISED because <br/> TIMING IS KEY</h3>
+              <p>Data, experience, skills, knowledge and the right attitude. This is what we have to offer.</p>
             </div>
           </div>
           <div
@@ -39,7 +40,7 @@
               </div>
             </div>
             <div class="text-holder d-md-none">
-              <p>We make it so that nothing catches you by surprise.</p>
+              <p>Data, experience, skills, knowledge and the right attitude. This is what we have to offer.</p>
             </div>
           </div>
         </div>

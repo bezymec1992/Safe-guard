@@ -10,10 +10,26 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We are specialist in protecting your assets and reputation to
-                make sure you operate risk-free and focus on your core business.
+                We are specialized in safeguarding your assets. Our main goal is that our clients can operate risk free and that all prevention measurements are taken. 
               </p>
             </div>
+            
+            <h2 class="h3">Safety is not only a mindset it is also an attitude.</h2>
+            <nuxt-link
+              to="/services"
+              class="btn btn-arrow d-none d-md-inline-flex"
+            >
+            SEE OUR SERVICES
+              <span class="arrow-wrapper">
+                <span class="icon-holder">
+                  <img
+                    data-src="@/assets/images/icon-02.svg"
+                    class="lazyload"
+                    alt="#"
+                  />
+                </span>
+              </span>
+            </nuxt-link>
           </div>
           <div
             class="col-md-6 d-md-flex align-items-md-center justify-content-center justify-content-md-end"
@@ -48,8 +64,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                We are specialist in protecting your assets and reputation to
-                make sure you operate risk-free and focus on your core business.
+                We are specialized in safeguarding your assets. Our main goal is that our clients can operate risk free and that all prevention measurements are taken.
               </p>
             </div>
           </div>
@@ -85,20 +100,15 @@
           <h3 class="h2 text-uppercase">Who We Are</h3>
           <div class="text-holder">
             <p>
-              With our global footprint and our specialized team members and
-              partners we know what it takes to make sure that we can deliver a
-              minimum risk environment for our clients.
+              We are a company that earned their stripes in the industry for the last 25 years. We retrieved assets and solved the problems of our clients. The main success factor of our company is that we truly care. This is why we started in this industry. The last 5 years we turned our expertise in offering more preventive measurements instead in just focusing on fixing the problem.
             </p>
             <p>
-              We know that timing is key, when to accelerate and when to slow
-              down. Having our clients brand top of mind, we make sure that
-              communication, teamwork and quality reports is a given.
+              Our clients are in different industries and in different jurisdictions. What we have seen that the mechanics in the most industries are the same when a company is at risk. We developed a methodology together with our team to make sure that our customers are protected in their core business. It gives us pleasure to see that our clients can focus on their core business.
             </p>
           </div>
         </div>
       </div>
     </txt-block>
-    <ListSection />
     <VideoSection src="video-03.mp4" />
     <ServicesSection :class="'w-btn mobile-img'" />
     <WWSection />
@@ -114,7 +124,6 @@ import LazyHydrate from 'vue-lazy-hydration'
 import IntroSection from '@/components/IntroSection/IntroSection'
 import StatisticSection from '@/components/StatisticSection/StatisticSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
-import ListSection from '@/components/ListSection/ListSection'
 import ServicesSection from '@/components/ServicesSection/ServicesSection'
 import WWSection from '@/components/WWSection/WWSection'
 import WFromSection from '@/components/WFromSection/WFromSection'
@@ -125,7 +134,6 @@ export default {
     IntroSection,
     StatisticSection,
     TxtBlock,
-    ListSection,
     ServicesSection,
     WWSection,
     WFromSection,
@@ -160,6 +168,9 @@ export default {
 
 <style lang="scss" scoped>
 .home-page {
+  .h3 {
+    max-width: 450px;
+  }
   .intro-section {
     overflow: hidden;
 
@@ -264,10 +275,15 @@ export default {
 }
 
 .txt-block {
+  padding-bottom: 11rem;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 5rem;
+  }
   .img-holder {
     margin-left: 0;
   }
 }
+
 
 .services-section .row .col-txt .h2 {
   max-width: 25rem !important;
