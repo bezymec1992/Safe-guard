@@ -5,6 +5,48 @@
       <div class="rows">
         <div class="row g-0">
           <div class="col-lg-6">
+            <nuxt-link to="/services/brand-protection">
+              <div
+                class="gradient-block gradient-left d-md-flex justify-content-md-center"
+              >
+                <div class="building-wrapper">
+                  <div class="building-holder">
+                    <picture>
+                      <source
+                        data-srcset="@/assets/images/img-078.png"
+                        media="(max-width: 992px)"
+                      />
+                      <img
+                        data-src="@/assets/images/img-077.png"
+                        alt="Consultancy and Brand Protection"
+                        class="lazyload"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </nuxt-link>
+          </div>
+          <div class="col-lg-6 col-txt">
+            <div class="content-holder">
+              <span class="item-number">/01</span>
+              <h3 class="h2">
+                BRAND <br/> PROTECTION
+                
+              </h3>
+              <div class="text-holder">
+                <p>
+                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset.
+                </p>
+              </div>
+              <nuxt-link to="/services/brand-protection" class="btn btn-dark"
+                >Read More</nuxt-link
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-lg-6">
             <nuxt-link to="/services/training">
               <div
                 class="gradient-block gradient-left d-md-flex justify-content-md-center"
@@ -27,16 +69,19 @@
           </div>
           <div class="col-lg-6 col-txt">
             <div class="content-holder">
-              <span class="item-number">/01</span>
+              <span class="item-number">/02</span>
               <h3 class="h2">
-                BRAND <br/> PROTECTION
+                
+                Training
               </h3>
               <div class="text-holder">
                 <p>
-                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset.
+                  We convert theoretical topics into
+                  practical understanding together with your team and making them
+                  better so they can operate without us in the future.
                 </p>
               </div>
-              <nuxt-link to="/services/brand-protection" class="btn btn-dark"
+              <nuxt-link to="/services/training" class="btn btn-dark"
                 >Read More</nuxt-link
               >
             </div>
@@ -68,47 +113,6 @@
           </div>
           <div class="col-lg-6 col-txt">
             <div class="content-holder">
-              <span class="item-number">/02</span>
-              <h3 class="h2">
-                Training
-              </h3>
-              <div class="text-holder">
-                <p>
-                  We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. 
-                </p>
-              </div>
-              <nuxt-link to="/services/training" class="btn btn-dark"
-                >Read More</nuxt-link
-              >
-            </div>
-          </div>
-        </div>
-        <div class="row g-0">
-          <div class="col-lg-6">
-            <nuxt-link to="/services/brand-protection">
-              <div
-                class="gradient-block gradient-left d-md-flex justify-content-md-center"
-              >
-                <div class="building-wrapper">
-                  <div class="building-holder">
-                    <picture>
-                      <source
-                        data-srcset="@/assets/images/img-078.png"
-                        media="(max-width: 992px)"
-                      />
-                      <img
-                        data-src="@/assets/images/img-077.png"
-                        alt="Consultancy and Brand Protection"
-                        class="lazyload"
-                      />
-                    </picture>
-                  </div>
-                </div>
-              </div>
-            </nuxt-link>
-          </div>
-          <div class="col-lg-6 col-txt">
-            <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
                 Cyber <br />
@@ -116,7 +120,7 @@
               </h3>
               <div class="text-holder">
                 <p>
-                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step.
+                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step. 
                 </p>
               </div>
               <nuxt-link to="/services/cyber-consultants" class="btn btn-dark"
@@ -125,6 +129,7 @@
             </div>
           </div>
         </div>
+       
         <div class="row g-0">
           <div class="col-lg-6">
             <nuxt-link to="/services/software">
