@@ -191,7 +191,7 @@
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <!-- <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
           Additional <br />
@@ -240,7 +240,7 @@
           </p>
         </div>
       </div>
-    </txt-block>
+    </txt-block> -->
 
     <visual-section :class="'img-pos1 second-section'">
       <div
@@ -257,18 +257,18 @@
         </div>
         <div class="col-md-6 d-flex align-items-md-center">
           <div class="content-holder">
-            <h2 class="h1">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
+            <h2 class="h1">Be advised because timing is key</h2>
           </div>
         </div>
       </div>
     </visual-section>
 
-    <quote-section>
+    <!-- <quote-section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
         Suspendisse vitae imperdiet nibh.
       </p>
-    </quote-section>
+    </quote-section> -->
     <ButtonsSection :next-link="'brand-protection'" />
   </div>
 </template>
@@ -277,7 +277,7 @@
 import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import VisualSection from '@/components/VisualSection/VisualSection.vue'
-import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
+// import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
@@ -286,7 +286,7 @@ export default {
     IntroSection,
     TxtBlock,
     VisualSection,
-    QuoteSection,
+    // QuoteSection,
     ButtonsSection,
   },
 }
@@ -314,13 +314,13 @@ export default {
     }
     &.second-section {
       min-height: 74vh;
-      @include media-breakpoint-up(md) {
-        margin-bottom: 20rem;
-      }
+      // @include media-breakpoint-up(md) {
+      //   margin-bottom: 20rem;
+      // }
 
       @include media-breakpoint-down(md) {
         padding-bottom: 3rem;
-        margin-bottom: 10rem;
+        // margin-bottom: 10rem;
       }
 
       .row {

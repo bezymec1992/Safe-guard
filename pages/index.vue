@@ -13,13 +13,11 @@
                 We are specialized in safeguarding your assets. Our main goal is that our clients can operate risk free and that all prevention measurements are taken. 
               </p>
             </div>
-            
-            <h2 class="h3">Safety is not only a mindset it is also an attitude.</h2>
             <nuxt-link
               to="/services"
               class="btn btn-arrow d-none d-md-inline-flex"
             >
-            SEE OUR SERVICES
+              SEE OUR SERVICES
               <span class="arrow-wrapper">
                 <span class="icon-holder">
                   <img
@@ -111,7 +109,7 @@
     </txt-block>
     <VideoSection src="video-03.mp4" />
     <ServicesSection :class="'w-btn mobile-img'" />
-    <WWSection />
+    <!-- <WWSection /> -->
     <WFromSection />
     <LazyHydrate when-visible>
       <ContactSection />
@@ -125,7 +123,7 @@ import IntroSection from '@/components/IntroSection/IntroSection'
 import StatisticSection from '@/components/StatisticSection/StatisticSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
 import ServicesSection from '@/components/ServicesSection/ServicesSection'
-import WWSection from '@/components/WWSection/WWSection'
+// import WWSection from '@/components/WWSection/WWSection'
 import WFromSection from '@/components/WFromSection/WFromSection'
 import VideoSection from '@/components/VideoSection'
 
@@ -135,7 +133,7 @@ export default {
     StatisticSection,
     TxtBlock,
     ServicesSection,
-    WWSection,
+    // WWSection,
     WFromSection,
     ContactSection: () => import('@/components/ContactSection/ContactSection'),
     LazyHydrate,
@@ -173,7 +171,9 @@ export default {
   }
   .intro-section {
     overflow: hidden;
-
+    .btn {
+      margin-top: 8rem;
+    }
     @include media-breakpoint-up(md) {
       min-height: 90vh;
       padding-top: 11.2rem;
@@ -181,8 +181,11 @@ export default {
     }
 
     .h1 {
+      margin-bottom: 8rem;
+      margin-top: 8rem;
       @include media-breakpoint-down(md) {
         margin-bottom: 1rem;
+        margin-top: 0;
       }
     }
 

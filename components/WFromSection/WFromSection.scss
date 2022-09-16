@@ -22,7 +22,7 @@
 	
 		.text-holder {
 			font-size: 1.6rem;
-	
+			
 			@include media-breakpoint-down(md) {
 				max-width: 41.6rem;
 				margin-bottom: 3rem;

@@ -234,8 +234,7 @@
     <ImgSection :img="'img-083.jpg'" />
     <quote-section>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-        Suspendisse vitae imperdiet nibh.
+        Safety is not only a mindset <br/> it is also an attitude
       </p>
     </quote-section>
     <ButtonsSection :next-link="'cyber-consultants'" />

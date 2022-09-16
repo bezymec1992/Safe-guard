@@ -187,38 +187,35 @@
                 </p>
               </div>
             </div>
-            <div class="text-row">
+            <!-- <div class="text-row">
               <h3 class="h2 text-capitalize">SafeGuard  DashBoard</h3>
               <div class="text-holder">
                 <p>
                   On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
-      <div class="col d-md-none">
+      <!-- <div class="col d-md-none">
         <h3 class="h2 text-capitalize">SafeGuard  DashBoard</h3>
         <div class="text-holder">
           <p>
             On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
           </p>
         </div>
-      </div>
+      </div> -->
     </txt-block>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Checking all the risks <br />
-          and advantages
+          SafeGuard  DashBoard
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard.
           </p>
         </div>
       </div>
@@ -234,17 +231,11 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">
-            Checking all the risks <br />
-            and advantages
+            SafeGuard  DashBoard
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
             </p>
           </div>
         </div>
@@ -252,16 +243,22 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
           </p>
         </div>
       </div>
     </txt-block>
 
-    <PlyrSection :file-name="'vid-01.mp4'" :class="'pb-0'" />
+    <div class="img-insted">
+      <div class="container">
+        <picture>
+          <source srcset="@/assets/images/img-insted-mb.jpg" media="(max-width: 600px)" width="100%" height="auto"/>
+          <img src="@/assets/images/img-insted-desk.jpg" alt="MDN" width="100%" height="auto" />
+        </picture>
+      </div>
+    </div>
 
-    <txt-block :class="'txt-block-2 style2 reverse'">
+    <!-- <txt-block :class="'txt-block-2 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
           Custodian <br />
@@ -310,9 +307,9 @@
           </p>
         </div>
       </div>
-    </txt-block>
+    </txt-block> -->
 
-    <visual-section class="balloon">
+    <!-- <visual-section class="balloon">
       <div class="row g-0">
         <div class="col-md-6 d-flex balloon-text">
           <div class="content-holder">
@@ -344,7 +341,7 @@
           </div>
         </div>
       </div>
-    </visual-section>
+    </visual-section> -->
 
     <quote-section>
       <p>
@@ -362,7 +359,7 @@ import IntroSection from '@/components/IntroSection/IntroSection.vue'
 import TxtBlock from '@/components/TxtBlock/TxtBlock.vue'
 import VisualSection from '@/components/VisualSection/VisualSection.vue'
 import QuoteSection from '@/components/QuoteSection/QuoteSection.vue'
-import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
+// import PlyrSection from '@/components/PlyrSection/PlyrSection.vue'
 import ButtonsSection from '@/components/ButtonsSection/ButtonsSection.vue'
 
 export default {
@@ -373,7 +370,7 @@ export default {
     TxtBlock,
     VisualSection,
     QuoteSection,
-    PlyrSection,
+    // PlyrSection,
     ButtonsSection,
   },
 }
@@ -381,6 +378,7 @@ export default {
 
 <style lang="scss">
 .services-project {
+  
   .intro-section {
     // padding-top: 18.2rem;
     // padding-bottom: 2.4rem;
@@ -430,6 +428,18 @@ export default {
         max-width: 38rem;
       }
     }
+  }
+}
+.img-insted {
+  @include media-breakpoint-down(md) {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+}
+.quote-section {
+  margin-top: 14rem;
+  @include media-breakpoint-down(md) {
+    margin-top: 8rem;
   }
 }
 

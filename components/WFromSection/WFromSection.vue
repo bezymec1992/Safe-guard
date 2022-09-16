@@ -7,7 +7,7 @@
           came from
         </h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-7">
             <div class="text-holder">
               <p>
                 We're here to help and answer any question you might have. We
@@ -16,7 +16,7 @@
             </div>
           </div>
           <div
-            class="col-md-6 d-md-flex align-items-md-start justify-content-md-center"
+            class="col-md-5 d-md-flex align-items-md-start justify-content-md-center"
           >
             <router-link to="/about/timeline" class="btn btn-arrow">
               Our Timeline

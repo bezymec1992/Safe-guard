@@ -29,14 +29,14 @@
             <div class="content-holder">
               <span class="item-number">/01</span>
               <h3 class="h2">
-                Training
+                BRAND <br/> PROTECTION
               </h3>
               <div class="text-holder">
                 <p>
-                  We focus on the relevant and urgent topics for you and we make sure that things get done. We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. That’s the way we work.
+                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset.
                 </p>
               </div>
-              <nuxt-link to="/services/training" class="btn btn-dark"
+              <nuxt-link to="/services/brand-protection" class="btn btn-dark"
                 >Read More</nuxt-link
               >
             </div>
@@ -70,15 +70,14 @@
             <div class="content-holder">
               <span class="item-number">/02</span>
               <h3 class="h2">
-                Cyber <br />
-                CONSULTANCY
+                Training
               </h3>
               <div class="text-holder">
                 <p>
-                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step. The devil is in the details. In this area a small mistake can have a big impact on your brand.
+                  We convert theoretical topics into practical understanding together with your team and making them better so they can operate without us in the future. 
                 </p>
               </div>
-              <nuxt-link to="/services/cyber-consultants" class="btn btn-dark"
+              <nuxt-link to="/services/training" class="btn btn-dark"
                 >Read More</nuxt-link
               >
             </div>
@@ -112,14 +111,15 @@
             <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
-                BRAND <br/> PROTECTION
+                Cyber <br />
+                CONSULTANCY
               </h3>
               <div class="text-holder">
                 <p>
-                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset. Together with your team we will make sure that all measurements are taken.
+                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step.
                 </p>
               </div>
-              <nuxt-link to="/services/brand-protection" class="btn btn-dark"
+              <nuxt-link to="/services/cyber-consultants" class="btn btn-dark"
                 >Read More</nuxt-link
               >
             </div>
