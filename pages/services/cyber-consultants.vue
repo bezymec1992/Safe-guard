@@ -17,13 +17,13 @@
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
             <h1 class="h1">
-              Cyber <br />
+              Cyber
               Consultants
             </h1>
             <div class="text-holder d-none d-md-block">
-              <h3>Make it front of mind</h3>
+              <h3 class="intro-titl">Make it front of mind</h3>
               <p>
-                Awareness is the best way to start within your company. Understanding the threats and where they possibly come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimizing the risks.
+                Understanding cyber threats and where they come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimize risks.
               </p>
             </div>
           </div>
@@ -51,8 +51,11 @@
               </div>
             </div>
             <div class="text-holder d-md-none">
+              <h3 class="intro-titl">
+                Make it front of mind
+              </h3>
               <p>
-                Awareness is the best way to start within your company. Understanding the threats and where they possibly come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimizing the risks.
+                Understanding cyber threats and where they come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimize risks.
               </p>
             </div>
           </div>
@@ -296,6 +299,15 @@ export default {
 .services-project {
   .intro-section {
     padding-bottom: 2.4rem;
+    .text-holder {
+      max-width: 500px;
+      @include media-breakpoint-down(md) {
+        font-size: 16px;
+      }
+    }
+    .intro-titl {
+      margin-bottom: 3rem;
+    }
   }
   .txt-block-2 {
     &.style2 {
