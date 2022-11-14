@@ -12,8 +12,7 @@
             </h1>
             <div class="text-holder">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                A game changing platform and tool to create a safe, happy and healthy working environment for all. 
               </p>
             </div>
           </div>
@@ -42,9 +41,9 @@
         <h3 class="h2">What do we do</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We come into your working place and assess the dynamics, culture and safety of your environment for members of the company. We then formulate a plan on how to create a safe space characterized by integrity and honesty.
+
+
           </p>
         </div>
       </div>
@@ -65,15 +64,12 @@
           <h3 class="h2">What do we do</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendmagna condimentum, eu gravida urna varius. Aenean neque
-              orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-              suscipit justo. Vestibul
+              We come into your working place and assess the dynamics, culture and safety of your environment for members of the company. We then formulate a plan on how to create a safe space characterized by integrity and honesty.
+
+
             </p>
             <p>
-              um at turpis euismod, fermentum erra. In posuere massa sed magna
-              condimentum, eu gravida urna varius. Aenean neque orci, ultrices
-              ac
+              We provide you with a platform- through our app- that allows for staff to anonymously voice concerns, as well as provides an overview of the current mood, culture and tone of your team and work environment. We provide educational courses, awareness programs, insight, overviews and measurable results moving towards your workplace being a Safeplace for all.
             </p>
             <nuxt-link to="/about" class="btn btn-arrow">
               About us
@@ -93,8 +89,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            We provide you with a platform- through our app- that allows for staff to anonymously voice concerns, as well as provides an overview of the current mood, culture and tone of your team and work environment. We provide educational courses, awareness programs, insight, overviews and measurable results moving towards your workplace being a Safeplace for all.
           </p>
           <nuxt-link to="/about" class="btn btn-arrow">
             About us
@@ -117,11 +112,11 @@
         <div class="row">
           <div class="col-lg-9">
             <div class="title-holder">
-              <div class="icon-holder">
+              <!-- <div class="icon-holder">
                 <img src="@/assets/images/icon-010.svg" alt="icon quote" />
-              </div>
+              </div> -->
               <h2 class="h2">
-                What have we seen while working with different companies
+                What we have seen whilst working with different… companies
               </h2>
             </div>
           </div>
@@ -151,9 +146,7 @@
         <h3 class="h2">Create assessment of your team</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We at Safeplace create an assessment of your team through online and in person interactions and surveys with your company and staff. This assessment will used to evaluate the safety and culture of your workplace and team in order to formulate a plan to both create awareness of issues that staff may not be aware of through our educational and awareness programs as well as provide you with an overview of where your company stands. 
           </p>
         </div>
       </div>
@@ -174,11 +167,7 @@
           <h3 class="h2">Create assessment of your team</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nib
+              We at Safeplace create an assessment of your team through online and in person interactions and surveys with your company and staff. This assessment will used to evaluate the safety and culture of your workplace and team in order to formulate a plan to both create awareness of issues that staff may not be aware of through our educational and awareness programs as well as provide you with an overview of where your company stands. Live programs are intensive programs where we address and rectify issues we find within the organization in order to create a Safeplace for all.
             </p>
 
             <nuxt-link
@@ -192,9 +181,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Live programs are intensive programs where we address and rectify issues we find within the organization in order to create a Safeplace for all.
           </p>
           <nuxt-link
             to="/services/brand-protection/your-place"
@@ -210,9 +197,7 @@
         <h3 class="h2">Awareness program</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Our awareness program aims to create awareness and understandings within your team of various factors that can comprise people’s feelings of safety including diversity, cultural practices, race and gender amongst others. 
           </p>
         </div>
       </div>
@@ -233,11 +218,7 @@
           <h3 class="h2">Awareness program</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              Our awareness program aims to create awareness and understandings within your team of various factors that can comprise people’s feelings of safety including diversity, cultural practices, race and gender amongst others. We believe that creating awareness of this issues is key to addressing the root causes of issues in the workplace that may compromise the safe working environment that we aim to achieve for your staff and company. 
             </p>
             <nuxt-link
               to="/services/brand-protection/awareness-program"
@@ -250,9 +231,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We believe that creating awareness of this issues is key to addressing the root causes of issues in the workplace that may compromise the safe working environment that we aim to achieve for your staff and company. 
           </p>
           <nuxt-link
             to="/services/brand-protection/awareness-program"
@@ -268,9 +247,7 @@
         <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We provide you with a platform- through our app- that allows for staff to anonymously voice concerns, as well as provides an overview of the current mood, culture and tone of your team and work environment.
           </p>
         </div>
       </div>
@@ -291,9 +268,7 @@
           <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere
+              We provide you with a platform- through our app- that allows for staff to anonymously voice concerns, as well as provides an overview of the current mood, culture and tone of your team and work environment. This allows for staff to feel safe reporting their concerns as well as helps us to identify the key issues we need to address in our awareness and live programs with your team.
             </p>
             <nuxt-link
               to="/services/brand-protection/safeplace-software"
@@ -306,9 +281,7 @@
       <div class="col d-md-none mobile-text">
         <div class="text-holder pb-none">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            This allows for staff to feel safe reporting their concerns as well as helps us to identify the key issues we need to address in our awareness and live programs with your team.
           </p>
           <nuxt-link
             to="/services/brand-protection/safeplace-software"
@@ -324,9 +297,7 @@
         <h3 class="h2">Live program</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Our live program is an intensive in person workshop where our experts work with your team and staff members in order to create an environment where safe, open communication can occur, as well as providing you and your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance. 
           </p>
         </div>
       </div>
@@ -347,11 +318,7 @@
           <h3 class="h2">Live program</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              Our live program is an intensive in person workshop where our experts work with your team and staff members in order to create an environment where safe, open communication can occur, as well as providing you and your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance. We will teach them the protocols to deal with breaches of safety utilizing our platform but more importantly how to avoid these breaches and have a Safeplace in which to work.
             </p>
             <nuxt-link
               to="/services/brand-protection/live-program"
@@ -364,9 +331,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            We will teach them the protocols to deal with breaches of safety utilizing our platform but more importantly how to avoid these breaches and have a Safeplace in which to work.
           </p>
           <nuxt-link
             to="/services/brand-protection/live-program"
@@ -379,8 +344,7 @@
 
     <QuoteSection class="text-uppercase">
       <p>
-        This is a place for a final <br class="d-none d-md-block" />
-        slogan on this page
+        “Coming together is a beginning; keeping together is progress; working together is success. Don't find fault, find a remedy.”
       </p>
     </QuoteSection>
 
@@ -400,7 +364,7 @@
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="tel:+330123456789">+330123456789</a>
+            <a href="tel:+31202050455">+31202050455</a>
           </li>
         </ul>
       </template>

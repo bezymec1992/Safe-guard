@@ -12,21 +12,27 @@
               />
             </router-link>
           </div>
-          <div class="text-holder">
+          <!-- <div class="text-holder">
             <p>
               We are specialist protecting your assets and reputation to make
               sure you operate risk-free and focus on your core business.
             </p>
-          </div>
+          </div> -->
           <ul class="contact-links">
             <li>
               <h3>Address</h3>
               <address>Hobbemakade 29, 1071 XK, Amsterdam, Netherlands</address>
             </li>
             <li>
-              <h3>E-mail:</h3>
+              <h3>E-mail</h3>
               <a href="mailto:safeguard_help@gmail.com">
                 safeguard_help@gmail.com</a
+              >
+            </li>
+            <li>
+              <h3>Phone</h3>
+              <a href="tel:+31202050455">
+                +31202050455</a
               >
             </li>
           </ul>
@@ -49,7 +55,7 @@
             <ul>
               <li>
                 <router-link to="/services/training"
-                  >Training and Implementation</router-link
+                  >Training</router-link
                 >
               </li>
               <li>
@@ -59,7 +65,7 @@
               </li>
               <li>
                 <router-link to="/services/brand-protection"
-                  >Consultancy and brand protection</router-link
+                  >rand protection</router-link
                 >
               </li>
               <li>

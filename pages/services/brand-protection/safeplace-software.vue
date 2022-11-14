@@ -12,8 +12,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                A tool to create an environment characterized by safety, integrity and inclusion at all times.
               </p>
             </div>
           </div>
@@ -26,8 +25,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                A tool to create an environment characterized by safety, integrity and inclusion at all times.
               </p>
             </div>
           </div>
@@ -46,11 +44,10 @@
 
     <txt-block :class="'txt-block-1 style1 safe-style'">
       <div class="col d-md-none">
-        <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
+        <h3 class="h2">An anonymous platform for anyone who needs help</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. P
+            Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up. 
           </p>
         </div>
       </div>
@@ -68,13 +65,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Anonymous platform for everyone’s who needs help</h3>
+          <h3 class="h2">An anonymous platform for anyone who needs help</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius.
+              Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up. They can anonymously give you insight creating a sense of safety and security within your organization. 
             </p>
           </div>
         </div>
@@ -82,8 +76,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            They can anonymously give you insight creating a sense of safety and security within your organization. 
           </p>
         </div>
       </div>
@@ -94,9 +87,7 @@
         <h3 class="h2">How does it work?</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            Our software is accessible to you and your team in the form of an easy to use application that everyone can download. It provides insight into the mood and culture of your team, as well as allowing you to track changes that occur and address the cause of this as well as providing an anonymous way to report issues, support for people who need help 
           </p>
         </div>
       </div>
@@ -114,11 +105,7 @@
           <h3 class="h2">How does it work?</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              Our software is accessible to you and your team in the form of an easy to use application that everyone can download. It provides insight into the mood and culture of your team, as well as allowing you to track changes that occur and address the cause of this as well as providing an anonymous way to report issues, support for people who need help from an objective support team, and distributing awareness content to keep your team up to date in a way that ensures issues are prevented. It also allows you to continuously assess your teams awareness utilizing our quiz.
             </p>
           </div>
         </div>
@@ -126,8 +113,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            from an objective support team, and distributing awareness content to keep your team up to date in a way that ensures issues are prevented. It also allows you to continuously assess your teams awareness utilizing our quiz.
           </p>
         </div>
       </div>
@@ -153,11 +139,7 @@
         <h3 class="h2">On- and Offline workshops</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            Our team provides both on and offline workshops to ensure your team remain up to date with issues that could compromise on safety, as well as the protocols to deal with any breaches of safety which may occur. 
           </p>
         </div>
       </div>
@@ -178,30 +160,24 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              Our team provides both on and offline workshops to ensure your team remain up to date with issues that could compromise on safety, as well as the protocols to deal with any breaches of safety which may occur. By providing online workshops we ensure that the tools to prevent breaches in security are easily accessible to you at all times.
             </p>
           </div>
           <ul class="mb-5">
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Phasellus vestibulum ac nisi nec</li>
+            <li class="listt">Online workshops accessible through our application at any time</li>
+            <li class="listt">Offline workshops and live programs for more intensive awareness programs</li>
           </ul>
         </div>
       </div>
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            By providing online workshops we ensure that the tools to prevent breaches in security are easily accessible to you at all times.
           </p>
         </div>
         <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Phasellus vestibulum ac nisi nec</li>
+          <li class="listt">Online workshops accessible through our application at any time</li>
+          <li class="listt">Offline workshops and live programs for more intensive awareness programs</li>
         </ul>
       </div>
     </txt-block>
@@ -213,15 +189,14 @@
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="item">
               <div class="icon-holder">
-                <img src="@/assets/images/icon-011.svg" alt="Day mood check" />
+                <img src="@/assets/images/icon-011.svg" alt="Daya mood check" />
               </div>
               <div class="content-holder">
                 <h3>
-                  Day mood <br class="d-none d-md-block" />
-                  check
+                  DAILY MOOD CHECK
                 </h3>
                 <div class="text-holder">
-                  <p>Check your mood every day to understand changes</p>
+                  <p>Check in with your mood every day to track and understand changes</p>
                 </div>
               </div>
             </div>
@@ -253,7 +228,7 @@
                   program
                 </h3>
                 <div class="text-holder">
-                  <p>We will create special program how to improve your team</p>
+                  <p>We will create special program on how to improve your team</p>
                 </div>
               </div>
             </div>
@@ -269,7 +244,7 @@
                   workshops
                 </h3>
                 <div class="text-holder">
-                  <p>We have prepared a video-content for you</p>
+                  <p>Prepared video-content for you</p>
                 </div>
               </div>
             </div>
@@ -297,7 +272,7 @@
               </div>
               <div class="content-holder">
                 <h3>
-                  Ideas how to <br class="d-none d-md-block" />
+                  Ideas on how to <br class="d-none d-md-block" />
                   improve a team
                 </h3>
                 <div class="text-holder">
@@ -353,9 +328,7 @@
         <h2 class="h2">We work for your safety</h2>
         <div class="text-holder">
           <p>
-            Condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac
-            fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum
-            at turpis euismod, fermentum
+            Our goal is to ensure that your company and staff are safe at all times and to provide you with the tools to ensure this safety. 
           </p>
         </div>
       </div>
@@ -403,6 +376,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.listt {
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+    }
+  }
 .safe-pages {
   .intro-section {
     overflow: hidden;

@@ -12,8 +12,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                Our live program provides a more intensive and thorough approach that works in a hands on approach with your team in order to improve your work environment at multiple levels. 
               </p>
             </div>
           </div>
@@ -26,8 +25,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                Our live program provides a more intensive and thorough approach that works in a hands on approach with your team in order to improve your work environment at multiple levels. 
               </p>
             </div>
           </div>
@@ -49,8 +47,7 @@
         <h3 class="h2">Live program</h3>
         <div class="text-holder">
           <p>
-            Here we work together with one or more of our specialists on sight
-            to make sure that work environment gets improved.
+            Here we work together with one or more of our specialists on sight to ensure that your work environment gets improved.
           </p>
         </div>
       </div>
@@ -90,8 +87,7 @@
         <h3 class="h2">Departement approach</h3>
         <div class="text-holder">
           <p>
-            We work together with the dept were there the urgency is the
-            highest.
+            In this approach we work together with the department were there the urgency is the highest. 
           </p>
         </div>
       </div>
@@ -112,15 +108,14 @@
           <h3 class="h2">Departement approach</h3>
           <div class="text-holder">
             <p>
-              We work together with the dept were there the urgency is the
-              highest. Our focus is to get to the core of the problem.
+              In this approach we work together with the department were there the urgency is the highest. Our focus is to get to the core of the problem and rectify this in order to prevent future issues.
             </p>
           </div>
         </div>
       </div>
       <div class="col d-md-none">
         <div class="text-holder">
-          <p>Our focus is to get to the core of the problem.</p>
+          <p>Our focus is to get to the core of the problem and rectify this in order to prevent future issues.</p>
         </div>
       </div>
     </txt-block>
@@ -142,7 +137,7 @@
       <div class="col d-md-none">
         <h3 class="h2">Management</h3>
         <div class="text-holder">
-          <p>We make sure that all managers are aligned on this topic</p>
+          <p>We make sure that all managers are aligned with the values that cultivate a </p>
         </div>
       </div>
       <div class="col-md-6">
@@ -162,26 +157,24 @@
           <h3 class="h2">Management</h3>
           <div class="text-holder">
             <p>
-              We make sure that all managers are aligned on this topic.
-              Consistent in their implementation with all other managers
+              We make sure that all managers are aligned with the values that cultivate a Safeplace and that there is consistency in their implementation with all other managers.
             </p>
           </div>
         </div>
       </div>
       <div class="col d-md-none">
         <div class="text-holder">
-          <p>Consistent in their implementation with all other managers</p>
+          <p>Safeplace and that there is consistency in their implementation with all other managers.</p>
         </div>
       </div>
     </txt-block>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
-        <h3 class="h2">HR</h3>
+        <h3 class="h2">Human Resources</h3>
         <div class="text-holder">
           <p>
-            We guide the dept to make sure we have the right approach on our
-            egarding the creation of a safe work environment
+            We guide the HR department to make sure they have the right approach in hiring regarding the creation of a safe work environment
           </p>
         </div>
       </div>
@@ -199,11 +192,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">HR</h3>
+          <h3 class="h2">Human Resources</h3>
           <div class="text-holder">
             <p>
-              We guide the dept to make sure we have the right approach on our
-              hiring regarding the creation of a safe work environment
+              We guide the HR department to make sure they have the right approach in hiring regarding the creation of a safe work environment
             </p>
           </div>
         </div>
@@ -215,9 +207,7 @@
         <h2 class="h2">We work for your safety</h2>
         <div class="text-holder">
           <p>
-            Condimentum, eu gravida urna varius. Aenean neque orci, ultrices ac
-            fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum
-            at turpis euismod, fermentum
+            Our goal is to ensure that your team across the various levels of your company are aligned, and have the tools to work together in order to ensure a Safeplace at all times.
           </p>
         </div>
       </div>

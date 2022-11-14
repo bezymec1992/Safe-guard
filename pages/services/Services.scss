@@ -15,8 +15,18 @@
 
     .h1 {
       @include media-breakpoint-up(md) {
-        margin-bottom: 8rem;
+        margin-bottom: 3rem;
       }
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 2rem;
+      @include media-breakpoint-down(md) {
+        font-size: 1.6rem;
+      }
+    }
+    .intro-txt {
+      margin-bottom: 3rem;
     }
 
     .text-holder {

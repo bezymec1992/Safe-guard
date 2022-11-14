@@ -3,20 +3,18 @@
     <div class="additional-section-wrapper">
       <div class="container">
         <h2 class="h2">
-          Discover where we <br />
-          came from
+          DISCOVER OUR JOURNEY 
         </h2>
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-8">
             <div class="text-holder">
               <p>
-                We're here to help and answer any question you might have. We
-                look forward to hearing from you.
+                Every step we took on our journey was taken with pride and determination. Our journey was one of integrity that cultivated sense of honesty and trust. We now benefit from all the steps we were able to take thanks to the trust that the clients have in us.
               </p>
             </div>
           </div>
           <div
-            class="col-md-5 d-md-flex align-items-md-start justify-content-md-center"
+            class="col-md-4 d-md-flex align-items-md-start justify-content-md-center"
           >
             <router-link to="/about/timeline" class="btn btn-arrow">
               Our Timeline

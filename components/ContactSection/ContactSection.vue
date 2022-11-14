@@ -8,9 +8,7 @@
             <div class="just-text">
               <div class="text-holder">
                 <p>
-                  We're here to help and answer any question you might have.
-                  <br class="d-none d-md-block" />
-                  We look forward to hearing from you.
+                  Are you interested in our services and in cultivating a relationship of trust with our company as countless other clients have? Or would you like to know more? Do not hesitate to write us or call us. 
                 </p>
               </div>
             </div>

@@ -21,7 +21,7 @@
               Consultants
             </h1>
             <div class="text-holder d-none d-md-block">
-              <h3>Make it top of mind</h3>
+              <h3>Make it front of mind</h3>
               <p>
                 Awareness is the best way to start within your company. Understanding the threats and where they possibly come from is the foundation of the right mindset. With our courses on CYBER we help companies in recognizing the threats and minimizing the risks.
               </p>
@@ -75,7 +75,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately. 
+            We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately.  
           </p>
         </div>
       </div>
@@ -115,7 +115,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation and that you are prepared for the near future. This guideline is always a work in progress. 
+            Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation so that you are prepared for the future. This guideline is constantly a work in progress. 
           </p>
         </div>
       </div>
@@ -135,7 +135,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation and that you are prepared for the near future. This guideline is always a work in progress. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
+              Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation so that you are prepared for the future. This guideline is constantly a work in progress. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.   
+            Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.  
           </p>
         </div>
       </div>
@@ -186,7 +186,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level.
+            The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level.   
           </p>
         </div>
       </div>
@@ -257,7 +257,7 @@
         </div>
         <div class="col-md-6 d-flex align-items-md-center">
           <div class="content-holder">
-            <h2 class="h1">Be advised because timing is key</h2>
+            <h2 class="h1">Be advised because timing  is  key</h2>
           </div>
         </div>
       </div>
@@ -309,6 +309,7 @@ export default {
   .visual-section {
     padding-top: 7rem;
     overflow: hidden;
+    max-width: 1240px;
     @include media-breakpoint-down(sm) {
       min-height: 54vh;
     }
@@ -330,7 +331,7 @@ export default {
       }
 
       .img-holder {
-        left: 0;
+        left: -2rem;
         right: unset;
 
         @include media-breakpoint-down(md) {
@@ -344,12 +345,13 @@ export default {
         .h1 {
           @include media-breakpoint-down(md) {
             max-width: 28rem;
+            font-size: 3.2rem;
           }
         }
       }
     }
     .content-holder {
-      margin-left: -9.5rem;
+      margin-left: 0;
       @include media-breakpoint-down(lg) {
         margin-left: 0;
       }

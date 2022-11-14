@@ -7,7 +7,10 @@
             <h1 class="h1">Services</h1>
             <div class="text-holder d-none d-md-block">
               <!-- <h3>BE ADVISED because <br/> TIMING IS KEY</h3> -->
-              <p>Data, experience, skills, knowledge and the right attitude. This is what we have to offer.</p>
+              <p class="intro-txt">BE ADVISED because TIMING IS KEY.</p>
+              <p>
+                We offer a wide range of expertise in data, experience, skills, knowledge and the right attitude.
+              </p>
             </div>
           </div>
           <div
@@ -40,7 +43,8 @@
               </div>
             </div>
             <div class="text-holder d-md-none">
-              <p>Data, experience, skills, knowledge and the right attitude. This is what we have to offer.</p>
+              <p class="intro-txt">BE ADVISED because TIMING IS KEY.</p>
+              <p>We offer a wide range of expertise in data, experience, skills, knowledge and the right attitude.</p>
             </div>
           </div>
         </div>

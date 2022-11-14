@@ -32,7 +32,7 @@ export default {
           id: 1,
           title: '1000+ companies ',
           description:
-            'We have served more than 1000 companies in protecting their assets.',
+            'We have protected more than 1000 companies assets for more than 25years.',
         },
         {
           id: 2,
@@ -44,7 +44,7 @@ export default {
           id: 3,
           title: '500 MM USD +',
           description:
-            'We have guided investors with safeguarding their investment.',
+            'We have guided investors in the best way forward with safeguarding their investment.',
         },
       ],
     }

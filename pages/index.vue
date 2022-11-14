@@ -10,8 +10,9 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We are specialized in safeguarding your assets. Our main goal is that our clients can operate risk free and that all prevention measurements are taken. 
+                We at Safegaurd are specialized in safeguarding your assets through preventative measures that allow you to operate risk free.
               </p>
+              <p>Safety is not only a mindset it is also an attitude.</p>
             </div>
             <nuxt-link
               to="/services"
@@ -62,8 +63,9 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                We are specialized in safeguarding your assets. Our main goal is that our clients can operate risk free and that all prevention measurements are taken.
+                We at Safegaurd is specialized in safeguarding your assets. Our main goal is to ensure all preventative measures are taken in order to ensure our clients can operate risk free. 
               </p>
+              <p>Safety is not only a mindset it is also an attitude.</p>
             </div>
           </div>
         </div>
@@ -98,10 +100,10 @@
           <h3 class="h2 text-uppercase">Who We Are</h3>
           <div class="text-holder">
             <p>
-              We are a company that earned their stripes in the industry for the last 25 years. We retrieved assets and solved the problems of our clients. The main success factor of our company is that we truly care. This is why we started in this industry. The last 5 years we turned our expertise in offering more preventive measurements instead in just focusing on fixing the problem.
+              We have earned our stripes in the industry for the last 25 years. We retrieve assets and solve the problems of our clients. The key to our success as a company is that we truly care. This is why we are passionate about this industry. The last 5 years we have turned our expertise towards offering more preventive measurements instead of placing focus on rectifying breaches in safety that have already occurred. 
             </p>
             <p>
-              Our clients are in different industries and in different jurisdictions. What we have seen that the mechanics in the most industries are the same when a company is at risk. We developed a methodology together with our team to make sure that our customers are protected in their core business. It gives us pleasure to see that our clients can focus on their core business.
+              We have clients across a variety of industries and jurisdictions. We have deduced that when a company is at risk the mechanics of most industries are the same. We developed a methodology based on the pattern of these mechanical similarities within various industries- together with our team- to ensure that our customers are protected in their core business. We aim to create an environment of safety so that our clients can direct their focus towards their core business.
             </p>
           </div>
         </div>
@@ -172,16 +174,19 @@ export default {
   .intro-section {
     overflow: hidden;
     .btn {
-      margin-top: 8rem;
+      margin-top: 4.5rem;
     }
     @include media-breakpoint-up(md) {
       min-height: 90vh;
       padding-top: 11.2rem;
       padding-bottom: 3.4rem;
     }
+    p {
+      margin-bottom: 0;
+    }
 
     .h1 {
-      margin-bottom: 8rem;
+      margin-bottom: 3.5rem;
       margin-top: 8rem;
       @include media-breakpoint-down(md) {
         margin-bottom: 1rem;

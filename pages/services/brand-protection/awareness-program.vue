@@ -12,8 +12,7 @@
             </h1>
             <div class="text-holder">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                The first step toward change is awareness and we will help you to take this first step in your journey to ensuring your work environment is a Safeplace. 
               </p>
             </div>
           </div>
@@ -45,9 +44,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            An awareness program is a companywide and audience specific program and initiative that cultivates an increase in your teams knowledge as well as providing them with information and resources to prevent violence, promote safety, and reduce perpetration of issues that compromise on diversity, equity and inclusion 
           </p>
         </div>
       </div>
@@ -73,22 +70,17 @@
               </h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere massa sed magna condimentum, eu
-                  gravida urna varius.
+                  An awareness program is a companywide and audience specific program and initiative that cultivates an increase in your teams knowledge as well as providing them with information and resources to prevent violence, promote safety, and reduce perpetration of issues that compromise on diversity, equity and inclusion 
                 </p>
               </div>
             </div>
             <div class="text-row">
-              <h3 class="h2">
+              <h3 class="h2 pad-5">
                 Awareness Program helps to understand the root of a problem
               </h3>
               <div class="text-holder">
                 <p class="mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra.
+                  We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures for your team.
                 </p>
               </div>
             </div>
@@ -101,17 +93,13 @@
         </h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures for your team.
           </p>
         </div>
       </div>
     </txt-block>
 
-    <QuoteSection class="text-uppercase pb-0">
+    <QuoteSection class="text-uppercase pb-0 mt">
       <p>
         we will teach your team how <br class="d-none d-md-block" />
         to become better
@@ -122,12 +110,10 @@
 
     <txt-block class="txt-block-1 style1 safe-style pb-0">
       <div class="col d-md-none">
-        <h3 class="h2">AP is about how to improve your team</h3>
+        <h3 class="h2">Our Awareness program is about how to improve your team</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius.
+            The ultimate aim of our awareness program is ro achieve long-term lasting behavioral changes within your team and company as a whole. 
           </p>
         </div>
       </div>
@@ -145,15 +131,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">AP is about how to improve your team</h3>
+          <h3 class="h2">Our Awareness program is about how to improve your team</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              The ultimate aim of our awareness program is ro achieve long-term lasting behavioral changes within your team and company as a whole. Awareness raising addresses the knowledge of individuals in your team and of the institution to ensure violations of safety within the workplace do not occur.
             </p>
           </div>
         </div>
@@ -161,8 +142,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam
-            quis suscipit justo. Vestibulum at turpis euismod, fermentum
+            Awareness raising addresses the knowledge of individuals in your team and of the institution to ensure violations of safety within the workplace do not occur.
           </p>
         </div>
       </div>
@@ -170,11 +150,10 @@
 
     <txt-block class="txt-block-2 style2 reverse safe-style">
       <div class="col d-md-none">
-        <h3 class="h2">In which formats Awarness Program goes</h3>
+        <h3 class="h2">The format our awareness program takes</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra.
+            We utilize a variety of formats to implement our awareness programs so that it can be an accessible process for all.
           </p>
         </div>
       </div>
@@ -193,28 +172,25 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
           <h3 class="h2">
-            In which formats <br class="d-none d-md-block" />
-            Awarness Program goes
+            The format our awareness program takes
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra.
+              We utilize a variety of formats to implement our awareness programs so that it can be an accessible process for all.
             </p>
           </div>
           <ul>
-            <li>Online workshops / live translations</li>
-            <li>Offline workshops & meetings</li>
-            <li>Regular polls</li>
+            <li class="listt">Online workshops / live translations</li>
+            <li class="listt">Offline workshops & meetings</li>
+            <li class="listt">Regular polls</li>
           </ul>
         </div>
       </div>
       <div class="col d-md-none mobile-text">
         <ul>
-          <li>Online workshops / live translations</li>
-          <li>Offline workshops & meetings</li>
-          <li>Regular polls</li>
+          <li class="listt">Online workshops / live translations</li>
+          <li class="listt">Offline workshops & meetings</li>
+          <li class="listt">Regular polls</li>
         </ul>
       </div>
     </txt-block>
@@ -224,11 +200,7 @@
         <h3 class="h2">Easier with Safeplace Software</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In
-            posuere massa sed magna condimentum, eu gravida urna varius. Aenean
-            neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis
-            suscipit justo. Vestibulum at turpis euismod, fermentum
+            We at Safeplace believe that every organization should have access to the tools to create an environment characterized by safety, integrity and inclusion at all times. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left. We believe in prevention rather than cure. 
           </p>
         </div>
       </div>
@@ -246,17 +218,12 @@
           <h3 class="h2">Easier with Safeplace Software</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              We at Safeplace believe that every organization should have access to the tools to create an environment characterized by safety, integrity and inclusion at all times. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left. We believe in prevention rather than cure. 
             </p>
           </div>
           <ul class="mb-5">
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Phasellus vestibulum ac nisi nec</li>
+            <li class="listt">Easily accessible and user friendly software that allows you to target issues as they occur.</li>
+            <li class="listt">Preventative and provides insight and an overview into the culture of your organization before crises occur.</li>
           </ul>
           <nuxt-link
             to="/services/brand-protection/safeplace-software"
@@ -267,8 +234,8 @@
       </div>
       <div class="col d-md-none">
         <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Phasellus vestibulum ac nisi nec</li>
+          <li class="listt">Easily accessible and user friendly software that allows you to target issues as they occur.</li>
+          <li class="listt">Preventative and provides insight and an overview into the culture of your organization before crises occur.</li>
         </ul>
         <nuxt-link
           to="/services/brand-protection/safeplace-software"
@@ -280,8 +247,7 @@
 
     <QuoteSection class="text-uppercase">
       <p>
-        This is a place for a final <br class="d-none d-md-block" />
-        slogan on this page
+        THE FIRST STEP TOWARDS CHANGE IS AWARENESS
       </p>
     </QuoteSection>
 
@@ -338,6 +304,20 @@ export default {
 
 <style lang="scss" scoped>
 .safe-pages {
+  .pad-5 {
+    @include media-breakpoint-up(md) {
+      margin-top: 5rem;
+    }
+  }
+  .mt {
+    margin-top: 0;
+    padding-top: 0 !important;
+  }
+  .listt {
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+    }
+  }
   .intro-section {
     color: $white;
     background: url('@/assets/images/img-119.jpg') no-repeat;

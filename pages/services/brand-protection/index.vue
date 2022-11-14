@@ -16,7 +16,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
-            <h1 class="h1">Consultancy & brand protection</h1>
+            <h1 class="h1">brand protection</h1>
             <div class="text-holder desktop">
               <p>
                 Your internal brand values and exposure will make sure you are consistent. Consistency is key for success.
@@ -75,7 +75,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Having the overview how the mechanics work inside your company is where we start. 
+            Having an overview of how the mechanics work inside your company is where we start.  
           </p>
         </div>
       </div>
@@ -95,7 +95,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Having the overview how the mechanics work inside your company is where we start. Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company.
+              Having an overview of how the mechanics work inside your company is where we start. Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your companies needs.
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company.
+            Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your companies needs.
           </p>
         </div>
       </div>
@@ -116,7 +116,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand.
+            As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. 
           </p>
         </div>
       </div>
@@ -136,7 +136,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected. 
+              As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected.  
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@
 
     <txt-block :class="'txt-block-2 style2'">
       <div class="col d-md-none">
-        <h3 class="h2 text-capitalize">
+        <h3 class="h2 text-capitalize smal">
           Expanding, Investing in new ventures
         </h3>
         <div class="text-holder">
@@ -178,7 +178,7 @@
         <div class="content-holder">
           <div class="text-rows">
             <div class="text-row">
-              <h3 class="h2 text-capitalize">
+              <h3 class="h2 text-capitalize smal">
                 Expanding, Investing in new ventures
               </h3>
               <div class="text-holder">
@@ -215,7 +215,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard.
+            We never improvise on branding. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. 
           </p>
         </div>
       </div>
@@ -235,7 +235,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              On branding we never improvise. “It is the plate where we all eat from” this is what we have learned in time. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
+              We never improvise on branding. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
             </p>
           </div>
         </div>
@@ -250,10 +250,10 @@
     </txt-block>
 
     <div class="img-insted">
-      <div class="container">
+      <div class="containere">
         <picture>
-          <source srcset="@/assets/images/img-insted-mb.jpg" media="(max-width: 600px)" width="100%" height="auto"/>
-          <img src="@/assets/images/img-insted-desk.jpg" alt="MDN" width="100%" height="auto" />
+          <source srcset="@/assets/images/img-02-vasyl.jpg" media="(max-width: 600px)" width="100%" height="auto"/>
+          <img src="@/assets/images/img-01-vasyl.jpg" alt="MDN" width="100%" height="auto"/>
         </picture>
       </div>
     </div>
@@ -378,7 +378,7 @@ export default {
 
 <style lang="scss">
 .services-project {
-  
+  overflow: hidden;
   .intro-section {
     // padding-top: 18.2rem;
     // padding-bottom: 2.4rem;
@@ -431,6 +431,13 @@ export default {
   }
 }
 .img-insted {
+  
+  img {
+      margin: 0 auto;
+      display: block;
+      max-width: 124rem;
+  }
+  
   @include media-breakpoint-down(md) {
     margin-left: -3rem;
     margin-right: -3rem;
@@ -442,6 +449,8 @@ export default {
     margin-top: 8rem;
   }
 }
-
+.smal {
+  text-transform: unset !important;
+}
 @import '@/pages/services/ServicesProjects.scss';
 </style>

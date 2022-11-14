@@ -29,11 +29,9 @@
         </div>
       </div>
 
-      <h3 class="h1">Day mood check</h3>
+      <h3 class="h1">DAILY MOOD CHECK</h3>
       <p class="txt">
-        Mood check will help you and also us to understand how do you feel
-        during each period. It will also help to compare info before and after
-        team’s improving.
+        Mood check will help you and also us to understand how do you feel during each period. It will also help to compare info before and after team’s improving.
       </p>
     </div>
   </div>

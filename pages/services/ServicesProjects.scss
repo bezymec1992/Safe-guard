@@ -24,6 +24,7 @@
     }
 
     .h1 {
+      margin-bottom: 3rem;
       @include media-breakpoint-down(sm) {
         font-size: 3.4rem;
       }

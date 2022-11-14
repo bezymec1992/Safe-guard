@@ -9,7 +9,7 @@
             <h1 class="h1">Who we are</h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We have come from the deep and with our rich experience we learned to have overview in order to prevent.
+                Our team is able to deduce patterns and we have a wide and rich variety of experience. We have learned how to utilize our insight in order to prevent crises before they occur. 
               </p>
             </div>
             <nuxt-link
@@ -43,7 +43,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                We know all the strategic and operational moves to protect you.
+                Our team is able to deduce patterns and we have a wide and rich variety of experience. We have learned how to utilize our insight in order to prevent crises before they occur.
               </p>
             </div>
             <router-link to="/about/timeline" class="btn btn-arrow d-md-none">
@@ -78,7 +78,7 @@
         <div class="text-holder">
           <p>
             We are a team of disciplined individuals that are dedicated and specialized in solving problems.
-            The biggest part of our team is daily busy with preventive measurements and analyzing the mechanics how we can prevent the best way possible in each different industry where we work in. 
+            The largest percentage of our team works daily to implement preventive measures and analyze the mechanics of companies with safety risks in order to determine how we can prevent safety breaches in the best way possible within each specific industry in which we work.
           </p>
         </div>
       </div>
@@ -102,8 +102,12 @@
           <div class="text-holder">
             <p>
               We are a team of disciplined individuals that are dedicated and specialized in solving problems.
-              The biggest part of our team is daily busy with preventive measurements and analyzing the mechanics how we can prevent the best way possible in each different industry where we work in. 
-              Our methodology which we have developed the last 5 years is constantly being improved in order to give us the overview which we need to support our clients in the best way possible.
+            </p>
+            <p>
+              The largest percentage of our team works daily to implement preventive measures and analyze the mechanics of companies with safety risks in order to determine how we can prevent safety breaches in the best way possible within each specific industry in which we work.
+            </p>
+            <p>
+              Our methodology which we have developed the last 5 years is constantly being improved in order to give us the insight and nuance we need in order to support our clients in the best way possible.
             </p>
           </div>
         </div>
@@ -142,7 +146,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              With our global footprint and partners, we know how we can let our clients operate in a low-risk environment. Reputation management is key in our approach.
+              With our global footprint and international partners, we are able to offer our clients the tools to operate in a low-risk environment. Reputation management is key in our approach, to aiding our clients in this pursuit.
             </p>
           </div>
         </div>
@@ -150,7 +154,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            With our global footprint and partners, we know how we can let our clients operate in a low-risk environment. Reputation management is key in our approach.
+            With our global footprint and international partners, we are able to offer our clients the tools to operate in a low-risk environment. Reputation management is key in our approach, to aiding our clients in this pursuit.
           </p>
         </div>
       </div>
@@ -328,9 +332,12 @@ export default {
         margin-bottom: 5.2rem;
       }
     }
+    p {
+      margin-bottom: 0;
+    }
 
     .btn-arrow {
-      margin-top: 6.8rem;
+      margin-top: 4.5rem;
 
       @include media-breakpoint-down(md) {
         margin-top: 3.6rem;

@@ -31,12 +31,12 @@
             <div class="content-holder">
               <span class="item-number">/01</span>
               <h3 class="h2">
-                BRAND <br/> PROTECTION
+                BRAND PROTECTION
                 
               </h3>
               <div class="text-holder">
                 <p>
-                  Get all your touchpoints of your brand under control. We will help your company towards a preventive Mindset.
+                  Get all your touchpoints of your brand under control. We will help your company move towards a preventive Mindset.
                 </p>
               </div>
               <nuxt-link to="/services/brand-protection" class="btn btn-dark"
@@ -76,10 +76,8 @@
               </h3>
               <div class="text-holder">
                 <p>
-                  We convert theoretical topics into
-                  practical understanding together with your team and making them
-                  better so they can operate without us in the future.
-                </p>
+                  We convert theoretical theories into practical measures creating understanding together with your team and providing them with the skills that they can operate without us in the future.  
+                  </p>
               </div>
               <nuxt-link to="/services/training" class="btn btn-dark"
                 >Read More</nuxt-link
@@ -115,12 +113,11 @@
             <div class="content-holder">
               <span class="item-number">/03</span>
               <h3 class="h2">
-                Cyber <br />
-                CONSULTANCY
+                Cyber CONSULTANTS
               </h3>
               <div class="text-holder">
                 <p>
-                  Having a good overview on CYBER RISKS in your company is the first step and getting more AWARENESS within your team is the second step. 
+                  Having a good overview on CYBER RISKS in your company is the first step in safeguarding your company- and getting more AWARENESS within your team is the second step.  
                 </p>
               </div>
               <nuxt-link to="/services/cyber-consultants" class="btn btn-dark"
@@ -154,9 +151,7 @@
               <h3 class="h2">Software</h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi
-                  nec viverra. In posuere
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere 
                 </p>
               </div>
               <nuxt-link to="/services/software" class="btn btn-dark"

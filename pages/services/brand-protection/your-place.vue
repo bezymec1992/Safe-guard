@@ -12,8 +12,7 @@
             </h1>
             <div class="text-holder d-none d-lg-block">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                We will assess and find the problem areas within your organization. Together we will work together to ensure your environment is a Safeplace for everyone.
               </p>
             </div>
           </div>
@@ -36,8 +35,7 @@
             </div>
             <div class="text-holder d-lg-none">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                We will assess and find the problem areas within your organization. Together we will work together to ensure your environment is a Safeplace for everyone.
               </p>
             </div>
           </div>
@@ -59,8 +57,7 @@
         <h3 class="h2">We scan your team and check which problems it has</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh.
+            We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers. 
           </p>
         </div>
       </div>
@@ -85,11 +82,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers. We will work with you in order to utilize this information to create a tailored awareness and live program to address and rectify these issues.
             </p>
           </div>
         </div>
@@ -97,8 +90,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
-            condimentum, eu gravida urna varius.
+            We will work with you in order to utilize this information to create a tailored awareness and live program to address and rectify these issues.
           </p>
         </div>
       </div>
@@ -109,8 +101,7 @@
         <h3 class="h2">Transform received results into clear metodology</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh.
+            We will work with you in order to utilize this information we gather through our assessment of your 
           </p>
         </div>
       </div>
@@ -135,11 +126,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. =
+              We will work with you in order to utilize this information we gather through our assessment of your team in order to create a tailored awareness and live program to address and rectify these issues.
             </p>
           </div>
         </div>
@@ -147,8 +134,7 @@
       <div class="col d-md-none mobile-text">
         <div class="text-holder pb-none">
           <p>
-            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
-            condimentum, eu gravida urna varius.
+            team in order to create a tailored awareness and live program to address and rectify these issues.
           </p>
         </div>
       </div>
@@ -174,8 +160,7 @@
         <h3 class="h2">Create Awareness Program</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh.
+            We will work with you in order to utilize the information gathered to create a tailored and customized awareness program that will target the direct and specific issues your company is facing to get measurable improvements and results.
           </p>
         </div>
       </div>
@@ -196,18 +181,16 @@
           <h3 class="h2">Create Awareness Program</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra.
+              We will work with you in order to utilize the information gathered to create a tailored and customized awareness program that will target the direct and specific issues your company is facing to get measurable improvements and results.
             </p>
           </div>
           <div class="additional-info">
             <div class="additional-title">
-              <p>Awareness Program will help to understand</p>
+              <p>Awareness Program will help create understanding of:</p>
             </div>
             <ul>
-              <li>Where did problems come from</li>
-              <li>How to improve your team</li>
+              <li class="listt">Where the problems came from</li>
+              <li class="listt">How to improve your team</li>
             </ul>
             <nuxt-link
               to="/services/brand-protection/awareness-program"
@@ -230,11 +213,11 @@
       <div class="col d-md-none">
         <div class="additional-info">
           <div class="additional-title">
-            <p>Awareness Program will help to understand</p>
+            <p>Awareness Program will help create understanding of:</p>
           </div>
           <ul>
-            <li>Where did problems come from</li>
-            <li>How to improve your team</li>
+            <li class="listt">Where the problems came from</li>
+            <li class="listt">How to improve your team</li>
           </ul>
           <nuxt-link
             to="/services/brand-protection/awareness-program"
@@ -260,8 +243,7 @@
         <h3 class="h2">Scan again to see and compare final results</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            vitae imperdiet nibh.
+            We don’t just believe in scanning and evaluating your team once and walking away. We will come back and create a working relationship with your company where we do a 
           </p>
         </div>
       </div>
@@ -282,11 +264,7 @@
           <h3 class="h2">Scan again to see and compare final results</h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex.
+              We don’t just believe in scanning and evaluating your team once and walking away. We will come back and create a working relationship with your company where we do a second evaluation in order to determine how successful the implementation of rectifying issues has been, and to target any issues that still exist as well as new issues which have arisen.
             </p>
           </div>
         </div>
@@ -294,8 +272,7 @@
       <div class="col d-md-none mobile-text">
         <div class="text-holder pb-none">
           <p>
-            Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna
-            condimentum, eu gravida urna varius.
+            second evaluation in order to determine how successful the implementation of rectifying issues has been, and to target any issues that still exist as well as new issues which have arisen.
           </p>
         </div>
       </div>
@@ -362,6 +339,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.listt {
+    @include media-breakpoint-up(md) {
+      font-size: 2rem;
+    }
+  }
 .safe-pages {
   .intro-section {
     overflow: hidden;
