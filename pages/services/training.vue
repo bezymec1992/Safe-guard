@@ -21,7 +21,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We convert theoretical theories into practical and tangible measures creating understanding together with your team and providing them with the skills and resources so that they can operate without us in the future. That’s the way we work.
+                Our behavioral experts train you and give you insight on how to address the root cause of issues in your company.
               </p>
             </div>
           </div>
@@ -37,22 +37,20 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                We convert theoretical theories into practical and tangible measures creating understanding together with your team and providing them with the skills and resources so that they can operate without us in the future. That’s the way we work.
+                Our behavioral experts train you and give you insight on how to address the root cause of issues in your company.
               </p>
             </div>
           </div>
         </div>
       </div>
     </intro-section>
-    <txt-block :class="'txt-block-1 style1'">
+    <txt-block :class="'txt-block-1 style1 apple'">
       <div class="col d-md-none">
         <h3 class="h2">We will slice it into pieces of deliverables</h3>
         <div class="text-holder">
           <p>
-            We will take these goals and break it down into tangible and manageable deliverables.
-After our SAFEGUARD SCAN we will provide accurate steps based on the urgency of each step to create a succinct plan according to our methodology.
-
-
+            We will find the root cause of issues and slice them into tangible and manageable deliverables cutting out the rotten core of issues, and finding your teams potential.
+After our SAFEGUARD SCAN we provide accurate steps and a plan to deliver measurable changes in your team’s productivity.
           </p>
         </div>
       </div>
@@ -62,6 +60,8 @@ After our SAFEGUARD SCAN we will provide accurate steps based on the urgency of 
             data-src="@/assets/images/img-080.jpg"
             class="lazyload"
             alt="#"
+            width="570"
+            height="450"
           />
         </div>
       </div>
@@ -70,11 +70,9 @@ After our SAFEGUARD SCAN we will provide accurate steps based on the urgency of 
           <h3 class="h2">We will slice it into pieces of deliverables</h3>
           <div class="text-holder">
             <p>
-              We will take these goals and break it down into tangible and manageable deliverables.
-After our SAFEGUARD SCAN we will provide accurate steps based on the urgency of each step to create a succinct plan according to our methodology.
-</p>
-<p>
-This plan will not only contain the habits and the desired workflow for your company but we will also present the root cause of issues within your company. Together we will decide on the intensity of our program and the most suitable action plan according to your specific desires and needs.
+              We will find the root cause of issues and slice them into tangible and manageable deliverables cutting out the rotten core of issues, and finding your teams potential.
+After our SAFEGUARD SCAN we provide accurate steps and a plan to deliver measurable changes in your team’s productivity. <br/>
+This plan will not only contain the habits and the desired workflow for your company but we will also present the root cause of issues within your company. We deliver protocols for you to operate in a low risk environment.
 
             </p>
           </div>
@@ -83,17 +81,17 @@ This plan will not only contain the habits and the desired workflow for your com
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            This plan will not only contain the habits and the desired workflow for your company but we will also present the root cause of issues within your company. Together we will decide on the intensity of our program and the most suitable action plan according to your specific desires and needs.
+            This plan will not only contain the habits and the desired workflow for your company but we will also present the root cause of issues within your company. We deliver protocols for you to operate in a low risk environment.
           </p>
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse people'">
       <div class="col d-md-none">
         <h3 class="h2">Analyzing Your Group Dynamics</h3>
         <div class="text-holder">
           <p>
-            At the end of the day, it is a people’s job. We will help you to improve the group dynamics of your company based on their performance and characteristics so they can perform with a smile. What is the ideal setup for each department/team based on their characteristics? 
+            At the end of the day, it is a people’s job. We will help you to improve the group dynamics of your company based on their performance and characteristics so they can perform with a smile and to their full potential.
           </p>
         </div>
       </div>
@@ -111,7 +109,7 @@ This plan will not only contain the habits and the desired workflow for your com
           <h3 class="h2">Analyzing Your Group Dynamics</h3>
           <div class="text-holder">
             <p>
-              At the end of the day, it is a people’s job. We will help you to improve the group dynamics of your company based on their performance and characteristics so they can perform with a smile. What is the ideal setup for each department/team based on their characteristics?   Who is their ideal manager? Do they need a manager? What type? Do not worry, we will provide you with these answers.
+              At the end of the day, it is a people’s job. We will help you to improve the group dynamics of your company based on their performance and characteristics so they can perform with a smile and to their full potential. What is the ideal setup for each department/team based on their characteristics? Who is their ideal manager? Do they need a manager? What type? Do not worry, we will provide you with these answers! These answers will have a huge impact on understanding the perfect set up for your ideal team to meet your needs.
             </p>
           </div>
         </div>
@@ -119,8 +117,7 @@ This plan will not only contain the habits and the desired workflow for your com
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Who is their ideal manager? Do they need a manager? What type? Do
-            not worry, we will provide you with these answers.
+            What is the ideal setup for each department/team based on their characteristics? Who is their ideal manager? Do they need a manager? What type? Do not worry, we will provide you with these answers! These answers will have a huge impact on understanding the perfect set up for your ideal team to meet your needs.
           </p>
         </div>
       </div>
@@ -153,7 +150,7 @@ This plan will not only contain the habits and the desired workflow for your com
       </div>
     </visual-section> -->
     <visual-section class="bg-img" video-bg="video-02.mp4" />
-    <txt-block :class="'txt-block-1 style1'">
+    <txt-block :class="'txt-block-1 style1 thing'">
       <div class="col d-md-none">
         <h3 class="h2">
           High Performance <br />
@@ -161,7 +158,7 @@ This plan will not only contain the habits and the desired workflow for your com
         </h3>
         <div class="text-holder">
           <p>
-            Implementing a mindset that creates a team which focuses on their performance. Creating a healthy work environment where competition is embraced.  
+            We train your team to focus on high performance behavior. Creating a healthy work environment where competition is embraced. A team that understands which type of behaviors and team spirit make you and the team perform to their full potential.  
           </p>
         </div>
       </div>
@@ -182,7 +179,7 @@ This plan will not only contain the habits and the desired workflow for your com
           </h3>
           <div class="text-holder">
             <p>
-              Implementing a mindset that creates a team which focuses on their performance. Creating a healthy work environment where competition is embraced. A team that understands which type of behaviors and team spirit make you and the team performs to their full potential. 
+              We train your team to focus on high performance behavior. Creating a healthy work environment where competition is embraced. A team that understands which type of behaviors and team spirit make you and the team perform to their full potential. High performance behavior is characterized by common goals, strategic plans, operational protocols, and team dynamics. We will train your teams to become this optimal. 
             </p>
           </div>
         </div>
@@ -190,9 +187,7 @@ This plan will not only contain the habits and the desired workflow for your com
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            A team that understands that team spirit and which type of behaviors
-            makes you and the team performs. In the end this is what we will
-            deliver after our process.
+            High performance behavior is characterized by common goals, strategic plans, operational protocols, and team dynamics. We will train your teams to become this optimal. 
           </p>
         </div>
       </div>
@@ -202,9 +197,7 @@ This plan will not only contain the habits and the desired workflow for your com
         <h3 class="h2">Making Your Team Better</h3>
         <div class="text-holder">
           <p>
-            The insights that your company will have will deliver a sense of
-            pride to belong to this company. Your people are one of the most
-            important assets of your brand.
+            Your staff are one of the most important assets to your brand. Creating a sense of pride, and unity will deliver an impact that is not only measurable but will also make an impact that you can feel. 
           </p>
         </div>
       </div>
@@ -222,7 +215,7 @@ This plan will not only contain the habits and the desired workflow for your com
           <h3 class="h2">Making Your Team Better</h3>
           <div class="text-holder">
             <p>
-              We will provide your company with the insights that will create a sense of pride and belonging within this company. Your staff is one of the most important assets to your brand. Creating a sense of pride, belonging, and unity will deliver an impact that is not only measurable but will also make an impact that you can feel. This is the energy we will create together with your team.
+              Your staff are one of the most important assets to your brand. Creating a sense of pride, and unity will deliver an impact that is not only measurable but will also make an impact that you can feel. Studies show by creating a team that has good dynamics and happy employees in an optimal environment you will see deliverable business output such as having less absentees, and higher productivity.
             </p>
           </div>
         </div>
@@ -230,7 +223,7 @@ This plan will not only contain the habits and the desired workflow for your com
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            We will provide your company with the insights that will create a sense of pride and belonging within this company. Your staff is one of the most important assets to your brand. Creating a sense of pride, belonging, and unity will deliver an impact that is not only measurable but will also make an impact that you can feel. This is the energy we will create together with your team.
+            Studies show by creating a team that has good dynamics and happy employees in an optimal environment you will see deliverable business output such as having less absentees, and higher productivity.
           </p>
         </div>
       </div>
@@ -275,10 +268,11 @@ export default {
     min-height: calc(var(--vh, 1vh) * 100);
   }
   .text-holder {
+    max-width: 51rem;
     p {
-      // @include media-breakpoint-up(lg) {
-      //   max-width: 32rem;
-      // }
+      @include media-breakpoint-up(lg) {
+        
+      }
       @include media-breakpoint-down(md) {
         min-width: 31.4rem;
         max-width: 31.4rem;
@@ -302,4 +296,36 @@ export default {
 
 <style lang="scss">
 @import 'ServicesProjects';
+
+.apple {
+    .text-holder {
+      max-width: 100%;
+    }
+    .img-holder {
+      margin-left: 0;
+    }
+  }
+  .people {
+    .text-holder {
+      max-width: 100%;
+    }
+    .img-holder {
+      margin-right: 0 !important;
+      img{
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    .content-holder {
+      padding-left: 3rem !important;
+    }
+  }
+  .thing {
+    .text-holder {
+      max-width: 100%;
+    }
+    .content-holder {
+      padding-left: 6rem;
+    }
+  }
 </style>

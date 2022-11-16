@@ -12,12 +12,11 @@
               />
             </router-link>
           </div>
-          <!-- <div class="text-holder">
+          <div class="text-holder">
             <p>
-              We are specialist protecting your assets and reputation to make
-              sure you operate risk-free and focus on your core business.
+              We are specialist protecting your assets and reputation to make sure you operate risk-free and focus on your core business.
             </p>
-          </div> -->
+          </div>
           <ul class="contact-links">
             <li>
               <h3>Address</h3>
@@ -55,7 +54,7 @@
             <ul>
               <li>
                 <router-link to="/services/training"
-                  >Training</router-link
+                  >Training and Implementation</router-link
                 >
               </li>
               <li>
@@ -65,7 +64,7 @@
               </li>
               <li>
                 <router-link to="/services/brand-protection"
-                  >rand protection</router-link
+                  >Consultancy and brand protection</router-link
                 >
               </li>
               <li>

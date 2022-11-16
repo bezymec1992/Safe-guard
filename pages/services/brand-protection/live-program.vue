@@ -12,7 +12,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                Our live program provides a more intensive and thorough approach that works in a hands on approach with your team in order to improve your work environment at multiple levels. 
+                Our live program provides an intensive approach that works in a hands on approach with your team in order to improve your work environment.
               </p>
             </div>
           </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Our live program provides a more intensive and thorough approach that works in a hands on approach with your team in order to improve your work environment at multiple levels. 
+                Our live program provides an intensive approach that works in a hands on approach with your team in order to improve your work environment. 
               </p>
             </div>
           </div>
@@ -108,14 +108,14 @@
           <h3 class="h2">Departement approach</h3>
           <div class="text-holder">
             <p>
-              In this approach we work together with the department were there the urgency is the highest. Our focus is to get to the core of the problem and rectify this in order to prevent future issues.
+              In this approach we work together with the department were there the urgency is the highest. Our focus is to get to the core of the problem and address this in order to prevent future issues in a top down approach.
             </p>
           </div>
         </div>
       </div>
       <div class="col d-md-none">
         <div class="text-holder">
-          <p>Our focus is to get to the core of the problem and rectify this in order to prevent future issues.</p>
+          <p> Our focus is to get to the core of the problem and address this in order to prevent future issues in a top down approach.</p>
         </div>
       </div>
     </txt-block>
@@ -137,7 +137,7 @@
       <div class="col d-md-none">
         <h3 class="h2">Management</h3>
         <div class="text-holder">
-          <p>We make sure that all managers are aligned with the values that cultivate a </p>
+          <p>We make sure that all managers are aligned with the values of the company and that there is consistency in their implementation which is managed by protocols. </p>
         </div>
       </div>
       <div class="col-md-6">
@@ -153,20 +153,20 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder ">
           <h3 class="h2">Management</h3>
-          <div class="text-holder">
+          <div class="text-holder manag">
             <p>
-              We make sure that all managers are aligned with the values that cultivate a Safeplace and that there is consistency in their implementation with all other managers.
+              We make sure that all managers are aligned with the values of the company and that there is consistency in their implementation which is managed by protocols.
             </p>
           </div>
         </div>
       </div>
-      <div class="col d-md-none">
+      <!-- <div class="col d-md-none">
         <div class="text-holder">
           <p>Safeplace and that there is consistency in their implementation with all other managers.</p>
         </div>
-      </div>
+      </div> -->
     </txt-block>
 
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
@@ -174,7 +174,7 @@
         <h3 class="h2">Human Resources</h3>
         <div class="text-holder">
           <p>
-            We guide the HR department to make sure they have the right approach in hiring regarding the creation of a safe work environment
+            We guide the HR department to make sure they have the right approach to create ideal team dynamics which avoid conflict, and issues regarding safety.
           </p>
         </div>
       </div>
@@ -195,21 +195,26 @@
           <h3 class="h2">Human Resources</h3>
           <div class="text-holder">
             <p>
-              We guide the HR department to make sure they have the right approach in hiring regarding the creation of a safe work environment
+              We guide the HR department to make sure they have the right approach to create ideal team dynamics which avoid conflict, and issues regarding safety. We change the hiring procedures to integrate more than just skills based approaches to hiring so you can have an optimal team.
             </p>
           </div>
+        </div>
+      </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>We change the hiring procedures to integrate more than just skills based approaches to hiring so you can have an optimal team.</p>
         </div>
       </div>
     </txt-block>
 
     <div class="text-section">
       <div class="container">
-        <h2 class="h2">We work for your safety</h2>
-        <div class="text-holder">
+        <h2 class="h2">A safeplace is non-<br class="d-md-none"/>negotiable</h2>
+        <!-- <div class="text-holder">
           <p>
             Our goal is to ensure that your team across the various levels of your company are aligned, and have the tools to work together in order to ensure a Safeplace at all times.
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -338,6 +343,9 @@ export default {
       }
     }
   }
+}
+.manag {
+  max-width: 48rem !important;
 }
 </style>
 

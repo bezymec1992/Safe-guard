@@ -57,7 +57,7 @@
         <h3 class="h2">We scan your team and check which problems it has</h3>
         <div class="text-holder">
           <p>
-            We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers. 
+            We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers such as our ESPD focus areas (Equal employment, Sexual harassment, Political participation and Dubious ethical nature). 
           </p>
         </div>
       </div>
@@ -74,15 +74,19 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder table-content">
           <h3 class="h2">
             We scan your team <br />
-            and check which <br />
+            and check which 
             problems it has
           </h3>
           <div class="text-holder">
             <p>
-              We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers. We will work with you in order to utilize this information to create a tailored awareness and live program to address and rectify these issues.
+              We will evaluate your team utilizing our expertise to isolate and target the issues within your organization which compromise the safety and wellbeing of your workers such as our ESPD focus areas (Equal employment, Sexual harassment, Political participation and Dubious ethical nature).
+              </p>
+              <p>
+We will work with you in order to utilize this information to create a tailored awareness and live program to address and rectify these issues.
+
             </p>
           </div>
         </div>
@@ -99,11 +103,11 @@
     <txt-block class="txt-block-2 style2 reverse safe-style">
       <div class="col d-md-none">
         <h3 class="h2">Transform received results into clear metodology</h3>
-        <div class="text-holder">
+        <!-- <div class="text-holder">
           <p>
             We will work with you in order to utilize this information we gather through our assessment of your 
           </p>
-        </div>
+        </div> -->
       </div>
       <div class="col-md-6 safe-style-img">
         <div class="img-holder">
@@ -126,7 +130,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              We will work with you in order to utilize this information we gather through our assessment of your team in order to create a tailored awareness and live program to address and rectify these issues.
+              WWe will work with you in order to transform your assessment results based on our ESPD criteria into a clear methodology in order to create a tailored awareness and live program to address these issues.
             </p>
           </div>
         </div>
@@ -134,7 +138,7 @@
       <div class="col d-md-none mobile-text">
         <div class="text-holder pb-none">
           <p>
-            team in order to create a tailored awareness and live program to address and rectify these issues.
+            We will work with you in order to transform your assessment results based on our ESPD criteria into a clear methodology in order to create a tailored awareness and live program to address these issues.
           </p>
         </div>
       </div>
@@ -160,7 +164,7 @@
         <h3 class="h2">Create Awareness Program</h3>
         <div class="text-holder">
           <p>
-            We will work with you in order to utilize the information gathered to create a tailored and customized awareness program that will target the direct and specific issues your company is facing to get measurable improvements and results.
+            We organize sessions where we educate the team members of your organization on the 4 (ESPD) areas. Understanding what they mean in a 4D view we will reach our first goal, INISGHT. With insight on these 4 areas and understanding how people feel that are victim to these behaviors your team can now contribute so they can be part of the solution.
           </p>
         </div>
       </div>
@@ -181,7 +185,7 @@
           <h3 class="h2">Create Awareness Program</h3>
           <div class="text-holder">
             <p>
-              We will work with you in order to utilize the information gathered to create a tailored and customized awareness program that will target the direct and specific issues your company is facing to get measurable improvements and results.
+              We organize sessions where we educate the team members of your organization on the 4 (ESPD) areas. Understanding what they mean in a 4D view we will reach our first goal, INISGHT. With insight on these 4 areas and understanding how people feel that are victim to these behaviors your team can now contribute so they can be part of the solution.
             </p>
           </div>
           <div class="additional-info">
@@ -240,10 +244,10 @@
 
     <txt-block class="txt-block-2 style2 reverse safe-style pt-0">
       <div class="col d-md-none">
-        <h3 class="h2">Scan again to see and compare final results</h3>
+        <h3 class="h2">Provide a follow up scan to see and compare final results</h3>
         <div class="text-holder">
           <p>
-            We don’t just believe in scanning and evaluating your team once and walking away. We will come back and create a working relationship with your company where we do a 
+            We don’t just believe in doing a single scan and evaluating your team once. We do not drop the ball!
           </p>
         </div>
       </div>
@@ -261,10 +265,10 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder digitalization">
-          <h3 class="h2">Scan again to see and compare final results</h3>
+          <h3 class="h2">Provide a follow up scan to see and compare final results</h3>
           <div class="text-holder">
             <p>
-              We don’t just believe in scanning and evaluating your team once and walking away. We will come back and create a working relationship with your company where we do a second evaluation in order to determine how successful the implementation of rectifying issues has been, and to target any issues that still exist as well as new issues which have arisen.
+              We don’t just believe in doing a single scan and evaluating your team once. We do not drop the ball! We create a working relationship with your company where we do a second evaluation to determine how successful the implementation of our program has been.
             </p>
           </div>
         </div>
@@ -272,7 +276,7 @@
       <div class="col d-md-none mobile-text">
         <div class="text-holder pb-none">
           <p>
-            second evaluation in order to determine how successful the implementation of rectifying issues has been, and to target any issues that still exist as well as new issues which have arisen.
+            We create a working relationship with your company where we do a second evaluation to determine how successful the implementation of our program has been.
           </p>
         </div>
       </div>
@@ -460,6 +464,9 @@ export default {
       padding-bottom: 4rem;
     }
   }
+}
+.table-content {
+  padding-left: 6rem;
 }
 </style>
 

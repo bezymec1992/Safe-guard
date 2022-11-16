@@ -9,7 +9,7 @@
             <h1 class="h1">Who we are</h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                Our team is able to deduce patterns and we have a wide and rich variety of experience. We have learned how to utilize our insight in order to prevent crises before they occur. 
+                We are equipped a rich variety of experience and knowledge. We utilize our global overview, insight and data in order to prevent crises before they occur in your company. 
               </p>
             </div>
             <nuxt-link
@@ -43,7 +43,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                Our team is able to deduce patterns and we have a wide and rich variety of experience. We have learned how to utilize our insight in order to prevent crises before they occur.
+                We are equipped a rich variety of experience and knowledge. We utilize our global overview, insight and data in order to prevent crises before they occur in your company.
               </p>
             </div>
             <router-link to="/about/timeline" class="btn btn-arrow d-md-none">
@@ -82,7 +82,7 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5">
         <div class="video-holder">
           <!-- <img
             data-src="@/assets/images/img-041.jpg"
@@ -94,8 +94,8 @@
           </video>
         </div>
       </div>
-      <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+      <div class="col-md-7 d-none d-md-flex flex-column justify-content-center">
+        <div class="content-holder content-holder-video">
           <h3 class="h2 text-capitalize">
             Let Us Introduce <br/> Ourselves
           </h3>
@@ -219,7 +219,7 @@
     <txt-block :class="'txt-block-1 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
-          Roger<br />
+          Roger van Alphen <br />
           <small>(Head of Operations)</small>
         </h3>
       </div>
@@ -235,7 +235,7 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2 text-capitalize">
-            Roger<br />
+            Roger van Alphen<br />
             <small>(Head of Operations)</small>
           </h3>
           <div class="text-holder">
@@ -304,6 +304,12 @@ export default {
     @include media-breakpoint-down(md) {
       padding-top: 10.2rem;
     }
+    .text-holder {
+      max-width: 41.4rem;
+      @include media-breakpoint-down(md) {
+        font-size: 14px;
+      }
+    }
     .diving-suit {
       max-width: 41.3rem;
       margin: auto;
@@ -366,9 +372,22 @@ export default {
   }
 
   .txt-block {
+    .text-holder {
+        max-width: 60rem !important;
+      }
+      
+      p {
+        margin-bottom: 2rem;
+      }
     &.style1 {
       padding-bottom: 17.4rem;
-
+      .content-holder-video {
+        padding-left: 0;
+      }
+      .video-holder {
+        max-width: 45rem;
+        min-height: 50rem;
+      }
       @include media-breakpoint-down(md) {
         padding-bottom: 7.9rem;
       }

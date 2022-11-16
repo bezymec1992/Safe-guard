@@ -71,14 +71,14 @@
         </div>
       </div>
     </intro-section>
-    <txt-block :class="'txt-block-1 style1'">
+    <txt-block :class="'txt-block-1 style1 door'">
       <div class="col d-md-none">
         <h3 class="h2">
           Keep the Doors Closed
         </h3>
         <div class="text-holder">
           <p>
-            We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately.  
+            How do you know which doors to close if you didn’t know they were open? Or perhaps that they even exist?  
           </p>
         </div>
       </div>
@@ -98,7 +98,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              We have developed tests for companies to train them to act in a responsible way and detecting the problems immediately. Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
+              How do you know which doors to close if you didn’t know they were open? Or perhaps that they even exist? We will investigate so you know which doors in your cyber security system are not locked. Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
             </p>
           </div>
         </div>
@@ -106,19 +106,19 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
+            We will investigate so you know which doors in your cyber security system are not locked. Together with your team we will advise you on which steps to undertake to prevent from operating in a high-risk cyber environment.
           </p>
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse laptop'">
       <div class="col d-md-none">
         <h3 class="h2">
           Cyber Protocols
         </h3>
         <div class="text-holder">
           <p>
-            Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation so that you are prepared for the future. This guideline is constantly a work in progress. 
+            What is key? What to do and how do we do it? When should we be doing it? In a world that is increasingly cyber focused these questions can be overwhelming especially whilst running a business. We will take care of it and deliver a cyber protocol guideline based on your company’s needs and situation. 
           </p>
         </div>
       </div>
@@ -138,7 +138,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Having a Cyber Protocol guideline is key nowadays. We will help you create this guideline based on your current situation so that you are prepared for the future. This guideline is constantly a work in progress. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
+              What is key? What to do and how do we do it? When should we be doing it? In a world that is increasingly cyber focused these questions can be overwhelming especially whilst running a business. We will take care of it and deliver a cyber protocol guideline based on your company’s needs and situation. Having a Cyber Protocol guideline is key nowadays so that you are prepared for the future. This guideline is consistently being adapted. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
             </p>
           </div>
         </div>
@@ -146,7 +146,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
+            Having a Cyber Protocol guideline is key nowadays so that you are prepared for the future. This guideline is consistently being adapted. A question like; who has access to what from where, is a basic question which deserves a straight forward answer. To have your internal Q&A on CYBER is a must.
           </p>
         </div>
       </div>
@@ -161,7 +161,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.  
+            We will organize exams and tests for your and departements in your office or online. These are designed to evaluate your teams and ensure they are up to speed with your cyber security protocols. 
           </p>
         </div>
       </div>
@@ -181,7 +181,7 @@
           </h3>
           <div class="text-holder">
             <p>
-              Every two months we organize exams and test for individuals in your company. We do this for your staff and on department level. These exams and test will take place in your office or online.  The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level. 
+              We will organize exams and tests for your and departements in your office or online. These are designed to evaluate your teams and ensure they are up to speed with your cyber security protocols. Our CYBER Certificate lets your customers know they are safe with you, and lets you know you are safe with your team.
             </p>
           </div>
         </div>
@@ -189,7 +189,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            The people that pass the exam will receive our CYBER Certificate. This certificate can also be obtained on department level or company level.   
+            Our CYBER Certificate lets your customers know they are safe with you, and lets you know you are safe with your team.  
           </p>
         </div>
       </div>
@@ -377,6 +377,30 @@ export default {
 
   .bg-img {
     padding-top: 3rem;
+  }
+}
+.door {
+  .img-holder {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.laptop {
+  .text-holder {
+    max-width: 50rem;
+  }
+  .content-holder {
+    padding-left: 1rem;
+  }
+  .img-holder {
+    margin-left: 0;
+    margin-right: 0;
+    @include media-breakpoint-up(lg) {
+      img {
+        margin-left: auto;
+      }
+    }
   }
 }
 </style>

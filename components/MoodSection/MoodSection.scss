@@ -154,9 +154,11 @@
   }
 
   .txt {
-    max-width: 60rem;
+    max-width: 81rem;
     text-align: center;
     margin: auto;
+    font-size: 18px;
+    line-height: 29px;
     @include media-breakpoint-down(md) {
       text-align: left;
       margin-left: 0;

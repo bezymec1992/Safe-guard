@@ -8,7 +8,9 @@
             <div class="just-text">
               <div class="text-holder">
                 <p>
-                  Are you interested in our services and in cultivating a relationship of trust with our company as countless other clients have? Or would you like to know more? Do not hesitate to write us or call us. 
+                  Are you interested in our services? <br/>
+                  Or would you like to know more? <br/>
+                  Do not hesitate to write us or call us.
                 </p>
               </div>
             </div>

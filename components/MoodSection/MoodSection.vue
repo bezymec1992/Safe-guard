@@ -31,7 +31,7 @@
 
       <h3 class="h1">DAILY MOOD CHECK</h3>
       <p class="txt">
-        Mood check will help you and also us to understand how do you feel during each period. It will also help to compare info before and after team’s improving.
+        Our daily mood check will help you and us to understand how your team is feeling during each period so we can isolate and target any problems that may be affecting the culture, and atmosphere of your team and environment. It will also help us to compare statistics before and after measures have been implemented towards improving your workplaces safety.
       </p>
     </div>
   </div>

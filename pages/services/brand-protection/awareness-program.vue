@@ -44,7 +44,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            An awareness program is a companywide and audience specific program and initiative that cultivates an increase in your teams knowledge as well as providing them with information and resources to prevent violence, promote safety, and reduce perpetration of issues that compromise on diversity, equity and inclusion 
+            Our awareness program aims to create awareness and understanding within your team of various factors that can comprise people’s feelings of safety including diversity, cultural practices, race and gender amongst others. We believe that creating awareness of this issues is key to addressing the root causes of issues in the workplace that may compromise the safe working environment that we aim to achieve for your staff and company.
           </p>
         </div>
       </div>
@@ -70,7 +70,7 @@
               </h3>
               <div class="text-holder">
                 <p>
-                  An awareness program is a companywide and audience specific program and initiative that cultivates an increase in your teams knowledge as well as providing them with information and resources to prevent violence, promote safety, and reduce perpetration of issues that compromise on diversity, equity and inclusion 
+                  Our awareness program aims to create awareness and understanding within your team of various factors that can comprise people’s feelings of safety including diversity, cultural practices, race and gender amongst others. We believe that creating awareness of this issues is key to addressing the root causes of issues in the workplace that may compromise the safe working environment that we aim to achieve for your staff and company.
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@
               </h3>
               <div class="text-holder">
                 <p class="mb-0">
-                  We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures for your team.
+                  We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures through awareness in conjunction with our Safeplace software.
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures for your team.
+            We will utilize this program to find the root cause of the issues so we can isolate and target the source of issues so that they do not reoccur in the future. We aim to implement preventative measures through awareness in conjunction with our Safeplace software.
           </p>
         </div>
       </div>
@@ -200,7 +200,7 @@
         <h3 class="h2">Easier with Safeplace Software</h3>
         <div class="text-holder">
           <p>
-            We at Safeplace believe that every organization should have access to the tools to create an environment characterized by safety, integrity and inclusion at all times. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left. We believe in prevention rather than cure. 
+            We believe every organization should have access to the tools to create an environment characterized by integrity and inclusion. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left.
           </p>
         </div>
       </div>
@@ -218,7 +218,7 @@
           <h3 class="h2">Easier with Safeplace Software</h3>
           <div class="text-holder">
             <p>
-              We at Safeplace believe that every organization should have access to the tools to create an environment characterized by safety, integrity and inclusion at all times. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left. We believe in prevention rather than cure. 
+              We believe every organization should have access to the tools to create an environment characterized by integrity and inclusion. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left.
             </p>
           </div>
           <ul class="mb-5">
@@ -306,7 +306,7 @@ export default {
 .safe-pages {
   .pad-5 {
     @include media-breakpoint-up(md) {
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
   }
   .mt {

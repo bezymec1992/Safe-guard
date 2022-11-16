@@ -75,7 +75,7 @@
         </h3>
         <div class="text-holder">
           <p>
-            Having an overview of how the mechanics work inside your company is where we start.  
+            We find the root cause of problems- where the decisions are made! We analyze how you work together, and where the liabilities in the way you operate as a team lie. 
           </p>
         </div>
       </div>
@@ -89,13 +89,14 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder content-holder-txt">
           <h3 class="h2">
             We start where the decisions are taken.
           </h3>
           <div class="text-holder">
             <p>
-              Having an overview of how the mechanics work inside your company is where we start. Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your companies needs.
+              We find the root cause of problems- where the decisions are made! We analyze how you work together, and where the liabilities in the way you operate as a team lie.
+We give an overview of how the mechanics work inside your company. Hiring people, internal communication, and all elements that are important which can create negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your company’s needs.
             </p>
           </div>
         </div>
@@ -103,7 +104,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Hiring people, internal communication, all elements that are important which can lead of having negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your companies needs.
+            We give an overview of how the mechanics work inside your company. Hiring people, internal communication, and all elements that are important which can create negative impact in your company. We utilize these insights and overviews to create tailor made solutions specifically to suit your company’s needs.
           </p>
         </div>
       </div>
@@ -112,11 +113,11 @@
     <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
       <div class="col d-md-none">
         <h3 class="h2">
-          Your People are Part of Your Brand
+          Your Staff are Part of <br/> Your Brand
         </h3>
         <div class="text-holder">
           <p>
-            As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. 
+            As we all know, what happens in Vegas no longer stays in Vegas. Your people are part of your brand.  
           </p>
         </div>
       </div>
@@ -130,13 +131,13 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder content-holder-txt">
           <h3 class="h2">
-            Your People are Part <br/> of Your Brand
+            Your Staff are Part of <br/> Your Brand
           </h3>
           <div class="text-holder">
             <p>
-              As we all know, what happens in Vegas does not longer stay in Vegas. We will advise on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected.  
+              As we all know, what happens in Vegas no longer stays in Vegas. Your people are part of your brand. We will advise you on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected.
             </p>
           </div>
         </div>
@@ -144,7 +145,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Make sure that your company’s activities are brand protected. 
+            We will advise you on how to deal with brand risks and make your people aware of their impact on your brand. Make sure that your company’s activities are brand protected.
           </p>
         </div>
       </div>
@@ -154,14 +155,14 @@
       <h2 class="h1 text-center white">brand protection</h2>
     </visual-section>
 
-    <txt-block :class="'txt-block-2 style2'">
+    <txt-block :class="'txt-block-2 style2 txt-block-3' ">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize smal">
-          Expanding, Investing in new ventures
+          Expanding, & Investing in new ventures
         </h3>
         <div class="text-holder">
           <p>
-            The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use. This is not only based on language but moreover on behavior, culture and ethics. We make them concrete so companies understand the next steps. Together with your business analysis and our analysis you will have control.
+            The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use.
           </p>
         </div>
       </div>
@@ -174,16 +175,23 @@
           />
         </div>
       </div>
+      <div class="col d-md-none">
+        <div class="text-holder">
+          <p>
+            This is not only based on language but moreover on different behaviors, cultures and ethics. We help you understand all the nitty gritty details so you have a full picture of your potential investment and have full understanding and control.
+          </p>
+        </div>
+      </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder content-holder-txt">
           <div class="text-rows">
             <div class="text-row">
               <h3 class="h2 text-capitalize smal">
-                Expanding, Investing in new ventures
+                Expanding, & Investing in new ventures
               </h3>
               <div class="text-holder">
                 <p>
-                  The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use. This is not only based on language but moreover on behavior, culture and ethics. We make them concrete so companies understand the next steps. Together with your business analysis and our analysis you will have control.
+                  The opportunity is only an opportunity when the brand risks are known and can be controlled. We are specialized in several geographic and business areas where your dictionary perhaps is not the one, they use. This is not only based on language but moreover on different behaviors, cultures and ethics. We help you understand all the nitty gritty details so you have a full picture of your potential investment and have full understanding and control.
                 </p>
               </div>
             </div>
@@ -208,14 +216,14 @@
       </div> -->
     </txt-block>
 
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse txt-block-4'">
       <div class="col d-md-none">
         <h3 class="h2">
           SafeGuard  DashBoard
         </h3>
         <div class="text-holder">
           <p>
-            We never improvise on branding. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. 
+            Our Dashboard is designed to give you a full overview on your brand risks. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints (everything your brand touches); websites, staff, social channels, events, social climate and more- so nothing catches you off guard!
           </p>
         </div>
       </div>
@@ -229,13 +237,13 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder content-holder-txt">
           <h3 class="h2">
             SafeGuard  DashBoard
           </h3>
           <div class="text-holder">
             <p>
-              We never improvise on branding. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints so nothing catches you off guard. These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
+              Our Dashboard is designed to give you a full overview on your brand risks. “If everyone is moving forward together then success takes care of itself”. With our dashboard you will have a daily status on all your brand touchpoints (everything your brand touches); websites, staff, social channels, events, social climate and more- so nothing catches you off guard! These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared for all scenarios.
             </p>
           </div>
         </div>
@@ -243,7 +251,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared.
+            These indicators will give you and your team the reinsurance to focus on your business. We will make sure you are prepared for all scenarios.
           </p>
         </div>
       </div>
@@ -345,8 +353,7 @@
 
     <quote-section>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-        Suspendisse vitae imperdiet nibh.
+        We know where you currently stand and where you want to be- we will get you from point A to point B without the risk.
       </p>
     </quote-section>
 
@@ -451,6 +458,40 @@ export default {
 }
 .smal {
   text-transform: unset !important;
+}
+
+.txt-block-2 {
+  .content-holder-txt {
+    padding-left: 2rem !important;
+    .text-holder {
+      max-width: 47rem;
+    }
+  }
+}
+.txt-block-1 {
+  .content-holder-txt {
+    padding-left: 5rem !important;
+    .text-holder {
+      max-width: 50rem;
+    }
+  }
+}
+.txt-block-3 {
+  .content-holder-txt {
+    padding-left: 5rem !important;
+    .text-holder {
+      max-width: 100%;
+    }
+  }
+}
+
+.txt-block-4 {
+  .content-holder-txt {
+    padding-left: 2rem !important;
+    .text-holder {
+      max-width: 50rem;
+    }
+  }
 }
 @import '@/pages/services/ServicesProjects.scss';
 </style>

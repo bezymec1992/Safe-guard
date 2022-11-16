@@ -12,7 +12,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                A tool to create an environment characterized by safety, integrity and inclusion at all times.
+                Having a Safety tool in your Pocket to create an environment characterized by safety, integrity and inclusion.
               </p>
             </div>
           </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="text-holder d-md-none">
               <p>
-                A tool to create an environment characterized by safety, integrity and inclusion at all times.
+                Having a Safety tool in your Pocket to create an environment characterized by safety, integrity and inclusion.
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@
         <h3 class="h2">An anonymous platform for anyone who needs help</h3>
         <div class="text-holder">
           <p>
-            Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up. 
+            Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up.
           </p>
         </div>
       </div>
@@ -66,9 +66,9 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
           <h3 class="h2">An anonymous platform for anyone who needs help</h3>
-          <div class="text-holder">
+          <div class="text-holder mask">
             <p>
-              Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up. They can anonymously give you insight creating a sense of safety and security within your organization. 
+              Our software creates an anonymous platform where staff can raise concerns, report issues and let you know how they’re feeling without the fear or repercussions for speaking up. By creating an anonymous platform staff are more inclined to discuss sensitive issues and provide more detailed and honest feedback which will give you insight creating a sense of safety and security within your organization.
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            They can anonymously give you insight creating a sense of safety and security within your organization. 
+            By creating an anonymous platform staff are more inclined to discuss sensitive issues and provide more detailed and honest feedback which will give you insight creating a sense of safety and security within your organization. 
           </p>
         </div>
       </div>
@@ -87,7 +87,7 @@
         <h3 class="h2">How does it work?</h3>
         <div class="text-holder">
           <p>
-            Our software is accessible to you and your team in the form of an easy to use application that everyone can download. It provides insight into the mood and culture of your team, as well as allowing you to track changes that occur and address the cause of this as well as providing an anonymous way to report issues, support for people who need help 
+            Our software is accessible to you and your team. The app is designed so your organization can get the information from experts and your staff members can let you know what they think of your organization regarding this topic.
           </p>
         </div>
       </div>
@@ -105,7 +105,7 @@
           <h3 class="h2">How does it work?</h3>
           <div class="text-holder">
             <p>
-              Our software is accessible to you and your team in the form of an easy to use application that everyone can download. It provides insight into the mood and culture of your team, as well as allowing you to track changes that occur and address the cause of this as well as providing an anonymous way to report issues, support for people who need help from an objective support team, and distributing awareness content to keep your team up to date in a way that ensures issues are prevented. It also allows you to continuously assess your teams awareness utilizing our quiz.
+              Our software is accessible to you and your team. The app is designed so your organization can get the information from experts and your staff members can let you know what they think of your organization regarding this topic. It’s a powerful tool to measure the climate of your organization. Your staff engagement is important. They are part of the solution.
             </p>
           </div>
         </div>
@@ -113,7 +113,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            from an objective support team, and distributing awareness content to keep your team up to date in a way that ensures issues are prevented. It also allows you to continuously assess your teams awareness utilizing our quiz.
+            It’s a powerful tool to measure the climate of your organization. Your staff engagement is important. They are part of the solution.
           </p>
         </div>
       </div>
@@ -212,7 +212,7 @@
                   chat
                 </h3>
                 <div class="text-holder">
-                  <p>You can easily chat with our supporters</p>
+                  <p>Your team can easily chat with our supporters</p>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@
                   workshops
                 </h3>
                 <div class="text-holder">
-                  <p>Prepared video-content for you</p>
+                  <p>Prepared video-content for your company and team</p>
                 </div>
               </div>
             </div>
@@ -540,6 +540,10 @@ export default {
       }
     }
   }
+}
+.mask {
+    max-width: 48rem !important;
+  
 }
 </style>
 

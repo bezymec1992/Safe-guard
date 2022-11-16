@@ -38,8 +38,7 @@
     <TimelineSection />
     <quote-section>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-        Suspendisse vitae imperdiet nibh.
+        25 years of developing and changing so <br class="d-none d-md-block"/> we can use our expertise to help you
       </p>
     </quote-section>
   </div>
@@ -90,7 +89,8 @@ export default {
     padding-bottom: 12.5rem;
 
     @include media-breakpoint-down(lg) {
-      display: none;
+      padding-bottom: 7.5rem;
+      margin-top: 0;
     }
   }
 }

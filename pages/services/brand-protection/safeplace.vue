@@ -110,13 +110,14 @@
     <div class="quote-block">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9">
+          <div class="col-lg-10">
             <div class="title-holder">
-              <!-- <div class="icon-holder">
+              <div class="icon-holder">
                 <img src="@/assets/images/icon-010.svg" alt="icon quote" />
-              </div> -->
+              </div>
               <h2 class="h2">
-                What we have seen whilst working with different… companies
+                
+                What we have seen whilst working with different companies
               </h2>
             </div>
           </div>
@@ -141,12 +142,12 @@
       </div>
     </div>
 
-    <txt-block class="txt-block-1 style1 safe-style pt-0">
+    <txt-block class="txt-block-1 style1 safe-style pt-0 blue">
       <div class="col d-md-none">
         <h3 class="h2">Create assessment of your team</h3>
         <div class="text-holder">
           <p>
-            We at Safeplace create an assessment of your team through online and in person interactions and surveys with your company and staff. This assessment will used to evaluate the safety and culture of your workplace and team in order to formulate a plan to both create awareness of issues that staff may not be aware of through our educational and awareness programs as well as provide you with an overview of where your company stands. 
+            We will make a scan of your team to establish how safe your work environment is. We compare the signals that are received by the organization and conduct our SafePlace Scan. This focusses on several elements and the score will lead to an action plan where the company can set their priorities. 
           </p>
         </div>
       </div>
@@ -167,7 +168,7 @@
           <h3 class="h2">Create assessment of your team</h3>
           <div class="text-holder">
             <p>
-              We at Safeplace create an assessment of your team through online and in person interactions and surveys with your company and staff. This assessment will used to evaluate the safety and culture of your workplace and team in order to formulate a plan to both create awareness of issues that staff may not be aware of through our educational and awareness programs as well as provide you with an overview of where your company stands. Live programs are intensive programs where we address and rectify issues we find within the organization in order to create a Safeplace for all.
+              We will make a scan of your team to establish how safe your work environment is. We compare the signals that are received by the organization and conduct our SafePlace Scan. This focusses on several elements and the score will lead to an action plan where the company can set their priorities. There are 4 types of safety areas- ESPD- which we measure; Equal employment, Sexual harassment, Political participation and Dubious ethical nature. The score and advice will be presented and depending on the score you can determine your next steps.
             </p>
 
             <nuxt-link
@@ -181,7 +182,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            Live programs are intensive programs where we address and rectify issues we find within the organization in order to create a Safeplace for all.
+            There are 4 types of safety areas- ESPD- which we measure; Equal employment, Sexual harassment, Political participation and Dubious ethical nature. The score and advice will be presented and depending on the score you can determine your next steps.
           </p>
           <nuxt-link
             to="/services/brand-protection/your-place"
@@ -297,7 +298,7 @@
         <h3 class="h2">Live program</h3>
         <div class="text-holder">
           <p>
-            Our live program is an intensive in person workshop where our experts work with your team and staff members in order to create an environment where safe, open communication can occur, as well as providing you and your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance. 
+            Being part of the solution. This service focusses on having our team inside your organization as if we are part of the team. We focus on the root cause and implement strategies to make your organization a SafePlace. 
           </p>
         </div>
       </div>
@@ -318,7 +319,7 @@
           <h3 class="h2">Live program</h3>
           <div class="text-holder">
             <p>
-              Our live program is an intensive in person workshop where our experts work with your team and staff members in order to create an environment where safe, open communication can occur, as well as providing you and your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance. We will teach them the protocols to deal with breaches of safety utilizing our platform but more importantly how to avoid these breaches and have a Safeplace in which to work.
+              Being part of the solution. This service focusses on having our team inside your organization as if we are part of the team. We focus on the root cause and implement strategies to make your organization a SafePlace. Our live program is intensive. Our experts work with your team to create an environment where safe, open communication can occur. We provide your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance.
             </p>
             <nuxt-link
               to="/services/brand-protection/live-program"
@@ -331,7 +332,7 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            We will teach them the protocols to deal with breaches of safety utilizing our platform but more importantly how to avoid these breaches and have a Safeplace in which to work.
+            Our live program is intensive. Our experts work with your team to create an environment where safe, open communication can occur. We provide your staff with the tools to cultivate a work environment that is characterized by respect, integrity, openness and acceptance.
           </p>
           <nuxt-link
             to="/services/brand-protection/live-program"
@@ -343,9 +344,11 @@
     </txt-block>
 
     <QuoteSection class="text-uppercase">
-      <p>
-        “Coming together is a beginning; keeping together is progress; working together is success. Don't find fault, find a remedy.”
-      </p>
+      
+        <p>
+          “Coming together is a beginning; keeping together is progress; working together is success.”
+        </p>
+    
     </QuoteSection>
 
     <ContactSection class="style2">
@@ -475,6 +478,9 @@ export default {
 
     .title-holder {
       @include media-breakpoint-up(md) {
+        .h2 {
+        font-size: 48px;
+      }
         display: flex;
         align-items: flex-start;
       }
@@ -491,11 +497,12 @@ export default {
         min-width: 5rem;
         width: 5rem;
         margin-right: 2rem;
-
+        margin-top: 1rem;
         @include media-breakpoint-down(md) {
           width: 2.4rem;
           min-width: 2.4rem;
           margin-bottom: 1rem;
+          margin-top: 0;
         }
 
         img {
@@ -547,6 +554,24 @@ export default {
       }
     }
   }
+}
+.blue {
+  .content-holder {
+    padding-left: 5rem;
+    .text-holder {
+      max-width: 53rem;
+    }
+  }
+  
+}
+.quote-section {
+  p {
+    @include media-breakpoint-up(xl) {
+      margin-left: -3rem;
+      margin-right: -3rem;
+    }
+  }
+  
 }
 </style>
 
