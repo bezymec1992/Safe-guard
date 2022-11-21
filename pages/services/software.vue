@@ -81,7 +81,12 @@
         <div class="img-holder">
           <img
             data-src="@/assets/images/software/laptops.png"
-            class="lazyload"
+            class="lazyload d-none d-md-block"
+            alt="#"
+          />
+          <img
+            data-src="@/assets/images/software/lap.png"
+            class="lazyload d-md-none"
             alt="#"
           />
         </div>
@@ -236,7 +241,7 @@
         <h3 class="h2">How does it work?</h3>
         <div class="text-holder">
           <p>
-            We come into your working place and assess the dynamics, culture and safety of your environment for members of the company. We then formulate a plan on how to create a safe space characterized by integrity and honesty.
+            Our software is accessible to you and your team. The app is designed so your organization can get the information from experts and your staff members can let you know what they think of your organization regarding this topic.
           </p>
         </div>
       </div>
@@ -257,7 +262,7 @@
           <h3 class="h2">How does it work?</h3>
           <div class="text-holder phone-info">
             <p>
-              Our software is accessible to you and your team. The app is designed so your organization can get the information from experts and your staff members can let you know what they think of your organization regarding this topic.
+              Our software is accessible to you and your team. The app is designed so your organization can get the information from experts and your staff members can let you know what they think of your organization regarding this topic. It’s a powerful tool to measure the climate of your organization. Your staff engagement is important. They are part of the solution.
             </p>
             
             <nuxt-link to="/about" class="btn btn-arrow">
@@ -510,7 +515,7 @@ export default {
 <style lang="scss" scoped>
 .software {
   position: relative;
-  min-height: 74rem;
+  min-height: 85rem;
   padding-bottom: 0 !important;
  
   .intro-pic {
