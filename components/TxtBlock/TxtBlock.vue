@@ -1,6 +1,6 @@
 <template>
   <div class="txt-block">
-    <div class="container">
+    <div class="container container-mbb">
       <div class="row">
         <slot></slot>
       </div>
@@ -20,5 +20,9 @@ export default {
 </script>
 
 <style lang="scss">
+.container-mbb {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 @import '@/components/TxtBlock/TxtBlock.scss';
 </style>

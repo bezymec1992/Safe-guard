@@ -137,8 +137,8 @@
                   <div class="imac-holder">
                     <img
                       src="#"
-                      data-src="@/assets/images/img-079.png"
-                      class="lazyload"
+                      data-src="@/assets/images/soft.png"
+                      class="lazyload sof"
                       alt="#"
                     />
                   </div>
@@ -187,4 +187,10 @@ export default {
 
 <style lang="scss">
 @import '@/components/ServicesSection/ServicesSection.scss';
+.sof {
+  margin-top: 6rem;
+  margin-right: 10rem;
+  width: 420px !important;
+  height: 315px !important;
+}
 </style>

@@ -12,7 +12,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center text-bg"
           >
-            <h1 class="h1">Software</h1>
+            <h1 class="h1 soft-t">Software</h1>
             <div class="text-holder">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -25,8 +25,8 @@
           >
             <div class="imac-holder intro-pic">
               <!-- <img src="@/assets/images/img-067.png" class="mac-off" alt="#" /> -->
-              <img src="@/assets/images/software/main.png" class="mac-off" alt="#" />
-              <img src="@/assets/images/software/main.png" class="mac-on" alt="#" />
+              <img src="@/assets/images/software/soft-intr.png" class="mac-off" alt="#" />
+              <img src="@/assets/images/software/soft-intr.png" class="mac-on" alt="#" />
               <div class="iphone-holder hld-1">
                 <img class="d-md-none" src="@/assets/images/img-034.png" alt="#" />
                 <img class="d-none d-md-block" src="@/assets/images/software/phone2.png" alt="#" />
@@ -38,7 +38,7 @@
 
             <h1 class="h1 mbl">Software</h1>
             <div class="text-holder mobile">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p class="soft-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
       <div class="container">
         <div class="qoute-wrap">
           <h2 class="h2">
-            Safeguard software
+            Safeguard <br class="d-md-none"/> software
           </h2>
           <p class="text txt">
             Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall descriptio
@@ -68,7 +68,7 @@
       </div>
     </section>
 
-    <txt-block class="txt-block-2 style2 safe-style">
+    <txt-block class="txt-block-2 style2 safe-style container-mb">
       <div class="col d-lg-none">
         <h3 class="h2">Discover our tool</h3>
         <div class="text-holder">
@@ -113,7 +113,9 @@
       </div>
       <div class="col d-lg-none">
         <div class="text-holder">
-          
+          <h3 class="h2">
+            What can you do
+          </h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.
           </p>
@@ -231,7 +233,7 @@
 
     <txt-block class="txt-block-1 style1 safe-style pb-0">
       <div class="col d-md-none">
-        <h3 class="h2">What do we do</h3>
+        <h3 class="h2">How does it work?</h3>
         <div class="text-holder">
           <p>
             We come into your working place and assess the dynamics, culture and safety of your environment for members of the company. We then formulate a plan on how to create a safe space characterized by integrity and honesty.
@@ -432,13 +434,16 @@
       <div class="container">
         <div class="qoute">
           <div class="qoute-wrap">
-          <h2 class="h2">
-            cyber safe
-          </h2>
-          <p class="text txt">
-            Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall description about the tool and 
-          </p>
-        </div>
+            <h2 class="h2">
+              cyber safe
+            </h2>
+            <p class="text txt d-none d-md-block">
+              Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall description about the tool and 
+            </p>
+            <p class="text txt d-md-none">
+              Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall descriptio
+            </p>
+          </div>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -550,6 +555,11 @@ export default {
     @include media-breakpoint-down(md) {
       text-align: left;
     }
+    h2 {
+      @include media-breakpoint-down(md) {
+        font-size: 3.2rem;
+      }
+    }
     
     p {
       font-weight: 400;
@@ -660,8 +670,8 @@ export default {
     }
   }
 }
-
 .txt-block {
+  
   overflow: hidden;
     padding-top: 14rem !important;
     @include media-breakpoint-down(md) {
@@ -941,6 +951,44 @@ export default {
 .cyber {
   padding-bottom: 0;
 }
+
+.iphone-holder.hld-1 {
+  bottom: -1% !important;
+  left: -9% !important;
+  img {
+    @include media-breakpoint-up(lg) {
+      height: 25rem !important;
+      width: 13rem !important;
+    }
+  }
+  
+}
+.iphone-holder.hld-2 {
+  bottom: -11% !important;
+  left: 7% !important;
+  img {
+    @include media-breakpoint-up(lg) {
+      height: 28rem !important;
+      width: 14rem !important;
+    }
+  }
+}
+.imac-holder {
+  @include media-breakpoint-down(md) {
+    right: -35% !important;
+  }
+}
+
+.soft-t {
+  @include media-breakpoint-up(lg) {
+  margin-top: 3rem !important;
+  }
+}
+.soft-p {
+      @include media-breakpoint-down(md) {
+        margin-top: 3rem !important;
+      }
+    }
 </style>
 
 <style lang="scss">

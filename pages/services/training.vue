@@ -296,7 +296,12 @@ export default {
 
 <style lang="scss">
 @import 'ServicesProjects';
-
+.intro-section {
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 4.4rem !important;
+  }
+  
+}
 .apple {
     .text-holder {
       max-width: 100%;
