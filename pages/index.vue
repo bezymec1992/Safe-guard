@@ -109,7 +109,7 @@
         </div>
       </div>
     </txt-block>
-    <VideoSection src="video-03.mp4" />
+    <VideoSection src="video-03.mp4" txt="WITH THE RIGHT EQUIPEMENT AND TEAM YOU CAN ENJOY THE VIEW" />
     <ServicesSection :class="'w-btn mobile-img'" />
     <!-- <WWSection /> -->
     <WFromSection />
@@ -292,6 +292,12 @@ export default {
   }
   .img-holder {
     margin-left: 0;
+  }
+}
+
+.video-scetion {
+  @include media-breakpoint-down(md) {
+    display: none;
   }
 }
 

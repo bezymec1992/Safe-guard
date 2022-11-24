@@ -149,7 +149,9 @@ This plan will not only contain the habits and the desired workflow for your com
         </div>
       </div>
     </visual-section> -->
-    <visual-section class="bg-img" video-bg="video-02.mp4" />
+    <visual-section class="bg-img" video-bg="video-02.mp4">
+      <p class="txt-visual">keep moving, keep <br class="d-md-none"/> striving</p>
+      </visual-section>
     <txt-block :class="'txt-block-1 style1 thing'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -346,6 +348,27 @@ export default {
         margin-right: -5px;
       }
 
+    }
+  }
+
+  .txt-visual {
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    width: 830px;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include media-breakpoint-down(md) {
+      font-size: 25px;
+      line-height: 32px;
+      bottom: 45px;
     }
   }
 </style>

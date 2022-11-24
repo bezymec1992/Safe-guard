@@ -157,7 +157,7 @@
               <h3 class="h2">Software</h3>
               <div class="text-holder">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere 
+                  We have converted our experience into software tools which we have developed to benefit you.
                 </p>
               </div>
               <nuxt-link to="/services/software" class="btn btn-dark"

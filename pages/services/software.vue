@@ -15,8 +15,7 @@
             <h1 class="h1 soft-t">Software</h1>
             <div class="text-holder">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ipsum lacus, aliquam id eros id,
+                Powerful tools that will assist you in <br/> SAFEKEEPING.
               </p>
             </div>
           </div>
@@ -38,7 +37,7 @@
 
             <h1 class="h1 mbl">Software</h1>
             <div class="text-holder mobile">
-              <p class="soft-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p class="soft-p">Powerful tools that will assist you in <br/> SAFEKEEPING.</p>
             </div>
           </div>
         </div>
@@ -61,19 +60,21 @@
             Safeguard <br class="d-md-none"/> software
           </h2>
           <p class="text txt">
-            Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall descriptio
+            After our 25 years of experience, we started our internal process to brain mine our knowledge and to convert our experience into software. We have developed a few applications and we are sure there is more to come from our Product Development department.
           </p>
         </div>
-        
       </div>
     </section>
 
-    <txt-block class="txt-block-2 style2 safe-style container-mb">
+    <txt-block class="txt-block-2 style2 safe-style container-mb kyc">
       <div class="col d-lg-none">
-        <h3 class="h2">Discover our tool</h3>
+        <h3 class="h2">AUTOMOTIVE KYC</h3>
         <div class="text-holder">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
+            We had noticed that many of the problems occur in the start of the relationship between companies and their customers. Simple KYC checks and lack of good business approval flows generate bigger risks.
+          </p>
+          <p>
+            With this tool designed for the automotive you do not have to count on excel or tools which are not designed to check and approve.
           </p>
         </div>
       </div>
@@ -94,42 +95,34 @@
       <div class="col-lg-5 d-none d-lg-flex flex-column justify-content-center">
         <div class="content-holder">
           <div class="col d-none d-lg-block pb-5">
-        <h3 class="h2">Discover our tool</h3>
-        <div class="text-holder">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
-          </p>
-        </div>
-      </div>
-          <h3 class="h2">
-            What can you do
-          </h3>
-          <div class="text-holder">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
-            </p>
+            <h3 class="h2">AUTOMOTIVE KYC</h3>
+            <div class="text-holder">
+              <p>
+                We had noticed that many of the problems occur in the start of the relationship between companies and their customers. Simple KYC checks and lack of good business approval flows generate bigger risks.
+              </p>
+              <p>
+                With this tool designed for the automotive you do not have to count on excel or tools which are not designed to check and approve.
+              </p>
+              <p>
+                The tool does a check and gives a rating depending on the data that is provided. Your company can set up inside this tool how you want to organize your approval flow.
+              </p>
+              <p class="sp">
+                You are in the DRIVERS SEAT.
+              </p>
+            </div>
           </div>
-          <ul class="mb-5">
-            <li class="listt">Manage customers data</li>
-            <li class="listt">Organize tasks</li>
-            <li class="listt">Requests for business</li>
-          </ul>
         </div>
       </div>
       <div class="col d-lg-none">
         <div class="text-holder">
-          <h3 class="h2">
-            What can you do
-          </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius.
-          </p>
+                The tool does a check and gives a rating depending on the data that is provided. Your company can set up inside this tool how you want to organize your approval flow.
+              </p>
+              <p class="sp">
+                You are in the DRIVERS SEAT.
+              </p>
         </div>
-        <ul>
-            <li class="listt">Manage customers data</li>
-            <li class="listt">Organize tasks</li>
-            <li class="listt">Requests for business</li>
-        </ul>
+        
       </div>
     </txt-block>
 
@@ -139,37 +132,40 @@
       <div class="container">
         <div class="qoute">
           <div class="qoute-wrap">
-          <h2 class="h2">
-            I am strong app
-          </h2>
-          <p class="text txt">
-            Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall <span class="d-none d-lg-inline-block">description about the tool and</span> 
-          </p>
+            <h2 class="h2">
+             I am strong app
+            </h2>
+            <span class="qoute-span">(from 12yrs-24yrs)</span>
+            <p class="text txt">
+              An app that helps young students that get bullied at school. The app gives the school the opportunity to support students that experience bully behavior from others.
+            </p>
         </div>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <h3>Who needs this app</h3>
+            <h3>United we are stong</h3>
             <p class="strong-text first-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
+              The app helps the school to create awareness for the children and parents. It provides information on how to deal with bullying. The school can organize get together within the app where people can subscribe to. 
             </p>
             <div class="strong-desk d-none d-lg-block">
-              <h3>How can it help</h3>
+              <h3>Give the student a voice</h3>
               <p class="strong-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh sed magna condimentum, eu gravida urna varius. 
+                The students can chat anonymously if they want. They can chat with professionals or to care takers from the school. <br/>
+                The students can find information about bullying and the impact it has on young people. 
               </p>
-              <p class="strong-text strong-last">
+              <!-- <p class="strong-text strong-last">
                 Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="col-lg-6">
               <img src="@/assets/images/software/boy.jpg" alt="">
           </div>
           <div class="strong-mb d-lg-none">
-              <h3>How can it help</h3>
+              <h3>Give the student a voice</h3>
               <p class="strong-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh sed magna condimentum, eu gravida urna varius. 
+                The students can chat anonymously if they want. They can chat with professionals or to care takers from the school. <br/>
+                The students can find information about bullying and the impact it has on young people. 
               </p>
             </div>
         </div>
@@ -178,7 +174,7 @@
           <div class="white-wrapp d-flex aling-items-center justify-content-between">
               <div class="white-item">
                 <h4>
-                  Day mood <br class="d-none d-lg-block"/> check
+                  Daily mood <br class="d-none d-lg-block"/> check
                 </h4>
                 <p>
                   Check changes in your mood
@@ -315,7 +311,7 @@
                 </div>
                 <div class="content-holder">
                   <h3>
-                    Day mood check
+                    Daily mood check
                   </h3>
                   
                 </div>
@@ -440,42 +436,38 @@
         <div class="qoute">
           <div class="qoute-wrap">
             <h2 class="h2">
-              cyber safe
+              cyber safe program
             </h2>
-            <p class="text txt d-none d-md-block">
-              Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall description about the tool and 
-            </p>
-            <p class="text txt d-md-none">
-              Small description about the tool and its functionalities. Small description about the tool and its functionalitiesSmall description about the tool and its functionalitiesSmall descriptio
+            <p class="text txt">
+              As an addition to our Cyber Service which we provide to companies. We added the tool of Reliaquest to make our offering perfect.
             </p>
           </div>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <h3>Who needs this app</h3>
+            <h3>Powerful Service platform</h3>
             <p class="strong-text first-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec viverra. In posuere massa sed magna condimentum, eu gravida urna varius. 
+              Our Cyber Safe Program is a combination of experience and a digital monitoring platform in one. We will help you to detect your problems and set up the tool in right way so you are protected. 
             </p>
             <div class="strong-desk d-none d-lg-block">
-              <h3>How can it help</h3>
+              <h3>Monitor and Action</h3>
               <p class="strong-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh sed magna condimentum, eu gravida urna varius. 
+                In order to monitor we will assess where there is lack or no moderation where it is needed. This is the first step.
+During moderation we assist in any escalation that can take place and together we will have control where it is needed. 
               </p>
-              <p class="strong-text strong-last">
+              <!-- <p class="strong-text strong-last">
                 Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="col-lg-6">
               <img src="@/assets/images/software/pazle-desk.jpg" alt="">
           </div>
           <div class="strong-mb d-lg-none">
-              <h3>How can it help</h3>
+              <h3>Monitor and Action</h3>
               <p class="strong-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae imperdiet nibh sed magna condimentum, eu gravida urna varius. 
-              </p>
-              <p class="strong-text strong-last">
-                Aenean neque orci, ultrices ac fermentum id, bibendum a ex. Nullam quis suscipit justo. Vestibulum at turpis euismod, fermentum
+                In order to monitor we will assess where there is lack or no moderation where it is needed. This is the first step.
+                During moderation we assist in any escalation that can take place and together we will have control where it is needed.  
               </p>
             </div>
         </div>
@@ -486,11 +478,29 @@
           <img class="d-none d-md-block" src="@/assets/images/software/big-cards.jpg" alt="phones" width="100%" height="auto">
           <img class="d-md-none" src="@/assets/images/software/small-cards.jpg" alt="phones" width="100%" height="auto">
         </div>
+        
+        <div class="sign">
+          <img class="d-none d-md-block" src="@/assets/images/software/asd.png" alt="phones">
+          <img class="d-md-none" src="@/assets/images/software/asd-m.png" alt="phones">
+        </div>
 
+
+
+        <section class="qoute">
+          <div class="container">
+            <div class="qoute-wrap qoute-wrap-down">
+              <h2 class="h2">
+                AUTOMATIZATION WITH A <br class="d-md-none"/> CLEAR PURPOSE
+              </h2>
+            </div>
+          </div>
+        </section>
         
       </div>
-      <ButtonsSection :next-link="'training'" />
+      <ButtonsSection :next-link="'brand-protection'" />
     </section>
+
+
 
   </div>
 </template>
@@ -561,6 +571,7 @@ export default {
   @include media-breakpoint-down(md) {
     margin-top: 8rem;
   }
+  
   .qoute-wrap {
     text-align: center;
     max-width: 627px;
@@ -584,7 +595,46 @@ export default {
       }
     }
   }
+  
 }
+.qoute-wrap-down {
+    max-width: 1016px !important;
+    z-index: 222;
+    padding-top: 150px;
+    margin-bottom: 0 !important;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+      h2 {
+        text-align: center;
+        @include media-breakpoint-down(md) {
+          font-size: 20px !important;
+          line-height: 28px !important;
+        }
+      }
+    }
+  }
+.kyc {
+  .content-holder {
+    padding-left: 1rem !important;
+    p {
+      margin-bottom: 2.5rem !important;
+      
+    }
+    .sp {
+      font-size: 2rem;
+      @include media-breakpoint-down(md) {
+        font-size: 1.6rem !important;
+      }
+    }
+    
+  }
+  
+}
+.txt-block .text-holder p:not(:last-child) {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2rem !important;
+      }
+    }
 
 .mbl {
   display: none;
@@ -767,6 +817,16 @@ export default {
     margin-top: 8rem;
     padding-top: 8rem;
     padding-bottom: 7rem;
+  }
+  .qoute-span {
+    font-size: 25px;
+    line-height: 35px;
+    color: #111111;
+    opacity: 0.5;
+    @include media-breakpoint-down(lg) {
+      font-size: 20px;
+      line-height: 35px;
+    }
   }
   h3 {
     margin-bottom: 3rem;
@@ -963,6 +1023,22 @@ export default {
 
 .cyber {
   padding-bottom: 0;
+  .qoute {
+    margin-bottom: 0;
+  }
+  .sign {
+    text-align: center;
+    // margin: 0 auto !important;
+    img  {
+      width: unset !important;
+      height: unset !important;
+      margin: 45px auto 0 !important;
+      @include media-breakpoint-down(md) {
+        margin: 0 !important;
+      }
+    }
+  }
+  
 }
 
 .iphone-holder.hld-1 {

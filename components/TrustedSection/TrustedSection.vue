@@ -1,8 +1,55 @@
 <template>
   <div class="trusted-section">
     <div class="container">
-      <h2 class="h2 text-md-center">WE SUPPORT</h2>
-      <div class="row justify-content-center">
+      <h2 class="h2 text-center trusted">WE SUPPORT</h2>
+
+      <div class="img-wrapp d-flex align-items-center justify-content-between">
+        <picture>
+          <source srcset="@/assets/images/suport-1.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-01.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-2.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-02.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-3.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-03.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-4.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-04.svg" alt="MDN" />
+        </picture>
+
+
+        
+      </div>
+
+      <div class="img-wrapp d-flex align-items-center justify-content-between">
+        <picture>
+          <source srcset="@/assets/images/suport-5.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-05.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-6.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-06.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-7.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-07.svg" alt="MDN" />
+        </picture>
+
+        <picture>
+          <source srcset="@/assets/images/suport-8.svg" media="(max-width: 992px)" />
+          <img src="@/assets/images/suport-08.svg" alt="MDN" />
+        </picture>
+      </div>
+      <!-- <div class="row justify-content-center align-items-center flex-wrap">
         <div
           v-for="item in trustedItems"
           :key="item.id"
@@ -16,7 +63,7 @@
             />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -26,42 +73,52 @@
 
 export default {
   name: 'TrustedSection',
-  data() {
-    return {
-      trustedItems: [
-        {
-          id: 1,
-          title: 'Bitburger',
-          image: 'img-049.png',
-        },
-        {
-          id: 2,
-          title: 'Audi',
-          image: 'img-050.png',
-        },
-        {
-          id: 3,
-          title: 'Ritter sport',
-          image: 'img-051.png',
-        },
-        {
-          id: 4,
-          title: 'Samsung',
-          image: 'img-052.png',
-        },
-        {
-          id: 5,
-          title: 'Koh-I-Noor',
-          image: 'img-053.png',
-        },
-        {
-          id: 6,
-          title: 'hard Rock',
-          image: 'img-054.png',
-        },
-      ],
-    }
-  },
+  // data() {
+  //   return {
+  //     trustedItems: [
+  //       {
+  //         id: 1,
+  //         title: 'Bitburger',
+  //         image: 'suport-01.svg',
+  //       },
+  //       {
+  //         id: 2,
+  //         title: 'Audi',
+  //         image: 'suport-02.svg',
+  //       },
+  //       {
+  //         id: 3,
+  //         title: 'Ritter sport',
+  //         image: 'suport-03.svg',
+  //       },
+  //       {
+  //         id: 4,
+  //         title: 'Samsung',
+  //         image: 'suport-04.svg',
+  //       },
+  //       {
+  //         id: 5,
+  //         title: 'Koh-I-Noor',
+  //         image: 'suport-05.svg',
+  //       },
+  //       {
+  //         id: 6,
+  //         title: 'hard Rock',
+  //         image: 'suport-06.svg',
+  //       },
+  //       {
+  //         id: 7,
+  //         title: 'hard Rock',
+  //         image: 'suport-07.svg',
+  //       },
+  //       {
+  //         id: 8,
+  //         title: 'hard Rock',
+  //         image: 'suport-08.svg',
+  //       },
+  //     ],
+  //   }
+  // },
   // mounted() {
   //   gsapInit()
   // },
@@ -69,5 +126,30 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/components/TrustedSection/TrustedSection.scss';
+.trusted-section {
+  background: #f9f9f9;
+  padding-bottom: 4rem;
+}
+.trusted {
+  margin-bottom: 85px;
+  padding-top: 85px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+.img-wrapp {
+  flex-wrap: wrap;
+  @include media-breakpoint-down(md) {
+    justify-content: space-around !important;
+  }
+  img {
+    margin-bottom: 7rem;
+  }
+  
+}
+// picture:nth-child(2n) {
+//   padding-left: 3rem;
+// }
+// @import '@/components/TrustedSection/TrustedSection.scss';
 </style>

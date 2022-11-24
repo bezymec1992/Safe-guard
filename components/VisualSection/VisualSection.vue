@@ -29,6 +29,10 @@ export default {
       type: String,
       default: '',
     },
+    txt: {
+      type: String,
+      default: '',
+    },
   },
   mounted() {
     // gsapInit()

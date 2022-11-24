@@ -19,19 +19,20 @@
 		> div[class^="col-"] {
 			margin-bottom: 7.2rem;
 		}
+		flex-wrap: wrap;
 	}
 
 	.img-holder {
-		max-width: 16.3rem;
+		// max-width: 19.3rem;
 		margin: auto;
-
+		
 		@include media-breakpoint-down(md) {
 			max-width: 9.8rem;
 		}
 
-		img {
-			width: 100%;
-			height: auto;
-		}
+		// img {
+		// 	width: 100%;
+		// 	height: auto;
+		// }
 	}
 }

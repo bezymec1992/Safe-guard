@@ -4,6 +4,7 @@
       <video autoplay loop playsinline muted>
         <source :src="require(`@/assets/videos/${src}`)" type="video/mp4" />
       </video>
+      <p class="text-wrapp">{{txt}}</p>
     </div>
   </div>
 </template>
@@ -15,6 +16,10 @@ export default {
       type: String,
       default: '',
     },
+    txt: {
+      type: String,
+      default: '',
+    }
   },
 }
 </script>
@@ -35,6 +40,21 @@ export default {
 
     @include media-breakpoint-up(xl) {
       min-height: 68rem;
+    }
+    .text-wrapp {
+      position: absolute;
+      bottom: 65px;
+      left: 50%;
+      transform: translate(-50%);
+      color: white;
+      width: 826px !important;
+      max-width: 100%;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+
     }
 
     video {
