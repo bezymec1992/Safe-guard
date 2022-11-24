@@ -160,7 +160,7 @@
       </div>
     </txt-block>
     <!-- <ResultsSection /> -->
-    <div class="result-section"></div>
+    <!-- <div class="result-section"></div> -->
     <div class="title-section">
       <div class="container">
         <h2 class="h1 text-capitalize">Managing Directors</h2>
@@ -301,6 +301,7 @@ export default {
   .intro-section {
     padding-top: 18.2rem;
     padding-bottom: 2.4rem;
+    min-height: 82rem !important;
     @include media-breakpoint-down(md) {
       padding-top: 10.2rem;
     }
@@ -352,11 +353,11 @@ export default {
   }
 
   .title-section {
-    padding-top: 14rem;
+    // padding-top: 14rem;
     padding-bottom: 8rem;
 
     @include media-breakpoint-down(md) {
-      padding-top: 7rem;
+      // padding-top: 7rem;
       padding-bottom: 5rem;
     }
 

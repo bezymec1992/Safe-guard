@@ -63,7 +63,7 @@ export default {
 .timeline-page {
   .intro-section {
     background: linear-gradient(265.59deg, #5d90c6 0.16%, #c0cfee 76.73%);
-
+    min-height: 82rem !important;
     @include media-breakpoint-down(md) {
       position: relative;
       background: linear-gradient(189.54deg, #5d90c6 -14.43%, #c0cfee 95.18%);

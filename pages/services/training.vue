@@ -192,7 +192,7 @@ This plan will not only contain the habits and the desired workflow for your com
         </div>
       </div>
     </txt-block>
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse girl'">
       <div class="col d-md-none">
         <h3 class="h2">Making Your Team Better</h3>
         <div class="text-holder">
@@ -297,6 +297,7 @@ export default {
 <style lang="scss">
 @import 'ServicesProjects';
 .intro-section {
+  min-height: 82rem;
   @include media-breakpoint-up(lg) {
     padding-bottom: 4.4rem !important;
   }
@@ -331,6 +332,20 @@ export default {
     }
     .content-holder {
       padding-left: 6rem;
+    }
+    .img-holder {
+      @include media-breakpoint-up(xl) {
+        margin-left: -5px;
+      }
+
+    }
+  }
+  .girl {
+    .img-holder {
+      @include media-breakpoint-up(xl) {
+        margin-right: -5px;
+      }
+
     }
   }
 </style>

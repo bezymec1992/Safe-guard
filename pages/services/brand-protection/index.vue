@@ -110,7 +110,7 @@ We give an overview of how the mechanics work inside your company. Hiring people
       </div>
     </txt-block>
 
-    <txt-block :class="'txt-block-2 style2 pt-0 reverse'">
+    <txt-block :class="'txt-block-2 style2 pt-0 reverse boys'">
       <div class="col d-md-none">
         <h3 class="h2">
           Your Staff are Part of <br/> Your Brand
@@ -389,6 +389,7 @@ export default {
   .intro-section {
     // padding-top: 18.2rem;
     // padding-bottom: 2.4rem;
+    min-height: 82rem;
     position: relative;
     @include media-breakpoint-down(md) {
       padding-top: 11.2rem;
@@ -491,6 +492,14 @@ export default {
     .text-holder {
       max-width: 50rem;
     }
+  }
+}
+.boys {
+  .content-holder-txt {
+    @include media-breakpoint-up(xl) {
+      padding-left: 7rem !important;
+    }
+    
   }
 }
 @import '@/pages/services/ServicesProjects.scss';

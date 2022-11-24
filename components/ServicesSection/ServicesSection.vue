@@ -138,8 +138,14 @@
                     <img
                       src="#"
                       data-src="@/assets/images/soft.png"
-                      class="lazyload sof"
+                      class="lazyload sof d-none d-md-block"
                       alt="#"
+                    />
+                    <img
+                      src="#"
+                      data-src="@/assets/images/software/soft-m.png"
+                      class="lazyload d-md-none sof"
+                      alt="#" height="375"
                     />
                   </div>
                 </div></div
@@ -188,9 +194,15 @@ export default {
 <style lang="scss">
 @import '@/components/ServicesSection/ServicesSection.scss';
 .sof {
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-right: 10rem;
-  width: 420px !important;
-  height: 315px !important;
+  max-width: 420px !important;
+  min-height: 315px !important;
+  @include media-breakpoint-down(md) {
+    margin-top: 3rem;
+    margin-right: 15rem;
+    max-width: 350px !important;
+    min-height: 375px !important;
+  }
 }
 </style>

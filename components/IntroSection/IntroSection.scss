@@ -2,6 +2,11 @@
   padding-top: 14.2rem;
   padding-bottom: 6.4rem;
   background: $celery;
+  
+  min-height: 82rem !important;
+  @include media-breakpoint-up(xl) {
+    height: 82rem;
+  }
   @include media-breakpoint-down(md) {
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);

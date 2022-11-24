@@ -28,8 +28,8 @@
               <img src="@/assets/images/software/soft-intr.png" class="mac-off" alt="#" />
               <img src="@/assets/images/software/soft-intr.png" class="mac-on" alt="#" />
               <div class="iphone-holder hld-1">
-                <img class="d-md-none" src="@/assets/images/img-034.png" alt="#" />
-                <img class="d-none d-md-block" src="@/assets/images/software/phone2.png" alt="#" />
+                <!-- <img class="d-md-none" src="@/assets/images/img-034.png" alt="#" /> -->
+                <img src="@/assets/images/software/phone2.png" alt="#" />
               </div>
               <div class="iphone-holder hld-2">
                 <img src="@/assets/images/img-035.png" alt="#" />
@@ -513,11 +513,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.intro-section {
+  min-height: 82rem;
+}
 .software {
   position: relative;
-  min-height: 85rem;
+  min-height: 82rem;
   padding-bottom: 0 !important;
- 
+  .imac-holder {
+    @include media-breakpoint-down(md) {
+      margin-left: -8rem !important;
+    }
+    
+  }
   .intro-pic {
     right: -8rem;
     bottom: 8.5rem;

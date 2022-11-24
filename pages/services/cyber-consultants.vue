@@ -151,7 +151,7 @@
         </div>
       </div>
     </txt-block>
-    <visual-section :bg="'img-026.jpg'" :class="'bg-img visual'">
+    <visual-section :bg="'img-026.jpg'" :class="'bg-img visual visual'">
       <h2 class="h1 text-center">ADVICE AND PROTECT</h2>
     </visual-section>
     <txt-block :class="'txt-block-1 style1'">
@@ -245,7 +245,7 @@
       </div>
     </txt-block> -->
 
-    <visual-section :class="'img-pos1 second-section'">
+    <visual-section :class="'img-pos1 second-section stand'">
       <div
         class="row flex-col flex-column-reverse flex-md-row justify-content-between"
       >
@@ -299,6 +299,7 @@ export default {
 .services-project {
   .intro-section {
     padding-bottom: 2.4rem;
+    min-height: 82rem;
     .text-holder {
       max-width: 500px;
       @include media-breakpoint-down(md) {
@@ -317,11 +318,12 @@ export default {
       }
     }
   }
-
+  
   .visual-section {
     padding-top: 7rem;
     overflow: hidden;
     max-width: 1240px;
+    
     @include media-breakpoint-down(sm) {
       min-height: 54vh;
     }
@@ -373,6 +375,17 @@ export default {
         }
       }
     }
+  }
+  .visual {
+    max-width: 100%;
+  }
+  .stand {
+    @include media-breakpoint-up(xl) {
+      height: 650px !important;
+      min-height: 65rem !important;
+      padding-top: 0 !important;
+    }
+    
   }
 
   .bg-img {

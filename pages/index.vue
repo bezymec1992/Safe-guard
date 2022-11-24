@@ -3,7 +3,7 @@
     <intro-section :class="'with-scroll'">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 d-md-flex flex-column justify-content-center">
+          <div class="col-md-5 d-md-flex flex-column justify-content-center">
             <h1 class="h1">
               Never Caught <br />
               Off-Guard Again
@@ -31,7 +31,7 @@
             </nuxt-link>
           </div>
           <div
-            class="col-md-6 d-md-flex align-items-md-center justify-content-center justify-content-md-end"
+            class="col-md-7 d-md-flex align-items-md-center justify-content-center justify-content-md-end"
           >
             <div class="img-holder">
               <picture>
@@ -43,8 +43,8 @@
                   data-src="@/assets/images/img-062.png"
                   class="helm lazyload"
                   alt="img description"
-                  width="400px"
-                  height="400px"
+                  width="550px"
+                  height="550px"
                 />
               </picture>
 
@@ -173,6 +173,8 @@ export default {
   }
   .intro-section {
     overflow: hidden;
+    min-height: 82rem !important;
+    
     .btn {
       margin-top: 4.5rem;
     }
@@ -198,7 +200,7 @@ export default {
       max-width: 65.5rem;
       min-height: 22rem;
       position: relative;
-      right: -10rem;
+      right: -20rem;
 
       @include media-breakpoint-down(md) {
         transform: unset;
@@ -215,6 +217,7 @@ export default {
         top: 0;
         left: 0;
       }
+      
 
       // .helm {
       //   opacity: 0;
