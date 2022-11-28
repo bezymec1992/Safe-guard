@@ -293,7 +293,7 @@ We will work with you in order to utilize this information to create a tailored 
       <h2 class="h1 text-center mt-auto white">improve your team dynamics</h2>
     </visual-section>
 
-    <ContactSection class="style2">
+    <!-- <ContactSection class="style2">
       <template #content>
         <h2 class="h2">Interested or want to know more?</h2>
         <ul>
@@ -303,17 +303,17 @@ We will work with you in order to utilize this information to create a tailored 
           </li>
           <li>
             <h3>E-mail</h3>
-            <a href="mailto:safeguard_help@gmail.com"
-              >safeguard_help@gmail.com</a
+            <a href="info@safeguardcompany.com"
+              >info@safeguardcompany.com</a
             >
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="tel:+330123456789">+330123456789</a>
+            <a href="tel:+31202050455">+31202050455</a>
           </li>
         </ul>
       </template>
-    </ContactSection>
+    </ContactSection> -->
   </div>
 </template>
 
@@ -321,7 +321,7 @@ We will work with you in order to utilize this information to create a tailored 
 import IntroSection from '@/components/IntroSection/IntroSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
 import VisualSection from '@/components/VisualSection/VisualSection'
-import ContactSection from '@/components/ContactSection/ContactSection'
+// import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
   name: 'SafePlaceServices',
@@ -329,7 +329,7 @@ export default {
     IntroSection,
     TxtBlock,
     VisualSection,
-    ContactSection,
+    // ContactSection,
   },
   layout: 'safe-layout',
   // head() {
@@ -360,7 +360,7 @@ export default {
     .img-holder {
       @include media-breakpoint-up(lg) {
         position: absolute;
-        bottom: -15rem;
+        bottom: -4rem;
         right: -30%;
         // transform: translateY(-50%);
         max-width: 107rem;
@@ -383,8 +383,8 @@ export default {
 
       @include media-breakpoint-down(sm) {
         margin-top: -10rem;
-        margin-left: -21rem;
-        margin-right: -26rem;
+        margin-left: -25rem;
+        margin-right: -29rem;
         right: -14.5rem;
         margin-bottom: -7rem;
       }
@@ -400,6 +400,11 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 3.4rem;
+      }
+    }
+    .text-holder {
+      @include media-breakpoint-up(lg) {
+        padding-bottom: 5rem;
       }
     }
   }

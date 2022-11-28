@@ -183,7 +183,7 @@
       <div class="col-md-6">
         <div class="img-holder">
           <img
-            data-src="@/assets/images/img-047.jpg"
+            data-src="@/assets/images/img-048.jpg"
             class="lazyload"
             alt="#"
           />
@@ -216,17 +216,22 @@
         </div>
       </div>
     </txt-block>
+
+
     <txt-block :class="'txt-block-1 style2 reverse'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
           Roger van Alphen <br />
           <small>(Head of Operations)</small>
         </h3>
+        <p>ROGER a highly respected and tenacious problem solver. HE serves as one of the firm’s Managing Directors. <br/>
+His insight and know-how are a tremendous resource. He is recommended for his critical thinking, expertise and experience, which enables him “quickly get to the heart of the issue and the strategic objectives.”</p>
       </div>
       <div class="col-md-6">
         <div class="img-holder">
+          
           <img
-            data-src="@/assets/images/img-048.jpg"
+            data-src="@/assets/images/img-047.jpg"
             class="lazyload"
             alt="#"
           />
@@ -240,12 +245,13 @@
           </h3>
           <div class="text-holder">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae imperdiet nibh. Phasellus vestibulum ac nisi nec
-              viverra. In posuere massa sed magna condimentum, eu gravida urna
-              varius. Aenean neque orci, ultrices ac fermentum id, bibendum a
-              ex. Nullam quis suscipit justo. Vestibulum at turpis euismod,
-              fermentum
+              ROGER a highly respected and tenacious problem solver. HE serves as one of the firm’s Managing Directors. <br/>
+His insight and know-how are a tremendous resource. He is recommended for his critical thinking, expertise and experience, which enables him “quickly get to the heart of the issue and the strategic objectives.”
+            </p>
+            <p>
+              He is a single father who raised a daughter (23) and son (26) by himself. <br/>
+He is a military Krav Maga & combat instructor, NLP based Coach focused on high performance behavior, both physically as mentally. <br/>
+He is an Equestrian, loves Opera, chess, skiing and boating.
             </p>
           </div>
         </div>
@@ -253,10 +259,10 @@
       <div class="col d-md-none">
         <div class="text-holder">
           <p>
-            With our global footprint and our specialized team members and
-            partners we know what it takes to make sure that we can deliver a
-            minimum risk environment for our clients.
-          </p>
+              He is a single father who raised a daughter (23) and son (26) by himself. <br/>
+He is a military Krav Maga & combat instructor, NLP based Coach focused on high performance behavior, both physically as mentally. <br/>
+He is an Equestrian, loves Opera, chess, skiing and boating.
+            </p>
         </div>
       </div>
     </txt-block>

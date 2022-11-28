@@ -54,7 +54,12 @@ export default {
       line-height: 60px;
       text-align: center;
       text-transform: uppercase;
-
+      @include media-breakpoint-down(md) {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        padding: 0 20px;
+      }
     }
 
     video {

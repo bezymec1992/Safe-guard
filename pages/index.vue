@@ -10,7 +10,7 @@
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
-                We at Safegaurd are specialized in safeguarding your assets through preventative measures that allow you to operate risk free.
+                We at Safeguard are specialized in safeguarding your assets through preventative measures that allow you to operate risk free.
               </p>
               <p>Safety is not only a mindset it is also an attitude.</p>
             </div>
@@ -297,7 +297,7 @@ export default {
 
 .video-scetion {
   @include media-breakpoint-down(md) {
-    display: none;
+    padding-bottom: 9rem;
   }
 }
 

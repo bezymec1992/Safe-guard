@@ -7,8 +7,7 @@
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
             <h1 class="h1">
-              Safeplace <br />
-              software
+              Safeplace <br class="d-md-none"/> app
             </h1>
             <div class="text-holder d-none d-md-block">
               <p>
@@ -127,7 +126,7 @@
             media="(min-width: 768px)"
             type="image/jpg"
           />
-          <img src="@/assets/images/img-132.jpg" />
+          <img src="@/assets/images/sof-img.jpg" />
         </picture>
       </div>
     </div>
@@ -333,7 +332,7 @@
         </div>
       </div>
     </div>
-    <ContactSection class="style2">
+    <!-- <ContactSection class="style2">
       <template #content>
         <h2 class="h2">Interested or want to know more?</h2>
         <ul>
@@ -343,24 +342,24 @@
           </li>
           <li>
             <h3>E-mail</h3>
-            <a href="mailto:safeguard_help@gmail.com"
-              >safeguard_help@gmail.com</a
+            <a href="info@safeguardcompany.com"
+              >info@safeguardcompany.com</a
             >
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="tel:+330123456789">+330123456789</a>
+            <a href="tel:+31202050455">+31202050455</a>
           </li>
         </ul>
       </template>
-    </ContactSection>
+    </ContactSection> -->
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
 import MoodSection from '@/components/MoodSection/MoodSection'
-import ContactSection from '@/components/ContactSection/ContactSection'
+// import ContactSection from '@/components/ContactSection/ContactSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
 
 export default {
@@ -368,7 +367,7 @@ export default {
   components: {
     IntroSection,
     MoodSection,
-    ContactSection,
+    // ContactSection,
     TxtBlock,
   },
   layout: 'safe-layout',
@@ -389,11 +388,17 @@ export default {
     .container {
       position: relative;
     }
+    .text-holder{
+      @include media-breakpoint-up(lg) {
+        padding-bottom: 5rem;
+      }
+      
+    }
 
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        bottom: -11.3rem;
+        bottom: -1.3rem;
         right: 0;
         width: 65%;
       }
@@ -406,10 +411,10 @@ export default {
       }
 
       @include media-breakpoint-down(sm) {
-        margin-top: -14rem;
-        margin-right: -4rem;
-        margin-left: -14rem;
-        margin-bottom: -1rem;
+        margin-top: -15rem;
+        margin-right: -7rem;
+        margin-left: -20rem;
+        margin-bottom: 2rem;
       }
 
       img {

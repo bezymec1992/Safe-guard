@@ -406,13 +406,21 @@ export default {
       // position: relative;
       // bottom: 8rem !important;
       margin-top: 2rem;
+      @include media-breakpoint-up(lg) {
+        margin-top: -2rem;;
+      }
     }
     .building-holder {
       position: relative;
       z-index: 11;
       max-width: 28rem;
       right: -4rem !important;
+      @include media-breakpoint-up(lg) {
+        max-width: 31rem !important;
+      }
     }
+
+    
   }
 
   .desktop {

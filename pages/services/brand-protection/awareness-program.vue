@@ -197,7 +197,7 @@
 
     <txt-block class="txt-block-1 style1 safe-style pt-0 pb-0">
       <div class="col d-md-none">
-        <h3 class="h2">Easier with Safeplace Software</h3>
+        <h3 class="h2">Easier with <br/> Safeplace App</h3>
         <div class="text-holder">
           <p>
             We believe every organization should have access to the tools to create an environment characterized by integrity and inclusion. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left.
@@ -215,7 +215,7 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Easier with Safeplace Software</h3>
+          <h3 class="h2">Easier with <br/> Safeplace App</h3>
           <div class="text-holder">
             <p>
               We believe every organization should have access to the tools to create an environment characterized by integrity and inclusion. Our software and application is easy and accessible to you and your staff so that you can ensure you workplace remains a Safeplace after we have left.
@@ -228,7 +228,7 @@
           <nuxt-link
             to="/services/brand-protection/safeplace-software"
             class="btn btn-dark"
-            >About Safeplace Software</nuxt-link
+            >About Safeplace App</nuxt-link
           >
         </div>
       </div>
@@ -240,7 +240,7 @@
         <nuxt-link
           to="/services/brand-protection/safeplace-software"
           class="btn btn-dark d-block"
-          >About Safeplace Software</nuxt-link
+          >About Safeplace App</nuxt-link
         >
       </div>
     </txt-block>
@@ -251,7 +251,7 @@
       </p>
     </QuoteSection>
 
-    <ContactSection class="style2">
+    <!-- <ContactSection class="style2">
       <template #content>
         <h2 class="h2">Interested or want to know more?</h2>
         <ul>
@@ -261,17 +261,17 @@
           </li>
           <li>
             <h3>E-mail</h3>
-            <a href="mailto:safeguard_help@gmail.com"
-              >safeguard_help@gmail.com</a
+            <a href="mailto:info@safeguardcompany.com"
+              >info@safeguardcompany.com</a
             >
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="tel:+330123456789">+330123456789</a>
+            <a href="tel:+31202050455">+31202050455</a>
           </li>
         </ul>
       </template>
-    </ContactSection>
+    </ContactSection> -->
   </div>
 </template>
 
@@ -280,7 +280,7 @@ import IntroSection from '@/components/IntroSection/IntroSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
 import ImgSection from '@/components/ImgSection/ImgSection'
 import QuoteSection from '@/components/QuoteSection/QuoteSection'
-import ContactSection from '@/components/ContactSection/ContactSection'
+// import ContactSection from '@/components/ContactSection/ContactSection'
 
 export default {
   name: 'AwarenessProgram',
@@ -289,7 +289,7 @@ export default {
     TxtBlock,
     ImgSection,
     QuoteSection,
-    ContactSection,
+    // ContactSection,
   },
   layout: 'safe-layout',
   head() {
@@ -320,7 +320,7 @@ export default {
   }
   .intro-section {
     color: $white;
-    background: url('@/assets/images/img-119.jpg') no-repeat;
+    background: url('@/assets/images/awarnes-main.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 

@@ -177,7 +177,7 @@
       }
 
       &:not(:last-child) {
-        margin-bottom: 6.4rem;
+        margin-bottom: 12.4rem;
       }
 
       &:last-child {
@@ -253,14 +253,14 @@
     }
   }
 
-  .line {
-    border: 1px solid $black;
-    opacity: 0.2;
-    width: 100%;
-    display: flex;
-    margin-top: 4rem;
-    margin-bottom: -4rem;
-  }
+  // .line {
+  //   border: 1px solid $black;
+  //   opacity: 0.2;
+  //   width: 100%;
+  //   display: flex;
+  //   margin-top: 4rem;
+  //   margin-bottom: -4rem;
+  // }
 
   .header-white & {
     .main-nav {

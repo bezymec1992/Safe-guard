@@ -24,8 +24,8 @@
             </li>
             <li>
               <h3>E-mail</h3>
-              <a href="mailto:safeguard_help@gmail.com">
-                safeguard_help@gmail.com</a
+              <a href="mailto:info@safeguardcompany.com">
+                info@safeguardcompany.com</a
               >
             </li>
             <li>
@@ -47,6 +47,7 @@
                 <router-link to="/about/timeline">Our history</router-link>
               </li>
               <li><router-link to="/contact-us">Contact us</router-link></li>
+              <li><router-link to="/404">Terms and conditions</router-link></li>
             </ul>
           </div>
           <div class="footer-group">

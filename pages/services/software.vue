@@ -129,7 +129,7 @@
     <visual-section :bg="'img-096.png'" :class="'bg-img'"> </visual-section>
 
     <section class="strong">
-      <div class="container">
+      <div class="container container-strong">
         <div class="qoute">
           <div class="qoute-wrap">
             <h2 class="h2">
@@ -177,34 +177,34 @@
                   Daily mood <br class="d-none d-lg-block"/> check
                 </h4>
                 <p>
-                  Check changes in your mood
+                  Tell us how you feel today
                 </p>
               </div>
 
               <div class="white-item">
                 <h4>
-                  Chat with a <br class="d-none d-lg-block"/> supporter
+                  Chat with a <br class="d-none d-lg-block"/> professional
                 </h4>
                 <p>
-                  Ask our supporter to help
+                  Connecting students with people who know what they do
                 </p>
               </div>
 
               <div class="white-item">
                 <h4>
-                  Report your <br class="d-none d-lg-block"/> problem
+                  Anonymous
                 </h4>
                 <p>
-                  Tell us about your problem
+                  It helps to lower the threshold for students
                 </p>
               </div>
 
               <div class="white-item">
                 <h4>
-                  News and <br class="d-none d-lg-block"/> latest  updates
+                  Information <br class="d-none d-lg-block"/>  and Events
                 </h4>
                 <p>
-                  Everything that can help
+                  Awareness and participation in one app
                 </p>
               </div>
           </div>
@@ -490,14 +490,14 @@ During moderation we assist in any escalation that can take place and together w
           <div class="container">
             <div class="qoute-wrap qoute-wrap-down">
               <h2 class="h2">
-                AUTOMATIZATION WITH A <br class="d-md-none"/> CLEAR PURPOSE
+                AUTOMATIZATION WITH <br class="d-md-none"/> A <br class="d-none d-md-block"/> CLEAR PURPOSE
               </h2>
             </div>
           </div>
         </section>
         
       </div>
-      <ButtonsSection :next-link="'brand-protection'" />
+      <ButtonsSection :next-link="'training'" />
     </section>
 
 
@@ -598,20 +598,22 @@ export default {
   
 }
 .qoute-wrap-down {
-    max-width: 1016px !important;
+    max-width: 756px !important;
     z-index: 222;
     padding-top: 150px;
     margin-bottom: 0 !important;
-    @include media-breakpoint-down(md) {
-      text-align: center;
-      h2 {
+    h2 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 50px;
         text-align: center;
+
         @include media-breakpoint-down(md) {
-          font-size: 20px !important;
-          line-height: 28px !important;
+          font-size: 26px !important;
+          line-height: 36px !important;
+          font-weight: 600 !important;
         }
       }
-    }
   }
 .kyc {
   .content-holder {
@@ -809,6 +811,7 @@ export default {
   }
 
 .strong {
+
   overflow: hidden;
   background: #F3F6F7;
   padding: 14rem 0;
@@ -817,6 +820,9 @@ export default {
     margin-top: 8rem;
     padding-top: 8rem;
     padding-bottom: 7rem;
+  }
+  .container-strong {
+    max-width: 1290px !important;
   }
   .qoute-span {
     font-size: 25px;
@@ -885,9 +891,9 @@ export default {
         flex-direction: column;
       }
       .white-item {
-        max-width: 225px;
-        @include media-breakpoint-down(xl) {
-          max-width: 100%;
+        max-width: 243px;
+        @include media-breakpoint-down(lg) {
+          // max-width: 100%;
           &:not(:last-child){
             margin-bottom: 4rem;
           }
@@ -904,7 +910,13 @@ export default {
         p {
           font-size: 16px;
         }
+        
       }
+      .white-item:nth-child(3) p {
+          @include media-breakpoint-up(lg) {
+            padding-top: 3.4rem;
+          }
+        }
     }
   }
   .strong-img {
@@ -1022,9 +1034,17 @@ export default {
 }
 
 .cyber {
-  padding-bottom: 0;
+  padding-bottom: 0rem;
   .qoute {
-    margin-bottom: 0;
+    
+    @include media-breakpoint-up(md) {
+      margin-bottom: 8rem;
+    }
+  }
+  .strong-img {
+    @include media-breakpoint-up(md) {
+      margin-bottom: 12rem;
+    }
   }
   .sign {
     text-align: center;

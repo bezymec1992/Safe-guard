@@ -218,7 +218,7 @@
       </div>
     </div>
 
-    <ContactSection class="style2">
+    <!-- <ContactSection class="style2">
       <template #content>
         <h2 class="h2">Interested or want to know more?</h2>
         <ul>
@@ -228,30 +228,30 @@
           </li>
           <li>
             <h3>E-mail</h3>
-            <a href="mailto:safeguard_help@gmail.com"
-              >safeguard_help@gmail.com</a
+            <a href="mailto:info@safeguardcompany.com"
+              >info@safeguardcompany.com</a
             >
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="tel:+330123456789">+330123456789</a>
+            <a href="tel:+31202050455">+31202050455</a>
           </li>
         </ul>
       </template>
-    </ContactSection>
+    </ContactSection> -->
   </div>
 </template>
 
 <script>
 import IntroSection from '@/components/IntroSection/IntroSection'
-import ContactSection from '@/components/ContactSection/ContactSection'
+// import ContactSection from '@/components/ContactSection/ContactSection'
 import TxtBlock from '@/components/TxtBlock/TxtBlock'
 
 export default {
   name: 'LiveProgram',
   components: {
     IntroSection,
-    ContactSection,
+    // ContactSection,
     TxtBlock,
   },
   layout: 'safe-layout',
@@ -298,6 +298,11 @@ export default {
         max-width: 10.4rem;
       }
     }
+    .text-holder {
+      @include media-breakpoint-up(lg) {
+        padding-bottom: 5rem;
+      }
+    }
   }
 
   .text-section {
@@ -332,7 +337,7 @@ export default {
   }
 
   .full-img-section {
-    max-width: 144rem;
+    max-width: 124rem;
     width: 100%;
     margin: auto;
 

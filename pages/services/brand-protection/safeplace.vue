@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="col-md-6 image">
-        <div class="img-holder">
+        <div class="img-holder img-safe">
           <picture>
             <source
               srcset="@/assets/images/img-108.jpg"
@@ -60,9 +60,9 @@
         </div>
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
-        <div class="content-holder">
+        <div class="content-holder content-safe">
           <h3 class="h2">What do we do</h3>
-          <div class="text-holder">
+          <div class="text-holder txt-safe">
             <p>
               We come into your working place and assess the dynamics, culture and safety of your environment for members of the company. We then formulate a plan on how to create a safe space characterized by integrity and honesty.
 
@@ -274,7 +274,7 @@
             <nuxt-link
               to="/services/brand-protection/safeplace-software"
               class="btn btn-dark"
-              >Our software</nuxt-link
+              >Our app</nuxt-link
             >
           </div>
         </div>
@@ -287,7 +287,7 @@
           <nuxt-link
             to="/services/brand-protection/safeplace-software"
             class="btn btn-dark d-block"
-            >Our software</nuxt-link
+            >Our app</nuxt-link
           >
         </div>
       </div>
@@ -361,8 +361,8 @@
           </li>
           <li>
             <h3>E-mail</h3>
-            <a href="mailto:safeguard_help@gmail.com"
-              >safeguard_help@gmail.com</a
+            <a href="info@safeguardcompany.com"
+              >info@safeguardcompany.com</a
             >
           </li>
           <li>
@@ -412,7 +412,7 @@ export default {
 
     @include media-breakpoint-down(md) {
       display: flex;
-      background: url('@/assets/images/img-114.jpg');
+      background: url('@/assets/images/i-114.png');
       background-position: 100% 44%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -460,6 +460,11 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 4rem;
+      }
+    }
+    .text-holder {
+      @include media-breakpoint-up(lg) {
+        padding-bottom: 5rem;
       }
     }
   }
@@ -554,6 +559,24 @@ export default {
       }
     }
   }
+  .img-safe {
+    @include media-breakpoint-up(lg) {
+      img {
+        width: 100% !important;
+        max-width: 57rem !important;
+        height: 45rem !important;
+      }
+    }
+    
+    
+  }
+  .content-safe {
+    padding-left: 5rem !important;
+    .txt-safe {
+    max-width: 52rem !important;
+  }
+  }
+  
 }
 .blue {
   .content-holder {

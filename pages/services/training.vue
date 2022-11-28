@@ -150,7 +150,7 @@ This plan will not only contain the habits and the desired workflow for your com
       </div>
     </visual-section> -->
     <visual-section class="bg-img" video-bg="video-02.mp4">
-      <p class="txt-visual">keep moving, keep <br class="d-md-none"/> striving</p>
+      <p class="txt-visual">keep moving, keep <br class="d-md-none"/> striving. See you at work </p>
       </visual-section>
     <txt-block :class="'txt-block-1 style1 thing'">
       <div class="col d-md-none">

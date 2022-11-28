@@ -227,7 +227,7 @@ export default {
     desktopSafeLinks: [
       // {
       //   id: 1,
-      //   title: 'Safeplace',
+      //   title: 'Homeasd',
       //   url: '/services/brand-protection/safeplace',
       // },
       {
@@ -242,7 +242,7 @@ export default {
       },
       {
         id: 4,
-        title: 'Software',
+        title: 'Our app',
         url: '/services/brand-protection/safeplace-software',
       },
       {
@@ -274,11 +274,11 @@ export default {
       },
     ],
     mobileSafeLinks: [
-      // {
-      //   id: 1,
-      //   title: 'Safeplace',
-      //   url: '/services/brand-protection/safeplace',
-      // },
+      {
+        id: 1,
+        title: 'Home',
+        url: '/services/brand-protection/safeplace',
+      },
       {
         id: 2,
         title: 'Assessment',
@@ -291,7 +291,7 @@ export default {
       },
       {
         id: 4,
-        title: 'Software',
+        title: 'Our app',
         url: '/services/brand-protection/safeplace-software',
       },
       {
@@ -306,16 +306,16 @@ export default {
         title: 'Terms and conditions',
         url: '/404',
       },
-      {
-        id: 2,
-        title: 'Terms of use',
-        url: '/404',
-      },
-      {
-        id: 3,
-        title: 'Privacy declaration',
-        url: '/404',
-      },
+      // {
+      //   id: 2,
+      //   title: 'Terms of use',
+      //   url: '/404',
+      // },
+      // {
+      //   id: 3,
+      //   title: 'Privacy declaration',
+      //   url: '/404',
+      // },
     ],
   }),
   mounted() {
