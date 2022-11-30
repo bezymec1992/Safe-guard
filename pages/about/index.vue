@@ -224,7 +224,7 @@
           Roger van Alphen <br />
           <small>(Head of Operations)</small>
         </h3>
-        <p>ROGER a highly respected and tenacious problem solver. HE serves as one of the firm’s Managing Directors. <br/>
+        <p>ROGER a highly respected and tenacious problem solver. He serves as one of the firm’s Managing Directors. <br/>
 His insight and know-how are a tremendous resource. He is recommended for his critical thinking, expertise and experience, which enables him “quickly get to the heart of the issue and the strategic objectives.”</p>
       </div>
       <div class="col-md-6">
@@ -245,7 +245,7 @@ His insight and know-how are a tremendous resource. He is recommended for his cr
           </h3>
           <div class="text-holder">
             <p>
-              ROGER a highly respected and tenacious problem solver. HE serves as one of the firm’s Managing Directors. <br/>
+              ROGER a highly respected and tenacious problem solver. He serves as one of the firm’s Managing Directors. <br/>
 His insight and know-how are a tremendous resource. He is recommended for his critical thinking, expertise and experience, which enables him “quickly get to the heart of the issue and the strategic objectives.”
             </p>
             <p>

@@ -87,7 +87,7 @@
         <div class="container">
           <div class="nav-top">
             <div v-if="safePlace" class="logo">
-              <nuxt-link to="/">
+              <nuxt-link to="/services/brand-protection/safeplace">
                 <img
                   data-src="@/assets/images/logo-2.png"
                   class="lazyload"
@@ -153,6 +153,15 @@
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
             </ul>
+            <!-- <ul class="additional-menu" @click="closeMenu" >
+              <li
+                v-for="item in mobileAdditionalLinks"
+                :key="item.id"
+                
+              >
+                <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
+              </li>
+            </ul> -->
           </div>
           <div v-else class="nav-body">
             <ul class="additional-menu">
@@ -170,7 +179,7 @@
                 >
               </li>
             </ul>
-            <ul class="additional-menu">
+            <ul class="additional-menu" >
               <li
                 v-for="item in mobileAdditionalLinks"
                 :key="item.id"
@@ -304,7 +313,7 @@ export default {
       {
         id: 1,
         title: 'Terms and conditions',
-        url: '/404',
+        url: '/terms',
       },
       // {
       //   id: 2,

@@ -390,7 +390,7 @@ export default {
     }
     .text-holder{
       @include media-breakpoint-up(lg) {
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
       }
       
     }
@@ -398,7 +398,7 @@ export default {
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        bottom: -1.3rem;
+        bottom: -8.3rem;
         right: 0;
         width: 65%;
       }

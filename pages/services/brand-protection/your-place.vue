@@ -29,7 +29,7 @@
                 />
               </picture> -->
               <img
-                src="@/assets/images/img-127.png"
+                src="@/assets/images/img-124-1.jpg"
                 alt="Safe place for everyone"
               />
             </div>
@@ -368,8 +368,8 @@ export default {
       }
 
       @include media-breakpoint-up(xl) {
-        right: -23%;
-        max-width: 104rem;
+        right: -27%;
+        max-width: 101rem;
       }
 
       @include media-breakpoint-down(lg) {

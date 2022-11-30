@@ -1,9 +1,12 @@
 <template>
   <div class="trusted-section">
     <div class="container">
-      <h2 class="h2 text-center trusted">WE SUPPORT</h2>
-
-      <div class="img-wrapp d-flex align-items-center justify-content-between">
+      <h2 class="h2 text-center trusted">We Safeguarded</h2>
+      <picture>
+          <source srcset="@/assets/images/partners-logosse.png" media="(max-width: 767px)" />
+          <img src="@/assets/images/partners-logoss.png"  alt="MDN" width="100%" />
+        </picture>
+      <!-- <div class="img-wrapp d-flex align-items-center justify-content-between">
         <picture>
           <source srcset="@/assets/images/suport-1.svg" media="(max-width: 992px)" />
           <img src="@/assets/images/suport-01.svg" alt="MDN" />
@@ -48,7 +51,9 @@
           <source srcset="@/assets/images/suport-8.svg" media="(max-width: 992px)" />
           <img src="@/assets/images/suport-08.svg" alt="MDN" />
         </picture>
-      </div>
+      </div> -->
+
+
       <!-- <div class="row justify-content-center align-items-center flex-wrap">
         <div
           v-for="item in trustedItems"
@@ -133,6 +138,8 @@ export default {
 .trusted {
   margin-bottom: 85px;
   padding-top: 85px;
+  text-transform: unset;
+  font-weight: 500;
   @include media-breakpoint-down(md) {
     margin-bottom: 50px;
     padding-top: 50px;

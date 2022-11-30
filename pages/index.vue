@@ -189,7 +189,7 @@ export default {
 
     .h1 {
       margin-bottom: 3.5rem;
-      margin-top: 8rem;
+      margin-top: 11rem;
       @include media-breakpoint-down(md) {
         margin-bottom: 1rem;
         margin-top: 0;
@@ -201,9 +201,10 @@ export default {
       min-height: 22rem;
       position: relative;
       right: -20rem;
-
+      bottom: -5rem;
       @include media-breakpoint-down(md) {
         transform: unset;
+        bottom: 0;
         right: -4rem;
         display: flex;
         align-items: center;

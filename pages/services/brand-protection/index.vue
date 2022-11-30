@@ -461,8 +461,10 @@ export default {
 }
 .quote-section {
   margin-top: 14rem;
+  font-weight: 500;
   @include media-breakpoint-down(md) {
     margin-top: 8rem;
+    
   }
 }
 .smal {

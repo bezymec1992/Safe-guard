@@ -47,7 +47,7 @@
                 <router-link to="/about/timeline">Our history</router-link>
               </li>
               <li><router-link to="/contact-us">Contact us</router-link></li>
-              <li><router-link to="/404">Terms and conditions</router-link></li>
+              <li><router-link to="/terms">Terms and conditions</router-link></li>
             </ul>
           </div>
           <div class="footer-group">
