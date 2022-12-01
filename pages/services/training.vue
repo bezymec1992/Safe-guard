@@ -269,6 +269,13 @@ export default {
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
   }
+  .punching-bag {
+    @include media-breakpoint-down(md) {
+      max-width: 44.1rem !important;
+      right: -14.3rem !important;
+    }
+    
+  }
   .text-holder {
     max-width: 51rem;
     p {
@@ -314,6 +321,9 @@ export default {
     }
   }
   .people {
+    @include media-breakpoint-up(xl) {
+    padding-bottom: 18rem !important;
+    }
     .text-holder {
       max-width: 100%;
     }
@@ -329,6 +339,10 @@ export default {
     }
   }
   .thing {
+    
+    @include media-breakpoint-up(xl) {
+      padding-top: 18rem !important;
+    }
     .text-holder {
       max-width: 100%;
     }
@@ -369,6 +383,13 @@ export default {
       font-size: 25px;
       line-height: 32px;
       bottom: 45px;
+    }
+  }
+
+  .img-section {
+    padding-bottom: 14rem !important;
+    @include media-breakpoint-down(md) {
+      padding-bottom: 8rem !important;
     }
   }
 </style>

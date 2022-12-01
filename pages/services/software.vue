@@ -487,7 +487,7 @@ During moderation we assist in any escalation that can take place and together w
 
 
         <section class="qoute">
-          <div class="container">
+          <div class="containera">
             <div class="qoute-wrap qoute-wrap-down">
               <h2 class="h2">
                 AUTOMATIZATION WITH <br class="d-md-none"/> A <br class="d-none d-md-block"/> CLEAR PURPOSE

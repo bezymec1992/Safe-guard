@@ -133,7 +133,7 @@ export default {
 <style lang="scss">
 .trusted-section {
   background: #f9f9f9;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
 }
 .trusted {
   margin-bottom: 85px;

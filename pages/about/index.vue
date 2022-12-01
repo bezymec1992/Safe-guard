@@ -359,12 +359,16 @@ export default {
   }
 
   .title-section {
+    
     // padding-top: 14rem;
     padding-bottom: 8rem;
 
     @include media-breakpoint-down(md) {
       // padding-top: 7rem;
       padding-bottom: 5rem;
+      .container {
+      padding: 0 20px;
+    }
     }
 
     .container {

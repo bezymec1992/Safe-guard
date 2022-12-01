@@ -398,7 +398,7 @@ export default {
     .img-holder {
       @include media-breakpoint-up(md) {
         position: absolute;
-        bottom: -8.3rem;
+        bottom: -5.3rem;
         right: 0;
         width: 65%;
       }

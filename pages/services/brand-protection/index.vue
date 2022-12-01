@@ -71,7 +71,7 @@
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
-          We start where the decisions are taken.
+          We start where the decisions are taken
         </h3>
         <div class="text-holder">
           <p>
@@ -91,7 +91,7 @@
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder content-holder-txt">
           <h3 class="h2">
-            We start where the decisions are taken.
+            We start where the decisions are taken
           </h3>
           <div class="text-holder">
             <p>
@@ -158,7 +158,7 @@ We give an overview of how the mechanics work inside your company. Hiring people
     <txt-block :class="'txt-block-2 style2 txt-block-3' ">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize smal">
-          Expanding, & Investing in new ventures
+          Expanding & Investing in new ventures
         </h3>
         <div class="text-holder">
           <p>
@@ -187,7 +187,7 @@ We give an overview of how the mechanics work inside your company. Hiring people
           <div class="text-rows">
             <div class="text-row">
               <h3 class="h2 text-capitalize smal">
-                Expanding, & Investing in new ventures
+                Expanding & Investing in new ventures
               </h3>
               <div class="text-holder">
                 <p>
@@ -260,7 +260,7 @@ We give an overview of how the mechanics work inside your company. Hiring people
     <div class="img-insted">
       <div class="containere">
         <picture>
-          <source srcset="@/assets/images/img-02-vasyl.jpg" media="(max-width: 600px)" width="100%" height="auto"/>
+          <source srcset="@/assets/images/cir.jpg" media="(max-width: 600px)" width="100%" height="auto"/>
           <img src="@/assets/images/img-01-vasyl.jpg" alt="MDN" width="100%" height="auto"/>
         </picture>
       </div>
@@ -455,8 +455,8 @@ export default {
   }
   
   @include media-breakpoint-down(md) {
-    margin-left: -3rem;
-    margin-right: -3rem;
+    // margin-left: -2.5rem;
+    // margin-right: -2.5rem;
   }
 }
 .quote-section {
@@ -472,8 +472,13 @@ export default {
 }
 
 .txt-block-2 {
+  
+  @include media-breakpoint-up(xl) {
+    padding-bottom: 18rem !important;
+  }
   .content-holder-txt {
     padding-left: 2rem !important;
+    
     .text-holder {
       max-width: 47rem;
     }
