@@ -5,7 +5,6 @@
 
   @include media-breakpoint-down(md) {
     padding-top: 5.4rem;
-    padding-bottom: 2.3rem;
   }
 
   h2 {
@@ -162,6 +161,8 @@
     @include media-breakpoint-down(md) {
       text-align: left;
       margin-left: 0;
+      font-size: 14px;
+      line-height: 22px;
     }
   }
 }

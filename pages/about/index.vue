@@ -218,7 +218,7 @@
     </txt-block>
 
 
-    <txt-block :class="'txt-block-1 style2 reverse'">
+    <txt-block :class="'txt-block-1 style2 reverse roger'">
       <div class="col d-md-none">
         <h3 class="h2 text-capitalize">
           Roger van Alphen <br />
@@ -400,7 +400,7 @@ export default {
         min-height: 50rem;
       }
       @include media-breakpoint-down(md) {
-        padding-bottom: 7.9rem;
+        padding-bottom: 5rem;
       }
     }
 
@@ -408,7 +408,15 @@ export default {
       padding-bottom: 15rem;
 
       @include media-breakpoint-down(md) {
-        padding-bottom: 7.9rem;
+        padding-bottom: 5rem;
+      }
+    }
+  }
+  .roger {
+    p {
+      @include media-breakpoint-down(md) {
+        font-size: 14px !important;
+        line-height: 22px !important;
       }
     }
   }
