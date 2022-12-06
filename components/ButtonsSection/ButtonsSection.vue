@@ -41,3 +41,13 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+  .btn {
+    
+    @include media-breakpoint-down(md) {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+</style>

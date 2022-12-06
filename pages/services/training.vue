@@ -233,7 +233,7 @@ This plan will not only contain the habits and the desired workflow for your com
     <ImgSection :img="'img-083.jpg'" />
     <quote-section>
       <p>
-        Safety is not only a mindset <br/> it is also an attitude
+        Safety is not only a mindset it is also an attitude
       </p>
     </quote-section>
     <ButtonsSection :next-link="'cyber-consultants'" />
@@ -387,9 +387,13 @@ export default {
   }
 
   .img-section {
-    padding-bottom: 14rem !important;
+    padding-bottom: 0rem !important;
     @include media-breakpoint-down(md) {
-      padding-bottom: 8rem !important;
+      padding-bottom: 0rem !important;
     }
   }
+
+  // .quote-section {
+  //   margin-top: 185px;
+  // }
 </style>

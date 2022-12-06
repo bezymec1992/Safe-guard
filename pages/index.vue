@@ -297,6 +297,7 @@ export default {
 }
 
 .video-scetion {
+  padding-bottom: 16rem;
   @include media-breakpoint-down(md) {
     padding-bottom: 9rem;
   }

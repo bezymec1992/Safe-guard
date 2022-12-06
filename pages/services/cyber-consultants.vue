@@ -322,7 +322,7 @@ export default {
   .visual-section {
     padding-top: 7rem;
     overflow: hidden;
-    max-width: 1440px !important;
+    max-width: 1240px !important;
     
     @include media-breakpoint-down(sm) {
       min-height: 54vh;

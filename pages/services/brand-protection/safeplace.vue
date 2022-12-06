@@ -144,7 +144,7 @@
 
     <txt-block class="txt-block-1 style1 safe-style pt-0 blue">
       <div class="col d-md-none">
-        <h3 class="h2">Create assessment of your team</h3>
+        <h3 class="h2">Create assessment of <br/> your team</h3>
         <div class="text-holder">
           <p>
             We will make a scan of your team to establish how safe your work environment is. We compare the signals that are received by the organization and conduct our SafePlace Scan. This focusses on several elements and the score will lead to an action plan where the company can set their priorities. 
@@ -165,7 +165,7 @@
       </div>
       <div class="col-md-6 d-none d-md-flex flex-column justify-content-center">
         <div class="content-holder">
-          <h3 class="h2">Create assessment of your team</h3>
+          <h3 class="h2">Create assessment of <br/> your team</h3>
           <div class="text-holder">
             <p>
               We will make a scan of your team to establish how safe your work environment is. We compare the signals that are received by the organization and conduct our SafePlace Scan. This focusses on several elements and the score will lead to an action plan where the company can set their priorities. There are 4 types of safety areas- ESPD- which we measure; Equal employment, Sexual harassment, Political participation and Dubious ethical nature. The score and advice will be presented and depending on the score you can determine your next steps.
@@ -303,7 +303,7 @@
         </div>
       </div>
       <div class="col-md-6 image">
-        <div class="img-holder">
+        <div class="img-holder img-live">
           <picture>
             <source
               srcset="@/assets/images/img-172.jpg"
@@ -545,10 +545,19 @@ export default {
   .single-title {
     padding-top: 12.8rem;
     padding-bottom: 8rem;
+    h2 {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 60px;
+    }
 
     @include media-breakpoint-down(md) {
       padding-top: 8rem;
       padding-bottom: 3.2rem;
+        h2 {
+          font-size: 28px;
+          line-height: 36px;  
+      }
     }
 
     .h2 {
@@ -579,6 +588,15 @@ export default {
   
 }
 .blue {
+  .h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    @include media-breakpoint-down(md) {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
   .content-holder {
     padding-left: 5rem;
     .text-holder {
@@ -593,6 +611,13 @@ export default {
       margin-left: -3rem;
       margin-right: -3rem;
     }
+  }
+  
+}
+.img-live {
+  // max-width: 100% !important;
+  @include media-breakpoint-up(xl) {
+    width: 570px !important;
   }
   
 }

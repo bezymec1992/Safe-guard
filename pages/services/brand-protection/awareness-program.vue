@@ -320,14 +320,14 @@ export default {
   }
   .intro-section {
     color: $white;
-    background: url('@/assets/images/awarnes-main.jpg') no-repeat;
+    background: url('@/assets/images/awar-1.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 
-    @include media-breakpoint-down(sm) {
-      background: url('@/assets/images/img-120.jpg') no-repeat;
+    @include media-breakpoint-down(md) {
+      background: url('@/assets/images/aw.jpg') no-repeat;
       background-position: 50% 50%;
-      background-size: 80rem;
+      background-size: 100%;
     }
 
     .h1 {
