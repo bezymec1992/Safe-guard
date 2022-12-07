@@ -347,7 +347,7 @@ export default {
 
   .quote-section {
     padding-top: 20rem;
-
+    margin-top: 0 !important;
     @include media-breakpoint-down(md) {
       padding-top: 12rem;
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="services-section">
     <div class="container">
-      <h2 class="h1">What We Do</h2>
+      <h2 class="h1">What Do We Do</h2>
       <div class="rows">
         <div class="row g-0">
           <div class="col-lg-6">

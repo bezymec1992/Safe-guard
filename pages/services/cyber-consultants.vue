@@ -151,9 +151,16 @@
         </div>
       </div>
     </txt-block>
-    <visual-section :bg="'img-026.jpg'" :class="'bg-img visual visual'">
+
+   
+    <visual-section :bg="'img-026.jpg'"  :class="'bg-img visual visual'">
       <h2 class="h1 text-center">ADVICE AND PROTECT</h2>
     </visual-section>
+   
+
+
+    
+
     <txt-block :class="'txt-block-1 style1'">
       <div class="col d-md-none">
         <h3 class="h2">
@@ -245,17 +252,16 @@
       </div>
     </txt-block> -->
 
-    <visual-section :class="'img-pos1 second-section stand'">
+    <visual-section :class="'img-pos1 second-section stand d-none d-md-block'">
       <div
         class="row flex-col flex-column-reverse flex-md-row justify-content-between"
       >
         <div class="col-md-6">
           <div class="img-holder">
-            <img
-              data-src="@/assets/images/img-094.png"
-              class="lazyload"
-              alt="#"
-            />
+            <picture>
+              <source srcset="@/assets/images/stand-m.jpg" media="(max-width: 600px)" width="100%" height="auto" />
+              <img data-src="@/assets/images/img-094.png" class="lazyload" alt="#" />
+            </picture>
           </div>
         </div>
         <div class="col-md-6 d-flex align-items-md-center">
@@ -265,6 +271,11 @@
         </div>
       </div>
     </visual-section>
+
+    <div class="viss d-md-none">
+      <h2 class="h1">Be advised because timing  is  key</h2>
+      <!-- <img src="@/assets/images/stand-m.jpg" alt="#" width="100%" height="auto"> -->
+    </div>
 
     <!-- <quote-section>
       <p>
@@ -347,7 +358,7 @@ export default {
       .img-holder {
         left: -2rem;
         right: unset;
-
+        bottom: 50px;
         @include media-breakpoint-down(md) {
           position: relative;
           margin: 0 -2.4rem;
@@ -415,7 +426,28 @@ export default {
       }
     }
   }
+ 
 }
+.viss {
+    position: relative;
+    height: 70rem;
+    width: 100%;
+    background: url("@/assets/images/stand-m.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    .h1 {
+      position: absolute;
+      top: 8rem;
+      left:2.4rem;
+
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 34px;
+      max-width: 286px;
+    }
+
+  }
+
 </style>
 
 <style lang="scss">

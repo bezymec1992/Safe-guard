@@ -4,6 +4,9 @@
     :style="{
       backgroundImage: bg ? `url(${require('@/assets/images/' + bg)})` : null,
     }"
+
+    
+    
   >
     <div class="container">
       <slot></slot>
