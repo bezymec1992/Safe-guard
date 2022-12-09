@@ -6,7 +6,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center align-items-md-start"
           >
-            <h1 class="h1">Who we are</h1>
+            <h1 class="h1 d-none d-md-block">Who we are</h1>
             <div class="text-holder d-none d-md-block">
               <p>
                 We are equipped a rich variety of experience and knowledge. We utilize our global overview, insight and data in order to prevent crises before they occur in your company. 
@@ -16,7 +16,7 @@
               to="/about/timeline"
               class="btn btn-arrow d-none d-md-inline-flex justify-content-center"
             >
-              View Timeline
+              See Timeline
               <span class="arrow-wrapper">
                 <span class="icon-holder">
                   <img
@@ -42,6 +42,7 @@
               />
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-none">Who we are</h1>
               <p>
                 We are equipped a rich variety of experience and knowledge. We utilize our global overview, insight and data in order to prevent crises before they occur in your company.
               </p>
@@ -398,6 +399,9 @@ export default {
       .video-holder {
         max-width: 45rem;
         min-height: 50rem;
+        @include media-breakpoint-down(md) {
+          min-height: 36.3rem;
+        }
       }
       @include media-breakpoint-down(md) {
         padding-bottom: 5rem;

@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-md-flex flex-column justify-content-center">
-            <h1 class="h1">Services</h1>
+            <h1 class="h1 d-none d-md-block">Services</h1>
             <div class="text-holder d-none d-md-block">
               <!-- <h3>BE ADVISED because <br/> TIMING IS KEY</h3> -->
               <p class="intro-txt">BE ADVISED because TIMING IS KEY.</p>
@@ -43,6 +43,7 @@
               </div>
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-none">Services</h1>
               <p class="intro-txt">BE ADVISED because TIMING IS KEY.</p>
               <p>We offer a wide range of expertise in data, experience, skills, knowledge and the right attitude.</p>
             </div>

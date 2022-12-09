@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 d-md-flex flex-column justify-content-center">
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Never Caught <br />
               Off-Guard Again
             </h1>
@@ -18,7 +18,7 @@
               to="/services"
               class="btn btn-arrow d-none d-md-inline-flex"
             >
-              SEE OUR SERVICES
+              See our Services
               <span class="arrow-wrapper">
                 <span class="icon-holder">
                   <img
@@ -62,11 +62,30 @@
               />
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1">
+                Never Caught <br />
+                Off-Guard Again
+              </h1>
               <p>
                 We at Safegaurd is specialized in safeguarding your assets. Our main goal is to ensure all preventative measures are taken in order to ensure our clients can operate risk free. 
               </p>
               <p>Safety is not only a mindset it is also an attitude.</p>
             </div>
+            <nuxt-link
+              to="/services"
+              class="btn btn-arrow d-md-none "
+            >
+            See our Services
+              <span class="arrow-wrapper">
+                <span class="icon-holder">
+                  <img
+                    data-src="@/assets/images/icon-02.svg"
+                    class="lazyload"
+                    alt="#"
+                  />
+                </span>
+              </span>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -191,7 +210,7 @@ export default {
       margin-bottom: 3.5rem;
       margin-top: 11rem;
       @include media-breakpoint-down(md) {
-        margin-bottom: 1rem;
+        margin-bottom: 2.4rem;
         margin-top: 0;
       }
     }

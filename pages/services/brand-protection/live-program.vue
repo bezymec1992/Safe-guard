@@ -6,7 +6,7 @@
           <div
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Our live <br class="d-md-none" />
               program
             </h1>
@@ -24,6 +24,10 @@
               />
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-block">
+              Our live <br class="d-md-none" />
+              program
+            </h1>
               <p>
                 Our live program provides an intensive approach that works in a hands on approach with your team in order to improve your work environment. 
               </p>
@@ -269,11 +273,11 @@ export default {
 .safe-pages {
   .intro-section {
     color: $white;
-    background: url('@/assets/images/img-135.jpg') no-repeat 100% 50%;
+    background: url('@/assets/images/liv-d.jpg') no-repeat 100% 50%;
     background-size: cover;
 
     @include media-breakpoint-down(md) {
-      background: url('@/assets/images/img-145.jpg') no-repeat 100% 50%;
+      background: url('@/assets/images/liv-m.jpg') no-repeat 100% 50%;
       background-size: cover;
     }
 
@@ -284,6 +288,7 @@ export default {
     .h1 {
       @include media-breakpoint-down(md) {
         font-size: 3.4rem;
+        margin-bottom: 2.4rem !important;
       }
     }
 
@@ -307,7 +312,14 @@ export default {
 
   .text-section {
     padding-bottom: 12rem;
-
+    h2 {
+      font-weight: 600;
+      font-size: 4.8rem;
+      @include media-breakpoint-down(md) {
+        font-size: 26px;
+        line-height: 32px;
+      }
+    }
     @include media-breakpoint-down(md) {
       padding-bottom: 11rem;
     }

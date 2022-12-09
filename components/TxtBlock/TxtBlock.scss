@@ -44,8 +44,9 @@
     }
 
     @include media-breakpoint-down(md) {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-bottom: 3rem;
+      line-height: 160%;
     }
 
     p {

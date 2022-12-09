@@ -16,7 +16,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Training
             </h1>
             <div class="text-holder d-none d-md-block">
@@ -36,6 +36,9 @@
               />
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-none">
+                Training
+              </h1>
               <p>
                 Our behavioral experts train you and give you insight on how to address the root cause of issues in your company.
               </p>
@@ -149,8 +152,8 @@ This plan will not only contain the habits and the desired workflow for your com
         </div>
       </div>
     </visual-section> -->
-    <visual-section class="bg-img" video-bg="video-02.mp4">
-      <p class="txt-visual">keep moving, keep <br class="d-md-none"/> striving. See you at work </p>
+    <visual-section class="bg-img video-v" video-bg="video-02.mp4">
+      <p class="txt-visual">keep moving, keep <br class="d-md-none"/> striving.</p>
       </visual-section>
     <txt-block :class="'txt-block-1 style1 thing'">
       <div class="col d-md-none">
@@ -272,7 +275,7 @@ export default {
   .punching-bag {
     @include media-breakpoint-down(md) {
       max-width: 44.1rem !important;
-      right: -14.3rem !important;
+      right: -8.3rem !important;
     }
     
   }
@@ -300,6 +303,12 @@ export default {
 
 .visual-section {
   max-width: 117.3rem;
+  &.video-v {
+    min-height: 608px;
+    @include media-breakpoint-down(md) {
+      min-height: 583px;
+    }
+  }
 }
 </style>
 
@@ -393,7 +402,20 @@ export default {
     }
   }
 
-  // .quote-section {
-  //   margin-top: 185px;
-  // }
+  .quote-section {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 884px;
+    margin: 0 auto; 
+    margin-top: 185px;
+    @include media-breakpoint-down(md) {
+      font-size: 26px;
+      margin-top: 10rem;
+      line-height: 28px;
+      max-width: 327px;
+    }
+  }
 </style>

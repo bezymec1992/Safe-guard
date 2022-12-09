@@ -6,11 +6,16 @@
           <div
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Safe place <br />
               for everyone
             </h1>
+            <p></p>
             <div class="text-holder">
+              <h1 class="h1 d-md-none">
+              Safe place <br />
+              for everyone
+            </h1>
               <p>
                 A game changing platform and tool to create a safe, happy and healthy working environment for all. 
               </p>
@@ -405,14 +410,14 @@ export default {
   .intro-section {
     position: relative;
     color: $white;
-    background: url('@/assets/images/img-113.jpg');
+    background: url('@/assets/images/saf-d.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     @include media-breakpoint-down(md) {
       display: flex;
-      background: url('@/assets/images/i-114.png');
+      background: url('@/assets/images/saf-m.jpg');
       background-position: 100% 44%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -460,6 +465,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 4rem;
+        margin-bottom: 2.4rem !important;
       }
     }
     .text-holder {

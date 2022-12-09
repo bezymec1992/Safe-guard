@@ -13,7 +13,7 @@
                   <div class="building-holder">
                     <picture>
                       <source
-                        data-srcset="@/assets/images/img-078.png"
+                        data-srcset="@/assets/images/banan-m.png"
                         media="(max-width: 992px)"
                       />
                       <img

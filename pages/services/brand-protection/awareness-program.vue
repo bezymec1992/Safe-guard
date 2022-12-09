@@ -6,11 +6,16 @@
           <div
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               awareness <br />
               program
             </h1>
+            <p></p>
             <div class="text-holder">
+              <h1 class="h1 d-md-none">
+              awareness <br />
+              program
+            </h1>
               <p>
                 The first step toward change is awareness and we will help you to take this first step in your journey to ensuring your work environment is a Safeplace. 
               </p>
@@ -99,10 +104,10 @@
       </div>
     </txt-block>
 
-    <QuoteSection class="text-uppercase pb-0 mt">
+    <QuoteSection class="text-uppercase quote1 pb-0 mt">
       <p>
         we will teach your team how <br class="d-none d-md-block" />
-        to become better
+        to <br class="d-md-none"/> become better
       </p>
     </QuoteSection>
 
@@ -320,12 +325,12 @@ export default {
   }
   .intro-section {
     color: $white;
-    background: url('@/assets/images/awar-1.jpg') no-repeat;
+    background: url('@/assets/images/aw-d.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 
     @include media-breakpoint-down(md) {
-      background: url('@/assets/images/aw.jpg') no-repeat;
+      background: url('@/assets/images/aw-m.jpg') no-repeat;
       background-position: 50% 50%;
       background-size: 100%;
     }
@@ -335,6 +340,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 3.4rem;
+        margin-bottom: 2.4rem !important;
       }
     }
 
@@ -348,8 +354,17 @@ export default {
   .quote-section {
     padding-top: 20rem;
     margin-top: 0 !important;
+    &.quote1 {
+        font-weight: 500
+      }
     @include media-breakpoint-down(md) {
       padding-top: 12rem;
+      &.quote1 {
+        margin-bottom: 4rem;
+        max-width: 314px;
+        font-size:25px;
+        
+      }
     }
   }
 }

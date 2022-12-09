@@ -12,7 +12,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center text-bg"
           >
-            <h1 class="h1 soft-t">Software</h1>
+            <h1 class="h1 soft-t d-none d-md-block">Software</h1>
             <div class="text-holder">
               <p>
                 Powerful tools that will assist you in <br/> SAFEKEEPING.
@@ -35,8 +35,9 @@
               </div>
             </div>
 
-            <h1 class="h1 mbl">Software</h1>
+            <!-- <h1 class="h1 mbl">Softwarea</h1> -->
             <div class="text-holder mobile">
+              <h1 class="h1 soft-t d-md-none">Software</h1>
               <p class="soft-p">Powerful tools that will assist you in <br/> SAFEKEEPING.</p>
             </div>
           </div>
@@ -210,7 +211,7 @@
           </div>
         </div>
 
-        <div class="strong-img">
+        <div class="strong-img strong-img2">
           <img class="d-none d-md-block" src="@/assets/images/software/phones.jpg" alt="phones" width="100%" height="auto">
           <img class="d-md-none" src="@/assets/images/software/phones-mb.jpg" alt="phones" width="100%" height="auto">
         </div>
@@ -533,6 +534,8 @@ export default {
   .imac-holder {
     @include media-breakpoint-down(md) {
       margin-left: -8rem !important;
+      margin-bottom: 5rem !important;
+      margin-top: -4rem !important;
     }
     
   }
@@ -819,7 +822,8 @@ export default {
   @include media-breakpoint-down(lg) {
     margin-top: 8rem;
     padding-top: 8rem;
-    padding-bottom: 7rem;
+    padding-bottom: 0;
+    margin-bottom: 14rem;
   }
   .container-strong {
     max-width: 1290px !important;
@@ -866,6 +870,11 @@ export default {
       margin-bottom: 3.2rem;
     }
   }
+  .strong-img2 img{
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 0;
+    }
+  }
   .qoute {
     margin-top: 0;
     margin-bottom: 14rem;
@@ -894,6 +903,7 @@ export default {
         max-width: 243px;
         @include media-breakpoint-down(lg) {
           // max-width: 100%;
+          max-width: 100%;
           &:not(:last-child){
             margin-bottom: 4rem;
           }

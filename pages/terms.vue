@@ -2,140 +2,132 @@
     <div class="terms">
         <div class="container">
             <h2 class="h1">Terms and Conditions</h2>
+            <h2 class="sub">SAFEGUARDCOMPANY.COM <br class="d-md-none"/> A DIVISION OF FDR</h2>
+            <h2 class="h2">Applicability</h2>
+            <div>
+                <p>
+                1. These General Terms and Conditions apply to all agreements that SAFEGUARDCOMPANY.com (“Office”) concludes with a counterparty (“Client”) or performs and on all obligations that office has or fulfills.<br/>
+                Safeguardcompany.com is a division of FDR & Associés B.V. Dutch Chamber of Commerce registered in Amsterdam under registration number: 33137084.<br/>
+                All stipulations in these Terms and Conditions have been made for the benefit of and in the interest of the label SAFEGUARDCOMPANY as well as its director(s) and those who work at or for the office. And all other (legal) persons who declare these General Terms and Conditions applicable.<br/>
+                All agreements and commitments are exclusively concluded with or accepted and executed by the Office. Contrary to the provisions of Articles 7:404, 7:409 and 7:422 Paragraph 1 sub b of the Dutch Civil Code, all work, regardless of whether the Client has given the assignment with a specific person in mind, will therefore be performed by the Firm. The director(s) of SAFEGUARDCOMPANY and those who work for the Office are not personally bound or liable and the assignment does not end due to their death, receivership or bankruptcy.<br/>
+                </p>
+                <p>
+                2. The assignments may relate to: <br/>
+                · ANALYZES <br/>
+                · ASSESSMENTS <br/>
+                · TRAINING <br/>
+                · CONSULTANCY <br/>
+                · BRANDRISK MANAGEMENT <br/>
+                · All other agreed activities and legal acts <br/>
+                </p>
+                <p>
+                3. These Terms and Conditions prevail over any other applicable terms and conditions. Deviations from these terms and conditions only apply if they have been expressly confirmed in writing by the Office.
+                </p>
+            </div>
+            
+           
+            <h2 class="h2">Creation of Assignments</h2>
             <p>
-                Welcome to SafeGuard! <br/>
+                4. All offers from the Office can be revoked until they have been accepted, even if they contain a term for acceptance.<br/>
             </p>
             <p>
-                These terms and conditions outline the rules and regulations for the use of SafeGuard's Website, located at www.safeguardcompany.com.
+                5. Quotations can only be accepted by the Client in writing. However, the Office has the right to accept an oral acceptance as if it had been made in writing.
             </p>
+
+            <h2 class="h2">Execution of Assignments</h2>
+            <p>
+            6. The Office carries out all assignments with the care that may reasonably be expected from the office, given the nature of the Assignment, the urgency required, information provided by the Client, and the other facts and circumstances.
+            </p>
+            <p>
+                7. If the Client provides data for the performance of an Assignment, the Office will assume the correctness of this data unless the Assignment (partly) relates to verifying the relevant data. Should the data - for example with regard to rights of third parties such as retention of title, rights of pledge and attachments - prove incorrect during the Assignment, the consequences thereof will be entirely at the expense of the Client and the Assignment will be adjusted in accordance with Articles 13, 14 and 15.
+            </p>
+            <p>
+                8. Specified or agreed terms for the performance of the Assignment are never strict deadlines, unless agreed otherwise in writing.
+                </p>
+
+            <h2 class="h2">Engagement of third parties</h2>
+            <p>
+                9. The Office may use the services of third parties in the performance of Assignments. The Office will select these third parties to the best of its ability and pay them in line with the market. If the Office uses the help of third parties in the fulfillment of an obligation, the Office is not liable for third party behavior. This applies without prejudice to the obligation of the Office to exercise due care when selecting that third party and, if this is reasonably possible, to consult with the Client about that engagement and that third party.
+                </p>
+                <p>
+                10. The deliveries that the Office agrees with these third parties also apply to the relationship between the Office and the Client. The Office will inform the Client about this at the first request.
+            </p>
+
+            <h2 class="h2">Confidentiality</h2>
+            <p>
+                11. The Office will treat all data and information made available by or on behalf of the Client confidentially and will only pass it on to third parties insofar as this is necessary for the performance of the Assignment.
+            </p>
+
+            <h2 class="h2">Retention period </h2>
+            <p>
+                12. The Office will keep all documents and files related to an assignment for five years after completion of the assignment. After this period, the office can destroy the documents and files.
+            </p>
+
+            <h2 class="h2">Unforeseen circumstances</h2>
+            <p>
+                13. If unforeseen circumstances arise, which are of a nature that the Office cannot reasonably be required to comply with the Assignment unchanged, the Assignment will be adjusted in consultation with the Client.
+                </p>
+                <p>
+                    14. If no agreement can be reached on the adjustment of the Assignment, it can be terminated by the Client and/or Office with immediate effect.
+                </p>
+                <p>
+                    15. In the event of early termination, articles 16, 17 and 18 apply to the part of the Assignment already completed by the Office.terial on the website is kept up to date.
+                </p>
+
+            <h2 class="h2">Remuneration</h2>
+            <p>
+                16. All assignments are carried out at the agreed rates or, in the absence thereof, at the rates customary at the Office.
+                </p> 
+            <p>
+                17. All costs incurred by the Office will be passed on to the Client in full by the Office. These costs in any case concern the costs of engaging third parties.
+                </p>
+                <p>
+                18. The Office can adjust all rates at least once a year in accordance with the usual adjustments at the Office.
+            </p>
+            <h2 class="h2">Liability and Indemnity</h2>
+            <p>
+                19. The office has taken out professional and legal liability insurance. Any liability of the Office towards the Client is limited to the amount that the Office can charge the Client for its own work upon completion of the relevant Assignment.
+                </p>
+                <p>
+                    20. If the insurance policies referred to in Article 19 do not lead to a payment, the liability of the Office towards the Client is limited to the amount that the Office can charge the Client for its own activities when completing the relevant Assignment. A copy of the current policy is available for inspection at the office.
+                    </p>
+                    <p>
+                21. If the Assignment has a term of more than 3 months, the amount referred to in Article 20 will be determined by the sum of the amounts charged by the Office in the 3 months preceding the Client's liability claim.
+                </p>
+                <p>
+                22. Any claim of the Client against the Office will lapse if it has not been submitted to the Office in writing and with reasons within 14 days after the Assignment has ended, at least, insofar as this is earlier, after the part of the Assignment from which the claim arises has ended.
+                </p>
+                <p>
+                    23. The Client indemnifies the Office and the third parties engaged by the Office against all claims from other third parties related to the Assignment.
+                </p>
+
+                <p>
+                24. Any liability of the Office that exceeds the limitations stated in Articles 19 to 23 is
+                excluded.
+            </p>
+            <h2 class="h2">Liability and default</h2>
+            <p>
+                25. All claims of the Office are immediately due and payable. In any case, the Client shall be – without summons is required – deemed to be in default if payment has not been made within the allotted payment term, which is always is only a terme de grâce. In the event of default, extrajudicial collection costs (calculated according to the collection rate of the Dutch Bar Association) and statutory interest is due up to the date of overall satisfaction. In addition, the Client is obliged to pay all legal costs incurred by the Office in full Pay.
+            </p>
+            <h2 class="h2">Duration, cancellation and dissolution</h2>
+            <p>
+                26. Unless stipulated otherwise in the service agreement, it will be entered into for a period of at least 12 months. After the expiry of the agreed period, the agreement will be tacitly extended for the same period each time, unless one of the parties has given notice of termination by registered letter with due observance of a notice period of three months before the end of the current contract period.<br/>
                 
-            <p>
-                By accessing this website we assume you accept these terms and conditions. Do not continue to use SafeGuard if you do not agree to take all of the terms and conditions stated on this page.
+                Interim dissolution is not possible, except for the cases mentioned below. Each of the parties is authorized to dissolve the agreement prematurely by registered letter if:<br/>
+                - The other party does not fulfill one or more of its obligations within a period set by registered letter.<br/>
+                - Bankruptcy is filed by the other party, suspension of payment is granted or measures are taken that indicate liquidation or strike of the company.<br/>
+                - In the event of termination of the service agreement, no refund will be made of the prepaid basic contribution, unless agreed otherwise in the offer.<br/>
             </p>
-                
+            <h2 class="h2">Applicable law and choice of forum</h2>
             <p>
-                The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same. 
-            </p>
-            <h2 class="h2">Cookies</h2>
-            <p>
-                We employ the use of cookies. By accessing SafeGuard, you agreed to use cookies in agreement with the SafeGuard's Privacy Policy.
-            </p>    
-            <p>
-                Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
-            </p>
+                27. (The creation of) a legal relationship between the office and the Client or a third party engaged by it is exclusively subject to Dutch law. Disputes will be settled exclusively by the competent Dutch court in Amsterdam.
+Only the Dutch text of the Conditions is binding.
 
-            <h2 class="h2">License</h2>
-            <p>
-                Unless otherwise stated, SafeGuard and/or its licensors own the intellectual property rights for all material on SafeGuard. All intellectual property rights are reserved. You may access this from SafeGuard for your own personal use subjected to restrictions set in these terms and conditions.
-            </p>
-            <span>You must not:</span>
-            <ul>
-                <li>Republish material from SafeGuard</li>
-                <li>Sell, rent or sub-license material from SafeGuard</li>
-                <li>Reproduce, duplicate or copy material from SafeGuard</li>
-                <li>Redistribute content from SafeGuard</li>
 
-            </ul>
-
-            <p>This Agreement shall begin on the date hereof.</p>
-            <p>
-                Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. SafeGuard does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of SafeGuard,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, SafeGuard shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.<br/>
-                SafeGuard reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions
-            </p>
-
-            <span>You warrant and represent that:</span>
-            <ul>
-                <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
-                <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
-                <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
-                <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
-                <li>You hereby grant SafeGuard a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</li>
-
-            </ul>
-
-            <h2 class="h2">Hyperlinking to our Content</h2>
-            <span>The following organizations may link to our Website without prior written approval:</span>
-            <ul>
-                <li>Government agencies;</li>
-                <li>News organizations;</li>
-                <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
-                <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
-            </ul>
-
-            <p>
-                These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.
-            </p>
-
-            <span>We may consider and approve other link requests from the following types of organizations:</span>
-            <ul>
-                <li>commonly-known consumer and/or business information sources;</li>
-                <li>dot.com community sites;</li>
-                <li>associations or other groups representing charities;</li>
-                <li>online directory distributors;</li>
-                <li>internet portals;</li>
-                <li>accounting, law and consulting firms; and</li>
-                <li>educational institutions and trade associations.</li>
-            </ul>
-
-            <p>
-                We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of SafeGuard; and (d) the link is in the context of general resource information.
-            </p>
-
-            <p>
-                These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.
-            </p>
-
-            <p>
-                If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to SafeGuard. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.
-            </p>
-
-            <span>Approved organizations may hyperlink to our Website as follows:</span>
-            <ul>
-                <li>By use of our corporate name; or</li>
-                <li>By use of the uniform resource locator being linked to; or</li>
-                <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
-                
-            </ul>
-            <span>No use of SafeGuard's logo or other artwork will be allowed for linking absent a trademark license agreement.</span>
-
-            <h2 class="h2">iFrames</h2>
-            <p>
-                Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.
-            </p>
-
-            <h2 class="h2">Content Liability</h2>
-            <p>
-                We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
-            </p>
-
-            <h2 class="h2">Reservation of Rights </h2>
-            <p>
-                We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
-            </p>
-
-            <h2 class="h2">Removal of links from our website</h2>
-            <p>
-                If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.
             </p>
             <p>
-                We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
+                Amsterdam, 01-01-2020
             </p>
-
-            <h2 class="h2">Disclaimer</h2>
-            <span>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</span>
-            <ul>
-                <li>limit or exclude our or your liability for death or personal injury;</li>
-                <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-                <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
-                <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
-                
-            </ul>
-
-            <p>
-                The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
-            </p>
-
-            <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
         </div>
     </div>
 </template>
@@ -154,12 +146,21 @@ export default {
     @include media-breakpoint-down(md) {
         margin-bottom: 8rem;
     }
+    .sub {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 44px;
+        @include media-breakpoint-down(md) {
+            font-size: 20px;
+            line-height: 31px;
+        }
+    }
 }
     .h1 {
         margin-top: 20rem;
-        margin-bottom: 5rem;
+        margin-bottom: 1rem;
         @include media-breakpoint-down(md) {
-            margin-bottom: 2.5rem;
+            margin-bottom: 2.4rem;
             margin-top: 15rem;
         }
     }
@@ -170,12 +171,13 @@ export default {
         line-height: 50px;
         text-transform: none;
         margin-bottom: 2.4rem;
-        margin-top: 2.4rem;
+        margin-top: 8rem;
         @include media-breakpoint-down(md) {
             font-weight: 400;
             font-size: 25px;
             line-height: 35px;
             margin-bottom: 1.2rem;
+            margin-top: 2.4rem;
         }
     }
     p {

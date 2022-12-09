@@ -169,13 +169,13 @@
                 <nuxt-link :to="item.url">{{ item.title }}</nuxt-link>
               </li>
               <li v-if="safePlace" @click="closeMenu">
-                <nuxt-link to="/" class="btn btn-dark">Safeguard</nuxt-link>
+                <nuxt-link to="/" class="btn btn-dark">Go to Safeguard</nuxt-link>
               </li>
               <li v-else @click="closeMenu">
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
                   class="btn btn-dark"
-                  >Safeplace</nuxt-link
+                  >Go to Safeplace</nuxt-link
                 >
               </li>
             </ul>

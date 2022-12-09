@@ -16,7 +16,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Cyber
               Consultants
             </h1>
@@ -51,6 +51,10 @@
               </div>
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-none">
+              Cyber
+              Consultants
+            </h1>
               <h3 class="intro-titl">
                 Make it front of mind
               </h3>
@@ -153,7 +157,7 @@
     </txt-block>
 
    
-    <visual-section :bg="'img-026.jpg'"  :class="'bg-img visual visual'">
+    <visual-section :bg="'img-026.jpg'"  :class="'bg-img visual visual man'">
       <h2 class="h1 text-center">ADVICE AND PROTECT</h2>
     </visual-section>
    
@@ -336,7 +340,12 @@ export default {
     max-width: 1240px !important;
     
     @include media-breakpoint-down(sm) {
-      min-height: 54vh;
+      min-height: 54rem;
+    }
+    &.man {
+      @include media-breakpoint-down(sm) {
+      min-height: 52.2rem;
+    }
     }
     &.second-section {
       min-height: 74vh;

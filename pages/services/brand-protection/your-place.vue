@@ -6,7 +6,7 @@
           <div
             class="col-lg-8 col-lg-6 d-flex flex-column justify-content-between justify-content-lg-end flex-grow-1"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Our <br class="d-lg-none" />
               workflow
             </h1>
@@ -34,6 +34,10 @@
               />
             </div>
             <div class="text-holder d-lg-none">
+              <h1 class="h1 d-md-none">
+              Our <br class="d-lg-none" />
+              workflow
+            </h1>
               <p>
                 We will assess and find the problem areas within your organization. Together we will work together to ensure your environment is a Safeplace for everyone.
               </p>
@@ -400,6 +404,7 @@ export default {
 
       @include media-breakpoint-down(md) {
         font-size: 3.4rem;
+        margin-bottom: 2.4rem !important;
       }
     }
     .text-holder {

@@ -6,7 +6,7 @@
           <div
             class="col-md-8 col-lg-6 d-flex flex-column justify-content-between justify-content-md-end flex-grow-1"
           >
-            <h1 class="h1">
+            <h1 class="h1 d-none d-md-block">
               Safeplace <br class="d-md-none"/> app
             </h1>
             <div class="text-holder d-none d-md-block">
@@ -23,6 +23,9 @@
               />
             </div>
             <div class="text-holder d-md-none">
+              <h1 class="h1 d-md-none">
+              Safeplace app
+            </h1>
               <p>
                 Having a Safety tool in your Pocket to create an environment characterized by safety, integrity and inclusion.
               </p>
@@ -384,7 +387,11 @@ export default {
   .intro-section {
     overflow: hidden;
     background: #ebebeb;
-
+    h1 {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2.4rem !important;
+      }
+    }
     .container {
       position: relative;
     }

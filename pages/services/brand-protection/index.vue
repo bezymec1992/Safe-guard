@@ -16,7 +16,7 @@
           <div
             class="col-md-6 text-col d-md-flex flex-column justify-content-center"
           >
-            <h1 class="h1">brand protection</h1>
+            <h1 class="h1 d-none d-md-block">brand protection</h1>
             <div class="text-holder desktop">
               <p>
                 Your internal brand values and exposure will make sure you are consistent. Consistency is key for success.
@@ -50,6 +50,7 @@
               </div>
             </div>
             <div class="text-holder mobile">
+              <h1 class="h1 d-md-none">brand protection</h1>
               <p>
                 Your internal brand values and exposure will make sure you are consistent. Consistency is key for success.
               </p>
@@ -417,6 +418,9 @@ export default {
       right: -4rem !important;
       @include media-breakpoint-up(lg) {
         max-width: 31rem !important;
+      }
+      @include media-breakpoint-down(md) {
+        right: 0rem !important;
       }
     }
 
