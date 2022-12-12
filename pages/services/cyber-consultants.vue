@@ -287,7 +287,7 @@
         Suspendisse vitae imperdiet nibh.
       </p>
     </quote-section> -->
-    <ButtonsSection :next-link="'brand-protection'" />
+    <ButtonsSection :next-link="'software'" />
   </div>
 </template>
 

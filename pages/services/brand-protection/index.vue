@@ -358,7 +358,7 @@ We give an overview of how the mechanics work inside your company. Hiring people
       </p>
     </quote-section>
 
-    <ButtonsSection :next-link="'software'" />
+    <ButtonsSection :next-link="'training'" />
   </div>
 </template>
 

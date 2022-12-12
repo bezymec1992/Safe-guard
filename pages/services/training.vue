@@ -288,7 +288,7 @@ export default {
       @include media-breakpoint-down(md) {
         min-width: 31.4rem;
         max-width: 31.4rem;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
       }
     }
   }

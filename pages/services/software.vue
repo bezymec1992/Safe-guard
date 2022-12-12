@@ -498,7 +498,7 @@ During moderation we assist in any escalation that can take place and together w
         </section>
         
       </div>
-      <ButtonsSection :next-link="'training'" />
+      <ButtonsSection :next-link="'brand-protection'" />
     </section>
 
 
@@ -594,7 +594,7 @@ export default {
       line-height: 160%;
       margin-top: 2rem;
       @include media-breakpoint-down(md) {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
   }
@@ -851,7 +851,7 @@ export default {
     max-width: 48rem;
     font-size: 18px;
     @include media-breakpoint-down(lg) {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   .strong-last {

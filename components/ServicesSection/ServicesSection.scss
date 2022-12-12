@@ -9,6 +9,12 @@
       margin-bottom: 4.2rem;
     }
   }
+  p {
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+    
+  }
 
   .rows {
     @include media-breakpoint-down(md) {

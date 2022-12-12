@@ -315,7 +315,7 @@ export default {
     .text-holder {
       max-width: 41.4rem;
       @include media-breakpoint-down(md) {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
     .diving-suit {
@@ -419,7 +419,7 @@ export default {
   .roger {
     p {
       @include media-breakpoint-down(md) {
-        font-size: 14px !important;
+        font-size: 16px !important;
         line-height: 22px !important;
       }
     }
