@@ -210,8 +210,8 @@
 
     .mini-popup {
       position: absolute;
-      left: 4rem;
-      bottom: 4rem;
+      right: 4rem;
+      bottom: 10rem;
       padding: 1.5rem 2.4rem;
       width: calc(100% - 8rem);
       max-width: 50rem;
@@ -223,8 +223,8 @@
       transition: $transition;
 
       @include media-breakpoint-down(md) {
-        left: 2rem;
-        bottom: 2rem;
+        right: 2rem;
+        bottom: 8rem;
         padding: 1.1rem 1.9rem;
         width: calc(100% - 4rem);
       }

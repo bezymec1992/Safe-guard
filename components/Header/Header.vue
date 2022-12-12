@@ -174,7 +174,7 @@
               <li v-else @click="closeMenu">
                 <nuxt-link
                   to="/services/brand-protection/safeplace"
-                  class="btn btn-dark"
+                  class="btn btn-dark btn-men"
                   >Go to Safeplace</nuxt-link
                 >
               </li>
